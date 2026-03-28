@@ -1,0 +1,5 @@
+id,name,description,fulfillment_type,active
+plan-basic,Basic Membership,Basic salon membership with standard services,schedule,true
+plan-premium,Premium Membership,Premium membership with priority booking and discounts,schedule,true
+plan-bridal,Bridal Package,Complete bridal preparation package,schedule,true
+plan-corporate,Corporate Wellness,Corporate employee wellness and grooming package,schedule,true

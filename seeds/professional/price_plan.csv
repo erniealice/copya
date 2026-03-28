@@ -1,0 +1,5 @@
+id,plan_id,name,description,amount,currency,duration_value,duration_unit,active
+plan-consultation,plan-consultation,Consultation Monthly,Monthly legal consultation retainer,1500000,PHP,1,month,true
+plan-advisory,plan-advisory,Advisory Monthly,Monthly tax advisory retainer,2500000,PHP,1,month,true
+plan-audit,plan-audit,Audit Engagement,Per-engagement financial audit,5000000,PHP,3,month,true
+plan-bookkeeping,plan-bookkeeping,Bookkeeping Monthly,Monthly bookkeeping service,800000,PHP,1,month,true

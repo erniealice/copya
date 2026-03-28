@@ -1,0 +1,5 @@
+id,plan_id,name,description,amount,currency,duration_value,duration_unit,active
+plan-basic,plan-basic,Basic Monthly,Monthly basic salon membership,150000,PHP,1,month,true
+plan-premium,plan-premium,Premium Monthly,Monthly premium salon membership,350000,PHP,1,month,true
+plan-bridal,plan-bridal,Bridal Package,One-time bridal preparation package,1500000,PHP,1,event,true
+plan-corporate,plan-corporate,Corporate Quarterly,Quarterly corporate wellness package,500000,PHP,3,month,true

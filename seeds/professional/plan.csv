@@ -1,0 +1,5 @@
+id,name,description,fulfillment_type,active
+plan-consultation,Legal Consultation,Standard legal consultation package,schedule,true
+plan-advisory,Tax Advisory Retainer,Monthly tax advisory and compliance package,schedule,true
+plan-audit,Financial Audit Package,Comprehensive financial audit engagement,schedule,true
+plan-bookkeeping,Monthly Bookkeeping,Ongoing bookkeeping and ledger maintenance,schedule,true
