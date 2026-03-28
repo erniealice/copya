@@ -1,0 +1,9 @@
+id,workspace_id,revenue_id,fulfillment_method,status,provider_status,currency,scheduled_at,delivered_at,notes,active,created_by
+ful-001,default-workspace,rev-001,IN_STORE,DELIVERED,none,PHP,2026-03-02,2026-03-02,Legal consultation completed in-office,true,user-staff-01
+ful-002,default-workspace,rev-002,IN_STORE,DELIVERED,none,PHP,2026-03-01,2026-03-01,Monthly bookkeeping completed and records updated,true,user-staff-02
+ful-003,default-workspace,rev-003,IN_STORE,DELIVERED,none,PHP,2026-03-03,2026-03-05,Business registration documents processed and filed,true,user-staff-01
+ful-004,default-workspace,rev-004,IN_STORE,DELIVERED,none,PHP,2026-03-05,2026-03-05,Tax advisory and financial plan delivered,true,user-staff-02
+ful-005,default-workspace,rev-005,IN_STORE,IN_PROGRESS,none,PHP,2026-03-10,,IT consulting network assessment ongoing,true,user-staff-03
+ful-006,default-workspace,rev-006,IN_STORE,DELIVERED,none,PHP,2026-03-08,2026-03-10,Contract draft reviewed and finalized,true,user-staff-01
+ful-007,default-workspace,rev-007,IN_STORE,DELIVERED,none,PHP,2026-03-01,2026-03-01,Payroll processing completed for March,true,user-staff-02
+ful-008,default-workspace,rev-008,IN_STORE,PENDING,none,PHP,2026-03-25,,Marketing strategy engagement pending kickoff,true,user-staff-03

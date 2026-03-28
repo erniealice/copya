@@ -1,0 +1,11 @@
+id,job_template_id,name,phase_order,active
+jtp-001,jt-001,Intake,1,true
+jtp-002,jt-001,Service Delivery,2,true
+jtp-003,jt-001,Checkout,3,true
+jtp-004,jt-002,Intake,1,true
+jtp-005,jt-002,Services,2,true
+jtp-006,jt-002,Checkout,3,true
+jtp-007,jt-003,Consultation,1,true
+jtp-008,jt-003,Trial Session,2,true
+jtp-009,jt-003,Event Day,3,true
+jtp-010,jt-003,Checkout,4,true

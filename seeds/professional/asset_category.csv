@@ -1,0 +1,7 @@
+id,code,name,description,depreciation_method,useful_life_months,salvage_pct,active
+cat-office-furniture,office-furniture,Office Furniture,Desks chairs conference tables filing cabinets and reception furniture,STRAIGHT_LINE,84,5,true
+cat-computers,computer-equipment,Computer Equipment,Laptops desktops servers workstations and networking hardware,DOUBLE_DECLINING_BALANCE,36,5,true
+cat-software,software-licenses,Software Licenses,Accounting ERP legal research and productivity software licenses,STRAIGHT_LINE,36,0,true
+cat-vehicles,vehicles,Vehicles,Company cars and transport vehicles for client visits,SUM_OF_YEARS_DIGITS,60,15,true
+cat-leasehold,leasehold-improvements,Leasehold Improvements,Office fit-out interior partitions signage and tenant improvements,STRAIGHT_LINE,120,0,true
+cat-prof-library,professional-library,Professional Library,Law books tax references accounting standards and professional publications,STRAIGHT_LINE,60,10,true

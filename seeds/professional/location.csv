@@ -1,0 +1,5 @@
+id,name,address,description,active
+loc-main,Cebu Law & Accounting Main Office,Unit 801 Keppel Center Samar Loop Cebu Business Park Cebu City,Main professional office - law and accounting practice,true
+loc-branch-01,Ayala Co-Working Branch,Level 2 Centric Hub Tower 2 Archbishop Reyes Ave Cebu City,Co-working space satellite office for consultants,true
+loc-branch-02,IT Park Accounting Office,Unit 3B Cybergate Tower 1 Apas Lahug Cebu City,Accounting firm branch at Cebu IT Park,true
+loc-branch-03,North Reclamation Satellite Office,2nd Floor Waterfront Insular Hotel Lahug Cebu City,Satellite office for client meetings and consultations,true

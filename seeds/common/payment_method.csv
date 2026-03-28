@@ -1,0 +1,6 @@
+id,name,provider_name,active
+pm-cash,Cash,,true
+pm-card,Credit/Debit Card,,true
+pm-gcash,GCash,gcash,true
+pm-maya,Maya,maya,true
+pm-bank,Bank Transfer,,true

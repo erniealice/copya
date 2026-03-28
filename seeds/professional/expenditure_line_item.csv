@@ -1,0 +1,10 @@
+id,expenditure_id,product_id,quantity,unit_price,line_amount,notes,active
+eli-001,exp-001,,1,8000000,8000000,Office rent March 2026,true
+eli-002,exp-002,,1,1200000,1200000,Electricity charges February 2026,true
+eli-003,exp-003,,10,15000,150000,Bond paper reams A4,true
+eli-004,exp-003,,5,20000,100000,Toner cartridges,true
+eli-005,exp-003,,20,5000,100000,Document folders and fasteners,true
+eli-006,exp-004,,1,4500000,4500000,Dell XPS 15 laptop with accessories,true
+eli-007,exp-005,,1,2400000,2400000,LexisNexis annual subscription,true
+eli-008,exp-006,,1,6000000,6000000,Annual professional indemnity premium,true
+eli-009,exp-007,,1,180000,180000,Courier charges for legal documents,true

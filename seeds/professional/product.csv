@@ -1,0 +1,16 @@
+id,name,description,price,currency,item_type,active
+prod-001,Legal Consultation,Initial legal consultation and case assessment,750000,PHP,service,true
+prod-002,Tax Advisory,Tax planning and advisory services,500000,PHP,service,true
+prod-003,Business Registration,SEC/DTI business registration assistance,1500000,PHP,service,true
+prod-004,Audit Services,Financial statement audit and attestation,2500000,PHP,service,true
+prod-005,Notarial Services,Notarization of legal documents and contracts,150000,PHP,service,true
+prod-006,Bookkeeping,Monthly bookkeeping and ledger maintenance,800000,PHP,service,true
+prod-007,Payroll Processing,Monthly payroll computation and statutory compliance,600000,PHP,service,true
+prod-008,IT Consulting,IT systems assessment and technology advisory,900000,PHP,service,true
+prod-009,Marketing Strategy,Marketing plan development and brand strategy,2000000,PHP,service,true
+prod-010,Graphic Design,Brand identity and marketing collateral design,500000,PHP,service,true
+prod-011,HR Consulting,Human resource policy development and compliance,1200000,PHP,service,true
+prod-012,Financial Planning,Personal or corporate financial planning advisory,1000000,PHP,service,true
+prod-013,Compliance Review,Regulatory compliance audit and gap analysis,1800000,PHP,service,true
+prod-014,Contract Drafting,Legal contract drafting and review,1200000,PHP,service,true
+prod-015,Business Valuation,Business valuation and due diligence report,3500000,PHP,service,true

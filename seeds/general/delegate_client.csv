@@ -1,0 +1,4 @@
+id,delegate_id,client_id,active
+dc-001,delegate-001,client-001,true
+dc-002,delegate-001,client-002,true
+dc-003,delegate-001,client-003,true

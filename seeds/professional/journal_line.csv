@@ -1,0 +1,17 @@
+id,journal_entry_id,account_id,debit_amount,credit_amount,description,line_order,active
+jl-001,je-001,acct-1000,750000,0,Bank transfer received - legal consultation,1,true
+jl-002,je-001,acct-4000,0,750000,Service revenue - legal consultation,2,true
+jl-003,je-002,acct-1000,800000,0,Bank transfer received - bookkeeping,1,true
+jl-004,je-002,acct-4000,0,800000,Service revenue - bookkeeping,2,true
+jl-005,je-003,acct-1000,1500000,0,GCash received - business registration,1,true
+jl-006,je-003,acct-4000,0,1500000,Service revenue - business registration,2,true
+jl-007,je-004,acct-1000,1500000,0,Bank transfer received - tax advisory,1,true
+jl-008,je-004,acct-4000,0,1500000,Service revenue - tax advisory and financial planning,2,true
+jl-009,je-005,acct-6100,8000000,0,Office rent expense March 2026,1,true
+jl-010,je-005,acct-1000,0,8000000,Cash paid for office rent,2,true
+jl-011,je-006,acct-6200,1200000,0,Electricity expense February 2026,1,true
+jl-012,je-006,acct-1000,0,1200000,Cash paid for electricity,2,true
+jl-013,je-007,acct-1000,1200000,0,Cash received - contract drafting,1,true
+jl-014,je-007,acct-4000,0,1200000,Service revenue - contract drafting,2,true
+jl-015,je-008,acct-1000,600000,0,Bank transfer received - payroll processing,1,true
+jl-016,je-008,acct-4000,0,600000,Service revenue - payroll processing,2,true

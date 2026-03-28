@@ -1,0 +1,13 @@
+id,job_phase_id,name,step_order,status,assigned_to,is_ad_hoc,active
+jtask-001,jp-001,Draft engagement letter for Santos Corp,1,COMPLETED,staff-001,false,true
+jtask-002,jp-001,Obtain signed engagement letter,2,COMPLETED,staff-001,false,true
+jtask-003,jp-002,Review case documents and facts,1,COMPLETED,staff-002,false,true
+jtask-004,jp-003,Conduct legal consultation session,1,COMPLETED,staff-002,false,true
+jtask-005,jp-004,Draft engagement letter for Dela Cruz,1,COMPLETED,staff-001,false,true
+jtask-006,jp-005,Research lease law and contract templates,1,COMPLETED,staff-001,false,true
+jtask-007,jp-006,Deliver final contract draft,1,COMPLETED,staff-001,false,true
+jtask-008,jp-010,Audit planning and risk assessment,1,COMPLETED,staff-002,false,true
+jtask-009,jp-011,Gather and review financial records,1,IN_PROGRESS,staff-002,false,true
+jtask-010,jp-011,Test transactions and trace entries,2,IN_PROGRESS,staff-003,false,true
+jtask-011,jp-014,Set up payroll retainer for Cebu SME,1,COMPLETED,staff-001,false,true
+jtask-012,jp-015,Process March 2026 payroll run,1,IN_PROGRESS,staff-001,false,true

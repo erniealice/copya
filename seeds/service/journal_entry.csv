@@ -1,0 +1,9 @@
+id,entry_number,description,entry_date,status,source_type,source_id,fiscal_period_id,total_debit,total_credit,posted_by,notes,active
+je-001,JE-2026-001,Revenue - Hair Rebonding SVC-2026-001,2026-03-01,POSTED,REVENUE,rev-001,fp-2026-03,250000,250000,user-admin,,true
+je-002,JE-2026-002,Revenue - Haircut + Hot Oil SVC-2026-002,2026-03-02,POSTED,REVENUE,rev-002,fp-2026-03,150000,150000,user-admin,,true
+je-003,JE-2026-003,Revenue - Spa Combo SVC-2026-003,2026-03-03,POSTED,REVENUE,rev-003,fp-2026-03,450000,450000,user-admin,,true
+je-004,JE-2026-004,Expenditure - Salon Products PO-2026-001,2026-02-05,POSTED,EXPENDITURE,exp-001,fp-2026-02,4500000,4500000,user-admin,,true
+je-005,JE-2026-005,Expenditure - Electricity Feb,2026-02-20,POSTED,EXPENDITURE,exp-004,fp-2026-02,1850000,1850000,user-admin,,true
+je-006,JE-2026-006,Revenue - Hair Color SVC-2026-006,2026-03-05,POSTED,REVENUE,rev-006,fp-2026-03,400000,400000,user-admin,,true
+je-007,JE-2026-007,Revenue - Eyelash Extensions SVC-2026-007,2026-03-06,POSTED,REVENUE,rev-007,fp-2026-03,150000,150000,user-admin,,true
+je-008,JE-2026-008,Revenue - Nail Art SVC-2026-008,2026-03-08,DRAFT,REVENUE,rev-008,fp-2026-03,80000,80000,,,true

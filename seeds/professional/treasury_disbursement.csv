@@ -1,0 +1,5 @@
+id,name,amount,status,expenditure_id,disbursement_type,currency,reference_number,payment_date,approved_by,active
+td-001,Payment - Office Rent March,8000000,completed,exp-001,expense,PHP,DISB-PRO-2026-001,2026-03-01,user-admin,true
+td-002,Payment - Electricity Feb,1200000,completed,exp-002,expense,PHP,DISB-PRO-2026-002,2026-02-20,user-admin,true
+td-003,Payment - LexisNexis Subscription,2400000,completed,exp-005,purchase,PHP,DISB-PRO-2026-003,2026-03-01,user-admin,true
+td-004,Payment - Professional Indemnity Insurance,6000000,completed,exp-006,expense,PHP,DISB-PRO-2026-004,2026-01-15,user-admin,true

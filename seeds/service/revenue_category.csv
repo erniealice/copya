@@ -1,0 +1,6 @@
+id,code,name,description,active
+revcat-hair,hair-services,Hair Services,Haircuts coloring rebonding and treatments,true
+revcat-spa,spa-services,Spa Services,Massage facial foot spa and body treatments,true
+revcat-nails,nail-services,Nail Services,Manicure pedicure and nail art,true
+revcat-makeup,makeup-services,Makeup Services,Event bridal and daily makeup application,true
+revcat-packages,service-packages,Service Packages,Bundled service packages and promos,true

@@ -1,0 +1,10 @@
+id,expenditure_id,product_id,quantity,unit_price,line_amount,notes,active
+eli-001,exp-001,,20,75000,1500000,Hair color tubes assorted shades,true
+eli-002,exp-001,,10,150000,1500000,Keratin treatment kits,true
+eli-003,exp-001,,30,50000,1500000,Shampoo and conditioner bottles,true
+eli-004,exp-002,,4,3500000,14000000,Hydraulic styling chairs,true
+eli-005,exp-002,,2,3600000,7200000,Backwash stations,true
+eli-006,exp-002,,1,3800000,3800000,Delivery and installation,true
+eli-007,exp-003,,5,100000,500000,Industrial sanitizer gallons,true
+eli-008,exp-003,,10,35000,350000,Microfiber towels packs,true
+eli-009,exp-008,,1,1500000,1500000,Monthly IT support contract,true

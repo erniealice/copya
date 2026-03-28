@@ -1,0 +1,14 @@
+id,fulfillment_id,revenue_line_item_id,product_id,fulfillment_method,quantity_ordered,quantity_delivered,status,notes
+fi-001,ful-001,rli-001,prod-003,IN_STORE,1,1,DELIVERED,Rebonding completed
+fi-002,ful-002,rli-002,prod-001,IN_STORE,1,1,DELIVERED,Haircut completed
+fi-003,ful-002,rli-003,prod-006,IN_STORE,1,1,DELIVERED,Hot oil completed
+fi-004,ful-003,rli-004,prod-007,IN_STORE,1,1,DELIVERED,Massage completed
+fi-005,ful-003,rli-005,prod-008,IN_STORE,1,1,DELIVERED,Facial completed
+fi-006,ful-003,rli-006,prod-009,IN_STORE,1,1,DELIVERED,Manicure completed
+fi-007,ful-004,rli-007,prod-013,IN_STORE,1,0,PENDING,Bridal makeup scheduled
+fi-008,ful-005,rli-008,prod-009,IN_STORE,10,4,IN_PROGRESS,4 of 10 manicures done
+fi-009,ful-005,rli-009,prod-010,IN_STORE,10,3,IN_PROGRESS,3 of 10 pedicures done
+fi-010,ful-006,rli-010,prod-004,IN_STORE,1,1,DELIVERED,Hair color completed
+fi-011,ful-006,rli-011,prod-005,IN_STORE,1,1,DELIVERED,Highlights completed
+fi-012,ful-007,rli-012,prod-015,IN_STORE,1,1,DELIVERED,Eyelash extensions done
+fi-013,ful-008,rli-013,prod-011,IN_STORE,1,1,DELIVERED,Gel nail art done

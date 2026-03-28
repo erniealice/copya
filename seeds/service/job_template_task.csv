@@ -1,0 +1,14 @@
+id,job_template_phase_id,name,step_order,estimated_duration_minutes,active
+jtt-001,jtp-001,Check-in client,1,5,true
+jtt-002,jtp-001,Confirm service selection,2,5,true
+jtt-003,jtp-002,Perform service,1,60,true
+jtt-004,jtp-003,Process payment,1,5,true
+jtt-005,jtp-003,Request feedback,2,3,true
+jtt-006,jtp-004,Check-in client,1,5,true
+jtt-007,jtp-005,Perform service 1,1,45,true
+jtt-008,jtp-005,Perform service 2,2,45,true
+jtt-009,jtp-006,Process payment,1,5,true
+jtt-010,jtp-007,Bridal consultation,1,30,true
+jtt-011,jtp-008,Trial hair and makeup,1,120,true
+jtt-012,jtp-009,Event day hair and makeup,1,180,true
+jtt-013,jtp-010,Final payment and photos,1,15,true

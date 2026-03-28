@@ -1,0 +1,6 @@
+id,asset_id,maintenance_type,priority,status,scheduled_date,description,cost,performed_by,notes,active
+am-001,asset-002,PREVENTIVE,MEDIUM,COMPLETED,2026-02-15,Quarterly workstation OS update and disk cleanup,200000,sup-002,Routine IT maintenance all 4 workstations,true
+am-002,asset-004,CORRECTIVE,HIGH,COMPLETED,2026-03-05,Printer paper feed roller replacement,150000,sup-002,Roller worn causing paper jams,true
+am-003,asset-006,PREVENTIVE,MEDIUM,COMPLETED,2026-02-28,Vehicle PMS oil change brake check and tire rotation,850000,sup-003,30000 km preventive maintenance schedule,true
+am-004,asset-008,PREVENTIVE,LOW,SCHEDULED,2026-04-01,NAS firmware update and backup integrity check,0,,Quarterly server health check,true
+am-005,asset-003,INSPECTION,LOW,SCHEDULED,2026-06-30,Annual software license audit and renewal review,0,,Verify license compliance before renewal,true

@@ -1,0 +1,5 @@
+id,workspace_id,name,description,default_fulfillment_type,default_cost_flow_type,default_billing_rule_type,active
+jt-001,default-workspace,Standard Engagement,Single-session professional service appointment or consultation,STANDARD,,TIME_AND_MATERIALS,true
+jt-002,default-workspace,Retainer Engagement,Ongoing monthly retainer for recurring professional services,STANDARD,,FIXED_PRICE,true
+jt-003,default-workspace,Project-Based Engagement,Defined-scope project with deliverables and milestones,STANDARD,,FIXED_PRICE,true
+jt-004,default-workspace,Compliance Audit,Regulatory or financial compliance audit with formal report,STANDARD,,FIXED_PRICE,true

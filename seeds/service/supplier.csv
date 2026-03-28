@@ -1,0 +1,7 @@
+id,internal_id,company_name,supplier_type,status,payment_terms,category_id,currency,country,notes,active
+sup-001,SUP-0001,L'Oreal Philippines,company,active,net_30,supcat-product,PHP,PH,Major product supplier for hair care and color lines,true
+sup-002,SUP-0002,Takara Belmont PH,company,active,net_60,supcat-equipment,PHP,PH,Premium salon equipment and furniture supplier,true
+sup-003,SUP-0003,Manila Water Company,company,active,net_15,supcat-utilities,PHP,PH,Utility provider for water services,true
+sup-004,SUP-0004,TechForce IT Solutions,company,active,net_30,supcat-technology,PHP,PH,POS systems tablets and IT infrastructure,true
+sup-005,SUP-0005,ProClean Janitorial,company,active,net_15,supcat-service,PHP,PH,Cleaning and janitorial supplies and services,true
+sup-006,SUP-0006,Juan dela Cruz,individual,active,immediate,supcat-service,PHP,PH,On-call freelance electrician for maintenance,true

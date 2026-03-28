@@ -1,0 +1,2 @@
+id,name,description,private,active
+default-workspace,Default Workspace,Primary workspace for seed data,false,true

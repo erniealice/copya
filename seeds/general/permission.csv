@@ -1,0 +1,612 @@
+id,workspace_id,user_id,granted_by_user_id,name,permission_code,permission_type,active
+perm-admin-create,default-workspace,superadmin-001,superadmin-001,Admin: Create,admin:create,PERMISSION_TYPE_ALLOW,true
+perm-admin-read,default-workspace,superadmin-001,superadmin-001,Admin: Read,admin:read,PERMISSION_TYPE_ALLOW,true
+perm-admin-update,default-workspace,superadmin-001,superadmin-001,Admin: Update,admin:update,PERMISSION_TYPE_ALLOW,true
+perm-admin-delete,default-workspace,superadmin-001,superadmin-001,Admin: Delete,admin:delete,PERMISSION_TYPE_ALLOW,true
+perm-admin-list,default-workspace,superadmin-001,superadmin-001,Admin: List,admin:list,PERMISSION_TYPE_ALLOW,true
+perm-client-create,default-workspace,superadmin-001,superadmin-001,Client: Create,client:create,PERMISSION_TYPE_ALLOW,true
+perm-client-read,default-workspace,superadmin-001,superadmin-001,Client: Read,client:read,PERMISSION_TYPE_ALLOW,true
+perm-client-update,default-workspace,superadmin-001,superadmin-001,Client: Update,client:update,PERMISSION_TYPE_ALLOW,true
+perm-client-delete,default-workspace,superadmin-001,superadmin-001,Client: Delete,client:delete,PERMISSION_TYPE_ALLOW,true
+perm-client-list,default-workspace,superadmin-001,superadmin-001,Client: List,client:list,PERMISSION_TYPE_ALLOW,true
+perm-client_attribute-create,default-workspace,superadmin-001,superadmin-001,Client Attribute: Create,client_attribute:create,PERMISSION_TYPE_ALLOW,true
+perm-client_attribute-read,default-workspace,superadmin-001,superadmin-001,Client Attribute: Read,client_attribute:read,PERMISSION_TYPE_ALLOW,true
+perm-client_attribute-update,default-workspace,superadmin-001,superadmin-001,Client Attribute: Update,client_attribute:update,PERMISSION_TYPE_ALLOW,true
+perm-client_attribute-delete,default-workspace,superadmin-001,superadmin-001,Client Attribute: Delete,client_attribute:delete,PERMISSION_TYPE_ALLOW,true
+perm-client_attribute-list,default-workspace,superadmin-001,superadmin-001,Client Attribute: List,client_attribute:list,PERMISSION_TYPE_ALLOW,true
+perm-delegate-create,default-workspace,superadmin-001,superadmin-001,Delegate: Create,delegate:create,PERMISSION_TYPE_ALLOW,true
+perm-delegate-read,default-workspace,superadmin-001,superadmin-001,Delegate: Read,delegate:read,PERMISSION_TYPE_ALLOW,true
+perm-delegate-update,default-workspace,superadmin-001,superadmin-001,Delegate: Update,delegate:update,PERMISSION_TYPE_ALLOW,true
+perm-delegate-delete,default-workspace,superadmin-001,superadmin-001,Delegate: Delete,delegate:delete,PERMISSION_TYPE_ALLOW,true
+perm-delegate-list,default-workspace,superadmin-001,superadmin-001,Delegate: List,delegate:list,PERMISSION_TYPE_ALLOW,true
+perm-delegate_attribute-create,default-workspace,superadmin-001,superadmin-001,Delegate Attribute: Create,delegate_attribute:create,PERMISSION_TYPE_ALLOW,true
+perm-delegate_attribute-read,default-workspace,superadmin-001,superadmin-001,Delegate Attribute: Read,delegate_attribute:read,PERMISSION_TYPE_ALLOW,true
+perm-delegate_attribute-update,default-workspace,superadmin-001,superadmin-001,Delegate Attribute: Update,delegate_attribute:update,PERMISSION_TYPE_ALLOW,true
+perm-delegate_attribute-delete,default-workspace,superadmin-001,superadmin-001,Delegate Attribute: Delete,delegate_attribute:delete,PERMISSION_TYPE_ALLOW,true
+perm-delegate_attribute-list,default-workspace,superadmin-001,superadmin-001,Delegate Attribute: List,delegate_attribute:list,PERMISSION_TYPE_ALLOW,true
+perm-delegate_client-create,default-workspace,superadmin-001,superadmin-001,Delegate Client: Create,delegate_client:create,PERMISSION_TYPE_ALLOW,true
+perm-delegate_client-read,default-workspace,superadmin-001,superadmin-001,Delegate Client: Read,delegate_client:read,PERMISSION_TYPE_ALLOW,true
+perm-delegate_client-update,default-workspace,superadmin-001,superadmin-001,Delegate Client: Update,delegate_client:update,PERMISSION_TYPE_ALLOW,true
+perm-delegate_client-delete,default-workspace,superadmin-001,superadmin-001,Delegate Client: Delete,delegate_client:delete,PERMISSION_TYPE_ALLOW,true
+perm-delegate_client-list,default-workspace,superadmin-001,superadmin-001,Delegate Client: List,delegate_client:list,PERMISSION_TYPE_ALLOW,true
+perm-group-create,default-workspace,superadmin-001,superadmin-001,Group: Create,group:create,PERMISSION_TYPE_ALLOW,true
+perm-group-read,default-workspace,superadmin-001,superadmin-001,Group: Read,group:read,PERMISSION_TYPE_ALLOW,true
+perm-group-update,default-workspace,superadmin-001,superadmin-001,Group: Update,group:update,PERMISSION_TYPE_ALLOW,true
+perm-group-delete,default-workspace,superadmin-001,superadmin-001,Group: Delete,group:delete,PERMISSION_TYPE_ALLOW,true
+perm-group-list,default-workspace,superadmin-001,superadmin-001,Group: List,group:list,PERMISSION_TYPE_ALLOW,true
+perm-group_attribute-create,default-workspace,superadmin-001,superadmin-001,Group Attribute: Create,group_attribute:create,PERMISSION_TYPE_ALLOW,true
+perm-group_attribute-read,default-workspace,superadmin-001,superadmin-001,Group Attribute: Read,group_attribute:read,PERMISSION_TYPE_ALLOW,true
+perm-group_attribute-update,default-workspace,superadmin-001,superadmin-001,Group Attribute: Update,group_attribute:update,PERMISSION_TYPE_ALLOW,true
+perm-group_attribute-delete,default-workspace,superadmin-001,superadmin-001,Group Attribute: Delete,group_attribute:delete,PERMISSION_TYPE_ALLOW,true
+perm-group_attribute-list,default-workspace,superadmin-001,superadmin-001,Group Attribute: List,group_attribute:list,PERMISSION_TYPE_ALLOW,true
+perm-location-create,default-workspace,superadmin-001,superadmin-001,Location: Create,location:create,PERMISSION_TYPE_ALLOW,true
+perm-location-read,default-workspace,superadmin-001,superadmin-001,Location: Read,location:read,PERMISSION_TYPE_ALLOW,true
+perm-location-update,default-workspace,superadmin-001,superadmin-001,Location: Update,location:update,PERMISSION_TYPE_ALLOW,true
+perm-location-delete,default-workspace,superadmin-001,superadmin-001,Location: Delete,location:delete,PERMISSION_TYPE_ALLOW,true
+perm-location-list,default-workspace,superadmin-001,superadmin-001,Location: List,location:list,PERMISSION_TYPE_ALLOW,true
+perm-location_attribute-create,default-workspace,superadmin-001,superadmin-001,Location Attribute: Create,location_attribute:create,PERMISSION_TYPE_ALLOW,true
+perm-location_attribute-read,default-workspace,superadmin-001,superadmin-001,Location Attribute: Read,location_attribute:read,PERMISSION_TYPE_ALLOW,true
+perm-location_attribute-update,default-workspace,superadmin-001,superadmin-001,Location Attribute: Update,location_attribute:update,PERMISSION_TYPE_ALLOW,true
+perm-location_attribute-delete,default-workspace,superadmin-001,superadmin-001,Location Attribute: Delete,location_attribute:delete,PERMISSION_TYPE_ALLOW,true
+perm-location_attribute-list,default-workspace,superadmin-001,superadmin-001,Location Attribute: List,location_attribute:list,PERMISSION_TYPE_ALLOW,true
+perm-manager-create,default-workspace,superadmin-001,superadmin-001,Manager: Create,manager:create,PERMISSION_TYPE_ALLOW,true
+perm-manager-read,default-workspace,superadmin-001,superadmin-001,Manager: Read,manager:read,PERMISSION_TYPE_ALLOW,true
+perm-manager-update,default-workspace,superadmin-001,superadmin-001,Manager: Update,manager:update,PERMISSION_TYPE_ALLOW,true
+perm-manager-delete,default-workspace,superadmin-001,superadmin-001,Manager: Delete,manager:delete,PERMISSION_TYPE_ALLOW,true
+perm-manager-list,default-workspace,superadmin-001,superadmin-001,Manager: List,manager:list,PERMISSION_TYPE_ALLOW,true
+perm-permission-create,default-workspace,superadmin-001,superadmin-001,Permission: Create,permission:create,PERMISSION_TYPE_ALLOW,true
+perm-permission-read,default-workspace,superadmin-001,superadmin-001,Permission: Read,permission:read,PERMISSION_TYPE_ALLOW,true
+perm-permission-update,default-workspace,superadmin-001,superadmin-001,Permission: Update,permission:update,PERMISSION_TYPE_ALLOW,true
+perm-permission-delete,default-workspace,superadmin-001,superadmin-001,Permission: Delete,permission:delete,PERMISSION_TYPE_ALLOW,true
+perm-permission-list,default-workspace,superadmin-001,superadmin-001,Permission: List,permission:list,PERMISSION_TYPE_ALLOW,true
+perm-role-create,default-workspace,superadmin-001,superadmin-001,Role: Create,role:create,PERMISSION_TYPE_ALLOW,true
+perm-role-read,default-workspace,superadmin-001,superadmin-001,Role: Read,role:read,PERMISSION_TYPE_ALLOW,true
+perm-role-update,default-workspace,superadmin-001,superadmin-001,Role: Update,role:update,PERMISSION_TYPE_ALLOW,true
+perm-role-delete,default-workspace,superadmin-001,superadmin-001,Role: Delete,role:delete,PERMISSION_TYPE_ALLOW,true
+perm-role-list,default-workspace,superadmin-001,superadmin-001,Role: List,role:list,PERMISSION_TYPE_ALLOW,true
+perm-staff-create,default-workspace,superadmin-001,superadmin-001,Staff: Create,staff:create,PERMISSION_TYPE_ALLOW,true
+perm-staff-read,default-workspace,superadmin-001,superadmin-001,Staff: Read,staff:read,PERMISSION_TYPE_ALLOW,true
+perm-staff-update,default-workspace,superadmin-001,superadmin-001,Staff: Update,staff:update,PERMISSION_TYPE_ALLOW,true
+perm-staff-delete,default-workspace,superadmin-001,superadmin-001,Staff: Delete,staff:delete,PERMISSION_TYPE_ALLOW,true
+perm-staff-list,default-workspace,superadmin-001,superadmin-001,Staff: List,staff:list,PERMISSION_TYPE_ALLOW,true
+perm-staff_attribute-create,default-workspace,superadmin-001,superadmin-001,Staff Attribute: Create,staff_attribute:create,PERMISSION_TYPE_ALLOW,true
+perm-staff_attribute-read,default-workspace,superadmin-001,superadmin-001,Staff Attribute: Read,staff_attribute:read,PERMISSION_TYPE_ALLOW,true
+perm-staff_attribute-update,default-workspace,superadmin-001,superadmin-001,Staff Attribute: Update,staff_attribute:update,PERMISSION_TYPE_ALLOW,true
+perm-staff_attribute-delete,default-workspace,superadmin-001,superadmin-001,Staff Attribute: Delete,staff_attribute:delete,PERMISSION_TYPE_ALLOW,true
+perm-staff_attribute-list,default-workspace,superadmin-001,superadmin-001,Staff Attribute: List,staff_attribute:list,PERMISSION_TYPE_ALLOW,true
+perm-user-create,default-workspace,superadmin-001,superadmin-001,User: Create,user:create,PERMISSION_TYPE_ALLOW,true
+perm-user-read,default-workspace,superadmin-001,superadmin-001,User: Read,user:read,PERMISSION_TYPE_ALLOW,true
+perm-user-update,default-workspace,superadmin-001,superadmin-001,User: Update,user:update,PERMISSION_TYPE_ALLOW,true
+perm-user-delete,default-workspace,superadmin-001,superadmin-001,User: Delete,user:delete,PERMISSION_TYPE_ALLOW,true
+perm-user-list,default-workspace,superadmin-001,superadmin-001,User: List,user:list,PERMISSION_TYPE_ALLOW,true
+perm-workspace-create,default-workspace,superadmin-001,superadmin-001,Workspace: Create,workspace:create,PERMISSION_TYPE_ALLOW,true
+perm-workspace-read,default-workspace,superadmin-001,superadmin-001,Workspace: Read,workspace:read,PERMISSION_TYPE_ALLOW,true
+perm-workspace-update,default-workspace,superadmin-001,superadmin-001,Workspace: Update,workspace:update,PERMISSION_TYPE_ALLOW,true
+perm-workspace-delete,default-workspace,superadmin-001,superadmin-001,Workspace: Delete,workspace:delete,PERMISSION_TYPE_ALLOW,true
+perm-workspace-list,default-workspace,superadmin-001,superadmin-001,Workspace: List,workspace:list,PERMISSION_TYPE_ALLOW,true
+perm-workspace_user-create,default-workspace,superadmin-001,superadmin-001,Workspace User: Create,workspace_user:create,PERMISSION_TYPE_ALLOW,true
+perm-workspace_user-read,default-workspace,superadmin-001,superadmin-001,Workspace User: Read,workspace_user:read,PERMISSION_TYPE_ALLOW,true
+perm-workspace_user-update,default-workspace,superadmin-001,superadmin-001,Workspace User: Update,workspace_user:update,PERMISSION_TYPE_ALLOW,true
+perm-workspace_user-delete,default-workspace,superadmin-001,superadmin-001,Workspace User: Delete,workspace_user:delete,PERMISSION_TYPE_ALLOW,true
+perm-workspace_user-list,default-workspace,superadmin-001,superadmin-001,Workspace User: List,workspace_user:list,PERMISSION_TYPE_ALLOW,true
+perm-workspace_user_role-create,default-workspace,superadmin-001,superadmin-001,Workspace User Role: Create,workspace_user_role:create,PERMISSION_TYPE_ALLOW,true
+perm-workspace_user_role-read,default-workspace,superadmin-001,superadmin-001,Workspace User Role: Read,workspace_user_role:read,PERMISSION_TYPE_ALLOW,true
+perm-workspace_user_role-update,default-workspace,superadmin-001,superadmin-001,Workspace User Role: Update,workspace_user_role:update,PERMISSION_TYPE_ALLOW,true
+perm-workspace_user_role-delete,default-workspace,superadmin-001,superadmin-001,Workspace User Role: Delete,workspace_user_role:delete,PERMISSION_TYPE_ALLOW,true
+perm-workspace_user_role-list,default-workspace,superadmin-001,superadmin-001,Workspace User Role: List,workspace_user_role:list,PERMISSION_TYPE_ALLOW,true
+perm-event-create,default-workspace,superadmin-001,superadmin-001,Event: Create,event:create,PERMISSION_TYPE_ALLOW,true
+perm-event-read,default-workspace,superadmin-001,superadmin-001,Event: Read,event:read,PERMISSION_TYPE_ALLOW,true
+perm-event-update,default-workspace,superadmin-001,superadmin-001,Event: Update,event:update,PERMISSION_TYPE_ALLOW,true
+perm-event-delete,default-workspace,superadmin-001,superadmin-001,Event: Delete,event:delete,PERMISSION_TYPE_ALLOW,true
+perm-event-list,default-workspace,superadmin-001,superadmin-001,Event: List,event:list,PERMISSION_TYPE_ALLOW,true
+perm-event_attendee-create,default-workspace,superadmin-001,superadmin-001,Event Attendee: Create,event_attendee:create,PERMISSION_TYPE_ALLOW,true
+perm-event_attendee-read,default-workspace,superadmin-001,superadmin-001,Event Attendee: Read,event_attendee:read,PERMISSION_TYPE_ALLOW,true
+perm-event_attendee-update,default-workspace,superadmin-001,superadmin-001,Event Attendee: Update,event_attendee:update,PERMISSION_TYPE_ALLOW,true
+perm-event_attendee-delete,default-workspace,superadmin-001,superadmin-001,Event Attendee: Delete,event_attendee:delete,PERMISSION_TYPE_ALLOW,true
+perm-event_attendee-list,default-workspace,superadmin-001,superadmin-001,Event Attendee: List,event_attendee:list,PERMISSION_TYPE_ALLOW,true
+perm-event_attribute-create,default-workspace,superadmin-001,superadmin-001,Event Attribute: Create,event_attribute:create,PERMISSION_TYPE_ALLOW,true
+perm-event_attribute-read,default-workspace,superadmin-001,superadmin-001,Event Attribute: Read,event_attribute:read,PERMISSION_TYPE_ALLOW,true
+perm-event_attribute-update,default-workspace,superadmin-001,superadmin-001,Event Attribute: Update,event_attribute:update,PERMISSION_TYPE_ALLOW,true
+perm-event_attribute-delete,default-workspace,superadmin-001,superadmin-001,Event Attribute: Delete,event_attribute:delete,PERMISSION_TYPE_ALLOW,true
+perm-event_attribute-list,default-workspace,superadmin-001,superadmin-001,Event Attribute: List,event_attribute:list,PERMISSION_TYPE_ALLOW,true
+perm-event_client-create,default-workspace,superadmin-001,superadmin-001,Event Client: Create,event_client:create,PERMISSION_TYPE_ALLOW,true
+perm-event_client-read,default-workspace,superadmin-001,superadmin-001,Event Client: Read,event_client:read,PERMISSION_TYPE_ALLOW,true
+perm-event_client-update,default-workspace,superadmin-001,superadmin-001,Event Client: Update,event_client:update,PERMISSION_TYPE_ALLOW,true
+perm-event_client-delete,default-workspace,superadmin-001,superadmin-001,Event Client: Delete,event_client:delete,PERMISSION_TYPE_ALLOW,true
+perm-event_client-list,default-workspace,superadmin-001,superadmin-001,Event Client: List,event_client:list,PERMISSION_TYPE_ALLOW,true
+perm-event_product-create,default-workspace,superadmin-001,superadmin-001,Event Product: Create,event_product:create,PERMISSION_TYPE_ALLOW,true
+perm-event_product-read,default-workspace,superadmin-001,superadmin-001,Event Product: Read,event_product:read,PERMISSION_TYPE_ALLOW,true
+perm-event_product-update,default-workspace,superadmin-001,superadmin-001,Event Product: Update,event_product:update,PERMISSION_TYPE_ALLOW,true
+perm-event_product-delete,default-workspace,superadmin-001,superadmin-001,Event Product: Delete,event_product:delete,PERMISSION_TYPE_ALLOW,true
+perm-event_product-list,default-workspace,superadmin-001,superadmin-001,Event Product: List,event_product:list,PERMISSION_TYPE_ALLOW,true
+perm-event_recurrence-create,default-workspace,superadmin-001,superadmin-001,Event Recurrence: Create,event_recurrence:create,PERMISSION_TYPE_ALLOW,true
+perm-event_recurrence-read,default-workspace,superadmin-001,superadmin-001,Event Recurrence: Read,event_recurrence:read,PERMISSION_TYPE_ALLOW,true
+perm-event_recurrence-update,default-workspace,superadmin-001,superadmin-001,Event Recurrence: Update,event_recurrence:update,PERMISSION_TYPE_ALLOW,true
+perm-event_recurrence-delete,default-workspace,superadmin-001,superadmin-001,Event Recurrence: Delete,event_recurrence:delete,PERMISSION_TYPE_ALLOW,true
+perm-event_recurrence-list,default-workspace,superadmin-001,superadmin-001,Event Recurrence: List,event_recurrence:list,PERMISSION_TYPE_ALLOW,true
+perm-event_resource-create,default-workspace,superadmin-001,superadmin-001,Event Resource: Create,event_resource:create,PERMISSION_TYPE_ALLOW,true
+perm-event_resource-read,default-workspace,superadmin-001,superadmin-001,Event Resource: Read,event_resource:read,PERMISSION_TYPE_ALLOW,true
+perm-event_resource-update,default-workspace,superadmin-001,superadmin-001,Event Resource: Update,event_resource:update,PERMISSION_TYPE_ALLOW,true
+perm-event_resource-delete,default-workspace,superadmin-001,superadmin-001,Event Resource: Delete,event_resource:delete,PERMISSION_TYPE_ALLOW,true
+perm-event_resource-list,default-workspace,superadmin-001,superadmin-001,Event Resource: List,event_resource:list,PERMISSION_TYPE_ALLOW,true
+perm-framework-create,default-workspace,superadmin-001,superadmin-001,Framework: Create,framework:create,PERMISSION_TYPE_ALLOW,true
+perm-framework-read,default-workspace,superadmin-001,superadmin-001,Framework: Read,framework:read,PERMISSION_TYPE_ALLOW,true
+perm-framework-update,default-workspace,superadmin-001,superadmin-001,Framework: Update,framework:update,PERMISSION_TYPE_ALLOW,true
+perm-framework-delete,default-workspace,superadmin-001,superadmin-001,Framework: Delete,framework:delete,PERMISSION_TYPE_ALLOW,true
+perm-framework-list,default-workspace,superadmin-001,superadmin-001,Framework: List,framework:list,PERMISSION_TYPE_ALLOW,true
+perm-objective-create,default-workspace,superadmin-001,superadmin-001,Objective: Create,objective:create,PERMISSION_TYPE_ALLOW,true
+perm-objective-read,default-workspace,superadmin-001,superadmin-001,Objective: Read,objective:read,PERMISSION_TYPE_ALLOW,true
+perm-objective-update,default-workspace,superadmin-001,superadmin-001,Objective: Update,objective:update,PERMISSION_TYPE_ALLOW,true
+perm-objective-delete,default-workspace,superadmin-001,superadmin-001,Objective: Delete,objective:delete,PERMISSION_TYPE_ALLOW,true
+perm-objective-list,default-workspace,superadmin-001,superadmin-001,Objective: List,objective:list,PERMISSION_TYPE_ALLOW,true
+perm-task-create,default-workspace,superadmin-001,superadmin-001,Task: Create,task:create,PERMISSION_TYPE_ALLOW,true
+perm-task-read,default-workspace,superadmin-001,superadmin-001,Task: Read,task:read,PERMISSION_TYPE_ALLOW,true
+perm-task-update,default-workspace,superadmin-001,superadmin-001,Task: Update,task:update,PERMISSION_TYPE_ALLOW,true
+perm-task-delete,default-workspace,superadmin-001,superadmin-001,Task: Delete,task:delete,PERMISSION_TYPE_ALLOW,true
+perm-task-list,default-workspace,superadmin-001,superadmin-001,Task: List,task:list,PERMISSION_TYPE_ALLOW,true
+perm-payment-create,default-workspace,superadmin-001,superadmin-001,Payment: Create,payment:create,PERMISSION_TYPE_ALLOW,true
+perm-payment-read,default-workspace,superadmin-001,superadmin-001,Payment: Read,payment:read,PERMISSION_TYPE_ALLOW,true
+perm-payment-update,default-workspace,superadmin-001,superadmin-001,Payment: Update,payment:update,PERMISSION_TYPE_ALLOW,true
+perm-payment-delete,default-workspace,superadmin-001,superadmin-001,Payment: Delete,payment:delete,PERMISSION_TYPE_ALLOW,true
+perm-payment-list,default-workspace,superadmin-001,superadmin-001,Payment: List,payment:list,PERMISSION_TYPE_ALLOW,true
+perm-payment_method-create,default-workspace,superadmin-001,superadmin-001,Payment Method: Create,payment_method:create,PERMISSION_TYPE_ALLOW,true
+perm-payment_method-read,default-workspace,superadmin-001,superadmin-001,Payment Method: Read,payment_method:read,PERMISSION_TYPE_ALLOW,true
+perm-payment_method-update,default-workspace,superadmin-001,superadmin-001,Payment Method: Update,payment_method:update,PERMISSION_TYPE_ALLOW,true
+perm-payment_method-delete,default-workspace,superadmin-001,superadmin-001,Payment Method: Delete,payment_method:delete,PERMISSION_TYPE_ALLOW,true
+perm-payment_method-list,default-workspace,superadmin-001,superadmin-001,Payment Method: List,payment_method:list,PERMISSION_TYPE_ALLOW,true
+perm-payment_profile-create,default-workspace,superadmin-001,superadmin-001,Payment Profile: Create,payment_profile:create,PERMISSION_TYPE_ALLOW,true
+perm-payment_profile-read,default-workspace,superadmin-001,superadmin-001,Payment Profile: Read,payment_profile:read,PERMISSION_TYPE_ALLOW,true
+perm-payment_profile-update,default-workspace,superadmin-001,superadmin-001,Payment Profile: Update,payment_profile:update,PERMISSION_TYPE_ALLOW,true
+perm-payment_profile-delete,default-workspace,superadmin-001,superadmin-001,Payment Profile: Delete,payment_profile:delete,PERMISSION_TYPE_ALLOW,true
+perm-payment_profile-list,default-workspace,superadmin-001,superadmin-001,Payment Profile: List,payment_profile:list,PERMISSION_TYPE_ALLOW,true
+perm-payment_attribute-create,default-workspace,superadmin-001,superadmin-001,Payment Attribute: Create,payment_attribute:create,PERMISSION_TYPE_ALLOW,true
+perm-payment_attribute-read,default-workspace,superadmin-001,superadmin-001,Payment Attribute: Read,payment_attribute:read,PERMISSION_TYPE_ALLOW,true
+perm-payment_attribute-update,default-workspace,superadmin-001,superadmin-001,Payment Attribute: Update,payment_attribute:update,PERMISSION_TYPE_ALLOW,true
+perm-payment_attribute-delete,default-workspace,superadmin-001,superadmin-001,Payment Attribute: Delete,payment_attribute:delete,PERMISSION_TYPE_ALLOW,true
+perm-payment_attribute-list,default-workspace,superadmin-001,superadmin-001,Payment Attribute: List,payment_attribute:list,PERMISSION_TYPE_ALLOW,true
+perm-expenditure-create,default-workspace,superadmin-001,superadmin-001,Expenditure: Create,expenditure:create,PERMISSION_TYPE_ALLOW,true
+perm-expenditure-read,default-workspace,superadmin-001,superadmin-001,Expenditure: Read,expenditure:read,PERMISSION_TYPE_ALLOW,true
+perm-expenditure-update,default-workspace,superadmin-001,superadmin-001,Expenditure: Update,expenditure:update,PERMISSION_TYPE_ALLOW,true
+perm-expenditure-delete,default-workspace,superadmin-001,superadmin-001,Expenditure: Delete,expenditure:delete,PERMISSION_TYPE_ALLOW,true
+perm-expenditure-list,default-workspace,superadmin-001,superadmin-001,Expenditure: List,expenditure:list,PERMISSION_TYPE_ALLOW,true
+perm-expenditure_attribute-create,default-workspace,superadmin-001,superadmin-001,Expenditure Attribute: Create,expenditure_attribute:create,PERMISSION_TYPE_ALLOW,true
+perm-expenditure_attribute-read,default-workspace,superadmin-001,superadmin-001,Expenditure Attribute: Read,expenditure_attribute:read,PERMISSION_TYPE_ALLOW,true
+perm-expenditure_attribute-update,default-workspace,superadmin-001,superadmin-001,Expenditure Attribute: Update,expenditure_attribute:update,PERMISSION_TYPE_ALLOW,true
+perm-expenditure_attribute-delete,default-workspace,superadmin-001,superadmin-001,Expenditure Attribute: Delete,expenditure_attribute:delete,PERMISSION_TYPE_ALLOW,true
+perm-expenditure_attribute-list,default-workspace,superadmin-001,superadmin-001,Expenditure Attribute: List,expenditure_attribute:list,PERMISSION_TYPE_ALLOW,true
+perm-expenditure_line_item-create,default-workspace,superadmin-001,superadmin-001,Expenditure Line Item: Create,expenditure_line_item:create,PERMISSION_TYPE_ALLOW,true
+perm-expenditure_line_item-read,default-workspace,superadmin-001,superadmin-001,Expenditure Line Item: Read,expenditure_line_item:read,PERMISSION_TYPE_ALLOW,true
+perm-expenditure_line_item-update,default-workspace,superadmin-001,superadmin-001,Expenditure Line Item: Update,expenditure_line_item:update,PERMISSION_TYPE_ALLOW,true
+perm-expenditure_line_item-delete,default-workspace,superadmin-001,superadmin-001,Expenditure Line Item: Delete,expenditure_line_item:delete,PERMISSION_TYPE_ALLOW,true
+perm-expenditure_line_item-list,default-workspace,superadmin-001,superadmin-001,Expenditure Line Item: List,expenditure_line_item:list,PERMISSION_TYPE_ALLOW,true
+perm-expenditure_category-create,default-workspace,superadmin-001,superadmin-001,Expenditure Category: Create,expenditure_category:create,PERMISSION_TYPE_ALLOW,true
+perm-expenditure_category-read,default-workspace,superadmin-001,superadmin-001,Expenditure Category: Read,expenditure_category:read,PERMISSION_TYPE_ALLOW,true
+perm-expenditure_category-update,default-workspace,superadmin-001,superadmin-001,Expenditure Category: Update,expenditure_category:update,PERMISSION_TYPE_ALLOW,true
+perm-expenditure_category-delete,default-workspace,superadmin-001,superadmin-001,Expenditure Category: Delete,expenditure_category:delete,PERMISSION_TYPE_ALLOW,true
+perm-expenditure_category-list,default-workspace,superadmin-001,superadmin-001,Expenditure Category: List,expenditure_category:list,PERMISSION_TYPE_ALLOW,true
+perm-inventory_item-create,default-workspace,superadmin-001,superadmin-001,Inventory Item: Create,inventory_item:create,PERMISSION_TYPE_ALLOW,true
+perm-inventory_item-read,default-workspace,superadmin-001,superadmin-001,Inventory Item: Read,inventory_item:read,PERMISSION_TYPE_ALLOW,true
+perm-inventory_item-update,default-workspace,superadmin-001,superadmin-001,Inventory Item: Update,inventory_item:update,PERMISSION_TYPE_ALLOW,true
+perm-inventory_item-delete,default-workspace,superadmin-001,superadmin-001,Inventory Item: Delete,inventory_item:delete,PERMISSION_TYPE_ALLOW,true
+perm-inventory_item-list,default-workspace,superadmin-001,superadmin-001,Inventory Item: List,inventory_item:list,PERMISSION_TYPE_ALLOW,true
+perm-inventory_serial-create,default-workspace,superadmin-001,superadmin-001,Inventory Serial: Create,inventory_serial:create,PERMISSION_TYPE_ALLOW,true
+perm-inventory_serial-read,default-workspace,superadmin-001,superadmin-001,Inventory Serial: Read,inventory_serial:read,PERMISSION_TYPE_ALLOW,true
+perm-inventory_serial-update,default-workspace,superadmin-001,superadmin-001,Inventory Serial: Update,inventory_serial:update,PERMISSION_TYPE_ALLOW,true
+perm-inventory_serial-delete,default-workspace,superadmin-001,superadmin-001,Inventory Serial: Delete,inventory_serial:delete,PERMISSION_TYPE_ALLOW,true
+perm-inventory_serial-list,default-workspace,superadmin-001,superadmin-001,Inventory Serial: List,inventory_serial:list,PERMISSION_TYPE_ALLOW,true
+perm-inventory_transaction-create,default-workspace,superadmin-001,superadmin-001,Inventory Transaction: Create,inventory_transaction:create,PERMISSION_TYPE_ALLOW,true
+perm-inventory_transaction-read,default-workspace,superadmin-001,superadmin-001,Inventory Transaction: Read,inventory_transaction:read,PERMISSION_TYPE_ALLOW,true
+perm-inventory_transaction-update,default-workspace,superadmin-001,superadmin-001,Inventory Transaction: Update,inventory_transaction:update,PERMISSION_TYPE_ALLOW,true
+perm-inventory_transaction-delete,default-workspace,superadmin-001,superadmin-001,Inventory Transaction: Delete,inventory_transaction:delete,PERMISSION_TYPE_ALLOW,true
+perm-inventory_transaction-list,default-workspace,superadmin-001,superadmin-001,Inventory Transaction: List,inventory_transaction:list,PERMISSION_TYPE_ALLOW,true
+perm-inventory_attribute-create,default-workspace,superadmin-001,superadmin-001,Inventory Attribute: Create,inventory_attribute:create,PERMISSION_TYPE_ALLOW,true
+perm-inventory_attribute-read,default-workspace,superadmin-001,superadmin-001,Inventory Attribute: Read,inventory_attribute:read,PERMISSION_TYPE_ALLOW,true
+perm-inventory_attribute-update,default-workspace,superadmin-001,superadmin-001,Inventory Attribute: Update,inventory_attribute:update,PERMISSION_TYPE_ALLOW,true
+perm-inventory_attribute-delete,default-workspace,superadmin-001,superadmin-001,Inventory Attribute: Delete,inventory_attribute:delete,PERMISSION_TYPE_ALLOW,true
+perm-inventory_attribute-list,default-workspace,superadmin-001,superadmin-001,Inventory Attribute: List,inventory_attribute:list,PERMISSION_TYPE_ALLOW,true
+perm-inventory_depreciation-create,default-workspace,superadmin-001,superadmin-001,Inventory Depreciation: Create,inventory_depreciation:create,PERMISSION_TYPE_ALLOW,true
+perm-inventory_depreciation-read,default-workspace,superadmin-001,superadmin-001,Inventory Depreciation: Read,inventory_depreciation:read,PERMISSION_TYPE_ALLOW,true
+perm-inventory_depreciation-update,default-workspace,superadmin-001,superadmin-001,Inventory Depreciation: Update,inventory_depreciation:update,PERMISSION_TYPE_ALLOW,true
+perm-inventory_depreciation-delete,default-workspace,superadmin-001,superadmin-001,Inventory Depreciation: Delete,inventory_depreciation:delete,PERMISSION_TYPE_ALLOW,true
+perm-inventory_depreciation-list,default-workspace,superadmin-001,superadmin-001,Inventory Depreciation: List,inventory_depreciation:list,PERMISSION_TYPE_ALLOW,true
+perm-inventory_serial_history-create,default-workspace,superadmin-001,superadmin-001,Inventory Serial History: Create,inventory_serial_history:create,PERMISSION_TYPE_ALLOW,true
+perm-inventory_serial_history-read,default-workspace,superadmin-001,superadmin-001,Inventory Serial History: Read,inventory_serial_history:read,PERMISSION_TYPE_ALLOW,true
+perm-inventory_serial_history-update,default-workspace,superadmin-001,superadmin-001,Inventory Serial History: Update,inventory_serial_history:update,PERMISSION_TYPE_ALLOW,true
+perm-inventory_serial_history-delete,default-workspace,superadmin-001,superadmin-001,Inventory Serial History: Delete,inventory_serial_history:delete,PERMISSION_TYPE_ALLOW,true
+perm-inventory_serial_history-list,default-workspace,superadmin-001,superadmin-001,Inventory Serial History: List,inventory_serial_history:list,PERMISSION_TYPE_ALLOW,true
+perm-collection-create,default-workspace,superadmin-001,superadmin-001,Collection: Create,collection:create,PERMISSION_TYPE_ALLOW,true
+perm-collection-read,default-workspace,superadmin-001,superadmin-001,Collection: Read,collection:read,PERMISSION_TYPE_ALLOW,true
+perm-collection-update,default-workspace,superadmin-001,superadmin-001,Collection: Update,collection:update,PERMISSION_TYPE_ALLOW,true
+perm-collection-delete,default-workspace,superadmin-001,superadmin-001,Collection: Delete,collection:delete,PERMISSION_TYPE_ALLOW,true
+perm-collection-list,default-workspace,superadmin-001,superadmin-001,Collection: List,collection:list,PERMISSION_TYPE_ALLOW,true
+perm-collection_attribute-create,default-workspace,superadmin-001,superadmin-001,Collection Attribute: Create,collection_attribute:create,PERMISSION_TYPE_ALLOW,true
+perm-collection_attribute-read,default-workspace,superadmin-001,superadmin-001,Collection Attribute: Read,collection_attribute:read,PERMISSION_TYPE_ALLOW,true
+perm-collection_attribute-update,default-workspace,superadmin-001,superadmin-001,Collection Attribute: Update,collection_attribute:update,PERMISSION_TYPE_ALLOW,true
+perm-collection_attribute-delete,default-workspace,superadmin-001,superadmin-001,Collection Attribute: Delete,collection_attribute:delete,PERMISSION_TYPE_ALLOW,true
+perm-collection_attribute-list,default-workspace,superadmin-001,superadmin-001,Collection Attribute: List,collection_attribute:list,PERMISSION_TYPE_ALLOW,true
+perm-collection_plan-create,default-workspace,superadmin-001,superadmin-001,Collection Plan: Create,collection_plan:create,PERMISSION_TYPE_ALLOW,true
+perm-collection_plan-read,default-workspace,superadmin-001,superadmin-001,Collection Plan: Read,collection_plan:read,PERMISSION_TYPE_ALLOW,true
+perm-collection_plan-update,default-workspace,superadmin-001,superadmin-001,Collection Plan: Update,collection_plan:update,PERMISSION_TYPE_ALLOW,true
+perm-collection_plan-delete,default-workspace,superadmin-001,superadmin-001,Collection Plan: Delete,collection_plan:delete,PERMISSION_TYPE_ALLOW,true
+perm-collection_plan-list,default-workspace,superadmin-001,superadmin-001,Collection Plan: List,collection_plan:list,PERMISSION_TYPE_ALLOW,true
+perm-price_list-create,default-workspace,superadmin-001,superadmin-001,Price List: Create,price_list:create,PERMISSION_TYPE_ALLOW,true
+perm-price_list-read,default-workspace,superadmin-001,superadmin-001,Price List: Read,price_list:read,PERMISSION_TYPE_ALLOW,true
+perm-price_list-update,default-workspace,superadmin-001,superadmin-001,Price List: Update,price_list:update,PERMISSION_TYPE_ALLOW,true
+perm-price_list-delete,default-workspace,superadmin-001,superadmin-001,Price List: Delete,price_list:delete,PERMISSION_TYPE_ALLOW,true
+perm-price_list-list,default-workspace,superadmin-001,superadmin-001,Price List: List,price_list:list,PERMISSION_TYPE_ALLOW,true
+perm-price_product-create,default-workspace,superadmin-001,superadmin-001,Price Product: Create,price_product:create,PERMISSION_TYPE_ALLOW,true
+perm-price_product-read,default-workspace,superadmin-001,superadmin-001,Price Product: Read,price_product:read,PERMISSION_TYPE_ALLOW,true
+perm-price_product-update,default-workspace,superadmin-001,superadmin-001,Price Product: Update,price_product:update,PERMISSION_TYPE_ALLOW,true
+perm-price_product-delete,default-workspace,superadmin-001,superadmin-001,Price Product: Delete,price_product:delete,PERMISSION_TYPE_ALLOW,true
+perm-price_product-list,default-workspace,superadmin-001,superadmin-001,Price Product: List,price_product:list,PERMISSION_TYPE_ALLOW,true
+perm-product-create,default-workspace,superadmin-001,superadmin-001,Product: Create,product:create,PERMISSION_TYPE_ALLOW,true
+perm-product-read,default-workspace,superadmin-001,superadmin-001,Product: Read,product:read,PERMISSION_TYPE_ALLOW,true
+perm-product-update,default-workspace,superadmin-001,superadmin-001,Product: Update,product:update,PERMISSION_TYPE_ALLOW,true
+perm-product-delete,default-workspace,superadmin-001,superadmin-001,Product: Delete,product:delete,PERMISSION_TYPE_ALLOW,true
+perm-product-list,default-workspace,superadmin-001,superadmin-001,Product: List,product:list,PERMISSION_TYPE_ALLOW,true
+perm-product_attribute-create,default-workspace,superadmin-001,superadmin-001,Product Attribute: Create,product_attribute:create,PERMISSION_TYPE_ALLOW,true
+perm-product_attribute-read,default-workspace,superadmin-001,superadmin-001,Product Attribute: Read,product_attribute:read,PERMISSION_TYPE_ALLOW,true
+perm-product_attribute-update,default-workspace,superadmin-001,superadmin-001,Product Attribute: Update,product_attribute:update,PERMISSION_TYPE_ALLOW,true
+perm-product_attribute-delete,default-workspace,superadmin-001,superadmin-001,Product Attribute: Delete,product_attribute:delete,PERMISSION_TYPE_ALLOW,true
+perm-product_attribute-list,default-workspace,superadmin-001,superadmin-001,Product Attribute: List,product_attribute:list,PERMISSION_TYPE_ALLOW,true
+perm-product_collection-create,default-workspace,superadmin-001,superadmin-001,Product Collection: Create,product_collection:create,PERMISSION_TYPE_ALLOW,true
+perm-product_collection-read,default-workspace,superadmin-001,superadmin-001,Product Collection: Read,product_collection:read,PERMISSION_TYPE_ALLOW,true
+perm-product_collection-update,default-workspace,superadmin-001,superadmin-001,Product Collection: Update,product_collection:update,PERMISSION_TYPE_ALLOW,true
+perm-product_collection-delete,default-workspace,superadmin-001,superadmin-001,Product Collection: Delete,product_collection:delete,PERMISSION_TYPE_ALLOW,true
+perm-product_collection-list,default-workspace,superadmin-001,superadmin-001,Product Collection: List,product_collection:list,PERMISSION_TYPE_ALLOW,true
+perm-product_option-create,default-workspace,superadmin-001,superadmin-001,Product Option: Create,product_option:create,PERMISSION_TYPE_ALLOW,true
+perm-product_option-read,default-workspace,superadmin-001,superadmin-001,Product Option: Read,product_option:read,PERMISSION_TYPE_ALLOW,true
+perm-product_option-update,default-workspace,superadmin-001,superadmin-001,Product Option: Update,product_option:update,PERMISSION_TYPE_ALLOW,true
+perm-product_option-delete,default-workspace,superadmin-001,superadmin-001,Product Option: Delete,product_option:delete,PERMISSION_TYPE_ALLOW,true
+perm-product_option-list,default-workspace,superadmin-001,superadmin-001,Product Option: List,product_option:list,PERMISSION_TYPE_ALLOW,true
+perm-product_option_value-create,default-workspace,superadmin-001,superadmin-001,Product Option Value: Create,product_option_value:create,PERMISSION_TYPE_ALLOW,true
+perm-product_option_value-read,default-workspace,superadmin-001,superadmin-001,Product Option Value: Read,product_option_value:read,PERMISSION_TYPE_ALLOW,true
+perm-product_option_value-update,default-workspace,superadmin-001,superadmin-001,Product Option Value: Update,product_option_value:update,PERMISSION_TYPE_ALLOW,true
+perm-product_option_value-delete,default-workspace,superadmin-001,superadmin-001,Product Option Value: Delete,product_option_value:delete,PERMISSION_TYPE_ALLOW,true
+perm-product_option_value-list,default-workspace,superadmin-001,superadmin-001,Product Option Value: List,product_option_value:list,PERMISSION_TYPE_ALLOW,true
+perm-product_plan-create,default-workspace,superadmin-001,superadmin-001,Product Plan: Create,product_plan:create,PERMISSION_TYPE_ALLOW,true
+perm-product_plan-read,default-workspace,superadmin-001,superadmin-001,Product Plan: Read,product_plan:read,PERMISSION_TYPE_ALLOW,true
+perm-product_plan-update,default-workspace,superadmin-001,superadmin-001,Product Plan: Update,product_plan:update,PERMISSION_TYPE_ALLOW,true
+perm-product_plan-delete,default-workspace,superadmin-001,superadmin-001,Product Plan: Delete,product_plan:delete,PERMISSION_TYPE_ALLOW,true
+perm-product_plan-list,default-workspace,superadmin-001,superadmin-001,Product Plan: List,product_plan:list,PERMISSION_TYPE_ALLOW,true
+perm-product_variant-create,default-workspace,superadmin-001,superadmin-001,Product Variant: Create,product_variant:create,PERMISSION_TYPE_ALLOW,true
+perm-product_variant-read,default-workspace,superadmin-001,superadmin-001,Product Variant: Read,product_variant:read,PERMISSION_TYPE_ALLOW,true
+perm-product_variant-update,default-workspace,superadmin-001,superadmin-001,Product Variant: Update,product_variant:update,PERMISSION_TYPE_ALLOW,true
+perm-product_variant-delete,default-workspace,superadmin-001,superadmin-001,Product Variant: Delete,product_variant:delete,PERMISSION_TYPE_ALLOW,true
+perm-product_variant-list,default-workspace,superadmin-001,superadmin-001,Product Variant: List,product_variant:list,PERMISSION_TYPE_ALLOW,true
+perm-product_variant_image-create,default-workspace,superadmin-001,superadmin-001,Product Variant Image: Create,product_variant_image:create,PERMISSION_TYPE_ALLOW,true
+perm-product_variant_image-read,default-workspace,superadmin-001,superadmin-001,Product Variant Image: Read,product_variant_image:read,PERMISSION_TYPE_ALLOW,true
+perm-product_variant_image-update,default-workspace,superadmin-001,superadmin-001,Product Variant Image: Update,product_variant_image:update,PERMISSION_TYPE_ALLOW,true
+perm-product_variant_image-delete,default-workspace,superadmin-001,superadmin-001,Product Variant Image: Delete,product_variant_image:delete,PERMISSION_TYPE_ALLOW,true
+perm-product_variant_image-list,default-workspace,superadmin-001,superadmin-001,Product Variant Image: List,product_variant_image:list,PERMISSION_TYPE_ALLOW,true
+perm-product_variant_option-create,default-workspace,superadmin-001,superadmin-001,Product Variant Option: Create,product_variant_option:create,PERMISSION_TYPE_ALLOW,true
+perm-product_variant_option-read,default-workspace,superadmin-001,superadmin-001,Product Variant Option: Read,product_variant_option:read,PERMISSION_TYPE_ALLOW,true
+perm-product_variant_option-update,default-workspace,superadmin-001,superadmin-001,Product Variant Option: Update,product_variant_option:update,PERMISSION_TYPE_ALLOW,true
+perm-product_variant_option-delete,default-workspace,superadmin-001,superadmin-001,Product Variant Option: Delete,product_variant_option:delete,PERMISSION_TYPE_ALLOW,true
+perm-product_variant_option-list,default-workspace,superadmin-001,superadmin-001,Product Variant Option: List,product_variant_option:list,PERMISSION_TYPE_ALLOW,true
+perm-resource-create,default-workspace,superadmin-001,superadmin-001,Resource: Create,resource:create,PERMISSION_TYPE_ALLOW,true
+perm-resource-read,default-workspace,superadmin-001,superadmin-001,Resource: Read,resource:read,PERMISSION_TYPE_ALLOW,true
+perm-resource-update,default-workspace,superadmin-001,superadmin-001,Resource: Update,resource:update,PERMISSION_TYPE_ALLOW,true
+perm-resource-delete,default-workspace,superadmin-001,superadmin-001,Resource: Delete,resource:delete,PERMISSION_TYPE_ALLOW,true
+perm-resource-list,default-workspace,superadmin-001,superadmin-001,Resource: List,resource:list,PERMISSION_TYPE_ALLOW,true
+perm-record-create,default-workspace,superadmin-001,superadmin-001,Record: Create,record:create,PERMISSION_TYPE_ALLOW,true
+perm-record-read,default-workspace,superadmin-001,superadmin-001,Record: Read,record:read,PERMISSION_TYPE_ALLOW,true
+perm-record-update,default-workspace,superadmin-001,superadmin-001,Record: Update,record:update,PERMISSION_TYPE_ALLOW,true
+perm-record-delete,default-workspace,superadmin-001,superadmin-001,Record: Delete,record:delete,PERMISSION_TYPE_ALLOW,true
+perm-record-list,default-workspace,superadmin-001,superadmin-001,Record: List,record:list,PERMISSION_TYPE_ALLOW,true
+perm-balance-create,default-workspace,superadmin-001,superadmin-001,Balance: Create,balance:create,PERMISSION_TYPE_ALLOW,true
+perm-balance-read,default-workspace,superadmin-001,superadmin-001,Balance: Read,balance:read,PERMISSION_TYPE_ALLOW,true
+perm-balance-update,default-workspace,superadmin-001,superadmin-001,Balance: Update,balance:update,PERMISSION_TYPE_ALLOW,true
+perm-balance-delete,default-workspace,superadmin-001,superadmin-001,Balance: Delete,balance:delete,PERMISSION_TYPE_ALLOW,true
+perm-balance-list,default-workspace,superadmin-001,superadmin-001,Balance: List,balance:list,PERMISSION_TYPE_ALLOW,true
+perm-balance_attribute-create,default-workspace,superadmin-001,superadmin-001,Balance Attribute: Create,balance_attribute:create,PERMISSION_TYPE_ALLOW,true
+perm-balance_attribute-read,default-workspace,superadmin-001,superadmin-001,Balance Attribute: Read,balance_attribute:read,PERMISSION_TYPE_ALLOW,true
+perm-balance_attribute-update,default-workspace,superadmin-001,superadmin-001,Balance Attribute: Update,balance_attribute:update,PERMISSION_TYPE_ALLOW,true
+perm-balance_attribute-delete,default-workspace,superadmin-001,superadmin-001,Balance Attribute: Delete,balance_attribute:delete,PERMISSION_TYPE_ALLOW,true
+perm-balance_attribute-list,default-workspace,superadmin-001,superadmin-001,Balance Attribute: List,balance_attribute:list,PERMISSION_TYPE_ALLOW,true
+perm-invoice-create,default-workspace,superadmin-001,superadmin-001,Invoice: Create,invoice:create,PERMISSION_TYPE_ALLOW,true
+perm-invoice-read,default-workspace,superadmin-001,superadmin-001,Invoice: Read,invoice:read,PERMISSION_TYPE_ALLOW,true
+perm-invoice-update,default-workspace,superadmin-001,superadmin-001,Invoice: Update,invoice:update,PERMISSION_TYPE_ALLOW,true
+perm-invoice-delete,default-workspace,superadmin-001,superadmin-001,Invoice: Delete,invoice:delete,PERMISSION_TYPE_ALLOW,true
+perm-invoice-list,default-workspace,superadmin-001,superadmin-001,Invoice: List,invoice:list,PERMISSION_TYPE_ALLOW,true
+perm-invoice_attribute-create,default-workspace,superadmin-001,superadmin-001,Invoice Attribute: Create,invoice_attribute:create,PERMISSION_TYPE_ALLOW,true
+perm-invoice_attribute-read,default-workspace,superadmin-001,superadmin-001,Invoice Attribute: Read,invoice_attribute:read,PERMISSION_TYPE_ALLOW,true
+perm-invoice_attribute-update,default-workspace,superadmin-001,superadmin-001,Invoice Attribute: Update,invoice_attribute:update,PERMISSION_TYPE_ALLOW,true
+perm-invoice_attribute-delete,default-workspace,superadmin-001,superadmin-001,Invoice Attribute: Delete,invoice_attribute:delete,PERMISSION_TYPE_ALLOW,true
+perm-invoice_attribute-list,default-workspace,superadmin-001,superadmin-001,Invoice Attribute: List,invoice_attribute:list,PERMISSION_TYPE_ALLOW,true
+perm-license-create,default-workspace,superadmin-001,superadmin-001,License: Create,license:create,PERMISSION_TYPE_ALLOW,true
+perm-license-read,default-workspace,superadmin-001,superadmin-001,License: Read,license:read,PERMISSION_TYPE_ALLOW,true
+perm-license-update,default-workspace,superadmin-001,superadmin-001,License: Update,license:update,PERMISSION_TYPE_ALLOW,true
+perm-license-delete,default-workspace,superadmin-001,superadmin-001,License: Delete,license:delete,PERMISSION_TYPE_ALLOW,true
+perm-license-list,default-workspace,superadmin-001,superadmin-001,License: List,license:list,PERMISSION_TYPE_ALLOW,true
+perm-license_history-create,default-workspace,superadmin-001,superadmin-001,License History: Create,license_history:create,PERMISSION_TYPE_ALLOW,true
+perm-license_history-read,default-workspace,superadmin-001,superadmin-001,License History: Read,license_history:read,PERMISSION_TYPE_ALLOW,true
+perm-license_history-update,default-workspace,superadmin-001,superadmin-001,License History: Update,license_history:update,PERMISSION_TYPE_ALLOW,true
+perm-license_history-delete,default-workspace,superadmin-001,superadmin-001,License History: Delete,license_history:delete,PERMISSION_TYPE_ALLOW,true
+perm-license_history-list,default-workspace,superadmin-001,superadmin-001,License History: List,license_history:list,PERMISSION_TYPE_ALLOW,true
+perm-plan-create,default-workspace,superadmin-001,superadmin-001,Plan: Create,plan:create,PERMISSION_TYPE_ALLOW,true
+perm-plan-read,default-workspace,superadmin-001,superadmin-001,Plan: Read,plan:read,PERMISSION_TYPE_ALLOW,true
+perm-plan-update,default-workspace,superadmin-001,superadmin-001,Plan: Update,plan:update,PERMISSION_TYPE_ALLOW,true
+perm-plan-delete,default-workspace,superadmin-001,superadmin-001,Plan: Delete,plan:delete,PERMISSION_TYPE_ALLOW,true
+perm-plan-list,default-workspace,superadmin-001,superadmin-001,Plan: List,plan:list,PERMISSION_TYPE_ALLOW,true
+perm-plan_attribute-create,default-workspace,superadmin-001,superadmin-001,Plan Attribute: Create,plan_attribute:create,PERMISSION_TYPE_ALLOW,true
+perm-plan_attribute-read,default-workspace,superadmin-001,superadmin-001,Plan Attribute: Read,plan_attribute:read,PERMISSION_TYPE_ALLOW,true
+perm-plan_attribute-update,default-workspace,superadmin-001,superadmin-001,Plan Attribute: Update,plan_attribute:update,PERMISSION_TYPE_ALLOW,true
+perm-plan_attribute-delete,default-workspace,superadmin-001,superadmin-001,Plan Attribute: Delete,plan_attribute:delete,PERMISSION_TYPE_ALLOW,true
+perm-plan_attribute-list,default-workspace,superadmin-001,superadmin-001,Plan Attribute: List,plan_attribute:list,PERMISSION_TYPE_ALLOW,true
+perm-plan_settings-create,default-workspace,superadmin-001,superadmin-001,Plan Settings: Create,plan_settings:create,PERMISSION_TYPE_ALLOW,true
+perm-plan_settings-read,default-workspace,superadmin-001,superadmin-001,Plan Settings: Read,plan_settings:read,PERMISSION_TYPE_ALLOW,true
+perm-plan_settings-update,default-workspace,superadmin-001,superadmin-001,Plan Settings: Update,plan_settings:update,PERMISSION_TYPE_ALLOW,true
+perm-plan_settings-delete,default-workspace,superadmin-001,superadmin-001,Plan Settings: Delete,plan_settings:delete,PERMISSION_TYPE_ALLOW,true
+perm-plan_settings-list,default-workspace,superadmin-001,superadmin-001,Plan Settings: List,plan_settings:list,PERMISSION_TYPE_ALLOW,true
+perm-price_plan-create,default-workspace,superadmin-001,superadmin-001,Price Plan: Create,price_plan:create,PERMISSION_TYPE_ALLOW,true
+perm-price_plan-read,default-workspace,superadmin-001,superadmin-001,Price Plan: Read,price_plan:read,PERMISSION_TYPE_ALLOW,true
+perm-price_plan-update,default-workspace,superadmin-001,superadmin-001,Price Plan: Update,price_plan:update,PERMISSION_TYPE_ALLOW,true
+perm-price_plan-delete,default-workspace,superadmin-001,superadmin-001,Price Plan: Delete,price_plan:delete,PERMISSION_TYPE_ALLOW,true
+perm-price_plan-list,default-workspace,superadmin-001,superadmin-001,Price Plan: List,price_plan:list,PERMISSION_TYPE_ALLOW,true
+perm-subscription-create,default-workspace,superadmin-001,superadmin-001,Subscription: Create,subscription:create,PERMISSION_TYPE_ALLOW,true
+perm-subscription-read,default-workspace,superadmin-001,superadmin-001,Subscription: Read,subscription:read,PERMISSION_TYPE_ALLOW,true
+perm-subscription-update,default-workspace,superadmin-001,superadmin-001,Subscription: Update,subscription:update,PERMISSION_TYPE_ALLOW,true
+perm-subscription-delete,default-workspace,superadmin-001,superadmin-001,Subscription: Delete,subscription:delete,PERMISSION_TYPE_ALLOW,true
+perm-subscription-list,default-workspace,superadmin-001,superadmin-001,Subscription: List,subscription:list,PERMISSION_TYPE_ALLOW,true
+perm-subscription_attribute-create,default-workspace,superadmin-001,superadmin-001,Subscription Attribute: Create,subscription_attribute:create,PERMISSION_TYPE_ALLOW,true
+perm-subscription_attribute-read,default-workspace,superadmin-001,superadmin-001,Subscription Attribute: Read,subscription_attribute:read,PERMISSION_TYPE_ALLOW,true
+perm-subscription_attribute-update,default-workspace,superadmin-001,superadmin-001,Subscription Attribute: Update,subscription_attribute:update,PERMISSION_TYPE_ALLOW,true
+perm-subscription_attribute-delete,default-workspace,superadmin-001,superadmin-001,Subscription Attribute: Delete,subscription_attribute:delete,PERMISSION_TYPE_ALLOW,true
+perm-subscription_attribute-list,default-workspace,superadmin-001,superadmin-001,Subscription Attribute: List,subscription_attribute:list,PERMISSION_TYPE_ALLOW,true
+perm-workflow-create,default-workspace,superadmin-001,superadmin-001,Workflow: Create,workflow:create,PERMISSION_TYPE_ALLOW,true
+perm-workflow-read,default-workspace,superadmin-001,superadmin-001,Workflow: Read,workflow:read,PERMISSION_TYPE_ALLOW,true
+perm-workflow-update,default-workspace,superadmin-001,superadmin-001,Workflow: Update,workflow:update,PERMISSION_TYPE_ALLOW,true
+perm-workflow-delete,default-workspace,superadmin-001,superadmin-001,Workflow: Delete,workflow:delete,PERMISSION_TYPE_ALLOW,true
+perm-workflow-list,default-workspace,superadmin-001,superadmin-001,Workflow: List,workflow:list,PERMISSION_TYPE_ALLOW,true
+perm-workflow_template-create,default-workspace,superadmin-001,superadmin-001,Workflow Template: Create,workflow_template:create,PERMISSION_TYPE_ALLOW,true
+perm-workflow_template-read,default-workspace,superadmin-001,superadmin-001,Workflow Template: Read,workflow_template:read,PERMISSION_TYPE_ALLOW,true
+perm-workflow_template-update,default-workspace,superadmin-001,superadmin-001,Workflow Template: Update,workflow_template:update,PERMISSION_TYPE_ALLOW,true
+perm-workflow_template-delete,default-workspace,superadmin-001,superadmin-001,Workflow Template: Delete,workflow_template:delete,PERMISSION_TYPE_ALLOW,true
+perm-workflow_template-list,default-workspace,superadmin-001,superadmin-001,Workflow Template: List,workflow_template:list,PERMISSION_TYPE_ALLOW,true
+perm-stage-create,default-workspace,superadmin-001,superadmin-001,Stage: Create,stage:create,PERMISSION_TYPE_ALLOW,true
+perm-stage-read,default-workspace,superadmin-001,superadmin-001,Stage: Read,stage:read,PERMISSION_TYPE_ALLOW,true
+perm-stage-update,default-workspace,superadmin-001,superadmin-001,Stage: Update,stage:update,PERMISSION_TYPE_ALLOW,true
+perm-stage-delete,default-workspace,superadmin-001,superadmin-001,Stage: Delete,stage:delete,PERMISSION_TYPE_ALLOW,true
+perm-stage-list,default-workspace,superadmin-001,superadmin-001,Stage: List,stage:list,PERMISSION_TYPE_ALLOW,true
+perm-stage_template-create,default-workspace,superadmin-001,superadmin-001,Stage Template: Create,stage_template:create,PERMISSION_TYPE_ALLOW,true
+perm-stage_template-read,default-workspace,superadmin-001,superadmin-001,Stage Template: Read,stage_template:read,PERMISSION_TYPE_ALLOW,true
+perm-stage_template-update,default-workspace,superadmin-001,superadmin-001,Stage Template: Update,stage_template:update,PERMISSION_TYPE_ALLOW,true
+perm-stage_template-delete,default-workspace,superadmin-001,superadmin-001,Stage Template: Delete,stage_template:delete,PERMISSION_TYPE_ALLOW,true
+perm-stage_template-list,default-workspace,superadmin-001,superadmin-001,Stage Template: List,stage_template:list,PERMISSION_TYPE_ALLOW,true
+perm-activity-create,default-workspace,superadmin-001,superadmin-001,Activity: Create,activity:create,PERMISSION_TYPE_ALLOW,true
+perm-activity-read,default-workspace,superadmin-001,superadmin-001,Activity: Read,activity:read,PERMISSION_TYPE_ALLOW,true
+perm-activity-update,default-workspace,superadmin-001,superadmin-001,Activity: Update,activity:update,PERMISSION_TYPE_ALLOW,true
+perm-activity-delete,default-workspace,superadmin-001,superadmin-001,Activity: Delete,activity:delete,PERMISSION_TYPE_ALLOW,true
+perm-activity-list,default-workspace,superadmin-001,superadmin-001,Activity: List,activity:list,PERMISSION_TYPE_ALLOW,true
+perm-activity_template-create,default-workspace,superadmin-001,superadmin-001,Activity Template: Create,activity_template:create,PERMISSION_TYPE_ALLOW,true
+perm-activity_template-read,default-workspace,superadmin-001,superadmin-001,Activity Template: Read,activity_template:read,PERMISSION_TYPE_ALLOW,true
+perm-activity_template-update,default-workspace,superadmin-001,superadmin-001,Activity Template: Update,activity_template:update,PERMISSION_TYPE_ALLOW,true
+perm-activity_template-delete,default-workspace,superadmin-001,superadmin-001,Activity Template: Delete,activity_template:delete,PERMISSION_TYPE_ALLOW,true
+perm-activity_template-list,default-workspace,superadmin-001,superadmin-001,Activity Template: List,activity_template:list,PERMISSION_TYPE_ALLOW,true
+perm-attribute-create,default-workspace,superadmin-001,superadmin-001,Attribute: Create,attribute:create,PERMISSION_TYPE_ALLOW,true
+perm-attribute-read,default-workspace,superadmin-001,superadmin-001,Attribute: Read,attribute:read,PERMISSION_TYPE_ALLOW,true
+perm-attribute-update,default-workspace,superadmin-001,superadmin-001,Attribute: Update,attribute:update,PERMISSION_TYPE_ALLOW,true
+perm-attribute-delete,default-workspace,superadmin-001,superadmin-001,Attribute: Delete,attribute:delete,PERMISSION_TYPE_ALLOW,true
+perm-attribute-list,default-workspace,superadmin-001,superadmin-001,Attribute: List,attribute:list,PERMISSION_TYPE_ALLOW,true
+perm-asset-create,default-workspace,superadmin-001,superadmin-001,Asset: Create,asset:create,PERMISSION_TYPE_ALLOW,true
+perm-asset-read,default-workspace,superadmin-001,superadmin-001,Asset: Read,asset:read,PERMISSION_TYPE_ALLOW,true
+perm-asset-update,default-workspace,superadmin-001,superadmin-001,Asset: Update,asset:update,PERMISSION_TYPE_ALLOW,true
+perm-asset-delete,default-workspace,superadmin-001,superadmin-001,Asset: Delete,asset:delete,PERMISSION_TYPE_ALLOW,true
+perm-asset-list,default-workspace,superadmin-001,superadmin-001,Asset: List,asset:list,PERMISSION_TYPE_ALLOW,true
+perm-asset_category-create,default-workspace,superadmin-001,superadmin-001,Asset Category: Create,asset_category:create,PERMISSION_TYPE_ALLOW,true
+perm-asset_category-read,default-workspace,superadmin-001,superadmin-001,Asset Category: Read,asset_category:read,PERMISSION_TYPE_ALLOW,true
+perm-asset_category-update,default-workspace,superadmin-001,superadmin-001,Asset Category: Update,asset_category:update,PERMISSION_TYPE_ALLOW,true
+perm-asset_category-delete,default-workspace,superadmin-001,superadmin-001,Asset Category: Delete,asset_category:delete,PERMISSION_TYPE_ALLOW,true
+perm-asset_category-list,default-workspace,superadmin-001,superadmin-001,Asset Category: List,asset_category:list,PERMISSION_TYPE_ALLOW,true
+perm-asset_attribute-create,default-workspace,superadmin-001,superadmin-001,Asset Attribute: Create,asset_attribute:create,PERMISSION_TYPE_ALLOW,true
+perm-asset_attribute-read,default-workspace,superadmin-001,superadmin-001,Asset Attribute: Read,asset_attribute:read,PERMISSION_TYPE_ALLOW,true
+perm-asset_attribute-update,default-workspace,superadmin-001,superadmin-001,Asset Attribute: Update,asset_attribute:update,PERMISSION_TYPE_ALLOW,true
+perm-asset_attribute-delete,default-workspace,superadmin-001,superadmin-001,Asset Attribute: Delete,asset_attribute:delete,PERMISSION_TYPE_ALLOW,true
+perm-asset_attribute-list,default-workspace,superadmin-001,superadmin-001,Asset Attribute: List,asset_attribute:list,PERMISSION_TYPE_ALLOW,true
+perm-asset_location-create,default-workspace,superadmin-001,superadmin-001,Asset Location: Create,asset_location:create,PERMISSION_TYPE_ALLOW,true
+perm-asset_location-read,default-workspace,superadmin-001,superadmin-001,Asset Location: Read,asset_location:read,PERMISSION_TYPE_ALLOW,true
+perm-asset_location-update,default-workspace,superadmin-001,superadmin-001,Asset Location: Update,asset_location:update,PERMISSION_TYPE_ALLOW,true
+perm-asset_location-delete,default-workspace,superadmin-001,superadmin-001,Asset Location: Delete,asset_location:delete,PERMISSION_TYPE_ALLOW,true
+perm-asset_location-list,default-workspace,superadmin-001,superadmin-001,Asset Location: List,asset_location:list,PERMISSION_TYPE_ALLOW,true
+perm-depreciation_schedule-create,default-workspace,superadmin-001,superadmin-001,Depreciation Schedule: Create,depreciation_schedule:create,PERMISSION_TYPE_ALLOW,true
+perm-depreciation_schedule-read,default-workspace,superadmin-001,superadmin-001,Depreciation Schedule: Read,depreciation_schedule:read,PERMISSION_TYPE_ALLOW,true
+perm-depreciation_schedule-update,default-workspace,superadmin-001,superadmin-001,Depreciation Schedule: Update,depreciation_schedule:update,PERMISSION_TYPE_ALLOW,true
+perm-depreciation_schedule-delete,default-workspace,superadmin-001,superadmin-001,Depreciation Schedule: Delete,depreciation_schedule:delete,PERMISSION_TYPE_ALLOW,true
+perm-depreciation_schedule-list,default-workspace,superadmin-001,superadmin-001,Depreciation Schedule: List,depreciation_schedule:list,PERMISSION_TYPE_ALLOW,true
+perm-asset_transaction-create,default-workspace,superadmin-001,superadmin-001,Asset Transaction: Create,asset_transaction:create,PERMISSION_TYPE_ALLOW,true
+perm-asset_transaction-read,default-workspace,superadmin-001,superadmin-001,Asset Transaction: Read,asset_transaction:read,PERMISSION_TYPE_ALLOW,true
+perm-asset_transaction-update,default-workspace,superadmin-001,superadmin-001,Asset Transaction: Update,asset_transaction:update,PERMISSION_TYPE_ALLOW,true
+perm-asset_transaction-delete,default-workspace,superadmin-001,superadmin-001,Asset Transaction: Delete,asset_transaction:delete,PERMISSION_TYPE_ALLOW,true
+perm-asset_transaction-list,default-workspace,superadmin-001,superadmin-001,Asset Transaction: List,asset_transaction:list,PERMISSION_TYPE_ALLOW,true
+perm-asset_disposal-create,default-workspace,superadmin-001,superadmin-001,Asset Disposal: Create,asset_disposal:create,PERMISSION_TYPE_ALLOW,true
+perm-asset_disposal-read,default-workspace,superadmin-001,superadmin-001,Asset Disposal: Read,asset_disposal:read,PERMISSION_TYPE_ALLOW,true
+perm-asset_disposal-update,default-workspace,superadmin-001,superadmin-001,Asset Disposal: Update,asset_disposal:update,PERMISSION_TYPE_ALLOW,true
+perm-asset_disposal-delete,default-workspace,superadmin-001,superadmin-001,Asset Disposal: Delete,asset_disposal:delete,PERMISSION_TYPE_ALLOW,true
+perm-asset_disposal-list,default-workspace,superadmin-001,superadmin-001,Asset Disposal: List,asset_disposal:list,PERMISSION_TYPE_ALLOW,true
+perm-asset_revaluation-create,default-workspace,superadmin-001,superadmin-001,Asset Revaluation: Create,asset_revaluation:create,PERMISSION_TYPE_ALLOW,true
+perm-asset_revaluation-read,default-workspace,superadmin-001,superadmin-001,Asset Revaluation: Read,asset_revaluation:read,PERMISSION_TYPE_ALLOW,true
+perm-asset_revaluation-update,default-workspace,superadmin-001,superadmin-001,Asset Revaluation: Update,asset_revaluation:update,PERMISSION_TYPE_ALLOW,true
+perm-asset_revaluation-delete,default-workspace,superadmin-001,superadmin-001,Asset Revaluation: Delete,asset_revaluation:delete,PERMISSION_TYPE_ALLOW,true
+perm-asset_revaluation-list,default-workspace,superadmin-001,superadmin-001,Asset Revaluation: List,asset_revaluation:list,PERMISSION_TYPE_ALLOW,true
+perm-asset_maintenance-create,default-workspace,superadmin-001,superadmin-001,Asset Maintenance: Create,asset_maintenance:create,PERMISSION_TYPE_ALLOW,true
+perm-asset_maintenance-read,default-workspace,superadmin-001,superadmin-001,Asset Maintenance: Read,asset_maintenance:read,PERMISSION_TYPE_ALLOW,true
+perm-asset_maintenance-update,default-workspace,superadmin-001,superadmin-001,Asset Maintenance: Update,asset_maintenance:update,PERMISSION_TYPE_ALLOW,true
+perm-asset_maintenance-delete,default-workspace,superadmin-001,superadmin-001,Asset Maintenance: Delete,asset_maintenance:delete,PERMISSION_TYPE_ALLOW,true
+perm-asset_maintenance-list,default-workspace,superadmin-001,superadmin-001,Asset Maintenance: List,asset_maintenance:list,PERMISSION_TYPE_ALLOW,true
+perm-asset_component-create,default-workspace,superadmin-001,superadmin-001,Asset Component: Create,asset_component:create,PERMISSION_TYPE_ALLOW,true
+perm-asset_component-read,default-workspace,superadmin-001,superadmin-001,Asset Component: Read,asset_component:read,PERMISSION_TYPE_ALLOW,true
+perm-asset_component-update,default-workspace,superadmin-001,superadmin-001,Asset Component: Update,asset_component:update,PERMISSION_TYPE_ALLOW,true
+perm-asset_component-delete,default-workspace,superadmin-001,superadmin-001,Asset Component: Delete,asset_component:delete,PERMISSION_TYPE_ALLOW,true
+perm-asset_component-list,default-workspace,superadmin-001,superadmin-001,Asset Component: List,asset_component:list,PERMISSION_TYPE_ALLOW,true
+perm-supplier-create,default-workspace,superadmin-001,superadmin-001,Supplier: Create,supplier:create,PERMISSION_TYPE_ALLOW,true
+perm-supplier-read,default-workspace,superadmin-001,superadmin-001,Supplier: Read,supplier:read,PERMISSION_TYPE_ALLOW,true
+perm-supplier-update,default-workspace,superadmin-001,superadmin-001,Supplier: Update,supplier:update,PERMISSION_TYPE_ALLOW,true
+perm-supplier-delete,default-workspace,superadmin-001,superadmin-001,Supplier: Delete,supplier:delete,PERMISSION_TYPE_ALLOW,true
+perm-supplier-list,default-workspace,superadmin-001,superadmin-001,Supplier: List,supplier:list,PERMISSION_TYPE_ALLOW,true
+perm-supplier_category-create,default-workspace,superadmin-001,superadmin-001,Supplier Category: Create,supplier_category:create,PERMISSION_TYPE_ALLOW,true
+perm-supplier_category-read,default-workspace,superadmin-001,superadmin-001,Supplier Category: Read,supplier_category:read,PERMISSION_TYPE_ALLOW,true
+perm-supplier_category-update,default-workspace,superadmin-001,superadmin-001,Supplier Category: Update,supplier_category:update,PERMISSION_TYPE_ALLOW,true
+perm-supplier_category-delete,default-workspace,superadmin-001,superadmin-001,Supplier Category: Delete,supplier_category:delete,PERMISSION_TYPE_ALLOW,true
+perm-supplier_category-list,default-workspace,superadmin-001,superadmin-001,Supplier Category: List,supplier_category:list,PERMISSION_TYPE_ALLOW,true
+perm-supplier_attribute-create,default-workspace,superadmin-001,superadmin-001,Supplier Attribute: Create,supplier_attribute:create,PERMISSION_TYPE_ALLOW,true
+perm-supplier_attribute-read,default-workspace,superadmin-001,superadmin-001,Supplier Attribute: Read,supplier_attribute:read,PERMISSION_TYPE_ALLOW,true
+perm-supplier_attribute-update,default-workspace,superadmin-001,superadmin-001,Supplier Attribute: Update,supplier_attribute:update,PERMISSION_TYPE_ALLOW,true
+perm-supplier_attribute-delete,default-workspace,superadmin-001,superadmin-001,Supplier Attribute: Delete,supplier_attribute:delete,PERMISSION_TYPE_ALLOW,true
+perm-supplier_attribute-list,default-workspace,superadmin-001,superadmin-001,Supplier Attribute: List,supplier_attribute:list,PERMISSION_TYPE_ALLOW,true
+perm-service-create,default-workspace,superadmin-001,superadmin-001,Service: Create,service:create,PERMISSION_TYPE_ALLOW,true
+perm-service-read,default-workspace,superadmin-001,superadmin-001,Service: Read,service:read,PERMISSION_TYPE_ALLOW,true
+perm-service-update,default-workspace,superadmin-001,superadmin-001,Service: Update,service:update,PERMISSION_TYPE_ALLOW,true
+perm-service-delete,default-workspace,superadmin-001,superadmin-001,Service: Delete,service:delete,PERMISSION_TYPE_ALLOW,true
+perm-service-list,default-workspace,superadmin-001,superadmin-001,Service: List,service:list,PERMISSION_TYPE_ALLOW,true
+perm-purchase-create,default-workspace,superadmin-001,superadmin-001,Purchase: Create,purchase:create,PERMISSION_TYPE_ALLOW,true
+perm-purchase-read,default-workspace,superadmin-001,superadmin-001,Purchase: Read,purchase:read,PERMISSION_TYPE_ALLOW,true
+perm-purchase-update,default-workspace,superadmin-001,superadmin-001,Purchase: Update,purchase:update,PERMISSION_TYPE_ALLOW,true
+perm-purchase-delete,default-workspace,superadmin-001,superadmin-001,Purchase: Delete,purchase:delete,PERMISSION_TYPE_ALLOW,true
+perm-purchase-list,default-workspace,superadmin-001,superadmin-001,Purchase: List,purchase:list,PERMISSION_TYPE_ALLOW,true
+perm-expense-create,default-workspace,superadmin-001,superadmin-001,Expense: Create,expense:create,PERMISSION_TYPE_ALLOW,true
+perm-expense-read,default-workspace,superadmin-001,superadmin-001,Expense: Read,expense:read,PERMISSION_TYPE_ALLOW,true
+perm-expense-update,default-workspace,superadmin-001,superadmin-001,Expense: Update,expense:update,PERMISSION_TYPE_ALLOW,true
+perm-expense-delete,default-workspace,superadmin-001,superadmin-001,Expense: Delete,expense:delete,PERMISSION_TYPE_ALLOW,true
+perm-expense-list,default-workspace,superadmin-001,superadmin-001,Expense: List,expense:list,PERMISSION_TYPE_ALLOW,true
+perm-job-create,default-workspace,superadmin-001,superadmin-001,Job: Create,job:create,PERMISSION_TYPE_ALLOW,true
+perm-job-read,default-workspace,superadmin-001,superadmin-001,Job: Read,job:read,PERMISSION_TYPE_ALLOW,true
+perm-job-update,default-workspace,superadmin-001,superadmin-001,Job: Update,job:update,PERMISSION_TYPE_ALLOW,true
+perm-job-delete,default-workspace,superadmin-001,superadmin-001,Job: Delete,job:delete,PERMISSION_TYPE_ALLOW,true
+perm-job-list,default-workspace,superadmin-001,superadmin-001,Job: List,job:list,PERMISSION_TYPE_ALLOW,true
+perm-job_template-create,default-workspace,superadmin-001,superadmin-001,Job Template: Create,job_template:create,PERMISSION_TYPE_ALLOW,true
+perm-job_template-read,default-workspace,superadmin-001,superadmin-001,Job Template: Read,job_template:read,PERMISSION_TYPE_ALLOW,true
+perm-job_template-update,default-workspace,superadmin-001,superadmin-001,Job Template: Update,job_template:update,PERMISSION_TYPE_ALLOW,true
+perm-job_template-delete,default-workspace,superadmin-001,superadmin-001,Job Template: Delete,job_template:delete,PERMISSION_TYPE_ALLOW,true
+perm-job_template-list,default-workspace,superadmin-001,superadmin-001,Job Template: List,job_template:list,PERMISSION_TYPE_ALLOW,true
+perm-job_activity-create,default-workspace,superadmin-001,superadmin-001,Job Activity: Create,job_activity:create,PERMISSION_TYPE_ALLOW,true
+perm-job_activity-read,default-workspace,superadmin-001,superadmin-001,Job Activity: Read,job_activity:read,PERMISSION_TYPE_ALLOW,true
+perm-job_activity-update,default-workspace,superadmin-001,superadmin-001,Job Activity: Update,job_activity:update,PERMISSION_TYPE_ALLOW,true
+perm-job_activity-delete,default-workspace,superadmin-001,superadmin-001,Job Activity: Delete,job_activity:delete,PERMISSION_TYPE_ALLOW,true
+perm-job_activity-list,default-workspace,superadmin-001,superadmin-001,Job Activity: List,job_activity:list,PERMISSION_TYPE_ALLOW,true
+perm-fulfillment-create,default-workspace,superadmin-001,superadmin-001,Fulfillment: Create,fulfillment:create,PERMISSION_TYPE_ALLOW,true
+perm-fulfillment-read,default-workspace,superadmin-001,superadmin-001,Fulfillment: Read,fulfillment:read,PERMISSION_TYPE_ALLOW,true
+perm-fulfillment-update,default-workspace,superadmin-001,superadmin-001,Fulfillment: Update,fulfillment:update,PERMISSION_TYPE_ALLOW,true
+perm-fulfillment-delete,default-workspace,superadmin-001,superadmin-001,Fulfillment: Delete,fulfillment:delete,PERMISSION_TYPE_ALLOW,true
+perm-fulfillment-list,default-workspace,superadmin-001,superadmin-001,Fulfillment: List,fulfillment:list,PERMISSION_TYPE_ALLOW,true
+perm-outcome_criteria-create,default-workspace,superadmin-001,superadmin-001,Outcome Criteria: Create,outcome_criteria:create,PERMISSION_TYPE_ALLOW,true
+perm-outcome_criteria-read,default-workspace,superadmin-001,superadmin-001,Outcome Criteria: Read,outcome_criteria:read,PERMISSION_TYPE_ALLOW,true
+perm-outcome_criteria-update,default-workspace,superadmin-001,superadmin-001,Outcome Criteria: Update,outcome_criteria:update,PERMISSION_TYPE_ALLOW,true
+perm-outcome_criteria-delete,default-workspace,superadmin-001,superadmin-001,Outcome Criteria: Delete,outcome_criteria:delete,PERMISSION_TYPE_ALLOW,true
+perm-outcome_criteria-list,default-workspace,superadmin-001,superadmin-001,Outcome Criteria: List,outcome_criteria:list,PERMISSION_TYPE_ALLOW,true
+perm-criteria_threshold-create,default-workspace,superadmin-001,superadmin-001,Criteria Threshold: Create,criteria_threshold:create,PERMISSION_TYPE_ALLOW,true
+perm-criteria_threshold-read,default-workspace,superadmin-001,superadmin-001,Criteria Threshold: Read,criteria_threshold:read,PERMISSION_TYPE_ALLOW,true
+perm-criteria_threshold-update,default-workspace,superadmin-001,superadmin-001,Criteria Threshold: Update,criteria_threshold:update,PERMISSION_TYPE_ALLOW,true
+perm-criteria_threshold-delete,default-workspace,superadmin-001,superadmin-001,Criteria Threshold: Delete,criteria_threshold:delete,PERMISSION_TYPE_ALLOW,true
+perm-criteria_threshold-list,default-workspace,superadmin-001,superadmin-001,Criteria Threshold: List,criteria_threshold:list,PERMISSION_TYPE_ALLOW,true
+perm-criteria_option-create,default-workspace,superadmin-001,superadmin-001,Criteria Option: Create,criteria_option:create,PERMISSION_TYPE_ALLOW,true
+perm-criteria_option-read,default-workspace,superadmin-001,superadmin-001,Criteria Option: Read,criteria_option:read,PERMISSION_TYPE_ALLOW,true
+perm-criteria_option-update,default-workspace,superadmin-001,superadmin-001,Criteria Option: Update,criteria_option:update,PERMISSION_TYPE_ALLOW,true
+perm-criteria_option-delete,default-workspace,superadmin-001,superadmin-001,Criteria Option: Delete,criteria_option:delete,PERMISSION_TYPE_ALLOW,true
+perm-criteria_option-list,default-workspace,superadmin-001,superadmin-001,Criteria Option: List,criteria_option:list,PERMISSION_TYPE_ALLOW,true
+perm-template_task_criteria-create,default-workspace,superadmin-001,superadmin-001,Template Task Criteria: Create,template_task_criteria:create,PERMISSION_TYPE_ALLOW,true
+perm-template_task_criteria-read,default-workspace,superadmin-001,superadmin-001,Template Task Criteria: Read,template_task_criteria:read,PERMISSION_TYPE_ALLOW,true
+perm-template_task_criteria-update,default-workspace,superadmin-001,superadmin-001,Template Task Criteria: Update,template_task_criteria:update,PERMISSION_TYPE_ALLOW,true
+perm-template_task_criteria-delete,default-workspace,superadmin-001,superadmin-001,Template Task Criteria: Delete,template_task_criteria:delete,PERMISSION_TYPE_ALLOW,true
+perm-template_task_criteria-list,default-workspace,superadmin-001,superadmin-001,Template Task Criteria: List,template_task_criteria:list,PERMISSION_TYPE_ALLOW,true
+perm-task_outcome-create,default-workspace,superadmin-001,superadmin-001,Task Outcome: Create,task_outcome:create,PERMISSION_TYPE_ALLOW,true
+perm-task_outcome-read,default-workspace,superadmin-001,superadmin-001,Task Outcome: Read,task_outcome:read,PERMISSION_TYPE_ALLOW,true
+perm-task_outcome-update,default-workspace,superadmin-001,superadmin-001,Task Outcome: Update,task_outcome:update,PERMISSION_TYPE_ALLOW,true
+perm-task_outcome-delete,default-workspace,superadmin-001,superadmin-001,Task Outcome: Delete,task_outcome:delete,PERMISSION_TYPE_ALLOW,true
+perm-task_outcome-list,default-workspace,superadmin-001,superadmin-001,Task Outcome: List,task_outcome:list,PERMISSION_TYPE_ALLOW,true
+perm-task_outcome_check-create,default-workspace,superadmin-001,superadmin-001,Task Outcome Check: Create,task_outcome_check:create,PERMISSION_TYPE_ALLOW,true
+perm-task_outcome_check-read,default-workspace,superadmin-001,superadmin-001,Task Outcome Check: Read,task_outcome_check:read,PERMISSION_TYPE_ALLOW,true
+perm-task_outcome_check-update,default-workspace,superadmin-001,superadmin-001,Task Outcome Check: Update,task_outcome_check:update,PERMISSION_TYPE_ALLOW,true
+perm-task_outcome_check-delete,default-workspace,superadmin-001,superadmin-001,Task Outcome Check: Delete,task_outcome_check:delete,PERMISSION_TYPE_ALLOW,true
+perm-task_outcome_check-list,default-workspace,superadmin-001,superadmin-001,Task Outcome Check: List,task_outcome_check:list,PERMISSION_TYPE_ALLOW,true
+perm-phase_outcome_summary-create,default-workspace,superadmin-001,superadmin-001,Phase Outcome Summary: Create,phase_outcome_summary:create,PERMISSION_TYPE_ALLOW,true
+perm-phase_outcome_summary-read,default-workspace,superadmin-001,superadmin-001,Phase Outcome Summary: Read,phase_outcome_summary:read,PERMISSION_TYPE_ALLOW,true
+perm-phase_outcome_summary-update,default-workspace,superadmin-001,superadmin-001,Phase Outcome Summary: Update,phase_outcome_summary:update,PERMISSION_TYPE_ALLOW,true
+perm-phase_outcome_summary-delete,default-workspace,superadmin-001,superadmin-001,Phase Outcome Summary: Delete,phase_outcome_summary:delete,PERMISSION_TYPE_ALLOW,true
+perm-phase_outcome_summary-list,default-workspace,superadmin-001,superadmin-001,Phase Outcome Summary: List,phase_outcome_summary:list,PERMISSION_TYPE_ALLOW,true
+perm-job_outcome_summary-create,default-workspace,superadmin-001,superadmin-001,Job Outcome Summary: Create,job_outcome_summary:create,PERMISSION_TYPE_ALLOW,true
+perm-job_outcome_summary-read,default-workspace,superadmin-001,superadmin-001,Job Outcome Summary: Read,job_outcome_summary:read,PERMISSION_TYPE_ALLOW,true
+perm-job_outcome_summary-update,default-workspace,superadmin-001,superadmin-001,Job Outcome Summary: Update,job_outcome_summary:update,PERMISSION_TYPE_ALLOW,true
+perm-job_outcome_summary-delete,default-workspace,superadmin-001,superadmin-001,Job Outcome Summary: Delete,job_outcome_summary:delete,PERMISSION_TYPE_ALLOW,true
+perm-job_outcome_summary-list,default-workspace,superadmin-001,superadmin-001,Job Outcome Summary: List,job_outcome_summary:list,PERMISSION_TYPE_ALLOW,true
+perm-account-create,default-workspace,superadmin-001,superadmin-001,Account: Create,account:create,PERMISSION_TYPE_ALLOW,true
+perm-account-read,default-workspace,superadmin-001,superadmin-001,Account: Read,account:read,PERMISSION_TYPE_ALLOW,true
+perm-account-update,default-workspace,superadmin-001,superadmin-001,Account: Update,account:update,PERMISSION_TYPE_ALLOW,true
+perm-account-delete,default-workspace,superadmin-001,superadmin-001,Account: Delete,account:delete,PERMISSION_TYPE_ALLOW,true
+perm-account-list,default-workspace,superadmin-001,superadmin-001,Account: List,account:list,PERMISSION_TYPE_ALLOW,true
+perm-journal-create,default-workspace,superadmin-001,superadmin-001,Journal: Create,journal:create,PERMISSION_TYPE_ALLOW,true
+perm-journal-read,default-workspace,superadmin-001,superadmin-001,Journal: Read,journal:read,PERMISSION_TYPE_ALLOW,true
+perm-journal-update,default-workspace,superadmin-001,superadmin-001,Journal: Update,journal:update,PERMISSION_TYPE_ALLOW,true
+perm-journal-delete,default-workspace,superadmin-001,superadmin-001,Journal: Delete,journal:delete,PERMISSION_TYPE_ALLOW,true
+perm-journal-list,default-workspace,superadmin-001,superadmin-001,Journal: List,journal:list,PERMISSION_TYPE_ALLOW,true
+perm-period-create,default-workspace,superadmin-001,superadmin-001,Period: Create,period:create,PERMISSION_TYPE_ALLOW,true
+perm-period-read,default-workspace,superadmin-001,superadmin-001,Period: Read,period:read,PERMISSION_TYPE_ALLOW,true
+perm-period-update,default-workspace,superadmin-001,superadmin-001,Period: Update,period:update,PERMISSION_TYPE_ALLOW,true
+perm-period-delete,default-workspace,superadmin-001,superadmin-001,Period: Delete,period:delete,PERMISSION_TYPE_ALLOW,true
+perm-period-list,default-workspace,superadmin-001,superadmin-001,Period: List,period:list,PERMISSION_TYPE_ALLOW,true
+perm-loan-create,default-workspace,superadmin-001,superadmin-001,Loan: Create,loan:create,PERMISSION_TYPE_ALLOW,true
+perm-loan-read,default-workspace,superadmin-001,superadmin-001,Loan: Read,loan:read,PERMISSION_TYPE_ALLOW,true
+perm-loan-update,default-workspace,superadmin-001,superadmin-001,Loan: Update,loan:update,PERMISSION_TYPE_ALLOW,true
+perm-loan-delete,default-workspace,superadmin-001,superadmin-001,Loan: Delete,loan:delete,PERMISSION_TYPE_ALLOW,true
+perm-loan-list,default-workspace,superadmin-001,superadmin-001,Loan: List,loan:list,PERMISSION_TYPE_ALLOW,true
+perm-equity-create,default-workspace,superadmin-001,superadmin-001,Equity: Create,equity:create,PERMISSION_TYPE_ALLOW,true
+perm-equity-read,default-workspace,superadmin-001,superadmin-001,Equity: Read,equity:read,PERMISSION_TYPE_ALLOW,true
+perm-equity-update,default-workspace,superadmin-001,superadmin-001,Equity: Update,equity:update,PERMISSION_TYPE_ALLOW,true
+perm-equity-delete,default-workspace,superadmin-001,superadmin-001,Equity: Delete,equity:delete,PERMISSION_TYPE_ALLOW,true
+perm-equity-list,default-workspace,superadmin-001,superadmin-001,Equity: List,equity:list,PERMISSION_TYPE_ALLOW,true
+perm-payroll-create,default-workspace,superadmin-001,superadmin-001,Payroll: Create,payroll:create,PERMISSION_TYPE_ALLOW,true
+perm-payroll-read,default-workspace,superadmin-001,superadmin-001,Payroll: Read,payroll:read,PERMISSION_TYPE_ALLOW,true
+perm-payroll-update,default-workspace,superadmin-001,superadmin-001,Payroll: Update,payroll:update,PERMISSION_TYPE_ALLOW,true
+perm-payroll-delete,default-workspace,superadmin-001,superadmin-001,Payroll: Delete,payroll:delete,PERMISSION_TYPE_ALLOW,true
+perm-payroll-list,default-workspace,superadmin-001,superadmin-001,Payroll: List,payroll:list,PERMISSION_TYPE_ALLOW,true
+perm-petty_cash-create,default-workspace,superadmin-001,superadmin-001,Petty Cash: Create,petty_cash:create,PERMISSION_TYPE_ALLOW,true
+perm-petty_cash-read,default-workspace,superadmin-001,superadmin-001,Petty Cash: Read,petty_cash:read,PERMISSION_TYPE_ALLOW,true
+perm-petty_cash-update,default-workspace,superadmin-001,superadmin-001,Petty Cash: Update,petty_cash:update,PERMISSION_TYPE_ALLOW,true
+perm-petty_cash-delete,default-workspace,superadmin-001,superadmin-001,Petty Cash: Delete,petty_cash:delete,PERMISSION_TYPE_ALLOW,true
+perm-petty_cash-list,default-workspace,superadmin-001,superadmin-001,Petty Cash: List,petty_cash:list,PERMISSION_TYPE_ALLOW,true
+perm-prepayment-create,default-workspace,superadmin-001,superadmin-001,Prepayment: Create,prepayment:create,PERMISSION_TYPE_ALLOW,true
+perm-prepayment-read,default-workspace,superadmin-001,superadmin-001,Prepayment: Read,prepayment:read,PERMISSION_TYPE_ALLOW,true
+perm-prepayment-update,default-workspace,superadmin-001,superadmin-001,Prepayment: Update,prepayment:update,PERMISSION_TYPE_ALLOW,true
+perm-prepayment-delete,default-workspace,superadmin-001,superadmin-001,Prepayment: Delete,prepayment:delete,PERMISSION_TYPE_ALLOW,true
+perm-prepayment-list,default-workspace,superadmin-001,superadmin-001,Prepayment: List,prepayment:list,PERMISSION_TYPE_ALLOW,true
+perm-deposit-create,default-workspace,superadmin-001,superadmin-001,Deposit: Create,deposit:create,PERMISSION_TYPE_ALLOW,true
+perm-deposit-read,default-workspace,superadmin-001,superadmin-001,Deposit: Read,deposit:read,PERMISSION_TYPE_ALLOW,true
+perm-deposit-update,default-workspace,superadmin-001,superadmin-001,Deposit: Update,deposit:update,PERMISSION_TYPE_ALLOW,true
+perm-deposit-delete,default-workspace,superadmin-001,superadmin-001,Deposit: Delete,deposit:delete,PERMISSION_TYPE_ALLOW,true
+perm-deposit-list,default-workspace,superadmin-001,superadmin-001,Deposit: List,deposit:list,PERMISSION_TYPE_ALLOW,true
+perm-integration_config-create,default-workspace,superadmin-001,superadmin-001,Integration Config: Create,integration_config:create,PERMISSION_TYPE_ALLOW,true
+perm-integration_config-read,default-workspace,superadmin-001,superadmin-001,Integration Config: Read,integration_config:read,PERMISSION_TYPE_ALLOW,true
+perm-integration_config-update,default-workspace,superadmin-001,superadmin-001,Integration Config: Update,integration_config:update,PERMISSION_TYPE_ALLOW,true
+perm-integration_config-delete,default-workspace,superadmin-001,superadmin-001,Integration Config: Delete,integration_config:delete,PERMISSION_TYPE_ALLOW,true
+perm-integration_config-list,default-workspace,superadmin-001,superadmin-001,Integration Config: List,integration_config:list,PERMISSION_TYPE_ALLOW,true
+perm-role_permission-create,default-workspace,superadmin-001,superadmin-001,Role Permission: Create,role_permission:create,PERMISSION_TYPE_ALLOW,true
+perm-role_permission-read,default-workspace,superadmin-001,superadmin-001,Role Permission: Read,role_permission:read,PERMISSION_TYPE_ALLOW,true
+perm-role_permission-delete,default-workspace,superadmin-001,superadmin-001,Role Permission: Delete,role_permission:delete,PERMISSION_TYPE_ALLOW,true
+perm-role_permission-list,default-workspace,superadmin-001,superadmin-001,Role Permission: List,role_permission:list,PERMISSION_TYPE_ALLOW,true
+perm-event_occurrence-read,default-workspace,superadmin-001,superadmin-001,Event Occurrence: Read,event_occurrence:read,PERMISSION_TYPE_ALLOW,true
+perm-event_occurrence-list,default-workspace,superadmin-001,superadmin-001,Event Occurrence: List,event_occurrence:list,PERMISSION_TYPE_ALLOW,true
+perm-fulfillment_return-list,default-workspace,superadmin-001,superadmin-001,Fulfillment Return: List,fulfillment_return:list,PERMISSION_TYPE_ALLOW,true
+perm-fulfillment_return-create,default-workspace,superadmin-001,superadmin-001,Fulfillment Return: Create,fulfillment_return:create,PERMISSION_TYPE_ALLOW,true
+perm-fulfillment_return-read,default-workspace,superadmin-001,superadmin-001,Fulfillment Return: Read,fulfillment_return:read,PERMISSION_TYPE_ALLOW,true
+perm-reports-view,default-workspace,superadmin-001,superadmin-001,Reports: View,reports:view,PERMISSION_TYPE_ALLOW,true
+perm-dashboard-view,default-workspace,superadmin-001,superadmin-001,Dashboard: View,dashboard:view,PERMISSION_TYPE_ALLOW,true
+perm-ledger-view,default-workspace,superadmin-001,superadmin-001,Ledger: View,ledger:view,PERMISSION_TYPE_ALLOW,true
+perm-journal-post,default-workspace,superadmin-001,superadmin-001,Journal: Post,journal:post,PERMISSION_TYPE_ALLOW,true
+perm-journal-post_manual,default-workspace,superadmin-001,superadmin-001,Journal: Post Manual,journal:post_manual,PERMISSION_TYPE_ALLOW,true
+perm-journal-post_manual_approve,default-workspace,superadmin-001,superadmin-001,Journal: Post Manual Approve,journal:post_manual_approve,PERMISSION_TYPE_ALLOW,true
+perm-journal-reverse,default-workspace,superadmin-001,superadmin-001,Journal: Reverse,journal:reverse,PERMISSION_TYPE_ALLOW,true
+perm-period-close,default-workspace,superadmin-001,superadmin-001,Period: Close,period:close,PERMISSION_TYPE_ALLOW,true
+perm-period-reopen,default-workspace,superadmin-001,superadmin-001,Period: Reopen,period:reopen,PERMISSION_TYPE_ALLOW,true
+perm-loan-payment,default-workspace,superadmin-001,superadmin-001,Loan: Payment,loan:payment,PERMISSION_TYPE_ALLOW,true
+perm-petty_cash-replenish,default-workspace,superadmin-001,superadmin-001,Petty Cash: Replenish,petty_cash:replenish,PERMISSION_TYPE_ALLOW,true
+perm-deposit-apply,default-workspace,superadmin-001,superadmin-001,Deposit: Apply,deposit:apply,PERMISSION_TYPE_ALLOW,true
+perm-deposit-refund,default-workspace,superadmin-001,superadmin-001,Deposit: Refund,deposit:refund,PERMISSION_TYPE_ALLOW,true
+perm-bad_debt-configure,default-workspace,superadmin-001,superadmin-001,Bad Debt: Configure,bad_debt:configure,PERMISSION_TYPE_ALLOW,true
+perm-bad_debt-provision,default-workspace,superadmin-001,superadmin-001,Bad Debt: Provision,bad_debt:provision,PERMISSION_TYPE_ALLOW,true
+perm-payroll-approve,default-workspace,superadmin-001,superadmin-001,Payroll: Approve,payroll:approve,PERMISSION_TYPE_ALLOW,true
+perm-payroll-post,default-workspace,superadmin-001,superadmin-001,Payroll: Post,payroll:post,PERMISSION_TYPE_ALLOW,true
+perm-fulfillment-transition,default-workspace,superadmin-001,superadmin-001,Fulfillment: Transition,fulfillment:transition,PERMISSION_TYPE_ALLOW,true
+perm-integration-view,default-workspace,superadmin-001,superadmin-001,Integration: View,integration:view,PERMISSION_TYPE_ALLOW,true
+perm-integration-manage,default-workspace,superadmin-001,superadmin-001,Integration: Manage,integration:manage,PERMISSION_TYPE_ALLOW,true
+perm-audit_trail-read,default-workspace,superadmin-001,superadmin-001,Audit Trail: Read,audit_trail:read,PERMISSION_TYPE_ALLOW,true
+perm-audit_trail-export,default-workspace,superadmin-001,superadmin-001,Audit Trail: Export,audit_trail:export,PERMISSION_TYPE_ALLOW,true

@@ -1,0 +1,22 @@
+id,first_name,last_name,email_address,mobile_number,password_hash,active
+superadmin-001,Super,Admin,admin@ichizen.leapfor.xyz,+639170000000,$2a$10$dummy.hash.for.seed.data.only,true
+user-admin,System,Admin,admin@ichizen.app,+639170000001,$2a$10$dummy.hash.for.seed.data.only,true
+user-staff-01,Mark,Rivera,mark.rivera@ichizen.app,+639170000002,$2a$10$dummy.hash.for.seed.data.only,true
+user-staff-02,Lea,Gonzales,lea.gonzales@ichizen.app,+639170000003,$2a$10$dummy.hash.for.seed.data.only,true
+user-staff-03,Paolo,Reyes,paolo.reyes@ichizen.app,+639170000004,$2a$10$dummy.hash.for.seed.data.only,true
+user-c001,Maria,Santos,maria.santos@email.com,+639171234567,$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy,true
+user-c002,Juan,dela Cruz,juan.delacruz@email.com,+639182345678,$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy,true
+user-c003,Ana,Reyes,ana.reyes@corp.ph,+639193456789,$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy,true
+user-c004,Carlos,Mendoza,carlos.mendoza@email.com,+639204567890,$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy,true
+user-c005,Isabella,Garcia,isabella.garcia@email.com,+639215678901,$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy,true
+user-c006,Miguel,Torres,miguel.torres@email.com,+639226789012,$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy,true
+user-c007,Sofia,Lim,sofia.lim@email.com,+639237890123,$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy,true
+user-c008,Diego,Villanueva,diego.villanueva@email.com,+639248901234,$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy,true
+user-c009,Patricia,Tan,patricia.tan@email.com,+639259012345,$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy,true
+user-c010,Roberto,Cruz,roberto.cruz@email.com,+639260123456,$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy,true
+user-sup-001,L'Oreal,Philippines,loreal-ph@supplier.com,+63281234567,$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy,true
+user-sup-002,Takara,Belmont PH,takara-ph@supplier.com,+63282345678,$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy,true
+user-sup-003,Manila,Water Company,manila-water@supplier.com,+63283456789,$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy,true
+user-sup-004,TechForce,IT Solutions,techforce@supplier.com,+63284567890,$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy,true
+user-sup-005,ProClean,Janitorial,proclean@supplier.com,+63285678901,$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy,true
+user-sup-006,Juan,dela Cruz,juan.electrician@email.com,+639286789012,$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy,true

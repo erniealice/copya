@@ -1,0 +1,8 @@
+id,name,description,code,data_type,module,active
+attr-service-tier,Service Tier,Level of service engagement,service_tier,option,product,true
+attr-engagement-type,Engagement Type,Type of professional engagement,engagement_type,option,product,true
+attr-expertise-area,Expertise Area,Professional domain expertise,expertise_area,option,product,true
+attr-billing-method,Billing Method,How the engagement is billed,billing_method,option,product,true
+attr-certification,Certification,Professional certification held,certification,option,staff,true
+attr-status,Status,General status indicator,status,option,general,true
+attr-priority,Priority,Priority level,priority,option,general,true

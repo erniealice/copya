@@ -1,0 +1,9 @@
+id,entry_number,description,entry_date,status,source_type,source_id,fiscal_period_id,total_debit,total_credit,posted_by,notes,active
+je-001,JE-PRO-2026-001,Revenue - Legal Consultation PRO-2026-001,2026-03-02,POSTED,REVENUE,rev-001,fp-2026-03,750000,750000,user-admin,,true
+je-002,JE-PRO-2026-002,Revenue - Bookkeeping PRO-2026-002,2026-03-01,POSTED,REVENUE,rev-002,fp-2026-03,800000,800000,user-admin,,true
+je-003,JE-PRO-2026-003,Revenue - Business Registration PRO-2026-003,2026-03-03,POSTED,REVENUE,rev-003,fp-2026-03,1500000,1500000,user-admin,,true
+je-004,JE-PRO-2026-004,Revenue - Tax Advisory + Financial Planning PRO-2026-004,2026-03-05,POSTED,REVENUE,rev-004,fp-2026-03,1500000,1500000,user-admin,,true
+je-005,JE-PRO-2026-005,Expenditure - Office Rent March EXP-PRO-2026-001,2026-03-01,POSTED,EXPENDITURE,exp-001,fp-2026-03,8000000,8000000,user-admin,,true
+je-006,JE-PRO-2026-006,Expenditure - Electricity Feb EXP-PRO-2026-002,2026-02-20,POSTED,EXPENDITURE,exp-002,fp-2026-02,1200000,1200000,user-admin,,true
+je-007,JE-PRO-2026-007,Revenue - Contract Drafting PRO-2026-006,2026-03-08,POSTED,REVENUE,rev-006,fp-2026-03,1200000,1200000,user-admin,,true
+je-008,JE-PRO-2026-008,Revenue - Payroll Processing PRO-2026-007,2026-03-01,DRAFT,REVENUE,rev-007,fp-2026-03,600000,600000,,,true

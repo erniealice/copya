@@ -1,0 +1,11 @@
+id,name,description,element,active
+ag-current-assets,Current Assets,Short-term assets expected to be converted within one year,asset,true
+ag-non-current-assets,Non-Current Assets,Long-term assets held beyond one year,asset,true
+ag-current-liabilities,Current Liabilities,Obligations due within one year,liability,true
+ag-non-current-liabilities,Non-Current Liabilities,Long-term obligations beyond one year,liability,true
+ag-equity,Equity,Owner equity and retained earnings,equity,true
+ag-revenue,Revenue,Income from business operations,income,true
+ag-cost-of-sales,Cost of Sales,Direct costs attributable to goods or services sold,expense,true
+ag-operating-expenses,Operating Expenses,Day-to-day business operating costs,expense,true
+ag-other-income,Other Income,Non-operating income items,income,true
+ag-finance-costs,Finance Costs,Interest and borrowing costs,expense,true

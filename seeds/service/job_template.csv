@@ -1,0 +1,5 @@
+id,workspace_id,name,description,default_fulfillment_type,default_cost_flow_type,default_billing_rule_type,active
+jt-001,default-workspace,Standard Service Booking,Walk-in or scheduled single service appointment,STANDARD,,TIME_AND_MATERIALS,true
+jt-002,default-workspace,Package Booking,Multi-service bundled package appointment,STANDARD,,FIXED_PRICE,true
+jt-003,default-workspace,Bridal Package,Full bridal hair and makeup with trial session,STANDARD,,FIXED_PRICE,true
+jt-004,default-workspace,Corporate Event,Group booking for corporate or team building events,STANDARD,,FIXED_PRICE,true

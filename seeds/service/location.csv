@@ -1,0 +1,5 @@
+id,name,address,description,active
+loc-main,Ayala Central Bloc,Cebu Business Park Cardinal Rosales Ave Cebu City,Flagship store at Ayala Central Bloc,true
+loc-branch-01,SM City Cebu,Juan Luna Ave North Reclamation Area Cebu City,SM City Cebu branch,true
+loc-branch-02,Ayala Center Cebu,Archbishop Reyes Ave Cebu Business Park Cebu City,Ayala Center Cebu branch,true
+loc-branch-03,Robinsons Galleria,Gen. Maxilom Ave Cebu City,Robinsons Galleria Cebu branch,true

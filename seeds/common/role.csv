@@ -1,0 +1,7 @@
+id,workspace_id,name,description,color,active
+role-admin,default-workspace,Admin,Full system access,#dc2626,true
+role-people-manager,default-workspace,People Manager,User client and location management,#8b5cf6,true
+role-operations-staff,default-workspace,Operations Staff,Service operations and transactions,#2563eb,true
+role-accounting-staff,default-workspace,Accounting Staff,Financial reporting and read-only access,#16a34a,true
+role-bookkeeper,default-workspace,Bookkeeper,Day-to-day bookkeeping: draft JEs petty cash prepayments,#0891b2,true
+role-accountant,default-workspace,Accountant,Full accounting authority: post guided JEs close periods manage CoA,#059669,true

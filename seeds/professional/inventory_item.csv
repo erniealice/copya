@@ -1,0 +1,11 @@
+id,name,product_id,location_id,sku,quantity_on_hand,quantity_reserved,quantity_available,reorder_level,unit_of_measure,notes,active
+inv-001,Legal Consultation (Main),prod-001,loc-main,PRO-LC-MAIN,999,0,999,0,session,,true
+inv-002,Bookkeeping (Main),prod-006,loc-main,PRO-BK-MAIN,999,0,999,0,session,,true
+inv-003,Tax Advisory (Main),prod-002,loc-main,PRO-TA-MAIN,999,0,999,0,session,,true
+inv-004,Payroll Processing (IT Park),prod-007,loc-branch-02,PRO-PR-ITP,999,0,999,0,session,,true
+inv-005,IT Consulting (IT Park),prod-008,loc-branch-02,PRO-ITC-ITP,999,0,999,0,session,,true
+inv-006,Business Registration (Co-Working),prod-003,loc-branch-01,PRO-BR-CWK,999,0,999,0,session,,true
+inv-007,Contract Drafting (Main),prod-014,loc-main,PRO-CD-MAIN,999,0,999,0,session,,true
+inv-008,Compliance Review (Main),prod-013,loc-main,PRO-CR-MAIN,999,0,999,0,session,,true
+inv-009,Marketing Strategy (Co-Working),prod-009,loc-branch-01,PRO-MS-CWK,999,0,999,0,session,,true
+inv-010,Business Valuation (Main),prod-015,loc-main,PRO-BV-MAIN,999,0,999,0,session,,true

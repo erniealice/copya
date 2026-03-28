@@ -1,0 +1,6 @@
+id,name,provider_name,active
+cash,Cash,,true
+card,Card,,true
+gcash,GCash,gcash,true
+bank_transfer,Bank Transfer,,true
+other,Other,,true

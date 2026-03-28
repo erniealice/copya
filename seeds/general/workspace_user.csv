@@ -1,0 +1,6 @@
+id,workspace_id,user_id,active
+wu-superadmin,default-workspace,superadmin-001,true
+wu-admin,default-workspace,user-admin,true
+wu-staff-01,default-workspace,user-staff-01,true
+wu-staff-02,default-workspace,user-staff-02,true
+wu-staff-03,default-workspace,user-staff-03,true

@@ -1,0 +1,5 @@
+id,name,amount,status,expenditure_id,disbursement_type,currency,reference_number,payment_date,approved_by,active
+td-001,Payment - Salon Products,4500000,completed,exp-001,purchase,PHP,DISB-2026-001,2026-02-05,user-admin,true
+td-002,Payment - Cleaning Supplies,850000,completed,exp-003,purchase,PHP,DISB-2026-002,2026-02-18,user-admin,true
+td-003,Payment - Electricity Feb,1850000,completed,exp-004,expense,PHP,DISB-2026-003,2026-02-20,user-admin,true
+td-004,Payment - Internet Feb,350000,completed,exp-005,expense,PHP,DISB-2026-004,2026-02-15,user-admin,true

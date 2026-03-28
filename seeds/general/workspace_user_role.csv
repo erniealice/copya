@@ -1,0 +1,6 @@
+id,workspace_user_id,role_id,active
+wur-superadmin,wu-superadmin,role-admin,true
+wur-admin,wu-admin,role-admin,true
+wur-staff-01,wu-staff-01,role-operations-staff,true
+wur-staff-02,wu-staff-02,role-operations-staff,true
+wur-staff-03,wu-staff-03,role-accounting-staff,true

@@ -1,0 +1,6 @@
+id,name,description,code,module,parent_id,display_order,active
+cat-revenue,Revenue,Revenue categories,revenue,revenue,,1,true
+cat-expenditure,Expenditure,Expenditure categories,expenditure,expenditure,,2,true
+cat-client,Client,Client categories,client,client,,3,true
+cat-supplier,Supplier,Supplier categories,supplier,supplier,,4,true
+cat-product,Product,Product categories,product,product,,5,true

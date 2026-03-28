@@ -1,0 +1,9 @@
+id,name,description,code,data_type,module,active
+attr-category,Category,Categorization attribute,category,option,product,true
+attr-duration,Duration,Duration of service or item,duration,option,product,true
+attr-level,Level,Skill or tier level,level,option,product,true
+attr-hair-length,Hair Length,Client hair length for pricing,hair_length,option,product,true
+attr-treatment-type,Treatment Type,Type of treatment applied,treatment_type,option,product,true
+attr-staff-specialty,Staff Specialty,Staff area of expertise,staff_specialty,option,staff,true
+attr-status,Status,General status indicator,status,option,general,true
+attr-priority,Priority,Priority level,priority,option,general,true

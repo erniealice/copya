@@ -1,0 +1,7 @@
+id,internal_id,company_name,supplier_type,status,payment_terms,category_id,currency,country,notes,active
+sup-001,SUP-0001,Office Warehouse Cebu,company,active,net_30,supcat-office-supplies,PHP,PH,Primary office supplies and stationery vendor,true
+sup-002,SUP-0002,TechPro IT Services,company,active,net_30,supcat-technology,PHP,PH,IT infrastructure managed services and equipment provider,true
+sup-003,SUP-0003,LBC Express,company,active,immediate,supcat-logistics,PHP,PH,Document courier and logistics services,true
+sup-004,SUP-0004,PrintXpress Cebu,company,active,net_15,supcat-service,PHP,PH,Legal document printing and binding services,true
+sup-005,SUP-0005,LexisNexis Philippines,company,active,net_60,supcat-subscription,PHP,PH,Legal research database and case law subscription,true
+sup-006,SUP-0006,Prudential Guarantee,company,active,net_30,supcat-insurance,PHP,PH,Professional indemnity and office insurance provider,true

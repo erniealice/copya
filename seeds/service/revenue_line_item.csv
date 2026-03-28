@@ -1,0 +1,17 @@
+id,revenue_id,product_id,quantity,unit_price,line_amount,line_item_type,active
+rli-001,rev-001,prod-003,1,250000,250000,service,true
+rli-002,rev-002,prod-001,1,50000,50000,service,true
+rli-003,rev-002,prod-006,1,60000,60000,service,true
+rli-004,rev-003,prod-007,1,120000,120000,service,true
+rli-005,rev-003,prod-008,1,100000,100000,service,true
+rli-006,rev-003,prod-009,1,35000,35000,service,true
+rli-007,rev-004,prod-013,1,500000,500000,service,true
+rli-008,rev-005,prod-009,10,35000,350000,service,true
+rli-009,rev-005,prod-010,10,40000,400000,service,true
+rli-010,rev-006,prod-004,1,180000,180000,service,true
+rli-011,rev-006,prod-005,1,220000,220000,service,true
+rli-012,rev-007,prod-015,1,150000,150000,service,true
+rli-013,rev-008,prod-011,1,80000,80000,service,true
+rli-014,rev-009,prod-001,1,50000,50000,service,true
+rli-015,rev-010,prod-007,1,120000,120000,service,true
+rli-016,rev-010,prod-008,1,100000,100000,service,true

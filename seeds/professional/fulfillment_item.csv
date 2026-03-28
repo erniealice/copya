@@ -1,0 +1,14 @@
+id,fulfillment_id,revenue_line_item_id,product_id,fulfillment_method,quantity_ordered,quantity_delivered,status,notes
+fi-001,ful-001,rli-001,prod-001,IN_STORE,1,1,DELIVERED,Legal consultation session completed
+fi-002,ful-001,rli-012,prod-005,IN_STORE,2,2,DELIVERED,Two documents notarized during consultation
+fi-003,ful-002,rli-002,prod-006,IN_STORE,1,1,DELIVERED,March bookkeeping records completed
+fi-004,ful-003,rli-003,prod-003,IN_STORE,1,1,DELIVERED,SEC and BIR registration processed
+fi-005,ful-003,rli-013,prod-005,IN_STORE,1,1,DELIVERED,Notarization of incorporation documents
+fi-006,ful-004,rli-004,prod-002,IN_STORE,1,1,DELIVERED,Annual tax advisory delivered
+fi-007,ful-004,rli-005,prod-012,IN_STORE,1,1,DELIVERED,Financial planning report delivered
+fi-008,ful-004,rli-016,prod-007,IN_STORE,1,1,DELIVERED,Payroll setup consultation delivered
+fi-009,ful-005,rli-006,prod-008,IN_STORE,1,0,IN_PROGRESS,Network assessment ongoing site visit phase
+fi-010,ful-006,rli-007,prod-014,IN_STORE,1,1,DELIVERED,Contract drafted and reviewed
+fi-011,ful-006,rli-014,prod-005,IN_STORE,1,1,DELIVERED,Contract notarized
+fi-012,ful-007,rli-008,prod-007,IN_STORE,1,1,DELIVERED,Payroll processed for 25 employees
+fi-013,ful-008,rli-009,prod-009,IN_STORE,1,0,PENDING,Marketing strategy kickoff pending

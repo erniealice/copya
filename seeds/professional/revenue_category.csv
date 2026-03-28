@@ -1,0 +1,6 @@
+id,code,name,description,active
+revcat-legal,legal-services,Legal Services,Legal consultation notarial contract drafting and compliance review,true
+revcat-accounting,accounting-services,Accounting Services,Bookkeeping payroll processing audit and financial reporting,true
+revcat-consulting,consulting-services,Consulting Services,Business IT HR and marketing advisory services,true
+revcat-admin,administrative-services,Administrative Services,Business registration document processing and administrative support,true
+revcat-retainer,retainer-fees,Retainer Fees,Monthly or annual retainer engagements for ongoing advisory,true

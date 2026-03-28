@@ -1,0 +1,7 @@
+id,name,description,code,data_type,module,active
+attr-category,Category,Categorization attribute,category,option,product,true
+attr-duration,Duration,Duration of service or item,duration,option,product,true
+attr-level,Level,Skill or tier level,level,option,product,true
+attr-status,Status,General status indicator,status,option,general,true
+attr-priority,Priority,Priority level,priority,option,general,true
+attr-type,Type,Entity type classifier,type,option,general,true

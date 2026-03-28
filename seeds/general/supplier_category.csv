@@ -1,0 +1,10 @@
+id,code,name,description,active
+supcat-product,product-supplier,Product Supplier,Suppliers of consumable products and retail goods,true
+supcat-equipment,equipment-supplier,Equipment Supplier,Suppliers of equipment and furniture,true
+supcat-utilities,utilities,Utilities,Utility service providers,true
+supcat-technology,technology-vendor,Technology Vendor,IT hardware software and infrastructure providers,true
+supcat-service,service-contractor,Service Contractor,Freelance and contracted service providers,true
+supcat-insurance,insurance,Insurance Provider,Business and professional insurance providers,true
+supcat-logistics,logistics,Logistics Provider,Courier delivery and logistics providers,true
+supcat-office-supplies,office-supplies,Office Supplies,Office supply vendors and stationers,true
+supcat-subscription,subscription,Subscription Service,SaaS and recurring subscription providers,true

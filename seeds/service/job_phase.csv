@@ -1,0 +1,17 @@
+id,job_id,name,phase_order,status,active
+jp-001,job-001,Intake,1,COMPLETED,true
+jp-002,job-001,Service Delivery,2,COMPLETED,true
+jp-003,job-001,Checkout,3,COMPLETED,true
+jp-004,job-002,Intake,1,COMPLETED,true
+jp-005,job-002,Service Delivery,2,COMPLETED,true
+jp-006,job-002,Checkout,3,COMPLETED,true
+jp-007,job-003,Intake,1,COMPLETED,true
+jp-008,job-003,Services,2,COMPLETED,true
+jp-009,job-003,Checkout,3,COMPLETED,true
+jp-010,job-004,Consultation,1,COMPLETED,true
+jp-011,job-004,Trial Session,2,IN_PROGRESS,true
+jp-012,job-004,Event Day,3,NOT_STARTED,true
+jp-013,job-004,Checkout,4,NOT_STARTED,true
+jp-014,job-005,Intake,1,COMPLETED,true
+jp-015,job-005,Services,2,IN_PROGRESS,true
+jp-016,job-005,Checkout,3,NOT_STARTED,true

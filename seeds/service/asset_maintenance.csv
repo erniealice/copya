@@ -1,0 +1,6 @@
+id,asset_id,maintenance_type,priority,status,scheduled_date,description,cost,performed_by,notes,active
+am-001,asset-001,PREVENTIVE,MEDIUM,COMPLETED,2026-02-15,Quarterly hydraulic fluid check and lubrication,250000,sup-002,Routine chair maintenance,true
+am-002,asset-004,PREVENTIVE,HIGH,COMPLETED,2026-03-01,Monthly POS software update and hardware check,150000,sup-004,Regular IT maintenance,true
+am-003,asset-007,CORRECTIVE,HIGH,COMPLETED,2026-02-20,Hair dryer heating element replacement,350000,sup-002,Element was overheating,true
+am-004,asset-008,PREVENTIVE,LOW,SCHEDULED,2026-04-01,Backwash station plumbing inspection,100000,,Quarterly plumbing check,true
+am-005,asset-006,INSPECTION,LOW,SCHEDULED,2026-06-01,Annual LED signage inspection,0,,Annual safety check,true

@@ -1,0 +1,11 @@
+id,name,product_id,location_id,sku,quantity_on_hand,quantity_reserved,quantity_available,reorder_level,unit_of_measure,notes,active
+inv-001,Haircut - Standard (Main),prod-001,loc-main,SVC-HC-STD-MAIN,999,0,999,0,session,,true
+inv-002,Hair Rebonding (Main),prod-003,loc-main,SVC-REB-MAIN,999,0,999,0,session,,true
+inv-003,Full Body Massage (Main),prod-007,loc-main,SVC-MAS-MAIN,999,0,999,0,session,,true
+inv-004,Facial Treatment (Main),prod-008,loc-main,SVC-FAC-MAIN,999,0,999,0,session,,true
+inv-005,Manicure (Main),prod-009,loc-main,SVC-MAN-MAIN,999,0,999,0,session,,true
+inv-006,Pedicure (Main),prod-010,loc-main,SVC-PED-MAIN,999,0,999,0,session,,true
+inv-007,Haircut - Standard (SM),prod-001,loc-branch-01,SVC-HC-STD-SM,999,0,999,0,session,,true
+inv-008,Full Body Massage (SM),prod-007,loc-branch-01,SVC-MAS-SM,999,0,999,0,session,,true
+inv-009,Haircut - Standard (Ayala),prod-001,loc-branch-02,SVC-HC-STD-AYA,999,0,999,0,session,,true
+inv-010,Makeup - Bridal (Main),prod-013,loc-main,SVC-MKP-BRD-MAIN,999,0,999,0,session,,true

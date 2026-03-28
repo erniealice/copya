@@ -1,0 +1,6 @@
+id,job_template_id,origin_type,origin_id,client_id,demand_type,fulfillment_type,cost_flow_type,billing_rule_type,status,location_id,workspace_id,created_by,name,active
+job-001,jt-001,DIRECT,,client-001,PROJECT,STANDARD,,TIME_AND_MATERIALS,JOB_STATUS_COMPLETED,loc-main,default-workspace,user-staff-01,Hair Rebonding - Maria Santos,true
+job-002,jt-001,DIRECT,,client-002,PROJECT,STANDARD,,TIME_AND_MATERIALS,JOB_STATUS_COMPLETED,loc-main,default-workspace,user-staff-01,Haircut and Hot Oil - Juan dela Cruz,true
+job-003,jt-002,DIRECT,,client-003,PROJECT,STANDARD,,FIXED_PRICE,JOB_STATUS_COMPLETED,loc-main,default-workspace,user-staff-02,Spa Combo - Ana Reyes,true
+job-004,jt-003,DIRECT,,client-005,PROJECT,STANDARD,,FIXED_PRICE,JOB_STATUS_ACTIVE,loc-main,default-workspace,user-staff-02,Bridal Package - Isabella Garcia,true
+job-005,jt-004,DIRECT,,client-003,PROJECT,STANDARD,,FIXED_PRICE,JOB_STATUS_ACTIVE,loc-branch-01,default-workspace,user-staff-01,Corporate Nail Service - Ana Reyes,true

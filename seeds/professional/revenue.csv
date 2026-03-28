@@ -1,0 +1,11 @@
+id,name,client_id,location_id,revenue_date,total_amount,currency,status,reference_number,notes,revenue_category_id,fulfillment_status,active
+rev-001,Legal Consultation - Santos Corp,client-001,loc-main,2026-03-02,750000,PHP,completed,PRO-2026-001,Corporate legal consultation re: labor dispute,revcat-legal,DELIVERED,true
+rev-002,Monthly Bookkeeping - Visayas Trading,client-002,loc-main,2026-03-01,800000,PHP,completed,PRO-2026-002,March 2026 bookkeeping engagement,revcat-accounting,DELIVERED,true
+rev-003,Business Registration - StartupPH,client-003,loc-branch-01,2026-03-03,1500000,PHP,completed,PRO-2026-003,SEC registration and BIR enrollment,revcat-admin,DELIVERED,true
+rev-004,Tax Advisory + Financial Planning,client-004,loc-main,2026-03-05,1500000,PHP,completed,PRO-2026-004,Annual income tax advisory and personal financial plan,revcat-accounting,DELIVERED,true
+rev-005,IT Consulting - Network Assessment,client-005,loc-branch-02,2026-03-10,900000,PHP,active,PRO-2026-005,Infrastructure and cybersecurity assessment in progress,revcat-consulting,IN_PROGRESS,true
+rev-006,Contract Drafting - Lease Agreement,client-006,loc-main,2026-03-08,1200000,PHP,completed,PRO-2026-006,Commercial lease contract drafting and review,revcat-legal,DELIVERED,true
+rev-007,Payroll Processing - Cebu SME,client-007,loc-branch-02,2026-03-01,600000,PHP,completed,PRO-2026-007,March 2026 payroll for 25 employees,revcat-accounting,DELIVERED,true
+rev-008,Marketing Strategy - F&B Brand,client-008,loc-branch-01,2026-03-12,2000000,PHP,active,PRO-2026-008,Brand repositioning and digital marketing strategy,revcat-consulting,PENDING,true
+rev-009,Compliance Review - BIR Audit Prep,client-009,loc-main,2026-03-15,1800000,PHP,active,PRO-2026-009,BIR audit compliance review and documentation,revcat-accounting,IN_PROGRESS,true
+rev-010,Cancelled Engagement - Due Diligence,client-010,loc-main,2026-03-06,3500000,PHP,cancelled,PRO-2026-010,Client withdrew from acquisition deal,revcat-consulting,,true

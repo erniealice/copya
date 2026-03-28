@@ -1,0 +1,8 @@
+id,revenue_id,collection_method_id,amount,currency,reference_number,collection_type,status,active
+rpay-001,rev-001,cash,250000,PHP,,walk_in,completed,true
+rpay-002,rev-002,cash,150000,PHP,,walk_in,completed,true
+rpay-003,rev-003,gcash,450000,PHP,GCASH-20260303,walk_in,completed,true
+rpay-004,rev-004,bank_transfer,250000,PHP,BT-20260310,deposit,completed,true
+rpay-005,rev-006,card,400000,PHP,CARD-4532,walk_in,completed,true
+rpay-006,rev-007,gcash,150000,PHP,GCASH-20260306,walk_in,completed,true
+rpay-007,rev-008,cash,80000,PHP,,walk_in,completed,true

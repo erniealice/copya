@@ -1,0 +1,6 @@
+id,job_template_id,origin_type,origin_id,client_id,demand_type,fulfillment_type,cost_flow_type,billing_rule_type,status,location_id,workspace_id,created_by,name,active
+job-001,jt-001,DIRECT,,client-001,PROJECT,STANDARD,,TIME_AND_MATERIALS,JOB_STATUS_COMPLETED,loc-main,default-workspace,user-staff-01,Legal Consultation - Santos Corp,true
+job-002,jt-001,DIRECT,,client-006,PROJECT,STANDARD,,TIME_AND_MATERIALS,JOB_STATUS_COMPLETED,loc-main,default-workspace,user-staff-01,Legal Consultation - Miguel Torres,true
+job-003,jt-003,DIRECT,,client-003,PROJECT,STANDARD,,FIXED_PRICE,JOB_STATUS_COMPLETED,loc-branch-01,default-workspace,user-staff-02,Financial Audit - Ana Reyes Corp,true
+job-004,jt-004,DIRECT,,client-009,PROJECT,STANDARD,,FIXED_PRICE,JOB_STATUS_ACTIVE,loc-main,default-workspace,user-staff-02,Payroll Processing - Patricia Tan,true
+job-005,jt-002,DIRECT,,client-007,PROJECT,STANDARD,,FIXED_PRICE,JOB_STATUS_ACTIVE,loc-branch-02,default-workspace,user-staff-01,Contract Drafting - Sofia Lim,true

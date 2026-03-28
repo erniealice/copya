@@ -1,0 +1,7 @@
+id,code,name,description,active
+expcat-office-supplies,office-supplies,Office Supplies,Paper pens printer ink and general office consumables,true
+expcat-equipment,equipment,Equipment,Computers furniture machinery and durable goods,true
+expcat-services,services,Services,Professional services consulting and outsourced work,true
+expcat-utilities,utilities,Utilities,Electricity water internet and telecommunications,true
+expcat-raw-materials,raw-materials,Raw Materials,Ingredients components and supplies for production,true
+expcat-travel,travel,Travel,Transportation lodging and travel-related expenses,true

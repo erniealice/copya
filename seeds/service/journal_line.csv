@@ -1,0 +1,17 @@
+id,journal_entry_id,account_id,debit_amount,credit_amount,description,line_order,active
+jl-001,je-001,acct-1000,250000,0,Cash received for rebonding,1,true
+jl-002,je-001,acct-4000,0,250000,Service revenue - rebonding,2,true
+jl-003,je-002,acct-1000,150000,0,Cash received for haircut + hot oil,1,true
+jl-004,je-002,acct-4000,0,150000,Service revenue - haircut + hot oil,2,true
+jl-005,je-003,acct-1000,450000,0,GCash received for spa combo,1,true
+jl-006,je-003,acct-4000,0,450000,Service revenue - spa combo,2,true
+jl-007,je-004,acct-1200,4500000,0,Salon products inventory,1,true
+jl-008,je-004,acct-1000,0,4500000,Cash paid to L'Oreal,2,true
+jl-009,je-005,acct-6200,1850000,0,Electricity expense Feb,1,true
+jl-010,je-005,acct-1000,0,1850000,Cash paid for electricity,2,true
+jl-011,je-006,acct-1000,400000,0,Card received for hair color,1,true
+jl-012,je-006,acct-4000,0,400000,Service revenue - hair color,2,true
+jl-013,je-007,acct-1000,150000,0,GCash received for eyelash extensions,1,true
+jl-014,je-007,acct-4000,0,150000,Service revenue - eyelash extensions,2,true
+jl-015,je-008,acct-1000,80000,0,Cash received for nail art,1,true
+jl-016,je-008,acct-4000,0,80000,Service revenue - nail art,2,true

@@ -1,0 +1,5 @@
+id,name,address,description,active
+loc-main,Main Branch,123 Business Ave Central District,Primary business location,true
+loc-branch-01,Branch 01,456 Commerce St North District,First branch location,true
+loc-branch-02,Branch 02,789 Trade Rd South District,Second branch location,true
+loc-warehouse,Warehouse,101 Storage Blvd Industrial Zone,Storage and fulfillment center,true

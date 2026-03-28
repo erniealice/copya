@@ -1,0 +1,27 @@
+id,code,name,description,element,classification,group_id,parent_id,cash_flow_activity,normal_balance,is_system_account,is_contra,status,active
+acct-1000,1000,Cash and Cash Equivalents,Cash on hand and in banks,ASSET,CURRENT_ASSET,ag-current-assets,,OPERATING,DEBIT,true,false,ACTIVE,true
+acct-1010,1010,Cash on Hand,Petty cash and register floats,ASSET,CURRENT_ASSET,ag-current-assets,acct-1000,OPERATING,DEBIT,false,false,ACTIVE,true
+acct-1020,1020,Cash in Bank,Checking and savings accounts,ASSET,CURRENT_ASSET,ag-current-assets,acct-1000,OPERATING,DEBIT,false,false,ACTIVE,true
+acct-1100,1100,Accounts Receivable,Trade receivables from customers,ASSET,CURRENT_ASSET,ag-current-assets,,OPERATING,DEBIT,true,false,ACTIVE,true
+acct-1200,1200,Inventory,Goods held for sale or production,ASSET,CURRENT_ASSET,ag-current-assets,,OPERATING,DEBIT,true,false,ACTIVE,true
+acct-1300,1300,Prepaid Expenses,Payments made in advance,ASSET,CURRENT_ASSET,ag-current-assets,,OPERATING,DEBIT,false,false,ACTIVE,true
+acct-1500,1500,Property Plant and Equipment,Fixed assets at cost,ASSET,NON_CURRENT_ASSET,ag-non-current-assets,,INVESTING,DEBIT,true,false,ACTIVE,true
+acct-1510,1510,Accumulated Depreciation,Contra-asset for depreciation,ASSET,NON_CURRENT_ASSET,ag-non-current-assets,acct-1500,INVESTING,CREDIT,true,true,ACTIVE,true
+acct-2000,2000,Accounts Payable,Trade payables to suppliers,LIABILITY,CURRENT_LIABILITY,ag-current-liabilities,,OPERATING,CREDIT,true,false,ACTIVE,true
+acct-2100,2100,Accrued Expenses,Expenses incurred but not yet paid,LIABILITY,CURRENT_LIABILITY,ag-current-liabilities,,OPERATING,CREDIT,false,false,ACTIVE,true
+acct-2200,2200,Unearned Revenue,Payments received before delivery,LIABILITY,CURRENT_LIABILITY,ag-current-liabilities,,OPERATING,CREDIT,false,false,ACTIVE,true
+acct-2500,2500,Long-Term Debt,Loans and borrowings beyond one year,LIABILITY,NON_CURRENT_LIABILITY,ag-non-current-liabilities,,FINANCING,CREDIT,false,false,ACTIVE,true
+acct-3000,3000,Owner Equity,Capital contributed by owners,EQUITY,EQUITY,ag-equity,,FINANCING,CREDIT,true,false,ACTIVE,true
+acct-3100,3100,Retained Earnings,Accumulated net income,EQUITY,EQUITY,ag-equity,,FINANCING,CREDIT,true,false,ACTIVE,true
+acct-4000,4000,Service Revenue,Income from services rendered,REVENUE,OPERATING_REVENUE,ag-revenue,,OPERATING,CREDIT,true,false,ACTIVE,true
+acct-4100,4100,Sales Revenue,Income from product sales,REVENUE,OPERATING_REVENUE,ag-revenue,,OPERATING,CREDIT,false,false,ACTIVE,true
+acct-4900,4900,Other Income,Miscellaneous non-operating income,REVENUE,OTHER_INCOME,ag-other-income,,OPERATING,CREDIT,false,false,ACTIVE,true
+acct-5000,5000,Cost of Services,Direct costs of services delivered,EXPENSE,COST_OF_SALES,ag-cost-of-sales,,OPERATING,DEBIT,true,false,ACTIVE,true
+acct-5100,5100,Cost of Goods Sold,Direct costs of goods sold,EXPENSE,COST_OF_SALES,ag-cost-of-sales,,OPERATING,DEBIT,false,false,ACTIVE,true
+acct-6000,6000,Salaries and Wages,Employee compensation,EXPENSE,OPERATING_EXPENSE,ag-operating-expenses,,OPERATING,DEBIT,false,false,ACTIVE,true
+acct-6100,6100,Rent Expense,Office and location rent,EXPENSE,OPERATING_EXPENSE,ag-operating-expenses,,OPERATING,DEBIT,false,false,ACTIVE,true
+acct-6200,6200,Utilities Expense,Electricity water internet,EXPENSE,OPERATING_EXPENSE,ag-operating-expenses,,OPERATING,DEBIT,false,false,ACTIVE,true
+acct-6300,6300,Depreciation Expense,Periodic depreciation of fixed assets,EXPENSE,OPERATING_EXPENSE,ag-operating-expenses,,OPERATING,DEBIT,true,false,ACTIVE,true
+acct-6400,6400,Office Supplies Expense,Consumable office materials,EXPENSE,OPERATING_EXPENSE,ag-operating-expenses,,OPERATING,DEBIT,false,false,ACTIVE,true
+acct-6500,6500,Marketing Expense,Advertising and promotions,EXPENSE,OPERATING_EXPENSE,ag-operating-expenses,,OPERATING,DEBIT,false,false,ACTIVE,true
+acct-7000,7000,Interest Expense,Borrowing and finance charges,EXPENSE,FINANCE_COST,ag-finance-costs,,FINANCING,DEBIT,false,false,ACTIVE,true

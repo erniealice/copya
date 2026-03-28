@@ -1,0 +1,13 @@
+id,job_phase_id,name,step_order,status,assigned_to,is_ad_hoc,active
+jtask-001,jp-001,Check-in Maria Santos,1,COMPLETED,staff-001,false,true
+jtask-002,jp-001,Confirm rebonding service,2,COMPLETED,staff-001,false,true
+jtask-003,jp-002,Perform rebonding treatment,1,COMPLETED,staff-002,false,true
+jtask-004,jp-003,Process cash payment,1,COMPLETED,staff-001,false,true
+jtask-005,jp-004,Check-in Juan dela Cruz,1,COMPLETED,staff-001,false,true
+jtask-006,jp-005,Perform haircut + hot oil,1,COMPLETED,staff-001,false,true
+jtask-007,jp-006,Process cash payment,1,COMPLETED,staff-001,false,true
+jtask-008,jp-010,Bridal consultation with Isabella,1,COMPLETED,staff-002,false,true
+jtask-009,jp-011,Trial hair and makeup,1,IN_PROGRESS,staff-002,false,true
+jtask-010,jp-014,Check-in corporate group,1,COMPLETED,staff-001,false,true
+jtask-011,jp-015,Perform manicure service (batch),1,IN_PROGRESS,staff-001,false,true
+jtask-012,jp-015,Perform pedicure service (batch),2,IN_PROGRESS,staff-003,false,true

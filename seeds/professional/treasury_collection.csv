@@ -1,0 +1,8 @@
+id,name,amount,status,revenue_id,collection_method_id,currency,reference_number,payment_date,received_by,received_role,collection_type,active
+tc-001,Collection - PRO-2026-001,750000,completed,rev-001,bank_transfer,PHP,BT-PRO-20260302,2026-03-02,Ana Reyes,staff,invoice,true
+tc-002,Collection - PRO-2026-002,800000,completed,rev-002,bank_transfer,PHP,BT-PRO-20260301,2026-03-01,Ana Reyes,staff,invoice,true
+tc-003,Collection - PRO-2026-003,1500000,completed,rev-003,gcash,PHP,GCASH-PRO-20260303,2026-03-03,Carlo Mendoza,staff,invoice,true
+tc-004,Collection - PRO-2026-004,1500000,completed,rev-004,bank_transfer,PHP,BT-PRO-20260305,2026-03-05,Ana Reyes,staff,invoice,true
+tc-005,Collection - PRO-2026-006,1200000,completed,rev-006,cash,PHP,,2026-03-08,Carlo Mendoza,staff,invoice,true
+tc-006,Collection - PRO-2026-007,600000,completed,rev-007,bank_transfer,PHP,BT-PRO-20260301,2026-03-01,Ana Reyes,staff,invoice,true
+tc-007,Collection - PRO-2026-005 Deposit,450000,completed,rev-005,bank_transfer,PHP,BT-PRO-20260310,2026-03-10,System Admin,admin,deposit,true

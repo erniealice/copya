@@ -1,0 +1,8 @@
+id,name,amount,status,revenue_id,collection_method_id,currency,reference_number,payment_date,received_by,received_role,collection_type,active
+tc-001,Collection - SVC-2026-001,250000,completed,rev-001,cash,PHP,,2026-03-01,Mark Rivera,staff,walk_in,true
+tc-002,Collection - SVC-2026-002,150000,completed,rev-002,cash,PHP,,2026-03-02,Mark Rivera,staff,walk_in,true
+tc-003,Collection - SVC-2026-003,450000,completed,rev-003,gcash,PHP,GCASH-20260303,2026-03-03,Lea Gonzales,staff,walk_in,true
+tc-004,Collection - SVC-2026-004 Deposit,250000,completed,rev-004,bank_transfer,PHP,BT-20260310,2026-03-10,System Admin,admin,deposit,true
+tc-005,Collection - SVC-2026-006,400000,completed,rev-006,card,PHP,CARD-4532,2026-03-05,Lea Gonzales,staff,walk_in,true
+tc-006,Collection - SVC-2026-007,150000,completed,rev-007,gcash,PHP,GCASH-20260306,2026-03-06,Mark Rivera,staff,walk_in,true
+tc-007,Collection - SVC-2026-008,80000,completed,rev-008,cash,PHP,,2026-03-08,Paolo Reyes,staff,walk_in,true
