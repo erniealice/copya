@@ -1,0 +1,6 @@
+id,date_created,date_modified,active,po_number,po_type,status,supplier_id,location_id,order_date,currency,subtotal,tax_amount,total_amount,payment_terms,shipping_terms,approved_by,notes,reference_number
+po-001,2026-03-01,2026-03-01,true,PO-PRO-2026-001,standard,draft,sup-001,loc-main,2026-03-01,PHP,35000,4200,39200,net_30,,,Office supplies restock - bond paper toner cartridges and stationery,REF-PO-2026-001
+po-002,2026-03-05,2026-03-06,true,PO-PRO-2026-002,standard,approved,sup-004,loc-main,2026-03-05,PHP,125000,15000,140000,net_15,,user-admin,Cleaning and sanitation materials for all office locations,REF-PO-2026-002
+po-003,2026-03-08,2026-03-10,true,PO-PRO-2026-003,standard,partially_received,sup-002,loc-branch-02,2026-03-08,PHP,420000,50400,470400,net_60,,user-admin,IT equipment replacement - laptops docking stations and monitors,REF-PO-2026-003
+po-004,2026-01-15,2026-02-20,true,PO-PRO-2026-004,standard,closed,sup-003,loc-main,2026-01-15,PHP,18000,2160,20160,immediate,,user-admin,Monthly pest control service for main office and branches,REF-PO-2026-004
+po-005,2026-03-01,2026-03-02,true,PO-PRO-2026-005,blanket,approved,sup-005,loc-main,2026-03-01,PHP,2400000,288000,2688000,net_60,,user-admin,12-month blanket agreement for legal research database subscription,REF-PO-2026-005

@@ -1,9 +1,9 @@
-id,name,expenditure_type,vendor_id,expenditure_date,total_amount,currency,status,reference_number,notes,expenditure_category_id,location_id,payment_terms,due_date,approved_by,active
-exp-001,Salon Products Restock,purchase,sup-001,2026-02-05,4500000,PHP,paid,PO-2026-001,L'Oreal hair color and treatment products,expcat-raw-materials,loc-main,net_30,2026-03-07,,true
-exp-002,Salon Equipment Purchase,purchase,sup-002,2026-02-10,25000000,PHP,approved,PO-2026-002,New hydraulic chairs and wash stations,expcat-equipment,loc-main,net_60,2026-04-11,user-admin,true
-exp-003,Cleaning Supplies,purchase,sup-005,2026-02-18,850000,PHP,paid,PO-2026-003,Sanitizers towels and cleaning agents,expcat-office-supplies,loc-main,net_15,2026-03-05,,true
-exp-004,Electricity Bill - February,expense,,2026-02-20,1850000,PHP,paid,EXP-2026-001,February 2026 electricity all branches,expcat-utilities,loc-main,cash,,user-admin,true
-exp-005,Internet Service - February,expense,,2026-02-15,350000,PHP,paid,EXP-2026-002,Monthly fiber internet subscription,expcat-utilities,loc-main,cash,,,true
-exp-006,Office Rent - March,expense,,2026-03-01,5000000,PHP,approved,EXP-2026-003,Monthly rent for Ayala Central Bloc,expcat-services,loc-main,net_30,2026-03-31,user-admin,true
-exp-007,Staff Training Workshop,expense,,2026-03-10,2500000,PHP,pending,EXP-2026-004,Advanced styling techniques workshop,expcat-travel,loc-main,cash,,,true
-exp-008,IT Support Monthly,purchase,sup-004,2026-03-01,1500000,PHP,pending,PO-2026-004,Monthly IT support and POS maintenance,expcat-services,loc-main,net_30,2026-03-31,,true
+id,name,expenditure_type,vendor_id,expenditure_date,total_amount,currency,status,reference_number,notes,expenditure_category_id,location_id,payment_terms,due_date,approved_by,active,expenditure_date_string
+exp-001,Salon Products Restock,purchase,sup-001,2026-02-05,4500000,PHP,paid,PO-2026-001,L'Oreal hair color and treatment products,expcat-raw-materials,loc-main,net_30,2026-03-07,,true,2026-02-05
+exp-002,Salon Equipment Purchase,purchase,sup-002,2026-02-10,25000000,PHP,approved,PO-2026-002,New hydraulic chairs and wash stations,expcat-equipment,loc-main,net_60,2026-04-11,user-admin,true,2026-02-10
+exp-003,Cleaning Supplies,purchase,sup-005,2026-02-18,850000,PHP,paid,PO-2026-003,Sanitizers towels and cleaning agents,expcat-office-supplies,loc-main,net_15,2026-03-05,,true,2026-02-18
+exp-004,Electricity Bill - February,expense,,2026-02-20,1850000,PHP,paid,EXP-2026-001,February 2026 electricity all branches,expcat-utilities,loc-main,cash,,user-admin,true,2026-02-20
+exp-005,Internet Service - February,expense,,2026-02-15,350000,PHP,paid,EXP-2026-002,Monthly fiber internet subscription,expcat-utilities,loc-main,cash,,,true,2026-02-15
+exp-006,Office Rent - March,expense,,2026-03-01,5000000,PHP,approved,EXP-2026-003,Monthly rent for Ayala Central Bloc,expcat-services,loc-main,net_30,2026-03-31,user-admin,true,2026-03-01
+exp-007,Staff Training Workshop,expense,,2026-03-10,2500000,PHP,pending,EXP-2026-004,Advanced styling techniques workshop,expcat-travel,loc-main,cash,,,true,2026-03-10
+exp-008,IT Support Monthly,purchase,sup-004,2026-03-01,1500000,PHP,pending,PO-2026-004,Monthly IT support and POS maintenance,expcat-services,loc-main,net_30,2026-03-31,,true,2026-03-01

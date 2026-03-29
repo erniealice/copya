@@ -1,11 +1,11 @@
-id,name,client_id,location_id,revenue_date,total_amount,currency,status,reference_number,notes,revenue_category_id,fulfillment_status,active
-rev-001,Hair Rebonding + Treatment,client-001,loc-main,2026-03-01,250000,PHP,complete,SVC-2026-001,Hair rebonding with keratin treatment,revcat-hair,DELIVERED,true
-rev-002,Haircut + Hot Oil,client-002,loc-main,2026-03-02,150000,PHP,complete,SVC-2026-002,Premium haircut with hot oil treatment,revcat-hair,DELIVERED,true
-rev-003,Full Body Massage + Facial + Manicure,client-003,loc-main,2026-03-03,450000,PHP,complete,SVC-2026-003,Spa combo package,revcat-spa,DELIVERED,true
-rev-004,Wedding Makeup Package,client-005,loc-main,2026-03-10,500000,PHP,ongoing,SVC-2026-004,Bridal makeup with trial session,revcat-makeup,PENDING,true
-rev-005,Team Building Spa Package,client-003,loc-branch-01,2026-03-12,1200000,PHP,ongoing,SVC-2026-005,10 pax manicure + pedicure for corporate team building,revcat-packages,PENDING,true
-rev-006,Hair Color + Highlights,client-006,loc-main,2026-03-05,400000,PHP,complete,SVC-2026-006,Full color with balayage highlights,revcat-hair,DELIVERED,true
-rev-007,Eyelash Extensions,client-007,loc-main,2026-03-06,150000,PHP,complete,SVC-2026-007,Full set eyelash extensions,revcat-spa,DELIVERED,true
-rev-008,Nail Art Gel Set,client-009,loc-branch-02,2026-03-08,80000,PHP,complete,SVC-2026-008,Gel nail art full set,revcat-nails,DELIVERED,true
-rev-009,Haircut - Standard,client-004,loc-main,2026-03-15,50000,PHP,ongoing,SVC-2026-009,Walk-in standard haircut,revcat-hair,IN_PROGRESS,true
-rev-010,Cancelled Booking,client-010,loc-main,2026-03-14,300000,PHP,cancelled,SVC-2026-010,Client no-show,revcat-spa,,true
+id,name,client_id,location_id,revenue_date,total_amount,currency,status,reference_number,notes,revenue_category_id,fulfillment_status,active,revenue_date_string
+rev-001,Hair Rebonding + Treatment,client-001,loc-main,2026-03-01,250000,PHP,complete,SVC-2026-001,Hair rebonding with keratin treatment,revcat-hair,DELIVERED,true,2026-03-01
+rev-002,Haircut + Hot Oil,client-002,loc-main,2026-03-02,150000,PHP,complete,SVC-2026-002,Premium haircut with hot oil treatment,revcat-hair,DELIVERED,true,2026-03-02
+rev-003,Full Body Massage + Facial + Manicure,client-003,loc-main,2026-03-03,450000,PHP,complete,SVC-2026-003,Spa combo package,revcat-spa,DELIVERED,true,2026-03-03
+rev-004,Wedding Makeup Package,client-005,loc-main,2026-03-10,500000,PHP,ongoing,SVC-2026-004,Bridal makeup with trial session,revcat-makeup,PENDING,true,2026-03-10
+rev-005,Team Building Spa Package,client-003,loc-branch-01,2026-03-12,1200000,PHP,ongoing,SVC-2026-005,10 pax manicure + pedicure for corporate team building,revcat-packages,PENDING,true,2026-03-12
+rev-006,Hair Color + Highlights,client-006,loc-main,2026-03-05,400000,PHP,complete,SVC-2026-006,Full color with balayage highlights,revcat-hair,DELIVERED,true,2026-03-05
+rev-007,Eyelash Extensions,client-007,loc-main,2026-03-06,150000,PHP,complete,SVC-2026-007,Full set eyelash extensions,revcat-spa,DELIVERED,true,2026-03-06
+rev-008,Nail Art Gel Set,client-009,loc-branch-02,2026-03-08,80000,PHP,complete,SVC-2026-008,Gel nail art full set,revcat-nails,DELIVERED,true,2026-03-08
+rev-009,Haircut - Standard,client-004,loc-main,2026-03-15,50000,PHP,ongoing,SVC-2026-009,Walk-in standard haircut,revcat-hair,IN_PROGRESS,true,2026-03-15
+rev-010,Cancelled Booking,client-010,loc-main,2026-03-14,300000,PHP,cancelled,SVC-2026-010,Client no-show,revcat-spa,,true,2026-03-14

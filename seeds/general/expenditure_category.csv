@@ -5,3 +5,5 @@ expcat-services,services,Services,Professional services consulting and outsource
 expcat-utilities,utilities,Utilities,Electricity water internet and telecommunications,true
 expcat-raw-materials,raw-materials,Raw Materials,Ingredients components and supplies for production,true
 expcat-travel,travel,Travel,Transportation lodging and travel-related expenses,true
+expcat-technology,technology,Technology,Software subscriptions SaaS tools and digital services,true
+expcat-insurance,insurance,Insurance,Business liability indemnity and property insurance premiums,true

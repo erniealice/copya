@@ -1,0 +1,13 @@
+id,date_created,date_modified,active,purchase_order_id,product_id,description,line_type,quantity_ordered,quantity_received,quantity_billed,unit_price,total_price,location_id,notes,line_number
+poli-001,2026-03-01,2026-03-01,true,po-001,,Bond paper reams A4,goods,10,0,0,15000,150000,loc-main,,1
+poli-002,2026-03-01,2026-03-01,true,po-001,,Toner cartridges HP LaserJet,goods,5,0,0,20000,100000,loc-main,,2
+poli-003,2026-03-01,2026-03-01,true,po-001,,Document folders and fasteners pack,goods,20,0,0,5000,100000,loc-main,Assorted colors,3
+poli-004,2026-03-05,2026-03-06,true,po-002,,Industrial floor cleaner concentrate 5L,goods,6,6,6,8000,48000,loc-main,,1
+poli-005,2026-03-05,2026-03-06,true,po-002,,Microfiber cleaning cloths pack of 10,goods,10,10,10,3500,35000,loc-main,,2
+poli-006,2026-03-05,2026-03-06,true,po-002,,Disinfectant spray 750ml,goods,24,24,24,1750,42000,loc-main,,3
+poli-007,2026-03-08,2026-03-10,true,po-003,,Laptop Dell XPS 15 with accessories,goods,2,1,0,180000,360000,loc-branch-02,One unit received pending second unit,1
+poli-008,2026-03-08,2026-03-10,true,po-003,,USB-C docking station,goods,2,1,0,25000,50000,loc-branch-02,,2
+poli-009,2026-03-08,2026-03-10,true,po-003,,27-inch monitor,goods,1,0,0,50000,50000,loc-branch-02,Pending delivery,3
+poli-010,2026-01-15,2026-02-20,true,po-004,,Monthly pest control service - main office,service,1,1,1,8000,8000,loc-main,,1
+poli-011,2026-01-15,2026-02-20,true,po-004,,Monthly pest control service - branch offices,service,2,2,2,5000,10000,loc-main,Two satellite offices covered,2
+poli-012,2026-03-01,2026-03-02,true,po-005,,LexisNexis annual subscription - full access,service,1,0,0,2400000,2400000,loc-main,12-month blanket agreement Jan-Dec 2026,1
