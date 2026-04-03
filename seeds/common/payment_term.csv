@@ -1,6 +1,7 @@
-id,name,code,type,net_days,discount_days,discount_percent_bps,entity_scope,is_default,description,display_order,active
-pt-immediate,Immediate,immediate,due_on_receipt,0,,,both,false,Payment due immediately upon receipt,1,true
-pt-net-15,Net 15,net_15,net,15,,,both,false,Payment due within 15 days,2,true
-pt-net-30,Net 30,net_30,net,30,,,both,true,Payment due within 30 days,3,true
-pt-net-60,Net 60,net_60,net,60,,,supplier,false,Payment due within 60 days,4,true
-pt-2-10-net-30,2/10 Net 30,2_10_net_30,net,30,10,200,supplier,false,2% discount if paid within 10 days; otherwise net 30,5,true
+id,name,code,type,net_days,discount_days,discount_percent_bps,entity_scope,is_default,description,display_order,active,proximate_day
+pt-immediate,Immediate,immediate,due_on_receipt,0,,,both,false,Payment due immediately upon receipt,1,true,
+pt-net-15,Net 15,net_15,net,15,,,both,false,Payment due within 15 days,2,true,
+pt-net-30,Net 30,net_30,net,30,,,both,true,Payment due within 30 days,3,true,
+pt-net-60,Net 60,net_60,net,60,,,supplier,false,Payment due within 60 days,4,true,
+pt-2-10-net-30,2/10 Net 30,2_10_net_30,net,30,10,200,supplier,false,2% discount if paid within 10 days; otherwise net 30,5,true,
+pt-proximate-15,Proximate 15th,proximate_15,proximate,0,,,both,false,Due on the 15th of the following month,6,true,15
