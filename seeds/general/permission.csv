@@ -164,6 +164,11 @@ perm-payment_attribute-read,default-workspace,superadmin-001,superadmin-001,Paym
 perm-payment_attribute-update,default-workspace,superadmin-001,superadmin-001,Payment Attribute: Update,payment_attribute:update,PERMISSION_TYPE_ALLOW,true
 perm-payment_attribute-delete,default-workspace,superadmin-001,superadmin-001,Payment Attribute: Delete,payment_attribute:delete,PERMISSION_TYPE_ALLOW,true
 perm-payment_attribute-list,default-workspace,superadmin-001,superadmin-001,Payment Attribute: List,payment_attribute:list,PERMISSION_TYPE_ALLOW,true
+perm-payment_term-create,default-workspace,superadmin-001,superadmin-001,Payment Term: Create,payment_term:create,PERMISSION_TYPE_ALLOW,true
+perm-payment_term-read,default-workspace,superadmin-001,superadmin-001,Payment Term: Read,payment_term:read,PERMISSION_TYPE_ALLOW,true
+perm-payment_term-update,default-workspace,superadmin-001,superadmin-001,Payment Term: Update,payment_term:update,PERMISSION_TYPE_ALLOW,true
+perm-payment_term-delete,default-workspace,superadmin-001,superadmin-001,Payment Term: Delete,payment_term:delete,PERMISSION_TYPE_ALLOW,true
+perm-payment_term-list,default-workspace,superadmin-001,superadmin-001,Payment Term: List,payment_term:list,PERMISSION_TYPE_ALLOW,true
 perm-expenditure-create,default-workspace,superadmin-001,superadmin-001,Expenditure: Create,expenditure:create,PERMISSION_TYPE_ALLOW,true
 perm-expenditure-read,default-workspace,superadmin-001,superadmin-001,Expenditure: Read,expenditure:read,PERMISSION_TYPE_ALLOW,true
 perm-expenditure-update,default-workspace,superadmin-001,superadmin-001,Expenditure: Update,expenditure:update,PERMISSION_TYPE_ALLOW,true

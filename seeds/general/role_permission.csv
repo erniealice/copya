@@ -164,6 +164,11 @@ rp-role-admin-perm-payment_attribute-read,role-admin,perm-payment_attribute-read
 rp-role-admin-perm-payment_attribute-update,role-admin,perm-payment_attribute-update,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-payment_attribute-delete,role-admin,perm-payment_attribute-delete,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-payment_attribute-list,role-admin,perm-payment_attribute-list,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-payment_term-create,role-admin,perm-payment_term-create,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-payment_term-read,role-admin,perm-payment_term-read,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-payment_term-update,role-admin,perm-payment_term-update,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-payment_term-delete,role-admin,perm-payment_term-delete,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-payment_term-list,role-admin,perm-payment_term-list,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-expenditure-create,role-admin,perm-expenditure-create,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-expenditure-read,role-admin,perm-expenditure-read,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-expenditure-update,role-admin,perm-expenditure-update,PERMISSION_TYPE_ALLOW,true
