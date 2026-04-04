@@ -14,3 +14,6 @@ prod-012,Financial Planning,Personal or corporate financial planning advisory,10
 prod-013,Compliance Review,Regulatory compliance audit and gap analysis,1800000,PHP,service,true
 prod-014,Contract Drafting,Legal contract drafting and review,1200000,PHP,service,true
 prod-015,Business Valuation,Business valuation and due diligence report,3500000,PHP,service,true
+prod-goods-001,Industrial Detergent 5L,Heavy-duty industrial detergent concentrate 5 liter container,15000,PHP,non_serialized,true
+prod-goods-002,Office Bond Paper A4 (Ream),Standard 80gsm A4 bond paper 500 sheets per ream,15000,PHP,consumable,true
+prod-goods-003,Toner Cartridge HP 26A,HP 26A black toner cartridge for LaserJet printers,250000,PHP,non_serialized,true

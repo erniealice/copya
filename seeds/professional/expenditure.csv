@@ -1,9 +1,9 @@
-id,name,expenditure_type,vendor_id,expenditure_date,total_amount,currency,status,reference_number,notes,expenditure_category_id,location_id,payment_terms,due_date,approved_by,active,expenditure_date_string
-exp-001,Office Rent - March 2026,expense,,2026-03-01,8000000,PHP,paid,EXP-PRO-2026-001,Monthly rent for main office Cebu Business Park,expcat-services,loc-main,net_30,2026-03-31,user-admin,true,2026-03-01
-exp-002,Electricity Bill - February 2026,expense,,2026-02-20,1200000,PHP,paid,EXP-PRO-2026-002,February electricity all office locations,expcat-utilities,loc-main,cash,,user-admin,true,2026-02-20
-exp-003,Office Supplies Restock,purchase,sup-001,2026-03-05,350000,PHP,paid,PO-PRO-2026-001,Bond paper toner cartridges folders and pens,expcat-office-supplies,loc-main,net_30,2026-04-04,,true,2026-03-05
-exp-004,Laptop Replacement - Associate,purchase,sup-002,2026-03-08,4500000,PHP,approved,PO-PRO-2026-002,Dell XPS 15 for senior associate,expcat-equipment,loc-main,net_60,2026-05-07,user-admin,true,2026-03-08
-exp-005,LexisNexis Annual Subscription,purchase,sup-005,2026-03-01,2400000,PHP,paid,PO-PRO-2026-003,Annual legal research database renewal,expcat-technology,loc-main,net_30,2026-03-31,,true,2026-03-01
-exp-006,Professional Indemnity Insurance,expense,sup-006,2026-01-15,6000000,PHP,paid,EXP-PRO-2026-003,Annual PI insurance premium for law and accounting firm,expcat-insurance,loc-main,net_30,2026-02-14,user-admin,true,2026-01-15
-exp-007,Courier and Delivery Services,expense,sup-003,2026-03-10,180000,PHP,paid,EXP-PRO-2026-004,Document courier for legal filings and client deliveries,expcat-services,loc-main,immediate,,,true,2026-03-10
-exp-008,CPA Continuing Education,expense,,2026-03-15,2500000,PHP,pending,EXP-PRO-2026-005,PICPA annual seminar and CPE units for accounting staff,expcat-services,loc-main,cash,,,true,2026-03-15
+id,name,expenditure_type,vendor_id,expenditure_date,total_amount,currency,status,reference_number,notes,expenditure_category_id,location_id,payment_terms,due_date,approved_by,active,purchase_order_id,expenditure_date_string
+exp-001,Office Rent - March 2026,expense,,2026-03-01,8000000,PHP,paid,EXP-PRO-2026-001,Monthly rent for main office Cebu Business Park,expcat-services,loc-main,net_30,2026-03-31,user-admin,true,,2026-03-01
+exp-002,Electricity Bill - February 2026,expense,,2026-02-20,1200000,PHP,paid,EXP-PRO-2026-002,February electricity all office locations,expcat-utilities,loc-main,cash,,user-admin,true,,2026-02-20
+exp-003,Office Supplies Restock,purchase,sup-001,2026-03-05,350000,PHP,paid,PO-PRO-2026-001,Bond paper toner cartridges folders and pens,expcat-office-supplies,loc-main,net_30,2026-04-04,,true,po-001,2026-03-05
+exp-004,Laptop Replacement - Associate,purchase,sup-002,2026-03-08,4500000,PHP,approved,PO-PRO-2026-002,Dell XPS 15 for senior associate,expcat-equipment,loc-main,net_60,2026-05-07,user-admin,true,po-003,2026-03-08
+exp-005,LexisNexis Annual Subscription,purchase,sup-005,2026-03-01,2400000,PHP,paid,PO-PRO-2026-003,Annual legal research database renewal,expcat-technology,loc-main,net_30,2026-03-31,,true,,2026-03-01
+exp-006,Professional Indemnity Insurance,expense,sup-006,2026-01-15,6000000,PHP,paid,EXP-PRO-2026-003,Annual PI insurance premium for law and accounting firm,expcat-insurance,loc-main,net_30,2026-02-14,user-admin,true,,2026-01-15
+exp-007,Courier and Delivery Services,expense,sup-003,2026-03-10,180000,PHP,paid,EXP-PRO-2026-004,Document courier for legal filings and client deliveries,expcat-services,loc-main,immediate,,,true,,2026-03-10
+exp-008,CPA Continuing Education,expense,,2026-03-15,2500000,PHP,pending,EXP-PRO-2026-005,PICPA annual seminar and CPE units for accounting staff,expcat-services,loc-main,cash,,,true,,2026-03-15

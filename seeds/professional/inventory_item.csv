@@ -9,3 +9,6 @@ inv-007,Contract Drafting (Main),prod-014,loc-main,PRO-CD-MAIN,999,0,999,0,sessi
 inv-008,Compliance Review (Main),prod-013,loc-main,PRO-CR-MAIN,999,0,999,0,session,,true
 inv-009,Marketing Strategy (Co-Working),prod-009,loc-branch-01,PRO-MS-CWK,999,0,999,0,session,,true
 inv-010,Business Valuation (Main),prod-015,loc-main,PRO-BV-MAIN,999,0,999,0,session,,true
+inv-goods-001,Industrial Detergent 5L (Main),prod-goods-001,loc-main,DET-5L-001,50,0,50,10,pieces,,true
+inv-goods-002,Bond Paper A4 (Main),prod-goods-002,loc-main,PAPER-A4-001,100,0,100,20,reams,,true
+inv-goods-003,Toner HP 26A (Main),prod-goods-003,loc-main,TONER-26A-001,10,0,10,3,pieces,,true
