@@ -1,2 +1,3 @@
 id,name,description,private,active
 default-workspace,Default Workspace,Primary workspace for seed data,false,true
+workspace-2,Cebu Branch Office,Secondary workspace for branch operations,false,true
