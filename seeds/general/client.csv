@@ -1,11 +1,11 @@
-id,user_id,internal_id,first_name,last_name,customer_type,active
-client-001,user-c001,CLT-001,Maria,Santos,individual,true
-client-002,user-c002,CLT-002,Juan,dela Cruz,individual,true
-client-003,user-c003,CLT-003,Ana,Reyes,company,true
-client-004,user-c004,CLT-004,Carlos,Mendoza,individual,true
-client-005,user-c005,CLT-005,Isabella,Garcia,individual,true
-client-006,user-c006,CLT-006,Miguel,Torres,individual,true
-client-007,user-c007,CLT-007,Sofia,Lim,individual,true
-client-008,user-c008,CLT-008,Diego,Villanueva,individual,true
-client-009,user-c009,CLT-009,Patricia,Tan,individual,true
-client-010,user-c010,CLT-010,Roberto,Cruz,individual,true
+id,user_id,internal_id,first_name,last_name,name,active
+client-001,user-c001,CLT-001,Maria,Santos,,true
+client-002,user-c002,CLT-002,Juan,dela Cruz,,true
+client-003,user-c003,CLT-003,Ana,Reyes,Reyes & Associates,true
+client-004,user-c004,CLT-004,Carlos,Mendoza,,true
+client-005,user-c005,CLT-005,Isabella,Garcia,,true
+client-006,user-c006,CLT-006,Miguel,Torres,,true
+client-007,user-c007,CLT-007,Sofia,Lim,,true
+client-008,user-c008,CLT-008,Diego,Villanueva,,true
+client-009,user-c009,CLT-009,Patricia,Tan,,true
+client-010,user-c010,CLT-010,Roberto,Cruz,,true
