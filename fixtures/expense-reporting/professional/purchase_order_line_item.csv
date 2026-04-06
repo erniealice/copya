@@ -1,0 +1,8 @@
+id,date_created,date_modified,active,purchase_order_id,product_id,description,line_type,quantity_ordered,quantity_received,quantity_billed,unit_price,total_price,location_id,notes,line_number
+e2e-poli-001,2026-01-15,2026-01-15,true,e2e-po-001,prod-goods-002,Office supplies - paper and consumables,goods,3,3,3,100000,300000,loc-main,,1
+e2e-poli-002,2026-01-15,2026-01-15,true,e2e-po-001,prod-goods-003,Office supplies - pens and stationery,goods,3,3,3,50000,150000,loc-main,,2
+e2e-poli-003,2026-01-20,2026-01-20,true,e2e-po-002,prod-goods-002,IT equipment - laptops,goods,2,1,1,1600000,3200000,loc-branch-01,,1
+e2e-poli-004,2026-02-10,2026-02-10,true,e2e-po-003,,LexisNexis annual subscription,service,1,1,1,2400000,2400000,loc-branch-02,,1
+e2e-poli-005,2026-02-20,2026-02-20,true,e2e-po-004,,Pest control services quarterly,service,1,1,1,250000,250000,loc-branch-03,,1
+e2e-poli-006,2026-03-08,2026-03-08,true,e2e-po-005,prod-goods-003,Raw materials production batch,goods,12,12,12,100000,1200000,loc-branch-01,,1
+e2e-poli-007,2026-04-05,2026-04-05,true,e2e-po-006,,Server maintenance IT park,service,1,0,0,1800000,1800000,loc-branch-02,,1

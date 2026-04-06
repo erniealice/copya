@@ -1,86 +1,41 @@
 # copya
 
-Business-type seed data provider. Provides ready-to-use CSV seed values per business type, following the same 3-tier cascade as [lyngua](../lyngua):
+Business-type data provider for seeds and E2E fixtures. Embeds CSV data for all
+business types and exposes a Go API for inserting it into any SQL database.
+
+Two distinct datasets live here:
+
+| Dataset | Directory | Purpose | Command |
+|---------|-----------|---------|---------|
+| **Seeds** | `seeds/` | Bootstrap a working app with realistic data | `go run ./cmd/setup --drop` |
+| **Fixtures** | `fixtures/` | Assertion-grade data for E2E report testing | `go run ./cmd/fixtures load <suite>` |
+
+---
+
+## Seeds
+
+`seeds/` holds the data that makes a fresh database usable: roles, clients, products,
+suppliers, locations, permissions, categories, and more.
+
+### 3-tier cascade
 
 ```
-common → general → {businessType}
+seeds/common/     ← shared across all business types
+seeds/general/    ← defaults for all types (overrides common)
+seeds/{type}/     ← business-type overrides (overrides general)
 ```
 
 Later tiers replace earlier tiers for the same table name.
 
-## Business types
+### Business types
 
-| Type | Description |
-|------|-------------|
-| `service` | Salon, spa, and service-based businesses |
+| Type | Directory | Use case |
+|------|-----------|----------|
+| `professional` | `seeds/professional/` | Legal, consulting, accounting |
+| `service` | `seeds/service/` | Salon, spa, clinic |
+| `retail` | `seeds/retail/` | Retail POS |
 
-More business types (retail, professional, construction, etc.) can be added by creating a new directory under `seeds/`.
-
-## Seed tables
-
-### common (shared across all types)
-
-| Table | Description |
-|-------|-------------|
-| `collection_method` | Payment collection methods (cash, card, gcash, etc.) |
-| `role` | Default workspace roles |
-
-### general (default for all types)
-
-| Table | Description |
-|-------|-------------|
-| `attribute` | Product and general attributes |
-| `client` | Sample client records |
-| `expenditure_category` | Expense classification |
-| `location` | Generic business locations |
-| `supplier_category` | Vendor classification |
-
-### service (overrides for service business type)
-
-| Table | Description |
-|-------|-------------|
-| `asset_category` | Salon equipment, furniture, computers, vehicles, leasehold, office |
-| `attribute` | Service-specific attributes (hair length, treatment type, staff specialty) |
-| `location` | Cebu-area salon branches |
-| `product` | 15 salon/spa services (haircuts, massage, facial, nails, makeup) |
-| `revenue_category` | Hair, spa, nails, makeup, packages |
-| `supplier` | L'Oreal, Takara Belmont, utilities, IT, janitorial, freelance |
-
-## CLI usage
-
-```bash
-# Build the CLI
-go build -o copya ./cmd/copya
-
-# List all tables for a business type
-copya --business-type service --format list
-
-# Generate SQL INSERT statements (default)
-copya --business-type service
-
-# Generate SQL for a specific table
-copya --business-type service --table product
-
-# Output as CSV
-copya --business-type service --format csv --table product
-```
-
-### Flags
-
-| Flag | Default | Description |
-|------|---------|-------------|
-| `--business-type` | `service` | Business type (maps to `seeds/{type}/` directory) |
-| `--table` | *(all)* | Specific table name to output |
-| `--format` | `sql` | Output format: `sql`, `csv`, or `list` |
-
-### Pipe to psql
-
-```bash
-copya --business-type service | psql -d mydb
-copya --business-type service --table product | psql -d mydb
-```
-
-## Go API usage
+### Go API
 
 ```go
 import (
@@ -88,43 +43,112 @@ import (
     v1 "github.com/erniealice/copya/golang/v1"
 )
 
-// Create provider with embedded seeds
+// Seed a database in one call (preferred)
+err := v1.Seed(ctx, db, "professional", v1.Postgres)
+
+// Lower-level: load + inspect
 provider := v1.NewSeedProvider(copya.SeedsFS)
-
-// Load all tables for a business type
-set, err := provider.Load("service")
-
-// Access a specific table
-products := set["product"]
-fmt.Println(products.Headers) // [id, name, description, price, currency, active]
-fmt.Println(products.Rows[0]) // [prod-001, Haircut - Standard, ...]
-
-// Load a single table
-table, err := provider.Table("service", "product")
-
-// Generate SQL
-sql := table.ToSQL("product")
-
-// List available tables
-names, err := provider.Tables("service")
+set, err := provider.Load("professional")   // returns SeedSet (map[table]→SeedTable)
+table := set["revenue_category"]
+fmt.Println(table.Headers) // [id, name, active, ...]
+sql := table.ToSQL("revenue_category", v1.Postgres)
 ```
 
-## Adding a new business type
+`Seed()` inserts all tables in `InsertOrder` (least-dependent first), using
+`ON CONFLICT (id) DO NOTHING` — safe to re-run.
+
+### Adding a new business type
 
 1. Create `seeds/{type}/` directory
-2. Add CSV files — each file becomes a seed table
-3. CSV header row = column names, data rows = seed values
-4. Tables in `{type}/` override same-named tables from `general/`
-5. Update `embed.go` to include the new directory:
+2. Add CSV files — each file stem becomes a table name
+3. CSV header row = column names; data rows = values
+4. Tables in `{type}/` override same-named tables in `general/`
+5. The `embed.go` glob already covers `seeds/**` — no changes needed
+
+---
+
+## Fixtures
+
+`fixtures/` holds assertion-grade test data for E2E report tests. These are NOT
+bootstrap seeds — they are loaded before a test suite and cleared after, providing
+a stable dataset with known totals.
+
+### 2-tier cascade
+
+```
+fixtures/{suite}/common/        ← shared across all business types
+fixtures/{suite}/{businessType} ← professional / service / retail overrides
+```
+
+### Suites
+
+| Suite | Tables | Purpose |
+|-------|--------|---------|
+| `revenue-reporting` | `location_area`, `revenue`, `revenue_line_item` | Revenue totals, aging receivables, category breakdowns |
+| `expense-reporting` | `location_area`, `expenditure`, `expenditure_line_item`, `purchase_order`, `purchase_order_line_item` | Expenditure totals, PO tracking |
+| `disbursement-reporting` | `location_area`, `disbursement_method`, `treasury_disbursement`, `disbursement_schedule` | Disbursement totals, schedule aging |
+
+### ID convention
+
+All fixture rows use the `e2e-*` prefix so they are visually distinct from seed data
+and can be precisely targeted by `ClearFixtures`:
+
+```
+e2e-rev-001, e2e-exp-001, e2e-td-001, e2e-la-cebu-bp, e2e-dm-bank, ...
+```
+
+### Go API
 
 ```go
-//go:embed seeds/{type}/*.csv
+import v1 "github.com/erniealice/copya/golang/v1"
+
+// Load fixture data (idempotent — ON CONFLICT DO NOTHING)
+err := v1.LoadFixtures(ctx, db, "revenue-reporting", "professional", v1.Postgres)
+
+// Clear fixture data (deletes by ID, reverse InsertOrder for FK safety)
+err := v1.ClearFixtures(ctx, db, "revenue-reporting", "professional", v1.Postgres)
 ```
+
+### CLI (from apps/service-admin)
+
+```bash
+go run ./cmd/fixtures load revenue-reporting
+go run ./cmd/fixtures load revenue-reporting professional
+go run ./cmd/fixtures clear revenue-reporting
+go run ./cmd/fixtures clear --all
+```
+
+### Adding a new suite
+
+1. Create `fixtures/{suite-name}/common/` and `fixtures/{suite-name}/professional/`
+2. Add CSV files with `e2e-*` IDs; first column must always be `id`
+3. Add the suite to the embed glob in `fixtures.go`
+4. Add the suite name to `allSuites` in `apps/service-admin/cmd/fixtures/main.go`
+5. If new tables are introduced, add them to `InsertOrder` in `golang/v1/types.go` at the correct FK-dependency level
+
+---
 
 ## Data format
 
-All seed data is stored as CSV:
+Both seeds and fixtures use the same CSV format:
 
-- First row is the header (column names matching the database schema)
-- Empty values or `NULL` are treated as SQL NULL in generated INSERTs
-- SQL output uses `ON CONFLICT (id) DO NOTHING` for idempotency
+- Header row = column names (must match database schema)
+- Empty values or `NULL` → SQL `NULL`
+- SQL output uses `ON CONFLICT (id) DO NOTHING`
+- Insert order follows `InsertOrder` in `golang/v1/types.go` (least-dependent → most-dependent)
+
+---
+
+## CLI tool
+
+`cmd/copya/` is a standalone CLI for inspecting seed data without a running database:
+
+```bash
+go build -o copya ./cmd/copya
+
+copya --business-type professional --format list      # list all tables
+copya --business-type professional --table revenue    # SQL for one table
+copya --business-type professional --format csv       # CSV output
+```
+
+Useful for verifying seed content or piping to `psql` in dev.

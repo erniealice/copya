@@ -1,0 +1,11 @@
+id,expenditure_id,sequence,amount,due_date,status,paid_amount,paid_date,disbursement_id,payment_term_id,active
+e2e-ds-001,e2e-exp-001,1,6000000,2026-02-09,paid,6000000,,e2e-td-001,,true
+e2e-ds-002,e2e-exp-003,1,3200000,2026-03-20,overdue,,,,, true
+e2e-ds-003,e2e-exp-007,1,2400000,2026-03-12,paid,2400000,,e2e-td-005,,true
+e2e-ds-004,e2e-exp-011,1,4000000,2026-03-31,paid,4000000,,e2e-td-007,,true
+e2e-ds-005,e2e-exp-011,2,4000000,2026-04-30,paid,4000000,,,, true
+e2e-ds-006,e2e-exp-012,1,1200000,2026-04-07,paid,1200000,,e2e-td-008,,true
+e2e-ds-007,e2e-exp-016,1,1800000,2026-05-05,pending,,,,,true
+e2e-ds-008,e2e-exp-018,1,2500000,2026-05-15,overdue,,,,,true
+e2e-ds-009,e2e-exp-021,1,1200000,2026-06-11,paid,1200000,,e2e-td-022,,true
+e2e-ds-010,e2e-exp-025,1,1500000,2026-07-18,pending,,,,,true

@@ -1,0 +1,26 @@
+id,name,client_id,location_id,revenue_date,total_amount,currency,status,reference_number,notes,revenue_category_id,fulfillment_status,active,revenue_date_string
+e2e-rev-001,Legal Consultation - Santos Enterprises,client-001,loc-main,2026-01-05,900000,PHP,complete,E2E-REV-001,,revcat-legal,DELIVERED,true,2026-01-05
+e2e-rev-002,Bookkeeping Retainer - Dela Cruz Trading,client-002,loc-main,2026-01-10,1600000,PHP,complete,E2E-REV-002,,revcat-accounting,DELIVERED,true,2026-01-10
+e2e-rev-003,Business Registration - Reyes Consulting,client-003,loc-branch-01,2026-01-15,1650000,PHP,complete,E2E-REV-003,,revcat-admin,DELIVERED,true,2026-01-15
+e2e-rev-004,IT Consulting - Garcia Holdings,client-005,loc-branch-02,2026-01-20,1800000,PHP,ongoing,E2E-REV-004,,revcat-consulting,IN_PROGRESS,true,2026-01-20
+e2e-rev-005,Cancelled: Due Diligence - Torres,client-006,loc-main,2026-01-25,3500000,PHP,cancelled,E2E-REV-005,,revcat-consulting,,true,2026-01-25
+e2e-rev-006,Tax Advisory - Mendoza & Associates,client-004,loc-main,2026-02-01,500000,PHP,complete,E2E-REV-006,,revcat-accounting,DELIVERED,true,2026-02-01
+e2e-rev-007,Payroll Processing - Lim Digital,client-007,loc-branch-02,2026-02-08,1200000,PHP,complete,E2E-REV-007,,revcat-accounting,DELIVERED,true,2026-02-08
+e2e-rev-008,Contract Drafting - Villanueva Logistics,client-008,loc-branch-01,2026-02-14,1350000,PHP,complete,E2E-REV-008,,revcat-legal,DELIVERED,true,2026-02-14
+e2e-rev-009,HR Consulting - Tan Medical,client-009,loc-branch-03,2026-02-20,2400000,PHP,ongoing,E2E-REV-009,,revcat-consulting,IN_PROGRESS,true,2026-02-20
+e2e-rev-010,Cancelled: Marketing - Cruz Engineering,client-010,loc-branch-01,2026-02-25,2000000,PHP,cancelled,E2E-REV-010,,revcat-consulting,,true,2026-02-25
+e2e-rev-011,Audit Services - Santos Enterprises,client-001,loc-main,2026-03-01,2500000,PHP,complete,E2E-REV-011,,revcat-accounting,DELIVERED,true,2026-03-01
+e2e-rev-012,Compliance Review - Garcia Holdings,client-005,loc-branch-02,2026-03-08,3600000,PHP,complete,E2E-REV-012,,revcat-accounting,DELIVERED,true,2026-03-08
+e2e-rev-013,Financial Planning - Mendoza & Associates,client-004,loc-main,2026-03-15,2000000,PHP,ongoing,E2E-REV-013,,revcat-consulting,IN_PROGRESS,true,2026-03-15
+e2e-rev-014,Notarial + Registration - Reyes Consulting,client-003,loc-branch-01,2026-03-22,1800000,PHP,complete,E2E-REV-014,,revcat-admin,DELIVERED,true,2026-03-22
+e2e-rev-015,Cancelled: Valuation - Torres Construction,client-006,loc-branch-03,2026-03-28,3500000,PHP,cancelled,E2E-REV-015,,revcat-consulting,,true,2026-03-28
+e2e-rev-016,Bookkeeping Retainer - Dela Cruz (Apr),client-002,loc-main,2026-04-01,800000,PHP,complete,E2E-REV-016,,revcat-accounting,DELIVERED,true,2026-04-01
+e2e-rev-017,Marketing Strategy - Villanueva Logistics,client-008,loc-branch-01,2026-04-10,4000000,PHP,ongoing,E2E-REV-017,,revcat-consulting,IN_PROGRESS,true,2026-04-10
+e2e-rev-018,Payroll + HR Package - Lim Digital,client-007,loc-branch-02,2026-04-15,1800000,PHP,complete,E2E-REV-018,,revcat-accounting,DELIVERED,true,2026-04-15
+e2e-rev-019,Contract + Notarial - Tan Medical,client-009,loc-branch-03,2026-04-22,1500000,PHP,complete,E2E-REV-019,,revcat-legal,DELIVERED,true,2026-04-22
+e2e-rev-020,Audit Services - Cruz Engineering,client-010,loc-branch-02,2026-05-05,2500000,PHP,complete,E2E-REV-020,,revcat-accounting,DELIVERED,true,2026-05-05
+e2e-rev-021,IT Consulting + Design - Garcia,client-005,loc-branch-02,2026-05-15,1400000,PHP,ongoing,E2E-REV-021,,revcat-consulting,IN_PROGRESS,true,2026-05-15
+e2e-rev-022,Legal Consultation - Santos Enterprises,client-001,loc-main,2026-05-20,1050000,PHP,complete,E2E-REV-022,,revcat-legal,DELIVERED,true,2026-05-20
+e2e-rev-023,Monthly Bookkeeping Retainer - Dela Cruz (Sub),client-002,loc-main,2026-06-01,800000,PHP,complete,E2E-REV-023,,revcat-accounting,DELIVERED,true,2026-06-01
+e2e-rev-024,Tax Advisory Retainer - Mendoza (Sub),client-004,loc-main,2026-06-01,2500000,PHP,ongoing,E2E-REV-024,,revcat-consulting,IN_PROGRESS,true,2026-06-01
+e2e-rev-025,IT Consulting Retainer - Lim Digital (Sub),client-007,loc-branch-02,2026-06-15,900000,PHP,complete,E2E-REV-025,,revcat-accounting,DELIVERED,true,2026-06-15

@@ -1,0 +1,5 @@
+id,name,method_type,provider_name,active
+e2e-dm-bank,BPI Bank Transfer,bank_account,Main corporate bank account,true
+e2e-dm-gcash,GCash Business,bank_account,Mobile wallet for small payments,true
+e2e-dm-cash,Petty Cash,cash,Office petty cash fund,true
+e2e-dm-card,BDO Corporate Card,card,Corporate credit card,true

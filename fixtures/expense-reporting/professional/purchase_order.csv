@@ -1,0 +1,7 @@
+id,date_created,date_modified,active,po_number,po_type,status,supplier_id,location_id,order_date,currency,subtotal,tax_amount,total_amount,payment_terms,shipping_terms,approved_by,notes,reference_number
+e2e-po-001,2026-01-15,2026-01-15,true,E2E-PO-001,purchase,received,sup-001,loc-main,2026-01-15,PHP,450000,0,450000,net_30,,user-admin,Office supplies restock Q1,E2E-PO-REF-001
+e2e-po-002,2026-01-20,2026-01-20,true,E2E-PO-002,purchase,partial,sup-002,loc-branch-01,2026-01-20,PHP,3200000,0,3200000,net_30,,user-admin,IT equipment Ayala branch,E2E-PO-REF-002
+e2e-po-003,2026-02-10,2026-02-10,true,E2E-PO-003,purchase,received,sup-005,loc-branch-02,2026-02-10,PHP,2400000,0,2400000,net_30,,user-admin,LexisNexis subscription renewal,E2E-PO-REF-003
+e2e-po-004,2026-02-20,2026-02-20,true,E2E-PO-004,purchase,received,sup-004,loc-branch-03,2026-02-20,PHP,250000,0,250000,net_30,,user-admin,Pest control services,E2E-PO-REF-004
+e2e-po-005,2026-03-08,2026-03-08,true,E2E-PO-005,purchase,received,sup-001,loc-branch-01,2026-03-08,PHP,1200000,0,1200000,net_30,,user-admin,Raw materials production batch,E2E-PO-REF-005
+e2e-po-006,2026-04-05,2026-04-05,true,E2E-PO-006,purchase,open,sup-002,loc-branch-02,2026-04-05,PHP,1800000,0,1800000,net_30,,user-admin,IT park server maintenance,E2E-PO-REF-006

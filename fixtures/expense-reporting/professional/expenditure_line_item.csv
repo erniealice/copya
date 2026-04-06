@@ -1,0 +1,27 @@
+id,expenditure_id,product_id,quantity,unit_price,line_amount,notes,active,purchase_order_line_item_id
+e2e-eli-001,e2e-exp-001,,1,6000000,6000000,Professional indemnity insurance premium,true,
+e2e-eli-002,e2e-exp-002,prod-goods-002,3,100000,300000,Office supplies - paper and consumables,true,e2e-poli-001
+e2e-eli-003,e2e-exp-002,prod-goods-003,3,50000,150000,Office supplies - pens and stationery,true,e2e-poli-002
+e2e-eli-004,e2e-exp-003,prod-goods-002,2,1600000,3200000,IT equipment - laptops,true,e2e-poli-003
+e2e-eli-005,e2e-exp-004,,1,180000,180000,Courier services January,true,
+e2e-eli-006,e2e-exp-005,prod-goods-002,5,100000,500000,Marketing supplies - CANCELLED,true,
+e2e-eli-007,e2e-exp-006,,1,1500000,1500000,Electricity bill all offices February,true,
+e2e-eli-008,e2e-exp-007,,1,2400000,2400000,LexisNexis annual subscription,true,e2e-poli-004
+e2e-eli-009,e2e-exp-008,,1,850000,850000,Travel expenses CPA conference Manila,true,
+e2e-eli-010,e2e-exp-009,,1,250000,250000,Pest control services quarterly,true,e2e-poli-005
+e2e-eli-011,e2e-exp-010,prod-goods-002,1,1800000,1800000,Equipment - DRAFT,true,
+e2e-eli-012,e2e-exp-011,,1,8000000,8000000,Office rent main office Q1,true,
+e2e-eli-013,e2e-exp-012,prod-goods-003,12,100000,1200000,Raw materials production batch,true,e2e-poli-006
+e2e-eli-014,e2e-exp-013,,1,350000,350000,Internet and telco March,true,
+e2e-eli-015,e2e-exp-014,prod-goods-002,2,140000,280000,Cleaning supplies all offices,true,
+e2e-eli-016,e2e-exp-015,,1,1500000,1500000,Training program - CANCELLED,true,
+e2e-eli-017,e2e-exp-016,,1,1800000,1800000,Server maintenance IT park,true,e2e-poli-007
+e2e-eli-018,e2e-exp-017,,1,650000,650000,Employee travel client visit,true,
+e2e-eli-019,e2e-exp-018,prod-goods-002,5,500000,2500000,Office furniture north branch,true,
+e2e-eli-020,e2e-exp-019,,1,800000,800000,Subscription upgrade - CANCELLED,true,
+e2e-eli-021,e2e-exp-020,,1,1600000,1600000,Electricity bill Q2 cycle,true,
+e2e-eli-022,e2e-exp-021,,1,1200000,1200000,Insurance rider branch offices,true,
+e2e-eli-023,e2e-exp-022,,1,320000,320000,Printing and document services,true,
+e2e-eli-024,e2e-exp-023,,1,8000000,8000000,Office rent main office Q2,true,
+e2e-eli-025,e2e-exp-024,prod-goods-003,10,95000,950000,Raw materials restock,true,
+e2e-eli-026,e2e-exp-025,,1,1500000,1500000,IT support contract renewal,true,

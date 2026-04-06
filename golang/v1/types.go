@@ -30,10 +30,12 @@ var InsertOrder = []string{
 	"location",
 	"payment_method",
 	"collection_method",
+	"disbursement_method",
 	"event_recurrence",
 	"account_group",
 	"expenditure_category",
 	"revenue_category",
+	"location_area",
 
 	// Level 1: depend on user or base tables
 	"admin",
@@ -81,6 +83,8 @@ var InsertOrder = []string{
 	"price_plan",
 	"inventory_serial",
 	"inventory_attribute",
+	"purchase_order",
+	"purchase_order_line_item",
 
 	// Level 4: transactional
 	"subscription",
@@ -92,6 +96,7 @@ var InsertOrder = []string{
 	"expenditure_line_item",
 	"treasury_collection",
 	"treasury_disbursement",
+	"disbursement_schedule",
 	"journal_entry",
 	"journal_line",
 	"asset",

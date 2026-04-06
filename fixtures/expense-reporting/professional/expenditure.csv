@@ -1,0 +1,26 @@
+id,name,expenditure_type,supplier_id,expenditure_date,total_amount,currency,status,reference_number,notes,expenditure_category_id,location_id,payment_terms,due_date,approved_by,active,purchase_order_id,expenditure_date_string
+e2e-exp-001,Professional Indemnity Insurance,expense,sup-006,2026-01-10,6000000,PHP,paid,E2E-EXP-001,,expcat-insurance,loc-main,net_30,2026-02-09,user-admin,true,,2026-01-10
+e2e-exp-002,Office Supplies Restock Q1,purchase,sup-001,2026-01-15,450000,PHP,paid,E2E-EXP-002,,expcat-office-supplies,loc-main,net_30,2026-02-14,user-admin,true,e2e-po-001,2026-01-15
+e2e-exp-003,IT Equipment - Ayala Branch,purchase,sup-002,2026-01-20,3200000,PHP,approved,E2E-EXP-003,,expcat-equipment,loc-branch-01,net_30,2026-03-20,user-admin,true,e2e-po-002,2026-01-20
+e2e-exp-004,Courier Services January,expense,sup-003,2026-01-25,180000,PHP,paid,E2E-EXP-004,,expcat-services,loc-branch-02,net_0,,user-admin,true,,2026-01-25
+e2e-exp-005,CANCELLED: Marketing Supplies,purchase,sup-001,2026-01-28,500000,PHP,cancelled,E2E-EXP-005,,expcat-office-supplies,loc-main,net_30,,user-admin,true,,2026-01-28
+e2e-exp-006,Electricity Bill - All Offices,expense,,2026-02-05,1500000,PHP,paid,E2E-EXP-006,,expcat-utilities,loc-main,net_0,,user-admin,true,,2026-02-05
+e2e-exp-007,LexisNexis Subscription Renewal,purchase,sup-005,2026-02-10,2400000,PHP,paid,E2E-EXP-007,,expcat-technology,loc-branch-02,net_30,2026-03-12,user-admin,true,e2e-po-003,2026-02-10
+e2e-exp-008,Travel - CPA Conference Manila,expense,,2026-02-15,850000,PHP,approved,E2E-EXP-008,,expcat-travel,loc-main,net_0,2026-02-15,user-admin,true,,2026-02-15
+e2e-exp-009,Pest Control Services,purchase,sup-004,2026-02-20,250000,PHP,paid,E2E-EXP-009,,expcat-services,loc-branch-03,net_30,2026-03-22,user-admin,true,e2e-po-004,2026-02-20
+e2e-exp-010,DRAFT: Future Equipment,purchase,sup-002,2026-02-25,1800000,PHP,draft,E2E-EXP-010,,expcat-equipment,loc-main,net_30,,user-admin,true,,2026-02-25
+e2e-exp-011,Office Rent - Main Office Q1,expense,,2026-03-01,8000000,PHP,paid,E2E-EXP-011,,expcat-services,loc-main,installment,,user-admin,true,,2026-03-01
+e2e-exp-012,Raw Materials - Production Batch,purchase,sup-001,2026-03-08,1200000,PHP,paid,E2E-EXP-012,,expcat-raw-materials,loc-branch-01,net_30,2026-04-07,user-admin,true,e2e-po-005,2026-03-08
+e2e-exp-013,Internet & Telco - March,expense,,2026-03-12,350000,PHP,paid,E2E-EXP-013,,expcat-utilities,loc-branch-02,net_0,,user-admin,true,,2026-03-12
+e2e-exp-014,Cleaning Supplies - All Offices,purchase,sup-004,2026-03-18,280000,PHP,approved,E2E-EXP-014,,expcat-office-supplies,loc-branch-03,net_30,,user-admin,true,,2026-03-18
+e2e-exp-015,CANCELLED: Training Program,expense,,2026-03-25,1500000,PHP,cancelled,E2E-EXP-015,,expcat-services,loc-main,net_0,,user-admin,true,,2026-03-25
+e2e-exp-016,IT Park Server Maintenance,purchase,sup-002,2026-04-05,1800000,PHP,approved,E2E-EXP-016,,expcat-technology,loc-branch-02,net_30,,user-admin,true,e2e-po-006,2026-04-05
+e2e-exp-017,Employee Travel - Client Visit,expense,,2026-04-10,650000,PHP,paid,E2E-EXP-017,,expcat-travel,loc-branch-01,net_0,,user-admin,true,,2026-04-10
+e2e-exp-018,Office Furniture - North Branch,purchase,sup-001,2026-04-15,2500000,PHP,pending,E2E-EXP-018,,expcat-equipment,loc-branch-03,net_30,2026-04-15,user-admin,true,,2026-04-15
+e2e-exp-019,CANCELLED: Subscription Upgrade,purchase,sup-005,2026-04-20,800000,PHP,cancelled,E2E-EXP-019,,expcat-technology,loc-branch-02,net_30,,user-admin,true,,2026-04-20
+e2e-exp-020,Electricity Bill - Q2 Cycle,expense,,2026-05-05,1600000,PHP,paid,E2E-EXP-020,,expcat-utilities,loc-main,net_0,,user-admin,true,,2026-05-05
+e2e-exp-021,Insurance Rider - Branch Offices,expense,sup-006,2026-05-12,1200000,PHP,approved,E2E-EXP-021,,expcat-insurance,loc-branch-01,net_30,2026-05-12,user-admin,true,,2026-05-12
+e2e-exp-022,Printing & Document Services,purchase,sup-004,2026-05-20,320000,PHP,paid,E2E-EXP-022,,expcat-services,loc-branch-02,net_30,2026-06-19,user-admin,true,,2026-05-20
+e2e-exp-023,Office Rent - Main Office Q2,expense,,2026-06-01,8000000,PHP,paid,E2E-EXP-023,,expcat-services,loc-main,net_0,,user-admin,true,,2026-06-01
+e2e-exp-024,Raw Materials Restock,purchase,sup-001,2026-06-10,950000,PHP,paid,E2E-EXP-024,,expcat-raw-materials,loc-branch-01,net_30,,user-admin,true,,2026-06-10
+e2e-exp-025,IT Support Contract Renewal,purchase,sup-002,2026-06-18,1500000,PHP,approved,E2E-EXP-025,,expcat-technology,loc-branch-02,net_30,,user-admin,true,,2026-06-18

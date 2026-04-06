@@ -1,0 +1,26 @@
+id,name,amount,status,expenditure_id,disbursement_type,currency,reference_number,payment_date,approved_by,active,disbursement_method_id
+e2e-td-001,Payment - Professional Indemnity Insurance,6000000,paid,e2e-exp-001,expense,PHP,E2E-DISB-001,2026-01-10,user-admin,true,e2e-dm-bank
+e2e-td-002,Payment - Office Supplies Restock Q1,450000,paid,e2e-exp-002,purchase,PHP,E2E-DISB-002,2026-01-15,user-admin,true,e2e-dm-bank
+e2e-td-003,Payment - Courier Services January,180000,paid,e2e-exp-004,expense,PHP,E2E-DISB-003,2026-01-25,user-admin,true,e2e-dm-cash
+e2e-td-004,Payment - Electricity Bill February,1500000,paid,e2e-exp-006,expense,PHP,E2E-DISB-004,2026-02-05,user-admin,true,e2e-dm-bank
+e2e-td-005,Payment - LexisNexis Subscription,2400000,paid,e2e-exp-007,purchase,PHP,E2E-DISB-005,2026-02-10,user-admin,true,e2e-dm-card
+e2e-td-006,Payment - Pest Control Services,250000,paid,e2e-exp-009,purchase,PHP,E2E-DISB-006,2026-02-20,user-admin,true,e2e-dm-cash
+e2e-td-007,Payment - Office Rent Main Office Q1,8000000,paid,e2e-exp-011,expense,PHP,E2E-DISB-007,2026-03-01,user-admin,true,e2e-dm-bank
+e2e-td-008,Payment - Raw Materials Production Batch,1200000,paid,e2e-exp-012,purchase,PHP,E2E-DISB-008,2026-03-08,user-admin,true,e2e-dm-bank
+e2e-td-009,Payment - Internet & Telco March,350000,paid,e2e-exp-013,expense,PHP,E2E-DISB-009,2026-03-12,user-admin,true,e2e-dm-gcash
+e2e-td-010,Payment - Employee Travel Client Visit,650000,paid,e2e-exp-017,expense,PHP,E2E-DISB-010,2026-04-10,user-admin,true,e2e-dm-cash
+e2e-td-011,Payment - Electricity Bill Q2,1600000,paid,e2e-exp-020,expense,PHP,E2E-DISB-011,2026-05-05,user-admin,true,e2e-dm-bank
+e2e-td-012,Payment - Printing & Document Services,320000,paid,e2e-exp-022,purchase,PHP,E2E-DISB-012,2026-05-20,user-admin,true,e2e-dm-card
+e2e-td-013,Payment - Office Rent Main Office Q2,8000000,paid,e2e-exp-023,expense,PHP,E2E-DISB-013,2026-06-01,user-admin,true,e2e-dm-bank
+e2e-td-014,Payment - Raw Materials Restock,950000,paid,e2e-exp-024,purchase,PHP,E2E-DISB-014,2026-06-10,user-admin,true,e2e-dm-bank
+e2e-td-015,CANCELLED: Marketing Supplies Payment,500000,cancelled,e2e-exp-005,purchase,PHP,E2E-DISB-015,,user-admin,true,
+e2e-td-016,CANCELLED: Training Program Payment,1500000,cancelled,e2e-exp-015,expense,PHP,E2E-DISB-016,,user-admin,true,
+e2e-td-017,Overdue: IT Equipment Ayala Branch,3200000,overdue,e2e-exp-003,purchase,PHP,E2E-DISB-017,,user-admin,true,e2e-dm-bank
+e2e-td-018,Overdue: Travel CPA Conference,850000,overdue,e2e-exp-008,expense,PHP,E2E-DISB-018,,user-admin,true,e2e-dm-cash
+e2e-td-019,Overdue: Office Furniture North Branch,2500000,overdue,e2e-exp-018,purchase,PHP,E2E-DISB-019,,user-admin,true,e2e-dm-bank
+e2e-td-020,Pending: Cleaning Supplies All Offices,280000,pending,e2e-exp-014,purchase,PHP,E2E-DISB-020,,user-admin,true,e2e-dm-cash
+e2e-td-021,Pending: IT Park Server Maintenance,1800000,pending,e2e-exp-016,purchase,PHP,E2E-DISB-021,,user-admin,true,e2e-dm-bank
+e2e-td-022,Payment - Insurance Rider Branch Offices,1200000,paid,e2e-exp-021,expense,PHP,E2E-DISB-022,2026-05-12,user-admin,true,e2e-dm-bank
+e2e-td-023,Overdue: DRAFT Future Equipment,1800000,overdue,e2e-exp-010,purchase,PHP,E2E-DISB-023,,user-admin,true,e2e-dm-bank
+e2e-td-024,Pending: IT Support Contract Renewal,1500000,pending,e2e-exp-025,purchase,PHP,E2E-DISB-024,,user-admin,true,e2e-dm-card
+e2e-td-025,Pending: Subscription Upgrade,800000,pending,e2e-exp-019,purchase,PHP,E2E-DISB-025,,user-admin,true,e2e-dm-gcash
