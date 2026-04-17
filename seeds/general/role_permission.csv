@@ -349,6 +349,16 @@ rp-role-admin-perm-price_plan-read,role-admin,perm-price_plan-read,PERMISSION_TY
 rp-role-admin-perm-price_plan-update,role-admin,perm-price_plan-update,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-price_plan-delete,role-admin,perm-price_plan-delete,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-price_plan-list,role-admin,perm-price_plan-list,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-price_schedule-create,role-admin,perm-price_schedule-create,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-price_schedule-read,role-admin,perm-price_schedule-read,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-price_schedule-update,role-admin,perm-price_schedule-update,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-price_schedule-delete,role-admin,perm-price_schedule-delete,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-price_schedule-list,role-admin,perm-price_schedule-list,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-product_price_plan-create,role-admin,perm-product_price_plan-create,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-product_price_plan-read,role-admin,perm-product_price_plan-read,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-product_price_plan-update,role-admin,perm-product_price_plan-update,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-product_price_plan-delete,role-admin,perm-product_price_plan-delete,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-product_price_plan-list,role-admin,perm-product_price_plan-list,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-subscription-create,role-admin,perm-subscription-create,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-subscription-read,role-admin,perm-subscription-read,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-subscription-update,role-admin,perm-subscription-update,PERMISSION_TYPE_ALLOW,true

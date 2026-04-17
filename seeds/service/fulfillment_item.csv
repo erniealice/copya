@@ -1,4 +1,4 @@
-id,fulfillment_id,revenue_line_item_id,product_id,fulfillment_method,quantity_ordered,quantity_delivered,status,notes
+id,fulfillment_id,revenue_line_item_id,product_id,delivery_mode,quantity_ordered,quantity_delivered,status,notes
 fi-001,ful-001,rli-001,prod-003,IN_STORE,1,1,DELIVERED,Rebonding completed
 fi-002,ful-002,rli-002,prod-001,IN_STORE,1,1,DELIVERED,Haircut completed
 fi-003,ful-002,rli-003,prod-006,IN_STORE,1,1,DELIVERED,Hot oil completed

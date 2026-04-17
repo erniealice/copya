@@ -349,6 +349,16 @@ perm-price_plan-read,default-workspace,superadmin-001,superadmin-001,Price Plan:
 perm-price_plan-update,default-workspace,superadmin-001,superadmin-001,Price Plan: Update,price_plan:update,PERMISSION_TYPE_ALLOW,true
 perm-price_plan-delete,default-workspace,superadmin-001,superadmin-001,Price Plan: Delete,price_plan:delete,PERMISSION_TYPE_ALLOW,true
 perm-price_plan-list,default-workspace,superadmin-001,superadmin-001,Price Plan: List,price_plan:list,PERMISSION_TYPE_ALLOW,true
+perm-price_schedule-create,default-workspace,superadmin-001,superadmin-001,Price Schedule: Create,price_schedule:create,PERMISSION_TYPE_ALLOW,true
+perm-price_schedule-read,default-workspace,superadmin-001,superadmin-001,Price Schedule: Read,price_schedule:read,PERMISSION_TYPE_ALLOW,true
+perm-price_schedule-update,default-workspace,superadmin-001,superadmin-001,Price Schedule: Update,price_schedule:update,PERMISSION_TYPE_ALLOW,true
+perm-price_schedule-delete,default-workspace,superadmin-001,superadmin-001,Price Schedule: Delete,price_schedule:delete,PERMISSION_TYPE_ALLOW,true
+perm-price_schedule-list,default-workspace,superadmin-001,superadmin-001,Price Schedule: List,price_schedule:list,PERMISSION_TYPE_ALLOW,true
+perm-product_price_plan-create,default-workspace,superadmin-001,superadmin-001,Product Price Plan: Create,product_price_plan:create,PERMISSION_TYPE_ALLOW,true
+perm-product_price_plan-read,default-workspace,superadmin-001,superadmin-001,Product Price Plan: Read,product_price_plan:read,PERMISSION_TYPE_ALLOW,true
+perm-product_price_plan-update,default-workspace,superadmin-001,superadmin-001,Product Price Plan: Update,product_price_plan:update,PERMISSION_TYPE_ALLOW,true
+perm-product_price_plan-delete,default-workspace,superadmin-001,superadmin-001,Product Price Plan: Delete,product_price_plan:delete,PERMISSION_TYPE_ALLOW,true
+perm-product_price_plan-list,default-workspace,superadmin-001,superadmin-001,Product Price Plan: List,product_price_plan:list,PERMISSION_TYPE_ALLOW,true
 perm-subscription-create,default-workspace,superadmin-001,superadmin-001,Subscription: Create,subscription:create,PERMISSION_TYPE_ALLOW,true
 perm-subscription-read,default-workspace,superadmin-001,superadmin-001,Subscription: Read,subscription:read,PERMISSION_TYPE_ALLOW,true
 perm-subscription-update,default-workspace,superadmin-001,superadmin-001,Subscription: Update,subscription:update,PERMISSION_TYPE_ALLOW,true
