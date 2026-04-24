@@ -1,0 +1,13 @@
+id,workspace_id,name,description,color,active
+event-tag-red,default-workspace,Red,High-urgency meetings and blockers,#E53E3E,true
+event-tag-orange,default-workspace,Orange,Project reviews and status checks,#DD6B20,true
+event-tag-amber,default-workspace,Amber,Interviews and hiring,#D69E2E,true
+event-tag-olive,default-workspace,Olive,Personal errands and admin,#B45309,true
+event-tag-green,default-workspace,Green,Client meetings,#059669,true
+event-tag-teal,default-workspace,Teal,Reports and analysis,#0D9488,true
+event-tag-blue,default-workspace,Blue,Operations and inventory,#2B6CB0,true
+event-tag-navy,default-workspace,Navy,Supplier and vendor syncs,#4F46E5,true
+event-tag-purple,default-workspace,Purple,Training and workshops,#805AD5,true
+event-tag-plum,default-workspace,Plum,Strategy and planning,#6842B8,true
+event-tag-rose,default-workspace,Rose,Expenses and finance,#DC2626,true
+event-tag-slate,default-workspace,Slate,General / uncategorized,#6B7280,true

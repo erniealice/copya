@@ -625,3 +625,8 @@ rp-role-admin-perm-integration-view,role-admin,perm-integration-view,PERMISSION_
 rp-role-admin-perm-integration-manage,role-admin,perm-integration-manage,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-audit_trail-read,role-admin,perm-audit_trail-read,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-audit_trail-export,role-admin,perm-audit_trail-export,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-supplies-create,role-admin,perm-supplies-create,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-supplies-read,role-admin,perm-supplies-read,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-supplies-update,role-admin,perm-supplies-update,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-supplies-delete,role-admin,perm-supplies-delete,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-supplies-list,role-admin,perm-supplies-list,PERMISSION_TYPE_ALLOW,true

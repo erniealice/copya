@@ -625,3 +625,8 @@ perm-integration-view,default-workspace,superadmin-001,superadmin-001,Integratio
 perm-integration-manage,default-workspace,superadmin-001,superadmin-001,Integration: Manage,integration:manage,PERMISSION_TYPE_ALLOW,true
 perm-audit_trail-read,default-workspace,superadmin-001,superadmin-001,Audit Trail: Read,audit_trail:read,PERMISSION_TYPE_ALLOW,true
 perm-audit_trail-export,default-workspace,superadmin-001,superadmin-001,Audit Trail: Export,audit_trail:export,PERMISSION_TYPE_ALLOW,true
+perm-supplies-create,default-workspace,superadmin-001,superadmin-001,Supplies: Create,supplies:create,PERMISSION_TYPE_ALLOW,true
+perm-supplies-read,default-workspace,superadmin-001,superadmin-001,Supplies: Read,supplies:read,PERMISSION_TYPE_ALLOW,true
+perm-supplies-update,default-workspace,superadmin-001,superadmin-001,Supplies: Update,supplies:update,PERMISSION_TYPE_ALLOW,true
+perm-supplies-delete,default-workspace,superadmin-001,superadmin-001,Supplies: Delete,supplies:delete,PERMISSION_TYPE_ALLOW,true
+perm-supplies-list,default-workspace,superadmin-001,superadmin-001,Supplies: List,supplies:list,PERMISSION_TYPE_ALLOW,true
