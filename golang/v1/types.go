@@ -80,6 +80,7 @@ var InsertOrder = []string{
 	"product_collection",
 	"product_plan",
 	"price_product",
+	"price_schedule",
 	"price_plan",
 	"inventory_serial",
 	"inventory_attribute",
