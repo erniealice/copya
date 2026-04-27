@@ -630,3 +630,34 @@ perm-supplies-read,default-workspace,superadmin-001,superadmin-001,Supplies: Rea
 perm-supplies-update,default-workspace,superadmin-001,superadmin-001,Supplies: Update,supplies:update,PERMISSION_TYPE_ALLOW,true
 perm-supplies-delete,default-workspace,superadmin-001,superadmin-001,Supplies: Delete,supplies:delete,PERMISSION_TYPE_ALLOW,true
 perm-supplies-list,default-workspace,superadmin-001,superadmin-001,Supplies: List,supplies:list,PERMISSION_TYPE_ALLOW,true
+perm-revenue-create,default-workspace,superadmin-001,superadmin-001,Revenue: Create,revenue:create,PERMISSION_TYPE_ALLOW,true
+perm-revenue-read,default-workspace,superadmin-001,superadmin-001,Revenue: Read,revenue:read,PERMISSION_TYPE_ALLOW,true
+perm-revenue-update,default-workspace,superadmin-001,superadmin-001,Revenue: Update,revenue:update,PERMISSION_TYPE_ALLOW,true
+perm-revenue-delete,default-workspace,superadmin-001,superadmin-001,Revenue: Delete,revenue:delete,PERMISSION_TYPE_ALLOW,true
+perm-revenue-list,default-workspace,superadmin-001,superadmin-001,Revenue: List,revenue:list,PERMISSION_TYPE_ALLOW,true
+perm-revenue-line-item-create,default-workspace,superadmin-001,superadmin-001,Revenue Line Item: Create,revenue_line_item:create,PERMISSION_TYPE_ALLOW,true
+perm-revenue-line-item-read,default-workspace,superadmin-001,superadmin-001,Revenue Line Item: Read,revenue_line_item:read,PERMISSION_TYPE_ALLOW,true
+perm-revenue-line-item-update,default-workspace,superadmin-001,superadmin-001,Revenue Line Item: Update,revenue_line_item:update,PERMISSION_TYPE_ALLOW,true
+perm-revenue-line-item-delete,default-workspace,superadmin-001,superadmin-001,Revenue Line Item: Delete,revenue_line_item:delete,PERMISSION_TYPE_ALLOW,true
+perm-revenue-line-item-list,default-workspace,superadmin-001,superadmin-001,Revenue Line Item: List,revenue_line_item:list,PERMISSION_TYPE_ALLOW,true
+perm-supplier_contract-list,default-workspace,superadmin-001,superadmin-001,Supplier Contract: List,supplier_contract:list,PERMISSION_TYPE_ALLOW,true
+perm-supplier_contract-create,default-workspace,superadmin-001,superadmin-001,Supplier Contract: Create,supplier_contract:create,PERMISSION_TYPE_ALLOW,true
+perm-supplier_contract-update,default-workspace,superadmin-001,superadmin-001,Supplier Contract: Update,supplier_contract:update,PERMISSION_TYPE_ALLOW,true
+perm-supplier_contract-delete,default-workspace,superadmin-001,superadmin-001,Supplier Contract: Delete,supplier_contract:delete,PERMISSION_TYPE_ALLOW,true
+perm-supplier_contract-approve,default-workspace,superadmin-001,superadmin-001,Supplier Contract: Approve,supplier_contract:approve,PERMISSION_TYPE_ALLOW,true
+perm-supplier_contract-terminate,default-workspace,superadmin-001,superadmin-001,Supplier Contract: Terminate,supplier_contract:terminate,PERMISSION_TYPE_ALLOW,true
+perm-supplier_contract_line-list,default-workspace,superadmin-001,superadmin-001,Supplier Contract Line: List,supplier_contract_line:list,PERMISSION_TYPE_ALLOW,true
+perm-supplier_contract_line-create,default-workspace,superadmin-001,superadmin-001,Supplier Contract Line: Create,supplier_contract_line:create,PERMISSION_TYPE_ALLOW,true
+perm-supplier_contract_line-update,default-workspace,superadmin-001,superadmin-001,Supplier Contract Line: Update,supplier_contract_line:update,PERMISSION_TYPE_ALLOW,true
+perm-supplier_contract_line-delete,default-workspace,superadmin-001,superadmin-001,Supplier Contract Line: Delete,supplier_contract_line:delete,PERMISSION_TYPE_ALLOW,true
+perm-procurement_request-list,default-workspace,superadmin-001,superadmin-001,Procurement Request: List,procurement_request:list,PERMISSION_TYPE_ALLOW,true
+perm-procurement_request-create,default-workspace,superadmin-001,superadmin-001,Procurement Request: Create,procurement_request:create,PERMISSION_TYPE_ALLOW,true
+perm-procurement_request-update,default-workspace,superadmin-001,superadmin-001,Procurement Request: Update,procurement_request:update,PERMISSION_TYPE_ALLOW,true
+perm-procurement_request-delete,default-workspace,superadmin-001,superadmin-001,Procurement Request: Delete,procurement_request:delete,PERMISSION_TYPE_ALLOW,true
+perm-procurement_request-submit,default-workspace,superadmin-001,superadmin-001,Procurement Request: Submit,procurement_request:submit,PERMISSION_TYPE_ALLOW,true
+perm-procurement_request-approve,default-workspace,superadmin-001,superadmin-001,Procurement Request: Approve,procurement_request:approve,PERMISSION_TYPE_ALLOW,true
+perm-procurement_request-reject,default-workspace,superadmin-001,superadmin-001,Procurement Request: Reject,procurement_request:reject,PERMISSION_TYPE_ALLOW,true
+perm-procurement_request_line-list,default-workspace,superadmin-001,superadmin-001,Procurement Request Line: List,procurement_request_line:list,PERMISSION_TYPE_ALLOW,true
+perm-procurement_request_line-create,default-workspace,superadmin-001,superadmin-001,Procurement Request Line: Create,procurement_request_line:create,PERMISSION_TYPE_ALLOW,true
+perm-procurement_request_line-update,default-workspace,superadmin-001,superadmin-001,Procurement Request Line: Update,procurement_request_line:update,PERMISSION_TYPE_ALLOW,true
+perm-procurement_request_line-delete,default-workspace,superadmin-001,superadmin-001,Procurement Request Line: Delete,procurement_request_line:delete,PERMISSION_TYPE_ALLOW,true

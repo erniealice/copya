@@ -1,4 +1,4 @@
-id,internal_id,company_name,supplier_type,status,payment_terms,category_id,currency,country,notes,active
+id,internal_id,name,supplier_type,status,payment_terms,category_id,currency,country,notes,active
 sup-001,SUP-0001,L'Oreal Philippines,company,active,net_30,supcat-product,PHP,PH,Major product supplier for hair care and color lines,true
 sup-002,SUP-0002,Takara Belmont PH,company,active,net_60,supcat-equipment,PHP,PH,Premium salon equipment and furniture supplier,true
 sup-003,SUP-0003,Manila Water Company,company,active,net_15,supcat-utilities,PHP,PH,Utility provider for water services,true

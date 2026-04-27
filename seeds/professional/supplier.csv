@@ -1,4 +1,4 @@
-id,internal_id,company_name,supplier_type,status,payment_terms,category_id,currency,country,notes,active
+id,internal_id,name,supplier_type,status,payment_terms,category_id,currency,country,notes,active
 sup-001,SUP-0001,Office Warehouse Cebu,company,active,net_30,supcat-office-supplies,PHP,PH,Primary office supplies and stationery vendor,true
 sup-002,SUP-0002,TechPro IT Services,company,active,net_30,supcat-technology,PHP,PH,IT infrastructure managed services and equipment provider,true
 sup-003,SUP-0003,LBC Express,company,active,immediate,supcat-logistics,PHP,PH,Document courier and logistics services,true
