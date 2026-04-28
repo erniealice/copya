@@ -1,0 +1,12 @@
+id,supplier_contract_id,product_id,description,line_type,quantity,unit_price,total_amount,treatment,start_date,end_date,line_number,active
+scl-001,sc-001,,Legal research database core access,service,1,2400000,2400000,recurring,2026-01-01,2026-12-31,1,true
+scl-002,sc-001,,Premium case archives access,service,1,0,0,recurring,2026-01-01,2026-12-31,2,true
+scl-003,sc-002,,Document courier service,service,1,180000,180000,recurring,2026-01-01,2026-12-31,1,true
+scl-004,sc-003,,A4 bond paper reams,goods,0,15000,0,usage_based,2026-01-01,2026-12-31,1,true
+scl-005,sc-003,,Toner cartridges HP LaserJet,goods,0,20000,0,usage_based,2026-01-01,2026-12-31,2,true
+scl-006,sc-004,,Print pages allotment,service,500000,30,15000000,minimum_commitment,2026-01-01,2026-12-31,1,true
+scl-007,sc-005,,IT managed service hours,service,40,37500,1500000,recurring,2026-01-01,2026-12-31,1,true
+scl-008,sc-006,,Professional indemnity premium,service,1,6000000,6000000,one_time,2026-01-15,2027-01-14,1,true
+scl-009,sc-007,,Additional dev environments,service,4,200000,800000,recurring,2026-05-01,2027-04-30,1,true
+scl-010,sc-009,,Q1 2025 supply allotment,service,1000,3000,3000000,minimum_commitment,2025-01-01,2025-12-31,1,true
+scl-011,sc-010,,LBC premium tier add-on,service,1,100000,100000,recurring,2026-01-01,2026-03-31,1,true

@@ -1,0 +1,9 @@
+id,procurement_request_id,product_id,description,line_type,quantity,estimated_unit_price,estimated_total_price,supplier_contract_line_id,location_id,line_number,active
+prl-001,pr-001,,Dell XPS 15 laptop with accessories,goods,2,250000,500000,,loc-main,1,true
+prl-002,pr-001,,USB-C docking station,goods,2,25000,50000,,loc-main,2,true
+prl-003,pr-002,,A4 bond paper reams,goods,30,15000,450000,scl-004,loc-main,1,true
+prl-004,pr-003,,Additional dev environment seats,service,4,200000,800000,scl-009,loc-main,1,true
+prl-005,pr-004,,Toner cartridges HP LaserJet,goods,10,20000,200000,scl-005,loc-main,1,true
+prl-006,pr-005,,32-inch monitor,goods,5,80000,400000,,loc-main,1,true
+prl-007,pr-006,,A4 bond paper restock,goods,20,15000,300000,scl-004,loc-main,1,true
+prl-008,pr-007,,Research add-on trial subscription,service,1,150000,150000,,loc-main,1,true

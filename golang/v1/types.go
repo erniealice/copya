@@ -84,6 +84,10 @@ var InsertOrder = []string{
 	"price_plan",
 	"inventory_serial",
 	"inventory_attribute",
+	"supplier_contract",
+	"supplier_contract_line",
+	"procurement_request",
+	"procurement_request_line",
 	"purchase_order",
 	"purchase_order_line_item",
 
