@@ -1,5 +1,6 @@
-id,plan_id,name,description,billing_amount,billing_currency,duration_value,duration_unit,price_schedule_id,active
-plan-consultation,plan-consultation,Consultation Monthly,Monthly legal consultation retainer,1500000,PHP,1,month,sched-default,true
-plan-advisory,plan-advisory,Advisory Monthly,Monthly tax advisory retainer,2500000,PHP,1,month,sched-default,true
-plan-audit,plan-audit,Audit Engagement,Per-engagement financial audit,5000000,PHP,3,month,sched-default,true
-plan-bookkeeping,plan-bookkeeping,Bookkeeping Monthly,Monthly bookkeeping service,800000,PHP,1,month,sched-default,true
+id,plan_id,name,description,billing_amount,billing_currency,duration_value,duration_unit,price_schedule_id,active,billing_kind,amount_basis
+plan-consultation,plan-consultation,Consultation Monthly,Monthly legal consultation retainer,1500000,PHP,1,month,sched-default,true,BILLING_KIND_RECURRING,AMOUNT_BASIS_PER_CYCLE
+plan-advisory,plan-advisory,Advisory Monthly,Monthly tax advisory retainer,2500000,PHP,1,month,sched-default,true,BILLING_KIND_RECURRING,AMOUNT_BASIS_PER_CYCLE
+plan-audit,plan-audit,Audit Engagement,Per-engagement financial audit,5000000,PHP,3,month,sched-default,true,BILLING_KIND_CONTRACT,AMOUNT_BASIS_TOTAL_PACKAGE
+plan-bookkeeping,plan-bookkeeping,Bookkeeping Monthly,Monthly bookkeeping service,800000,PHP,1,month,sched-default,true,BILLING_KIND_RECURRING,AMOUNT_BASIS_PER_CYCLE
+pp-tower-audit-milestone,plan-tower-audit,Tower Audit · Milestone Plan,Milestone-billed structural audit engagement (₱500K total over 3 phases),50000000,PHP,,,ps-fy26-eng,true,BILLING_KIND_MILESTONE,AMOUNT_BASIS_TOTAL_PACKAGE

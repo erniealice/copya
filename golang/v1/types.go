@@ -112,6 +112,10 @@ var InsertOrder = []string{
 	"job_template",
 	"job_template_phase",
 	"job_template_task",
+	// product_price_plan FK references job_template_phase (milestone billing),
+	// so it must be inserted after job_template_phase even though it's a
+	// pricing-graph entity (Level 3).
+	"product_price_plan",
 	"job",
 	"job_phase",
 	"job_task",

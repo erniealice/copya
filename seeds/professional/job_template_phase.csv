@@ -1,11 +1,14 @@
-id,job_template_id,name,phase_order,active
-jtp-001,jt-001,Engagement Letter,1,true
-jtp-002,jt-001,Research & Preparation,2,true
-jtp-003,jt-001,Service Delivery,3,true
-jtp-004,jt-002,Engagement Setup,1,true
-jtp-005,jt-002,Monthly Execution,2,true
-jtp-006,jt-002,Reporting & Billing,3,true
-jtp-007,jt-003,Scoping & Proposal,1,true
-jtp-008,jt-003,Project Execution,2,true
-jtp-009,jt-003,Review & Revisions,3,true
-jtp-010,jt-004,Audit Planning,1,true
+id,job_template_id,name,phase_order,active,triggers_billing,billing_percent_bps
+jtp-001,jt-001,Engagement Letter,1,true,,
+jtp-002,jt-001,Research & Preparation,2,true,,
+jtp-003,jt-001,Service Delivery,3,true,,
+jtp-004,jt-002,Engagement Setup,1,true,,
+jtp-005,jt-002,Monthly Execution,2,true,,
+jtp-006,jt-002,Reporting & Billing,3,true,,
+jtp-007,jt-003,Scoping & Proposal,1,true,,
+jtp-008,jt-003,Project Execution,2,true,,
+jtp-009,jt-003,Review & Revisions,3,true,,
+jtp-010,jt-004,Audit Planning,1,true,,
+jtp-tower-design,jt-tower-audit,Design,1,true,true,3000
+jtp-tower-build,jt-tower-audit,Build,2,true,true,5000
+jtp-tower-commission,jt-tower-audit,Commissioning,3,true,true,2000

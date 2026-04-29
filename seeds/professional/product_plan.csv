@@ -1,0 +1,5 @@
+id,name,description,product_id,plan_id,active
+prodplan-tower-svc,Tower Audit Service,Catalog line for Tower Audit Service,prod-tower-audit-svc,plan-tower-audit,true
+prodplan-permit,Permit Filing,Catalog line for Permit Filing,prod-permit-filing,plan-tower-audit,true
+prodplan-site-inspect,Site Inspection,Catalog line for Site Inspection,prod-site-inspect,plan-tower-audit,true
+prodplan-commission,Commissioning Report,Catalog line for Commissioning Report,prod-commission,plan-tower-audit,true

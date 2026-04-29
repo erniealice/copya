@@ -689,3 +689,4 @@ perm-supplier_dependent-read,default-workspace,superadmin-001,superadmin-001,Sup
 perm-supplier_dependent-write,default-workspace,superadmin-001,superadmin-001,Supplier Dependent: Write,supplier_dependent:write,PERMISSION_TYPE_ALLOW,true
 perm-supplier_lifecycle_event-read,default-workspace,superadmin-001,superadmin-001,Supplier Lifecycle Event: Read,supplier_lifecycle_event:read,PERMISSION_TYPE_ALLOW,true
 perm-supplier_lifecycle_event-write,default-workspace,superadmin-001,superadmin-001,Supplier Lifecycle Event: Write,supplier_lifecycle_event:write,PERMISSION_TYPE_ALLOW,true
+perm-milestone-set_status,default-workspace,superadmin-001,superadmin-001,Milestone: Set Status,milestone:set_status,PERMISSION_TYPE_ALLOW,true

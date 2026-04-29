@@ -1,0 +1,6 @@
+id,price_plan_id,product_plan_id,billing_amount,billing_currency,billing_treatment,job_template_phase_id,active
+ppp-design,pp-tower-audit-milestone,prodplan-tower-svc,10000000,PHP,BILLING_TREATMENT_ONE_TIME_INITIAL,jtp-tower-design,true
+ppp-permits,pp-tower-audit-milestone,prodplan-permit,5000000,PHP,BILLING_TREATMENT_ONE_TIME_INITIAL,jtp-tower-design,true
+ppp-site,pp-tower-audit-milestone,prodplan-site-inspect,20000000,PHP,BILLING_TREATMENT_ONE_TIME_INITIAL,jtp-tower-build,true
+ppp-inspect,pp-tower-audit-milestone,prodplan-site-inspect,5000000,PHP,BILLING_TREATMENT_ONE_TIME_INITIAL,jtp-tower-build,true
+ppp-commission,pp-tower-audit-milestone,prodplan-commission,10000000,PHP,BILLING_TREATMENT_ONE_TIME_INITIAL,jtp-tower-commission,true
