@@ -1,2 +1,2 @@
-id,name,description,date_start,date_end,active
-sched-default,Default Schedule,Default rate card covering all locations and dates,2020-01-01,,true
+workspace_id,id,name,description,date_start,date_end,active
+default-workspace,sched-default,Default Schedule,Default rate card covering all locations and dates,2020-01-01,,true

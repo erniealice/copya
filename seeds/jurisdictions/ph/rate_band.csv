@@ -1,0 +1,26 @@
+id,rate_table_id,lower_bound_centavos,upper_bound_centavos,rate_type,rate_basis_points,fixed_amount_centavos,formula_expression,ordinal,metadata,active
+rb-ph-sss-ee-2025-01,rt-ph-sss-ee-2025,0,524999,fixed,0,25000,,1,"{""abbreviated"":true,""msc"":5000}",true
+rb-ph-sss-ee-2025-02,rt-ph-sss-ee-2025,975000,1024999,fixed,0,50000,,2,"{""abbreviated"":true,""msc"":10000}",true
+rb-ph-sss-ee-2025-03,rt-ph-sss-ee-2025,1975000,2024999,fixed,0,100000,,3,"{""abbreviated"":true,""msc"":20000}",true
+rb-ph-sss-ee-2025-04,rt-ph-sss-ee-2025,2475000,2524999,fixed,0,125000,,4,"{""abbreviated"":true,""msc"":25000}",true
+rb-ph-sss-ee-2025-05,rt-ph-sss-ee-2025,3475000,99999999,fixed,0,175000,,5,"{""abbreviated"":true,""msc"":35000,""uncapped"":true}",true
+rb-ph-sss-er-2025-01,rt-ph-sss-er-2025,0,524999,fixed,0,51000,,1,"{""abbreviated"":true,""msc"":5000,""includes_ec"":true}",true
+rb-ph-sss-er-2025-02,rt-ph-sss-er-2025,975000,1024999,fixed,0,101000,,2,"{""abbreviated"":true,""msc"":10000,""includes_ec"":true}",true
+rb-ph-sss-er-2025-03,rt-ph-sss-er-2025,1975000,2024999,fixed,0,203000,,3,"{""abbreviated"":true,""msc"":20000,""includes_ec"":true}",true
+rb-ph-sss-er-2025-04,rt-ph-sss-er-2025,2475000,2524999,fixed,0,253000,,4,"{""abbreviated"":true,""msc"":25000,""includes_ec"":true}",true
+rb-ph-sss-er-2025-05,rt-ph-sss-er-2025,3475000,99999999,fixed,0,353000,,5,"{""abbreviated"":true,""msc"":35000,""uncapped"":true,""includes_ec"":true}",true
+rb-ph-sss-ec-2025-01,rt-ph-sss-ec-2025,0,524999,fixed,0,1000,,1,"{""abbreviated"":true,""msc"":5000,""employer_only"":true}",true
+rb-ph-sss-ec-2025-02,rt-ph-sss-ec-2025,975000,1024999,fixed,0,1000,,2,"{""abbreviated"":true,""msc"":10000,""employer_only"":true}",true
+rb-ph-sss-ec-2025-03,rt-ph-sss-ec-2025,1975000,2024999,fixed,0,3000,,3,"{""abbreviated"":true,""msc"":20000,""employer_only"":true}",true
+rb-ph-sss-ec-2025-04,rt-ph-sss-ec-2025,2475000,2524999,fixed,0,3000,,4,"{""abbreviated"":true,""msc"":25000,""employer_only"":true}",true
+rb-ph-sss-ec-2025-05,rt-ph-sss-ec-2025,3475000,99999999,fixed,0,3000,,5,"{""abbreviated"":true,""msc"":35000,""uncapped"":true,""employer_only"":true}",true
+rb-ph-philhealth-2025-01,rt-ph-philhealth-2025,1000000,10000000,percentage,500,0,,1,"{""floor_centavos"":1000000,""ceiling_centavos"":10000000,""split"":""50_50"",""note"":""total premium; calculator splits 50/50""}",true
+rb-ph-pagibig-ee-2024-01,rt-ph-pagibig-ee-2024,0,150000,percentage,100,0,,1,"{""max_fund_salary_centavos"":1000000}",true
+rb-ph-pagibig-ee-2024-02,rt-ph-pagibig-ee-2024,150100,1000000,percentage,200,0,,2,"{""max_fund_salary_centavos"":1000000}",true
+rb-ph-pagibig-er-2024-01,rt-ph-pagibig-er-2024,0,1000000,percentage,200,0,,1,"{""max_fund_salary_centavos"":1000000,""employer_share"":true}",true
+rb-ph-bir-wh-semi-monthly-2023-01,rt-ph-bir-wh-semi-monthly-2023,0,1041700,fixed,0,0,,1,,true
+rb-ph-bir-wh-semi-monthly-2023-02,rt-ph-bir-wh-semi-monthly-2023,1041701,1666600,percentage_of_excess,1500,0,,2,"{""excess_over_centavos"":1041700}",true
+rb-ph-bir-wh-semi-monthly-2023-03,rt-ph-bir-wh-semi-monthly-2023,1666601,3333200,percentage_of_excess,2000,93750,,3,"{""excess_over_centavos"":1666700}",true
+rb-ph-bir-wh-semi-monthly-2023-04,rt-ph-bir-wh-semi-monthly-2023,3333201,8333200,percentage_of_excess,2500,427070,,4,"{""excess_over_centavos"":3333300}",true
+rb-ph-bir-wh-semi-monthly-2023-05,rt-ph-bir-wh-semi-monthly-2023,8333201,33333200,percentage_of_excess,3000,1677070,,5,"{""excess_over_centavos"":8333300}",true
+rb-ph-bir-wh-semi-monthly-2023-06,rt-ph-bir-wh-semi-monthly-2023,33333201,,percentage_of_excess,3500,9177070,,6,"{""excess_over_centavos"":33333300,""uncapped"":true}",true

@@ -1,5 +1,5 @@
-id,name,description,active
-plan-consultation,Legal Consultation,Standard legal consultation package,true
-plan-advisory,Tax Advisory Retainer,Monthly tax advisory and compliance package,true
-plan-audit,Financial Audit Package,Comprehensive financial audit engagement,true
-plan-bookkeeping,Monthly Bookkeeping,Ongoing bookkeeping and ledger maintenance,true
+workspace_id,id,name,description,active
+default-workspace,plan-consultation,Legal Consultation,Standard legal consultation package,true
+default-workspace,plan-advisory,Tax Advisory Retainer,Monthly tax advisory and compliance package,true
+default-workspace,plan-audit,Financial Audit Package,Comprehensive financial audit engagement,true
+default-workspace,plan-bookkeeping,Monthly Bookkeeping,Ongoing bookkeeping and ledger maintenance,true

@@ -1,5 +1,5 @@
-id,name,description,active
-plan-basic,Basic Membership,Basic salon membership with standard services,true
-plan-premium,Premium Membership,Premium membership with priority booking and discounts,true
-plan-bridal,Bridal Package,Complete bridal preparation package,true
-plan-corporate,Corporate Wellness,Corporate employee wellness and grooming package,true
+workspace_id,id,name,description,active
+default-workspace,plan-basic,Basic Membership,Basic salon membership with standard services,true
+default-workspace,plan-premium,Premium Membership,Premium membership with priority booking and discounts,true
+default-workspace,plan-bridal,Bridal Package,Complete bridal preparation package,true
+default-workspace,plan-corporate,Corporate Wellness,Corporate employee wellness and grooming package,true

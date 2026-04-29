@@ -4,6 +4,7 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
+	"os"
 
 	seeds "github.com/erniealice/copya"
 )
@@ -13,9 +14,21 @@ import (
 //
 // businessType must match a seeds/ sub-directory: common, general, service, professional.
 // dialect controls quoting and INSERT syntax.
+//
+// If COPYA_COMPLIANCE_REGION env var is set (e.g., "PH"), jurisdiction-specific
+// seeds (rate_table, rate_band, leave_type, etc.) are merged on top.
 func Seed(ctx context.Context, db *sql.DB, businessType string, dialect Dialect) error {
 	p := NewSeedProvider(seeds.SeedsFS)
-	set, err := p.Load(businessType)
+	region := os.Getenv("COPYA_COMPLIANCE_REGION")
+	var (
+		set SeedSet
+		err error
+	)
+	if region != "" {
+		set, err = p.LoadWithJurisdiction(businessType, region)
+	} else {
+		set, err = p.Load(businessType)
+	}
 	if err != nil {
 		return fmt.Errorf("seed: load %s: %w", businessType, err)
 	}

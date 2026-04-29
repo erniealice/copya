@@ -661,3 +661,31 @@ perm-procurement_request_line-list,default-workspace,superadmin-001,superadmin-0
 perm-procurement_request_line-create,default-workspace,superadmin-001,superadmin-001,Procurement Request Line: Create,procurement_request_line:create,PERMISSION_TYPE_ALLOW,true
 perm-procurement_request_line-update,default-workspace,superadmin-001,superadmin-001,Procurement Request Line: Update,procurement_request_line:update,PERMISSION_TYPE_ALLOW,true
 perm-procurement_request_line-delete,default-workspace,superadmin-001,superadmin-001,Procurement Request Line: Delete,procurement_request_line:delete,PERMISSION_TYPE_ALLOW,true
+perm-payroll-read,default-workspace,superadmin-001,superadmin-001,Payroll: Read,payroll:read,PERMISSION_TYPE_ALLOW,true
+perm-payroll-write,default-workspace,superadmin-001,superadmin-001,Payroll: Write,payroll:write,PERMISSION_TYPE_ALLOW,true
+perm-payroll-read-compensation,default-workspace,superadmin-001,superadmin-001,Payroll: Read Compensation,payroll:read:compensation,PERMISSION_TYPE_ALLOW,true
+perm-payroll_run-read,default-workspace,superadmin-001,superadmin-001,Payroll Run: Read,payroll_run:read,PERMISSION_TYPE_ALLOW,true
+perm-payroll_run-write,default-workspace,superadmin-001,superadmin-001,Payroll Run: Write,payroll_run:write,PERMISSION_TYPE_ALLOW,true
+perm-payroll_run-calculate,default-workspace,superadmin-001,superadmin-001,Payroll Run: Calculate,payroll_run:calculate,PERMISSION_TYPE_ALLOW,true
+perm-payroll_run-approve,default-workspace,superadmin-001,superadmin-001,Payroll Run: Approve,payroll_run:approve,PERMISSION_TYPE_ALLOW,true
+perm-payroll_run-post,default-workspace,superadmin-001,superadmin-001,Payroll Run: Post,payroll_run:post,PERMISSION_TYPE_ALLOW,true
+perm-pay_cycle-read,default-workspace,superadmin-001,superadmin-001,Pay Cycle: Read,pay_cycle:read,PERMISSION_TYPE_ALLOW,true
+perm-pay_cycle-write,default-workspace,superadmin-001,superadmin-001,Pay Cycle: Write,pay_cycle:write,PERMISSION_TYPE_ALLOW,true
+perm-pay_cycle-reopen,default-workspace,superadmin-001,superadmin-001,Pay Cycle: Reopen,pay_cycle:reopen,PERMISSION_TYPE_ALLOW,true
+perm-rate_table-read,default-workspace,superadmin-001,superadmin-001,Rate Table: Read,rate_table:read,PERMISSION_TYPE_ALLOW,true
+perm-rate_table-write,default-workspace,superadmin-001,superadmin-001,Rate Table: Write,rate_table:write,PERMISSION_TYPE_ALLOW,true
+perm-leave_type-read,default-workspace,superadmin-001,superadmin-001,Leave Type: Read,leave_type:read,PERMISSION_TYPE_ALLOW,true
+perm-leave_type-write,default-workspace,superadmin-001,superadmin-001,Leave Type: Write,leave_type:write,PERMISSION_TYPE_ALLOW,true
+perm-leave_balance-read,default-workspace,superadmin-001,superadmin-001,Leave Balance: Read,leave_balance:read,PERMISSION_TYPE_ALLOW,true
+perm-leave_balance-write,default-workspace,superadmin-001,superadmin-001,Leave Balance: Write,leave_balance:write,PERMISSION_TYPE_ALLOW,true
+perm-leave_request-read,default-workspace,superadmin-001,superadmin-001,Leave Request: Read,leave_request:read,PERMISSION_TYPE_ALLOW,true
+perm-leave_request-write,default-workspace,superadmin-001,superadmin-001,Leave Request: Write,leave_request:write,PERMISSION_TYPE_ALLOW,true
+perm-leave_request-approve,default-workspace,superadmin-001,superadmin-001,Leave Request: Approve,leave_request:approve,PERMISSION_TYPE_ALLOW,true
+perm-supplier-read-vendor,default-workspace,superadmin-001,superadmin-001,Supplier: Read Vendor,supplier:read:vendor,PERMISSION_TYPE_ALLOW,true
+perm-supplier-read-employee,default-workspace,superadmin-001,superadmin-001,Supplier: Read Employee,supplier:read:employee,PERMISSION_TYPE_ALLOW,true
+perm-supplier-write-vendor,default-workspace,superadmin-001,superadmin-001,Supplier: Write Vendor,supplier:write:vendor,PERMISSION_TYPE_ALLOW,true
+perm-supplier-write-employee,default-workspace,superadmin-001,superadmin-001,Supplier: Write Employee,supplier:write:employee,PERMISSION_TYPE_ALLOW,true
+perm-supplier_dependent-read,default-workspace,superadmin-001,superadmin-001,Supplier Dependent: Read,supplier_dependent:read,PERMISSION_TYPE_ALLOW,true
+perm-supplier_dependent-write,default-workspace,superadmin-001,superadmin-001,Supplier Dependent: Write,supplier_dependent:write,PERMISSION_TYPE_ALLOW,true
+perm-supplier_lifecycle_event-read,default-workspace,superadmin-001,superadmin-001,Supplier Lifecycle Event: Read,supplier_lifecycle_event:read,PERMISSION_TYPE_ALLOW,true
+perm-supplier_lifecycle_event-write,default-workspace,superadmin-001,superadmin-001,Supplier Lifecycle Event: Write,supplier_lifecycle_event:write,PERMISSION_TYPE_ALLOW,true

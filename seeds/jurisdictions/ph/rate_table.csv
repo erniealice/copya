@@ -1,0 +1,11 @@
+id,workspace_id,compliance_region,kind,effective_from,effective_to,version_label,supersedes_id,source_citation,status,active
+rt-ph-sss-ee-2025,,PH,SSS_EMPLOYEE_SHARE,2025-01-01,,PH-SSS-EE-2025-01,,SSS Circular No. 2024-006 (effective Jan 1 2025),active,true
+rt-ph-sss-er-2025,,PH,SSS_EMPLOYER_SHARE,2025-01-01,,PH-SSS-ER-2025-01,,SSS Circular No. 2024-006 (effective Jan 1 2025),active,true
+rt-ph-sss-ec-2025,,PH,SSS_EC,2025-01-01,,PH-SSS-EC-2025-01,,SSS Circular No. 2024-006 (effective Jan 1 2025),active,true
+rt-ph-philhealth-2025,,PH,PHILHEALTH_PREMIUM,2025-01-01,,PH-PHILHEALTH-2025-01,,PhilHealth Advisory 2025-0002 / Circular 2020-0005,active,true
+rt-ph-pagibig-ee-2024,,PH,PAGIBIG_EMPLOYEE,2024-02-01,,PH-PAGIBIG-EE-2024-02,,Pag-IBIG Fund Circular No. 460 (effective Feb 2024),active,true
+rt-ph-pagibig-er-2024,,PH,PAGIBIG_EMPLOYER,2024-02-01,,PH-PAGIBIG-ER-2024-02,,Pag-IBIG Fund Circular No. 460 (effective Feb 2024),active,true
+rt-ph-bir-wh-daily-2023,,PH,BIR_WITHHOLDING_DAILY,2023-01-01,,PH-BIR-WH-DAILY-2023-01,,BIR RR 11-2018 Annex E (effective Jan 1 2023),active,true
+rt-ph-bir-wh-weekly-2023,,PH,BIR_WITHHOLDING_WEEKLY,2023-01-01,,PH-BIR-WH-WEEKLY-2023-01,,BIR RR 11-2018 Annex E (effective Jan 1 2023),active,true
+rt-ph-bir-wh-semi-monthly-2023,,PH,BIR_WITHHOLDING_SEMI_MONTHLY,2023-01-01,,PH-BIR-WH-SEMI-MONTHLY-2023-01,,BIR RR 11-2018 Annex E (effective Jan 1 2023),active,true
+rt-ph-bir-wh-monthly-2023,,PH,BIR_WITHHOLDING_MONTHLY,2023-01-01,,PH-BIR-WH-MONTHLY-2023-01,,BIR RR 11-2018 Annex E (effective Jan 1 2023),active,true

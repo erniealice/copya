@@ -68,6 +68,41 @@ func (p *SeedProvider) Load(businessType string) (SeedSet, error) {
 	return result, nil
 }
 
+// LoadWithJurisdiction returns the merged SeedSet for businessType with an
+// additional jurisdiction overlay (e.g., compliance_region="PH" loads
+// seeds/jurisdictions/ph/*.csv on top of common→general→businessType).
+//
+// The jurisdiction overlay is applied LAST and merges (does not replace) into
+// the result so jurisdiction CSVs add new rows for tables like rate_table,
+// rate_band, leave_type, etc., without overwriting unrelated tables.
+func (p *SeedProvider) LoadWithJurisdiction(businessType, complianceRegion string) (SeedSet, error) {
+	base, err := p.Load(businessType)
+	if err != nil {
+		return nil, err
+	}
+
+	if complianceRegion == "" {
+		return base, nil
+	}
+
+	jurKey := strings.ToLower(strings.ReplaceAll(complianceRegion, "-", "_"))
+	jur, err := loadDir(p.fsys, "seeds/jurisdictions/"+jurKey)
+	if err != nil {
+		return nil, fmt.Errorf("copya: load jurisdiction %s: %w", jurKey, err)
+	}
+	if len(jur) == 0 {
+		return base, nil
+	}
+
+	// Copy base so we don't pollute the cache for the no-jurisdiction case.
+	merged := make(SeedSet, len(base)+len(jur))
+	for k, v := range base {
+		merged[k] = v
+	}
+	merge(merged, jur)
+	return merged, nil
+}
+
 // Table loads a single table by name for the given business type.
 func (p *SeedProvider) Table(businessType, tableName string) (*SeedTable, error) {
 	set, err := p.Load(businessType)

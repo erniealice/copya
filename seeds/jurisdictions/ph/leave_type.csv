@@ -1,0 +1,8 @@
+id,workspace_id,compliance_region,code,name,paid,accrual_days_per_year,max_carryover_days,source_citation,active
+lt-ph-vl,,PH,VL,Vacation Leave,true,15,15,Company policy,true
+lt-ph-sl,,PH,SL,Sick Leave,true,15,15,Company policy,true
+lt-ph-ml,,PH,ML,Maternity Leave,true,105,0,RA 11210,true
+lt-ph-pl,,PH,PL,Paternity Leave,true,7,0,RA 8187,true
+lt-ph-bl,,PH,BL,Bereavement Leave,true,3,0,Company policy,true
+lt-ph-solo-parent,,PH,SOLO_PARENT,Solo Parent Leave,true,7,0,RA 8972,true
+lt-ph-magna-carta,,PH,MAGNA_CARTA,Magna Carta Special Leave,true,2,0,RA 9710,true

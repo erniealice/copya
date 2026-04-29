@@ -120,4 +120,15 @@ var InsertOrder = []string{
 	// Level 6: fulfillment
 	"fulfillment",
 	"fulfillment_item",
+
+	// Level 7: payroll policy (jurisdiction overlay)
+	"rate_table",
+	"rate_band",
+	"leave_type",
+	"leave_balance",
+	"deduction_schedule_rule",
+	"pay_cycle",
+	"leave_request",
+	"supplier_dependent",
+	"supplier_lifecycle_event",
 }
