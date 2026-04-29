@@ -489,6 +489,11 @@ perm-job-read,default-workspace,superadmin-001,superadmin-001,Job: Read,job:read
 perm-job-update,default-workspace,superadmin-001,superadmin-001,Job: Update,job:update,PERMISSION_TYPE_ALLOW,true
 perm-job-delete,default-workspace,superadmin-001,superadmin-001,Job: Delete,job:delete,PERMISSION_TYPE_ALLOW,true
 perm-job-list,default-workspace,superadmin-001,superadmin-001,Job: List,job:list,PERMISSION_TYPE_ALLOW,true
+perm-job_phase-create,default-workspace,superadmin-001,superadmin-001,Job Phase: Create,job_phase:create,PERMISSION_TYPE_ALLOW,true
+perm-job_phase-read,default-workspace,superadmin-001,superadmin-001,Job Phase: Read,job_phase:read,PERMISSION_TYPE_ALLOW,true
+perm-job_phase-update,default-workspace,superadmin-001,superadmin-001,Job Phase: Update,job_phase:update,PERMISSION_TYPE_ALLOW,true
+perm-job_phase-delete,default-workspace,superadmin-001,superadmin-001,Job Phase: Delete,job_phase:delete,PERMISSION_TYPE_ALLOW,true
+perm-job_phase-list,default-workspace,superadmin-001,superadmin-001,Job Phase: List,job_phase:list,PERMISSION_TYPE_ALLOW,true
 perm-job_template-create,default-workspace,superadmin-001,superadmin-001,Job Template: Create,job_template:create,PERMISSION_TYPE_ALLOW,true
 perm-job_template-read,default-workspace,superadmin-001,superadmin-001,Job Template: Read,job_template:read,PERMISSION_TYPE_ALLOW,true
 perm-job_template-update,default-workspace,superadmin-001,superadmin-001,Job Template: Update,job_template:update,PERMISSION_TYPE_ALLOW,true
