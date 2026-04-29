@@ -12,3 +12,5 @@ jtp-010,jt-004,Audit Planning,1,true,,
 jtp-tower-design,jt-tower-audit,Design,1,true,true,3000
 jtp-tower-build,jt-tower-audit,Build,2,true,true,5000
 jtp-tower-commission,jt-tower-audit,Commissioning,3,true,true,2000
+jtp-permit-prep,jt-permit-filing,Prepare Filing,1,true,false,
+jtp-permit-submit,jt-permit-filing,Submit & Track,2,true,true,10000

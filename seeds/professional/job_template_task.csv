@@ -12,3 +12,15 @@ jtt-010,jtp-006,Generate retainer invoice,2,15,true
 jtt-011,jtp-007,Conduct scoping meeting with client,1,60,true
 jtt-012,jtp-008,Execute project deliverables per scope,1,480,true
 jtt-013,jtp-009,Client review and incorporate feedback,1,120,true
+jtt-tower-design-1,jtp-tower-design,Site survey,1,,true
+jtt-tower-design-2,jtp-tower-design,Initial sketches,2,,true
+jtt-tower-design-3,jtp-tower-design,Stakeholder review,3,,true
+jtt-tower-build-1,jtp-tower-build,Material procurement,1,,true
+jtt-tower-build-2,jtp-tower-build,Construction phase,2,,true
+jtt-tower-build-3,jtp-tower-build,Quality inspection,3,,true
+jtt-tower-commission-1,jtp-tower-commission,Final inspection,1,,true
+jtt-tower-commission-2,jtp-tower-commission,Sign-off,2,,true
+jtt-permit-prep-1,jtp-permit-prep,Gather documents,1,,true
+jtt-permit-prep-2,jtp-permit-prep,Validate completeness,2,,true
+jtt-permit-submit-1,jtp-permit-submit,Submit to authority,1,,true
+jtt-permit-submit-2,jtp-permit-submit,Track approval,2,,true

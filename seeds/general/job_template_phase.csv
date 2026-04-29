@@ -1,0 +1,2 @@
+id,job_template_id,name,phase_order,active,triggers_billing,billing_percent_bps
+jtp-cleaning-visit,jt-cleaning,Cleaning Visit,1,true,false,

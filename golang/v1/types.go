@@ -42,6 +42,12 @@ var InsertOrder = []string{
 	"delegate",
 	"staff",
 	"workspace",
+	// job_template must be inserted before plan because plan.job_template_id
+	// is a FK reference to job_template(id) (auto-spawn-jobs-from-subscription).
+	"job_template",
+	"job_template_phase",
+	"job_template_task",
+	"job_template_relation",
 	"plan",
 	"product",
 	"collection",
@@ -109,9 +115,9 @@ var InsertOrder = []string{
 	"asset_maintenance",
 
 	// Level 5: operations
-	"job_template",
-	"job_template_phase",
-	"job_template_task",
+	// job_template / job_template_phase / job_template_task / job_template_relation
+	// were promoted to Level 1 (above) so plan.job_template_id can resolve at
+	// insert time.
 	// product_price_plan FK references job_template_phase (milestone billing),
 	// so it must be inserted after job_template_phase even though it's a
 	// pricing-graph entity (Level 3).

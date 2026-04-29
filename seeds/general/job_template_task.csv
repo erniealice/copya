@@ -1,0 +1,4 @@
+id,job_template_phase_id,name,step_order,estimated_duration_minutes,active
+jtt-cleaning-1,jtp-cleaning-visit,Sweep & mop,1,,true
+jtt-cleaning-2,jtp-cleaning-visit,Wipe surfaces,2,,true
+jtt-cleaning-3,jtp-cleaning-visit,Empty bins,3,,true
