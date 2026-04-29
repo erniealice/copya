@@ -3,3 +3,4 @@ ppp-design,pp-tower-audit-milestone,prodplan-tower-svc,10000000,PHP,BILLING_TREA
 ppp-permits,pp-tower-audit-milestone,prodplan-permit,5000000,PHP,BILLING_TREATMENT_ONE_TIME_INITIAL,jtp-tower-design,true
 ppp-site,pp-tower-audit-milestone,prodplan-site-inspect,25000000,PHP,BILLING_TREATMENT_ONE_TIME_INITIAL,jtp-tower-build,true
 ppp-commission,pp-tower-audit-milestone,prodplan-commission,10000000,PHP,BILLING_TREATMENT_ONE_TIME_INITIAL,jtp-tower-commission,true
+ppp-cleaning-pro,pp-cleaning-monthly-pro,prodplan-cleaning-pro,1000000,PHP,BILLING_TREATMENT_RECURRING,,true

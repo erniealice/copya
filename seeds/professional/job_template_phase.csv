@@ -14,3 +14,4 @@ jtp-tower-build,jt-tower-audit,Build,2,true,true,5000
 jtp-tower-commission,jt-tower-audit,Commissioning,3,true,true,2000
 jtp-permit-prep,jt-permit-filing,Prepare Filing,1,true,false,
 jtp-permit-submit,jt-permit-filing,Submit & Track,2,true,true,10000
+jtp-cleaning-visit-pro,jt-cleaning-pro,Cleaning Visit,1,true,false,

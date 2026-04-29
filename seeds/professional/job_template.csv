@@ -5,3 +5,4 @@ jt-003,default-workspace,Project-Based Engagement,Defined-scope project with del
 jt-004,default-workspace,Compliance Audit,Regulatory or financial compliance audit with formal report,STANDARD,,FIXED_PRICE,true
 jt-tower-audit,default-workspace,Tower Audit,Structural-audit engagement template gated by 3 milestone phases,PROJECT,DIRECT_EXPENSE,MILESTONE,true
 jt-permit-filing,default-workspace,Permit Filing,Permit-handling sub-engagement template,SERVICE,DIRECT_EXPENSE,MILESTONE,true
+jt-cleaning-pro,default-workspace,Pro Cleaning,Recurring service-delivery template (no milestone billing),SERVICE,DIRECT_EXPENSE,NON_BILLABLE,true

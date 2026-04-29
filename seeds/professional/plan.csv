@@ -4,3 +4,4 @@ default-workspace,plan-advisory,Tax Advisory Retainer,Monthly tax advisory and c
 default-workspace,plan-audit,Financial Audit Package,Comprehensive financial audit engagement,true,
 default-workspace,plan-bookkeeping,Monthly Bookkeeping,Ongoing bookkeeping and ledger maintenance,true,
 default-workspace,plan-tower-audit,Tower Audit Engagement,Structural-audit engagement billed in 3 milestones (design / build / commissioning),true,jt-tower-audit
+default-workspace,plan-cleaning-recurring-pro,Pro Cleaning Plan (Recurring),Recurring service plan with operational tracking but cycle-based billing (no milestones),true,jt-cleaning-pro

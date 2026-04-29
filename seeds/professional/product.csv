@@ -29,3 +29,4 @@ default-workspace,prod-tower-audit-svc,Tower Audit Service,Structural tower audi
 default-workspace,prod-permit-filing,Permit Filing,Structural permit preparation and filing,5000000,PHP,service,scheduled,none,true,
 default-workspace,prod-site-inspect,Site Inspection,On-site structural inspection visit,2500000,PHP,service,scheduled,none,true,
 default-workspace,prod-commission,Commissioning Report,Final commissioning and acceptance report,10000000,PHP,service,scheduled,none,true,
+default-workspace,prod-cleaning-pro,Pro Cleaning Service,Monthly recurring on-site cleaning service,1000000,PHP,service,scheduled,none,true,

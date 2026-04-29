@@ -24,3 +24,6 @@ jtt-permit-prep-1,jtp-permit-prep,Gather documents,1,,true
 jtt-permit-prep-2,jtp-permit-prep,Validate completeness,2,,true
 jtt-permit-submit-1,jtp-permit-submit,Submit to authority,1,,true
 jtt-permit-submit-2,jtp-permit-submit,Track approval,2,,true
+jtt-cleaning-pro-1,jtp-cleaning-visit-pro,Sweep & mop,1,,true
+jtt-cleaning-pro-2,jtp-cleaning-visit-pro,Wipe surfaces,2,,true
+jtt-cleaning-pro-3,jtp-cleaning-visit-pro,Empty bins,3,,true
