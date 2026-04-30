@@ -11,3 +11,6 @@ default-workspace,plan-pool-quarterly,Pool Maintenance Quarterly,Quarterly pool 
 default-workspace,plan-lawn-weekly,Lawn Care Weekly,Weekly lawn service — one visit per weekly cycle,true,jt-lawn-visit,1
 default-workspace,plan-rental-monthly-with-2-visits,Equipment Rental Monthly (2 visits),Monthly equipment rental with delivery and recovery visit per cycle,true,jt-rental-period,2
 default-workspace,plan-subbox-monthly,Subscription Box Monthly,Monthly subscription-box fulfillment — one shipment per cycle,true,jt-subbox-fulfillment,1
+default-workspace,plan-aircon-package,Aircon Service Package,Operator-driven aircon servicing engagement — pool or pay-per-visit,true,jt-aircon-service,1
+default-workspace,plan-dental-prepay,Dental Prepay Package,Prepaid dental cleaning bundle — operator schedules each appointment,true,jt-dental-cleaning,1
+default-workspace,plan-oncall-it,On-Call IT Support,On-demand IT support engagement — pay-per-call,true,jt-oncall-support,1

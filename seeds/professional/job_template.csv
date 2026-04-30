@@ -12,3 +12,6 @@ jt-pool-visit,default-workspace,Pool Maintenance Visit,Single pool service visit
 jt-lawn-visit,default-workspace,Lawn Care Visit,Single lawn service visit covering mow edge and blow,SERVICE,DIRECT_EXPENSE,NON_BILLABLE,true
 jt-rental-period,default-workspace,Rental Period,One billing-cycle window of equipment rental,SERVICE,DIRECT_EXPENSE,NON_BILLABLE,true
 jt-subbox-fulfillment,default-workspace,Subscription Box Fulfillment,Pick / pack / ship for one subscription box,DELIVERY,DIRECT_EXPENSE,NON_BILLABLE,true
+jt-aircon-service,default-workspace,Aircon Service Visit,Single aircon servicing call covering inspection cleaning and refill,SERVICE,DIRECT_EXPENSE,NON_BILLABLE,true
+jt-dental-cleaning,default-workspace,Dental Cleaning Appointment,Single dental cleaning appointment,SERVICE,DIRECT_EXPENSE,NON_BILLABLE,true
+jt-oncall-support,default-workspace,On-Call Support Session,Single on-call IT support session,SERVICE,DIRECT_EXPENSE,NON_BILLABLE,true

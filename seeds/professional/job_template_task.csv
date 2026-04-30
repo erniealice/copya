@@ -64,3 +64,16 @@ jtt-subbox-pack-1,jtp-subbox-pack,Pack box per template,1,15,true
 jtt-subbox-pack-2,jtp-subbox-pack,Insert packing slip and inserts,2,5,true
 jtt-subbox-ship-1,jtp-subbox-ship,Generate and apply shipping label,1,5,true
 jtt-subbox-ship-2,jtp-subbox-ship,Hand off to carrier,2,5,true
+jtt-aircon-inspect-1,jtp-aircon-inspect,Inspect filters and coils,1,15,true
+jtt-aircon-inspect-2,jtp-aircon-inspect,Check refrigerant pressure,2,10,true
+jtt-aircon-clean-1,jtp-aircon-clean,Clean filters and coils,1,30,true
+jtt-aircon-clean-2,jtp-aircon-clean,Top up refrigerant if low,2,15,true
+jtt-aircon-test-1,jtp-aircon-test,Run cooling test cycle,1,15,true
+jtt-aircon-test-2,jtp-aircon-test,Customer sign-off and notes,2,10,true
+jtt-dental-checkin-1,jtp-dental-checkin,Verify patient and update history,1,10,true
+jtt-dental-cleaning-1,jtp-dental-cleaning,Scaling and polishing,1,30,true
+jtt-dental-cleaning-2,jtp-dental-cleaning,Fluoride treatment,2,10,true
+jtt-dental-checkout-1,jtp-dental-checkout,Post-care instructions and notes,1,10,true
+jtt-oncall-triage-1,jtp-oncall-triage,Reproduce and scope issue,1,20,true
+jtt-oncall-resolve-1,jtp-oncall-resolve,Apply fix and verify,1,30,true
+jtt-oncall-resolve-2,jtp-oncall-resolve,Document fix and notify customer,2,10,true
