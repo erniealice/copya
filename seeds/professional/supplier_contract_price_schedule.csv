@@ -1,0 +1,8 @@
+id,workspace_id,internal_id,supplier_contract_id,name,description,date_time_start,date_time_end,location_id,currency,status,sequence_number,notes,date_created_string,date_modified_string,active
+scps-001,default-workspace,SCPS-PRO-2026-001,sc-001,LexisNexis Year 1 (2026),Year 1 of 2-year MSA - introductory rate,2026-01-01,2027-01-01,loc-main,PHP,2,1,Year 1 introductory pricing,2026-01-01,2026-01-01,true
+scps-002,default-workspace,SCPS-PRO-2026-002,sc-001,LexisNexis Year 2 (2027),Year 2 escalation per MSA terms,2027-01-01,,loc-main,PHP,1,2,8% escalation per renewal addendum,2026-01-01,2026-01-01,true
+scps-003,default-workspace,SCPS-PRO-2026-003,sc-002,LBC Courier 2026 Rates,Open-ended pricing for monthly courier retainer,2026-01-01,,loc-main,PHP,2,1,Variable monthly volume; cycle is estimate,2026-01-01,2026-01-01,true
+scps-004,default-workspace,SCPS-PRO-2026-004,sc-004,PrintXpress 2026 Block Pricing,Per-page rate for the 500k page allotment,2026-01-01,2027-01-01,loc-main,PHP,2,1,Per-page pricing for the blanket commitment,2026-01-01,2026-01-01,true
+scps-005,default-workspace,SCPS-PRO-2026-005,sc-005,TechPro Retainer 2026,Year 1 of TechPro managed-IT engagement,2026-01-01,2027-01-01,loc-main,PHP,2,1,40 managed-IT hours per month at retainer rate,2026-01-01,2026-01-01,true
+scps-006,default-workspace,SCPS-PRO-2026-006,sc-005,TechPro Retainer 2027 Renewal,Renewal escalation per partner agreement,2027-01-01,,loc-main,PHP,1,2,5% escalation on renewal,2026-04-01,2026-04-01,true
+scps-007,default-workspace,SCPS-PRO-2026-007,sc-009,Q1 2025 Office Warehouse Block,2025 supply allotment - now superseded,2025-01-01,2026-01-01,loc-main,PHP,3,1,Past window; preserved for history,2025-01-01,2025-12-31,true

@@ -1,0 +1,7 @@
+id,workspace_id,expense_recognition_id,supplier_contract_line_id,expenditure_line_item_id,product_id,description,quantity,unit_amount,amount,currency,expense_account_id,job_activity_id,date_created_string,date_modified_string,active
+exrl-001,default-workspace,exr-001,scl-001,eli-007,,LexisNexis core access - January 2026 portion,1,2400000,2400000,PHP,acct-5000,,2026-01-31,2026-01-31,true
+exrl-002,default-workspace,exr-002,scl-001,eli-007,,LexisNexis core access - February 2026 portion,1,2400000,2400000,PHP,acct-5000,,2026-02-28,2026-02-28,true
+exrl-003,default-workspace,exr-003,scl-001,eli-007,,LexisNexis core access - March 2026 portion,1,2400000,2400000,PHP,acct-5000,,2026-03-31,2026-03-31,true
+exrl-004,default-workspace,exr-004,scl-008,eli-008,,PI premium - January 2026 portion,1,500000,500000,PHP,acct-5000,,2026-01-31,2026-01-31,true
+exrl-005,default-workspace,exr-005,,eli-001,,Office rent March 2026,1,8000000,8000000,PHP,acct-6100,,2026-03-31,2026-03-31,true
+exrl-006,default-workspace,exr-006,,,,LexisNexis add-on trial - April 2026 (draft),1,150000,150000,PHP,acct-5000,,2026-04-30,2026-04-30,true

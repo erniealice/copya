@@ -1,0 +1,10 @@
+id,workspace_id,supplier_contract_price_schedule_id,supplier_contract_line_id,currency,unit_price,minimum_amount,quantity,cycle_value_override,cycle_unit_override,notes,date_created_string,date_modified_string,active
+scpsl-001,default-workspace,scps-001,scl-001,PHP,2400000,,1,,,LexisNexis Year 1 monthly rate,2026-01-01,2026-01-01,true
+scpsl-002,default-workspace,scps-001,scl-002,PHP,0,,1,,,Premium archives bundled - no charge in Y1,2026-01-01,2026-01-01,true
+scpsl-003,default-workspace,scps-002,scl-001,PHP,2592000,,1,,,LexisNexis Year 2 with 8% escalation,2026-01-01,2026-01-01,true
+scpsl-004,default-workspace,scps-002,scl-002,PHP,300000,,1,,,Premium archives priced separately in Y2,2026-01-01,2026-01-01,true
+scpsl-005,default-workspace,scps-003,scl-003,PHP,180000,,1,,,LBC base courier rate per month,2026-01-01,2026-01-01,true
+scpsl-006,default-workspace,scps-004,scl-006,PHP,30,,500000,,,Per-page rate for the 2026 block,2026-01-01,2026-01-01,true
+scpsl-007,default-workspace,scps-005,scl-007,PHP,37500,1500000,40,1,month,40 hours/month at retainer rate,2026-01-01,2026-01-01,true
+scpsl-008,default-workspace,scps-006,scl-007,PHP,39375,1575000,40,1,month,5% escalation for renewal year,2026-04-01,2026-04-01,true
+scpsl-009,default-workspace,scps-007,scl-010,PHP,3000,,1000,,,Q1 2025 historical pricing,2025-01-01,2025-12-31,true

@@ -1,2 +1,2 @@
-workspace_id,id,name,description,active,job_template_id
-default-workspace,plan-cleaning-monthly,Pro Cleaning Monthly,Monthly cleaning service plan,true,jt-cleaning
+workspace_id,id,name,description,active,job_template_id,visits_per_cycle
+default-workspace,plan-cleaning-monthly,Pro Cleaning Monthly,Monthly cleaning service plan,true,jt-cleaning,1

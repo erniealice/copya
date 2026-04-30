@@ -6,3 +6,9 @@ jt-004,default-workspace,Compliance Audit,Regulatory or financial compliance aud
 jt-tower-audit,default-workspace,Tower Audit,Structural-audit engagement template gated by 3 milestone phases,PROJECT,DIRECT_EXPENSE,MILESTONE,true
 jt-permit-filing,default-workspace,Permit Filing,Permit-handling sub-engagement template,SERVICE,DIRECT_EXPENSE,MILESTONE,true
 jt-cleaning-pro,default-workspace,Pro Cleaning,Recurring service-delivery template (no milestone billing),SERVICE,DIRECT_EXPENSE,NON_BILLABLE,true
+jt-cleaning-visit,default-workspace,Cleaning Visit,One residential cleaning visit,SERVICE,DIRECT_EXPENSE,NON_BILLABLE,true
+jt-cleaning-onboarding,default-workspace,Cleaning Onboarding,Initial walkthrough and supplies setup (fires once at engagement start),SERVICE,DIRECT_EXPENSE,NON_BILLABLE,true
+jt-pool-visit,default-workspace,Pool Maintenance Visit,Single pool service visit covering chemistry and cleaning,SERVICE,DIRECT_EXPENSE,NON_BILLABLE,true
+jt-lawn-visit,default-workspace,Lawn Care Visit,Single lawn service visit covering mow edge and blow,SERVICE,DIRECT_EXPENSE,NON_BILLABLE,true
+jt-rental-period,default-workspace,Rental Period,One billing-cycle window of equipment rental,SERVICE,DIRECT_EXPENSE,NON_BILLABLE,true
+jt-subbox-fulfillment,default-workspace,Subscription Box Fulfillment,Pick / pack / ship for one subscription box,DELIVERY,DIRECT_EXPENSE,NON_BILLABLE,true

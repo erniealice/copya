@@ -1,0 +1,2 @@
+id,workspace_id,accrued_expense_id,expenditure_id,expenditure_line_item_id,amount_settled,currency,fx_rate,fx_adjustment_amount,settled_at,reversed_by_settlement_id,reversal_reason,date_created_string,date_modified_string,active
+aces-001,default-workspace,ace-003,exp-007,eli-009,180000,PHP,,,2026-04-15,,,2026-04-15,2026-04-15,true

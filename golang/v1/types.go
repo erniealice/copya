@@ -92,6 +92,12 @@ var InsertOrder = []string{
 	"inventory_attribute",
 	"supplier_contract",
 	"supplier_contract_line",
+	// Supplier-pricing-symmetry (SPS) schedule layer — date-windowed
+	// pricing scoped to a supplier_contract. Mirrors the sales-side
+	// price_schedule + price_plan pair. Schedule must precede its line
+	// (Line FKs to both schedule and supplier_contract_line).
+	"supplier_contract_price_schedule",
+	"supplier_contract_price_schedule_line",
 	"procurement_request",
 	"procurement_request_line",
 	"purchase_order",
@@ -105,6 +111,15 @@ var InsertOrder = []string{
 	"revenue_payment",
 	"expenditure",
 	"expenditure_line_item",
+	// SPS recognition + accrual layer. accrued_expense FKs to
+	// supplier_contract only, so it sits at the top of Level 4.
+	// expense_recognition FKs to expenditure + supplier_contract +
+	// accrued_expense, so it must follow all three. Lines + settlement
+	// follow their parents (settlement also FKs to expenditure).
+	"accrued_expense",
+	"expense_recognition",
+	"expense_recognition_line",
+	"accrued_expense_settlement",
 	"treasury_collection",
 	"treasury_disbursement",
 	"disbursement_schedule",

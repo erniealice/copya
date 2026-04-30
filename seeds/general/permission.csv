@@ -695,3 +695,19 @@ perm-supplier_dependent-write,default-workspace,superadmin-001,superadmin-001,Su
 perm-supplier_lifecycle_event-read,default-workspace,superadmin-001,superadmin-001,Supplier Lifecycle Event: Read,supplier_lifecycle_event:read,PERMISSION_TYPE_ALLOW,true
 perm-supplier_lifecycle_event-write,default-workspace,superadmin-001,superadmin-001,Supplier Lifecycle Event: Write,supplier_lifecycle_event:write,PERMISSION_TYPE_ALLOW,true
 perm-milestone-set_status,default-workspace,superadmin-001,superadmin-001,Milestone: Set Status,milestone:set_status,PERMISSION_TYPE_ALLOW,true
+perm-supplier_contract_price_schedule-list,default-workspace,superadmin-001,superadmin-001,Supplier Contract Price Schedule: List,supplier_contract_price_schedule:list,PERMISSION_TYPE_ALLOW,true
+perm-supplier_contract_price_schedule-create,default-workspace,superadmin-001,superadmin-001,Supplier Contract Price Schedule: Create,supplier_contract_price_schedule:create,PERMISSION_TYPE_ALLOW,true
+perm-supplier_contract_price_schedule-update,default-workspace,superadmin-001,superadmin-001,Supplier Contract Price Schedule: Update,supplier_contract_price_schedule:update,PERMISSION_TYPE_ALLOW,true
+perm-supplier_contract_price_schedule-delete,default-workspace,superadmin-001,superadmin-001,Supplier Contract Price Schedule: Delete,supplier_contract_price_schedule:delete,PERMISSION_TYPE_ALLOW,true
+perm-supplier_contract_price_schedule-activate,default-workspace,superadmin-001,superadmin-001,Supplier Contract Price Schedule: Activate,supplier_contract_price_schedule:activate,PERMISSION_TYPE_ALLOW,true
+perm-supplier_contract_price_schedule-supersede,default-workspace,superadmin-001,superadmin-001,Supplier Contract Price Schedule: Supersede,supplier_contract_price_schedule:supersede,PERMISSION_TYPE_ALLOW,true
+perm-supplier_contract_price_schedule_line-list,default-workspace,superadmin-001,superadmin-001,Supplier Contract Price Schedule Line: List,supplier_contract_price_schedule_line:list,PERMISSION_TYPE_ALLOW,true
+perm-expense_recognition-list,default-workspace,superadmin-001,superadmin-001,Expense Recognition: List,expense_recognition:list,PERMISSION_TYPE_ALLOW,true
+perm-expense_recognition-read,default-workspace,superadmin-001,superadmin-001,Expense Recognition: Read,expense_recognition:read,PERMISSION_TYPE_ALLOW,true
+perm-expense_recognition-create,default-workspace,superadmin-001,superadmin-001,Expense Recognition: Create,expense_recognition:create,PERMISSION_TYPE_ALLOW,true
+perm-expense_recognition-reverse,default-workspace,superadmin-001,superadmin-001,Expense Recognition: Reverse,expense_recognition:reverse,PERMISSION_TYPE_ALLOW,true
+perm-accrued_expense-list,default-workspace,superadmin-001,superadmin-001,Accrued Expense: List,accrued_expense:list,PERMISSION_TYPE_ALLOW,true
+perm-accrued_expense-read,default-workspace,superadmin-001,superadmin-001,Accrued Expense: Read,accrued_expense:read,PERMISSION_TYPE_ALLOW,true
+perm-accrued_expense-create,default-workspace,superadmin-001,superadmin-001,Accrued Expense: Create,accrued_expense:create,PERMISSION_TYPE_ALLOW,true
+perm-accrued_expense-settle,default-workspace,superadmin-001,superadmin-001,Accrued Expense: Settle,accrued_expense:settle,PERMISSION_TYPE_ALLOW,true
+perm-accrued_expense-reverse,default-workspace,superadmin-001,superadmin-001,Accrued Expense: Reverse,accrued_expense:reverse,PERMISSION_TYPE_ALLOW,true

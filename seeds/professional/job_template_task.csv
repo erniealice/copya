@@ -27,3 +27,40 @@ jtt-permit-submit-2,jtp-permit-submit,Track approval,2,,true
 jtt-cleaning-pro-1,jtp-cleaning-visit-pro,Sweep & mop,1,,true
 jtt-cleaning-pro-2,jtp-cleaning-visit-pro,Wipe surfaces,2,,true
 jtt-cleaning-pro-3,jtp-cleaning-visit-pro,Empty bins,3,,true
+jtt-clean-arrive-1,jtp-cleaning-visit-arrive,Confirm site access,1,10,true
+jtt-clean-arrive-2,jtp-cleaning-visit-arrive,Unload supplies,2,10,true
+jtt-clean-clean-1,jtp-cleaning-visit-clean,Sweep and mop floors,1,45,true
+jtt-clean-clean-2,jtp-cleaning-visit-clean,Wipe surfaces and fixtures,2,30,true
+jtt-clean-clean-3,jtp-cleaning-visit-clean,Empty bins and replace liners,3,10,true
+jtt-clean-handoff-1,jtp-cleaning-visit-handoff,Walkthrough with client,1,10,true
+jtt-clean-handoff-2,jtp-cleaning-visit-handoff,Log completion notes,2,5,true
+jtt-clean-onboard-walk-1,jtp-cleaning-onboarding-walk,Tour site with client,1,30,true
+jtt-clean-onboard-walk-2,jtp-cleaning-onboarding-walk,Capture access notes and preferences,2,15,true
+jtt-clean-onboard-setup-1,jtp-cleaning-onboarding-setup,Stock cleaning supplies on site,1,30,true
+jtt-clean-onboard-setup-2,jtp-cleaning-onboarding-setup,Confirm storage and labelling,2,15,true
+jtt-pool-test-1,jtp-pool-visit-test,Test pH and chlorine,1,10,true
+jtt-pool-test-2,jtp-pool-visit-test,Inspect filtration system,2,10,true
+jtt-pool-treat-1,jtp-pool-visit-treat,Add chemicals per reading,1,15,true
+jtt-pool-treat-2,jtp-pool-visit-treat,Vacuum and brush walls,2,30,true
+jtt-pool-treat-3,jtp-pool-visit-treat,Skim surface debris,3,10,true
+jtt-pool-report-1,jtp-pool-visit-report,Record readings and actions,1,10,true
+jtt-pool-report-2,jtp-pool-visit-report,Send service report to client,2,5,true
+jtt-lawn-mow-1,jtp-lawn-visit-mow,Mow front and back lawn,1,30,true
+jtt-lawn-mow-2,jtp-lawn-visit-mow,Adjust mower height as needed,2,5,true
+jtt-lawn-edge-1,jtp-lawn-visit-edge,Edge driveway and walkways,1,15,true
+jtt-lawn-edge-2,jtp-lawn-visit-edge,Trim around obstacles,2,15,true
+jtt-lawn-cleanup-1,jtp-lawn-visit-cleanup,Blow clippings off hard surfaces,1,10,true
+jtt-lawn-cleanup-2,jtp-lawn-visit-cleanup,Bag debris and confirm with client,2,10,true
+jtt-rental-deliver-1,jtp-rental-period-deliver,Schedule delivery slot,1,10,true
+jtt-rental-deliver-2,jtp-rental-period-deliver,Deliver and stage equipment,2,30,true
+jtt-rental-monitor-1,jtp-rental-period-monitor,Mid-period check-in call,1,10,true
+jtt-rental-monitor-2,jtp-rental-period-monitor,Log usage notes,2,5,true
+jtt-rental-recover-1,jtp-rental-period-recover,Schedule pickup,1,10,true
+jtt-rental-recover-2,jtp-rental-period-recover,Inspect and stage for return,2,30,true
+jtt-rental-recover-3,jtp-rental-period-recover,Close period in system,3,5,true
+jtt-subbox-pick-1,jtp-subbox-pick,Pull SKUs from bin locations,1,15,true
+jtt-subbox-pick-2,jtp-subbox-pick,Stage items at pack station,2,5,true
+jtt-subbox-pack-1,jtp-subbox-pack,Pack box per template,1,15,true
+jtt-subbox-pack-2,jtp-subbox-pack,Insert packing slip and inserts,2,5,true
+jtt-subbox-ship-1,jtp-subbox-ship,Generate and apply shipping label,1,5,true
+jtt-subbox-ship-2,jtp-subbox-ship,Hand off to carrier,2,5,true

@@ -1,2 +1,3 @@
 id,parent_template_id,child_template_id,sequence_order,relation_type,active
 jtr-tower-to-permit,jt-tower-audit,jt-permit-filing,1,1,true
+jtr-cleaning-onboarding,jt-cleaning-visit,jt-cleaning-onboarding,1,2,true
