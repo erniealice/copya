@@ -711,3 +711,25 @@ perm-accrued_expense-read,default-workspace,superadmin-001,superadmin-001,Accrue
 perm-accrued_expense-create,default-workspace,superadmin-001,superadmin-001,Accrued Expense: Create,accrued_expense:create,PERMISSION_TYPE_ALLOW,true
 perm-accrued_expense-settle,default-workspace,superadmin-001,superadmin-001,Accrued Expense: Settle,accrued_expense:settle,PERMISSION_TYPE_ALLOW,true
 perm-accrued_expense-reverse,default-workspace,superadmin-001,superadmin-001,Accrued Expense: Reverse,accrued_expense:reverse,PERMISSION_TYPE_ALLOW,true
+perm-user-dashboard,default-workspace,superadmin-001,superadmin-001,User: Dashboard,user:dashboard,PERMISSION_TYPE_ALLOW,true
+perm-client-dashboard,default-workspace,superadmin-001,superadmin-001,Client: Dashboard,client:dashboard,PERMISSION_TYPE_ALLOW,true
+perm-product-dashboard,default-workspace,superadmin-001,superadmin-001,Product: Dashboard,product:dashboard,PERMISSION_TYPE_ALLOW,true
+perm-service-dashboard,default-workspace,superadmin-001,superadmin-001,Service: Dashboard,service:dashboard,PERMISSION_TYPE_ALLOW,true
+perm-location-dashboard,default-workspace,superadmin-001,superadmin-001,Location: Dashboard,location:dashboard,PERMISSION_TYPE_ALLOW,true
+perm-asset-dashboard,default-workspace,superadmin-001,superadmin-001,Asset: Dashboard,asset:dashboard,PERMISSION_TYPE_ALLOW,true
+perm-supplier-dashboard,default-workspace,superadmin-001,superadmin-001,Supplier: Dashboard,supplier:dashboard,PERMISSION_TYPE_ALLOW,true
+perm-invoice-dashboard,default-workspace,superadmin-001,superadmin-001,Invoice: Dashboard,invoice:dashboard,PERMISSION_TYPE_ALLOW,true
+perm-purchase-dashboard,default-workspace,superadmin-001,superadmin-001,Purchase: Dashboard,purchase:dashboard,PERMISSION_TYPE_ALLOW,true
+perm-expense-dashboard,default-workspace,superadmin-001,superadmin-001,Expense: Dashboard,expense:dashboard,PERMISSION_TYPE_ALLOW,true
+perm-collection-dashboard,default-workspace,superadmin-001,superadmin-001,Collection: Dashboard,collection:dashboard,PERMISSION_TYPE_ALLOW,true
+perm-reports-dashboard,default-workspace,superadmin-001,superadmin-001,Reports: Dashboard,reports:dashboard,PERMISSION_TYPE_ALLOW,true
+perm-job-dashboard,default-workspace,superadmin-001,superadmin-001,Job: Dashboard,job:dashboard,PERMISSION_TYPE_ALLOW,true
+perm-admin-dashboard,default-workspace,superadmin-001,superadmin-001,Admin: Dashboard,admin:dashboard,PERMISSION_TYPE_ALLOW,true
+perm-ledger-dashboard,default-workspace,superadmin-001,superadmin-001,Ledger: Dashboard,ledger:dashboard,PERMISSION_TYPE_ALLOW,true
+perm-payroll-dashboard,default-workspace,superadmin-001,superadmin-001,Payroll: Dashboard,payroll:dashboard,PERMISSION_TYPE_ALLOW,true
+perm-loan-dashboard,default-workspace,superadmin-001,superadmin-001,Loan: Dashboard,loan:dashboard,PERMISSION_TYPE_ALLOW,true
+perm-equity-dashboard,default-workspace,superadmin-001,superadmin-001,Equity: Dashboard,equity:dashboard,PERMISSION_TYPE_ALLOW,true
+perm-fulfillment-dashboard,default-workspace,superadmin-001,superadmin-001,Fulfillment: Dashboard,fulfillment:dashboard,PERMISSION_TYPE_ALLOW,true
+perm-event-dashboard,default-workspace,superadmin-001,superadmin-001,Event: Dashboard,event:dashboard,PERMISSION_TYPE_ALLOW,true
+perm-integration-dashboard,default-workspace,superadmin-001,superadmin-001,Integration: Dashboard,integration:dashboard,PERMISSION_TYPE_ALLOW,true
+perm-procurement-dashboard,default-workspace,superadmin-001,superadmin-001,Procurement: Dashboard,procurement:dashboard,PERMISSION_TYPE_ALLOW,true
