@@ -98,6 +98,17 @@ var InsertOrder = []string{
 	// (Line FKs to both schedule and supplier_contract_line).
 	"supplier_contract_price_schedule",
 	"supplier_contract_price_schedule_line",
+	// Procurement domain (supplier-subscriptions plan P4):
+	// Level 3a — no FK dependencies on each other; both are top-level
+	// procurement graph roots.
+	"cost_schedule",
+	"supplier_plan",
+	// Level 3b — cost_plan FKs to supplier_plan + cost_schedule;
+	// supplier_product_plan FKs to supplier_plan + product + product_variant.
+	"cost_plan",
+	"supplier_product_plan",
+	// Level 3c — supplier_product_cost_plan FKs to cost_plan + supplier_product_plan.
+	"supplier_product_cost_plan",
 	"procurement_request",
 	"procurement_request_line",
 	"purchase_order",
@@ -106,6 +117,9 @@ var InsertOrder = []string{
 	// Level 4: transactional
 	"subscription",
 	"subscription_attribute",
+	// supplier_subscription FKs to supplier + cost_plan + procurement_request + location.
+	// Placed adjacent to selling-side subscription for symmetry.
+	"supplier_subscription",
 	"revenue",
 	"revenue_line_item",
 	"revenue_payment",
