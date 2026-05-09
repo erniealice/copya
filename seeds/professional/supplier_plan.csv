@@ -1,0 +1,6 @@
+workspace_id,id,name,description,supplier_id,active
+default-workspace,sup-plan-001,AWS Cloud Hosting,Amazon Web Services EC2 and compute hosting plan,sup-002,true
+default-workspace,sup-plan-002,AWS RDS Managed Database,Amazon RDS PostgreSQL managed database plan,sup-002,true
+default-workspace,sup-plan-003,WeWork HQ Membership,WeWork Cebu Business Park coworking membership plan,sup-003,true
+default-workspace,sup-plan-004,Staples Office Supply,Staples office supplies and stationery standing order plan,sup-001,true
+default-workspace,sup-plan-005,TechPro IT Managed Services,TechPro IT infrastructure management and support plan,sup-002,true

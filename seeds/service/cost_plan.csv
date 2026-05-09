@@ -1,0 +1,4 @@
+id,supplier_plan_id,name,description,billing_amount,billing_currency,duration_value,duration_unit,cost_schedule_id,active,billing_kind,amount_basis
+cp-svc-001,sp-svc-001,IT Support Monthly,Fixed monthly IT support and POS maintenance,150000,PHP,1,month,cs-svc-001,true,BILLING_KIND_RECURRING,AMOUNT_BASIS_PER_CYCLE
+cp-svc-002,sp-svc-002,POS Annual License,Annual POS software license billed upfront,600000,PHP,12,month,cs-svc-001,true,BILLING_KIND_CONTRACT,AMOUNT_BASIS_TOTAL_PACKAGE
+cp-svc-003,sp-svc-003,L'Oreal Monthly Replenishment,Monthly consumable product standing order,450000,PHP,1,month,cs-svc-002,true,BILLING_KIND_RECURRING,AMOUNT_BASIS_PER_CYCLE

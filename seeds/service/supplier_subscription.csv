@@ -1,0 +1,4 @@
+workspace_id,id,name,supplier_id,cost_plan_id,date_time_start,date_time_end,active,auto_renew,code,location_id,procurement_request_id
+default-workspace,ss-svc-001,TechForce IT Support FY26,sup-004,cp-svc-001,2026-01-01,,true,true,TF-IT-001,loc-main,
+default-workspace,ss-svc-002,TechForce POS License FY26,sup-004,cp-svc-002,2026-01-01,2026-12-31,true,false,TF-POS-001,loc-main,
+default-workspace,ss-svc-003,L'Oreal Q4 2025 Standing Order,sup-001,cp-svc-003,2025-10-01,2025-12-31,false,false,LO-STD-001,loc-main,

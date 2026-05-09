@@ -1,0 +1,7 @@
+id,name,description,product_id,supplier_plan_id,active
+sup-prod-plan-001,Legal Consultation - AWS,AWS professional services for legal consulting platform,prod-001,sup-plan-001,true
+sup-prod-plan-002,Tax Advisory - AWS,AWS infrastructure for tax advisory systems,prod-002,sup-plan-001,true
+sup-prod-plan-003,Audit Services - TechPro,TechPro IT support for audit services delivery,prod-004,sup-plan-005,true
+sup-prod-plan-004,Business Registration - AWS RDS,AWS RDS for business registration database,prod-003,sup-plan-002,true
+sup-prod-plan-005,Legal Consultation - Office Supplies,Office supplies supporting legal consultation operations,prod-001,sup-plan-004,true
+sup-prod-plan-006,Audit Services - Office Supplies,Office supplies and printing for audit services,prod-004,sup-plan-004,true

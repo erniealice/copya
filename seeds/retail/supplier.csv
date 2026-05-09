@@ -1,0 +1,3 @@
+workspace_id,id,internal_id,name,supplier_type,status,payment_terms,category_id,currency,country,notes,active
+default-workspace,sup-retail-001,SUP-RETAIL-0001,Acme Wholesale,company,active,net_30,supcat-product,PHP,PH,Wholesale inventory and packaging supplier for retail operations,true
+default-workspace,sup-retail-002,SUP-RETAIL-0002,FastShip Logistics,company,active,net_15,supcat-logistics,PHP,PH,Last-mile courier and delivery partner for retail orders,true

@@ -1,0 +1,6 @@
+id,cost_plan_id,supplier_product_plan_id,billing_amount,billing_currency,billing_treatment,active
+spcp-svc-001,cp-svc-001,spp-svc-001,150000,PHP,BILLING_TREATMENT_RECURRING,true
+spcp-svc-002,cp-svc-002,spp-svc-002,600000,PHP,BILLING_TREATMENT_ONE_TIME_INITIAL,true
+spcp-svc-003,cp-svc-003,spp-svc-003,300000,PHP,BILLING_TREATMENT_RECURRING,true
+spcp-svc-004,cp-svc-003,spp-svc-004,150000,PHP,BILLING_TREATMENT_RECURRING,true
+spcp-svc-005,cp-svc-001,spp-svc-001,,PHP,BILLING_TREATMENT_USAGE_BASED,true

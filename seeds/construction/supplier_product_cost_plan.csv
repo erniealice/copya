@@ -1,0 +1,6 @@
+id,cost_plan_id,supplier_product_plan_id,billing_amount,billing_currency,billing_treatment,active
+spcp-cons-001,cp-cons-001,spp-cons-001,5000000,PHP,BILLING_TREATMENT_RECURRING,true
+spcp-cons-002,cp-cons-002,spp-cons-001,50000000,PHP,BILLING_TREATMENT_ONE_TIME_INITIAL,true
+spcp-cons-003,cp-cons-003,spp-cons-003,,PHP,BILLING_TREATMENT_USAGE_BASED,true
+spcp-cons-004,cp-cons-004,spp-cons-004,8000000,PHP,BILLING_TREATMENT_RECURRING,true
+spcp-cons-005,cp-cons-001,spp-cons-002,5000000,PHP,BILLING_TREATMENT_RECURRING,true

@@ -1,0 +1,4 @@
+workspace_id,id,name,supplier_id,cost_plan_id,date_time_start,date_time_end,active,auto_renew,code,location_id,procurement_request_id
+default-workspace,ss-retail-001,Acme Wholesale Monthly FY26,sup-retail-001,cp-retail-001,2026-01-01,,true,true,AW-MON-001,loc-main,
+default-workspace,ss-retail-002,Acme Bulk Q2 2026,sup-retail-001,cp-retail-002,2026-04-01,2026-06-30,true,false,AW-BULK-001,loc-main,
+default-workspace,ss-retail-003,FastShip Courier FY25 Q4,sup-retail-002,cp-retail-004,2025-10-01,2025-12-31,false,false,FS-COU-001,loc-main,

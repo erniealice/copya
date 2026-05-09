@@ -1,0 +1,11 @@
+id,cost_plan_id,supplier_product_plan_id,billing_amount,billing_currency,billing_treatment,active
+sup-prod-cp-001,cost-plan-001,sup-prod-plan-001,150000,PHP,BILLING_TREATMENT_RECURRING,true
+sup-prod-cp-002,cost-plan-001,sup-prod-plan-002,80000,PHP,BILLING_TREATMENT_RECURRING,true
+sup-prod-cp-003,cost-plan-003,sup-prod-plan-001,,PHP,BILLING_TREATMENT_USAGE_BASED,true
+sup-prod-cp-004,cost-plan-003,sup-prod-plan-002,,PHP,BILLING_TREATMENT_USAGE_BASED,true
+sup-prod-cp-005,cost-plan-008,sup-prod-plan-003,250000,PHP,BILLING_TREATMENT_ONE_TIME_INITIAL,true
+sup-prod-cp-006,cost-plan-008,sup-prod-plan-003,250000,PHP,BILLING_TREATMENT_RECURRING,true
+sup-prod-cp-007,cost-plan-003,sup-prod-plan-001,50000,PHP,BILLING_TREATMENT_MINIMUM_COMMITMENT,true
+sup-prod-cp-008,cost-plan-006,sup-prod-plan-005,25000,PHP,BILLING_TREATMENT_RECURRING,true
+sup-prod-cp-009,cost-plan-006,sup-prod-plan-006,55000,PHP,BILLING_TREATMENT_RECURRING,true
+sup-prod-cp-010,cost-plan-007,sup-prod-plan-003,75000,PHP,BILLING_TREATMENT_ONE_TIME_INITIAL,true

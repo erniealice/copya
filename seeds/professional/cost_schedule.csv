@@ -1,0 +1,4 @@
+workspace_id,id,name,description,date_start,date_end,active
+default-workspace,cost-sched-001,AWS FY26 Q1,Amazon Web Services pricing window for Q1 FY2026,2026-01-01,2026-03-31,true
+default-workspace,cost-sched-002,WeWork Q1 2026,WeWork coworking membership pricing for Q1 2026,2026-01-01,2026-03-31,true
+default-workspace,cost-sched-003,Office Supplies 2026,Office Warehouse supply pricing for full year 2026,2026-01-01,2026-12-31,true

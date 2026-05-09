@@ -1,0 +1,5 @@
+id,name,description,product_id,supplier_plan_id,active
+spp-svc-001,Haircut Services - IT Support,TechForce IT supporting salon booking system,prod-001,sp-svc-001,true
+spp-svc-002,Hair Color Services - IT Support,TechForce POS for color service billing,prod-003,sp-svc-002,true
+spp-svc-003,Hair Color - L'Oreal Products,L'Oreal color products for hair color services,prod-003,sp-svc-003,true
+spp-svc-004,Treatments - L'Oreal Products,L'Oreal treatment products for deep conditioning,prod-004,sp-svc-003,true

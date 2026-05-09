@@ -735,25 +735,31 @@ perm-integration-dashboard,default-workspace,superadmin-001,superadmin-001,Integ
 perm-procurement-dashboard,default-workspace,superadmin-001,superadmin-001,Procurement: Dashboard,procurement:dashboard,PERMISSION_TYPE_ALLOW,true
 perm-cost_schedule-list,default-workspace,superadmin-001,superadmin-001,Cost Schedule: List,cost_schedule:list,PERMISSION_TYPE_ALLOW,true
 perm-cost_schedule-create,default-workspace,superadmin-001,superadmin-001,Cost Schedule: Create,cost_schedule:create,PERMISSION_TYPE_ALLOW,true
+perm-cost_schedule-read,default-workspace,superadmin-001,superadmin-001,Cost Schedule: Read,cost_schedule:read,PERMISSION_TYPE_ALLOW,true
 perm-cost_schedule-update,default-workspace,superadmin-001,superadmin-001,Cost Schedule: Update,cost_schedule:update,PERMISSION_TYPE_ALLOW,true
 perm-cost_schedule-delete,default-workspace,superadmin-001,superadmin-001,Cost Schedule: Delete,cost_schedule:delete,PERMISSION_TYPE_ALLOW,true
 perm-supplier_plan-list,default-workspace,superadmin-001,superadmin-001,Supplier Plan: List,supplier_plan:list,PERMISSION_TYPE_ALLOW,true
 perm-supplier_plan-create,default-workspace,superadmin-001,superadmin-001,Supplier Plan: Create,supplier_plan:create,PERMISSION_TYPE_ALLOW,true
+perm-supplier_plan-read,default-workspace,superadmin-001,superadmin-001,Supplier Plan: Read,supplier_plan:read,PERMISSION_TYPE_ALLOW,true
 perm-supplier_plan-update,default-workspace,superadmin-001,superadmin-001,Supplier Plan: Update,supplier_plan:update,PERMISSION_TYPE_ALLOW,true
 perm-supplier_plan-delete,default-workspace,superadmin-001,superadmin-001,Supplier Plan: Delete,supplier_plan:delete,PERMISSION_TYPE_ALLOW,true
 perm-cost_plan-list,default-workspace,superadmin-001,superadmin-001,Cost Plan: List,cost_plan:list,PERMISSION_TYPE_ALLOW,true
 perm-cost_plan-create,default-workspace,superadmin-001,superadmin-001,Cost Plan: Create,cost_plan:create,PERMISSION_TYPE_ALLOW,true
+perm-cost_plan-read,default-workspace,superadmin-001,superadmin-001,Cost Plan: Read,cost_plan:read,PERMISSION_TYPE_ALLOW,true
 perm-cost_plan-update,default-workspace,superadmin-001,superadmin-001,Cost Plan: Update,cost_plan:update,PERMISSION_TYPE_ALLOW,true
 perm-cost_plan-delete,default-workspace,superadmin-001,superadmin-001,Cost Plan: Delete,cost_plan:delete,PERMISSION_TYPE_ALLOW,true
 perm-supplier_product_plan-list,default-workspace,superadmin-001,superadmin-001,Supplier Product Plan: List,supplier_product_plan:list,PERMISSION_TYPE_ALLOW,true
 perm-supplier_product_plan-create,default-workspace,superadmin-001,superadmin-001,Supplier Product Plan: Create,supplier_product_plan:create,PERMISSION_TYPE_ALLOW,true
+perm-supplier_product_plan-read,default-workspace,superadmin-001,superadmin-001,Supplier Product Plan: Read,supplier_product_plan:read,PERMISSION_TYPE_ALLOW,true
 perm-supplier_product_plan-update,default-workspace,superadmin-001,superadmin-001,Supplier Product Plan: Update,supplier_product_plan:update,PERMISSION_TYPE_ALLOW,true
 perm-supplier_product_plan-delete,default-workspace,superadmin-001,superadmin-001,Supplier Product Plan: Delete,supplier_product_plan:delete,PERMISSION_TYPE_ALLOW,true
 perm-supplier_product_cost_plan-list,default-workspace,superadmin-001,superadmin-001,Supplier Product Cost Plan: List,supplier_product_cost_plan:list,PERMISSION_TYPE_ALLOW,true
 perm-supplier_product_cost_plan-create,default-workspace,superadmin-001,superadmin-001,Supplier Product Cost Plan: Create,supplier_product_cost_plan:create,PERMISSION_TYPE_ALLOW,true
+perm-supplier_product_cost_plan-read,default-workspace,superadmin-001,superadmin-001,Supplier Product Cost Plan: Read,supplier_product_cost_plan:read,PERMISSION_TYPE_ALLOW,true
 perm-supplier_product_cost_plan-update,default-workspace,superadmin-001,superadmin-001,Supplier Product Cost Plan: Update,supplier_product_cost_plan:update,PERMISSION_TYPE_ALLOW,true
 perm-supplier_product_cost_plan-delete,default-workspace,superadmin-001,superadmin-001,Supplier Product Cost Plan: Delete,supplier_product_cost_plan:delete,PERMISSION_TYPE_ALLOW,true
 perm-supplier_subscription-list,default-workspace,superadmin-001,superadmin-001,Supplier Subscription: List,supplier_subscription:list,PERMISSION_TYPE_ALLOW,true
 perm-supplier_subscription-create,default-workspace,superadmin-001,superadmin-001,Supplier Subscription: Create,supplier_subscription:create,PERMISSION_TYPE_ALLOW,true
+perm-supplier_subscription-read,default-workspace,superadmin-001,superadmin-001,Supplier Subscription: Read,supplier_subscription:read,PERMISSION_TYPE_ALLOW,true
 perm-supplier_subscription-update,default-workspace,superadmin-001,superadmin-001,Supplier Subscription: Update,supplier_subscription:update,PERMISSION_TYPE_ALLOW,true
 perm-supplier_subscription-delete,default-workspace,superadmin-001,superadmin-001,Supplier Subscription: Delete,supplier_subscription:delete,PERMISSION_TYPE_ALLOW,true

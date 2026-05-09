@@ -1,0 +1,4 @@
+workspace_id,id,name,description,supplier_id,active
+default-workspace,sp-cons-001,Steel Subcontract Structural Works,Monthly structural steel fabrication subcontract,sup-cons-001,true
+default-workspace,sp-cons-002,Steel Subcontract Rebar Supply,Rebar and reinforcement materials supply plan,sup-cons-001,true
+default-workspace,sp-cons-003,Concrete Solutions Ready-Mix,Ready-mix concrete delivery subcontract,sup-cons-002,true

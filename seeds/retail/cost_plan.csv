@@ -1,0 +1,5 @@
+id,supplier_plan_id,name,description,billing_amount,billing_currency,duration_value,duration_unit,cost_schedule_id,active,billing_kind,amount_basis
+cp-retail-001,sp-retail-001,Wholesale Inventory Monthly,Monthly inventory replenishment from Acme Wholesale,200000,PHP,1,month,cs-retail-001,true,BILLING_KIND_RECURRING,AMOUNT_BASIS_PER_CYCLE
+cp-retail-002,sp-retail-001,Wholesale Seasonal Bulk Order,Seasonal bulk inventory for peak selling period,2000000,PHP,3,month,cs-retail-001,true,BILLING_KIND_CONTRACT,AMOUNT_BASIS_TOTAL_PACKAGE
+cp-retail-003,sp-retail-002,Packaging Materials Monthly,Monthly packaging supplies replenishment,80000,PHP,1,month,cs-retail-001,true,BILLING_KIND_RECURRING,AMOUNT_BASIS_PER_CYCLE
+cp-retail-004,sp-retail-003,FastShip Monthly Shipping,Monthly shipping fees billed per shipment volume,,PHP,,,cs-retail-002,true,BILLING_KIND_USAGE_BASED,AMOUNT_BASIS_DERIVED_FROM_LINES

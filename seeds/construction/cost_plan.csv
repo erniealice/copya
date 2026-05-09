@@ -1,0 +1,5 @@
+id,supplier_plan_id,name,description,billing_amount,billing_currency,duration_value,duration_unit,cost_schedule_id,active,billing_kind,amount_basis
+cp-cons-001,sp-cons-001,Structural Steel Monthly,Monthly structural steel fabrication progress billing,5000000,PHP,1,month,cs-cons-001,true,BILLING_KIND_RECURRING,AMOUNT_BASIS_PER_CYCLE
+cp-cons-002,sp-cons-001,Structural Steel Project Contract,Lump-sum structural works for one project phase,50000000,PHP,6,month,cs-cons-001,true,BILLING_KIND_CONTRACT,AMOUNT_BASIS_TOTAL_PACKAGE
+cp-cons-003,sp-cons-002,Rebar Supply Monthly,Monthly rebar and reinforcement steel delivery,,PHP,,,cs-cons-001,true,BILLING_KIND_USAGE_BASED,AMOUNT_BASIS_DERIVED_FROM_LINES
+cp-cons-004,sp-cons-003,Ready-Mix Concrete Monthly,Monthly ready-mix concrete batching and delivery,8000000,PHP,1,month,cs-cons-002,true,BILLING_KIND_RECURRING,AMOUNT_BASIS_PER_CYCLE

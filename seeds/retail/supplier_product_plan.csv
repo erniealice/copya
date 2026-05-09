@@ -1,0 +1,5 @@
+id,name,description,product_id,supplier_plan_id,active
+spp-retail-001,Packaged Goods - Acme Wholesale,Acme Wholesale supply for packaged consumer goods,prod-retail-001,sp-retail-001,true
+spp-retail-002,Fresh Produce - Acme Wholesale,Acme Wholesale fresh produce inventory replenishment,prod-retail-002,sp-retail-001,true
+spp-retail-003,Packaging Materials - Acme,Acme-supplied packaging boxes bags and tape,prod-retail-003,sp-retail-002,true
+spp-retail-004,Delivery - FastShip,FastShip last-mile delivery for online orders,prod-retail-001,sp-retail-003,true

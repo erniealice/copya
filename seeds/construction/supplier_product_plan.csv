@@ -1,0 +1,5 @@
+id,name,description,product_id,supplier_plan_id,active
+spp-cons-001,Building Construction - Steel Structural,Steel Subcontract Inc structural works for building projects,prod-cons-001,sp-cons-001,true
+spp-cons-002,Infrastructure Works - Steel,Steel fabrication for infrastructure and bridge projects,prod-cons-002,sp-cons-001,true
+spp-cons-003,Rebar Supply - Construction,Rebar delivery for all active construction projects,prod-cons-001,sp-cons-002,true
+spp-cons-004,Concrete Works - Ready-Mix,Concrete Solutions supply for slab and column pours,prod-cons-001,sp-cons-003,true

@@ -1,0 +1,4 @@
+workspace_id,id,name,description,supplier_id,active
+default-workspace,sp-retail-001,Acme Wholesale Monthly Inventory,Monthly wholesale inventory replenishment plan,sup-retail-001,true
+default-workspace,sp-retail-002,Acme Packaging Supplies,Recurring packaging materials standing order,sup-retail-001,true
+default-workspace,sp-retail-003,FastShip Logistics Monthly,Monthly courier and last-mile delivery contract,sup-retail-002,true

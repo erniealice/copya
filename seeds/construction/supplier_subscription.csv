@@ -1,0 +1,4 @@
+workspace_id,id,name,supplier_id,cost_plan_id,date_time_start,date_time_end,active,auto_renew,code,location_id,procurement_request_id
+default-workspace,ss-cons-001,Steel Subcontract Structural FY26,sup-cons-001,cp-cons-001,2026-01-01,2026-12-31,true,false,SS-STR-001,loc-main,
+default-workspace,ss-cons-002,Steel Contract Phase 1,sup-cons-001,cp-cons-002,2026-03-01,2026-08-31,true,false,SS-PH1-001,loc-main,
+default-workspace,ss-cons-003,Concrete Solutions FY25 Q4,sup-cons-002,cp-cons-004,2025-10-01,2025-12-31,false,false,CS-RMX-001,loc-main,

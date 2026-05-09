@@ -1,0 +1,9 @@
+id,supplier_plan_id,name,description,billing_amount,billing_currency,duration_value,duration_unit,cost_schedule_id,active,billing_kind,amount_basis
+cost-plan-001,sup-plan-001,AWS Compute Monthly,Recurring monthly EC2 and load balancer charges,500000,PHP,1,month,cost-sched-001,true,BILLING_KIND_RECURRING,AMOUNT_BASIS_PER_CYCLE
+cost-plan-002,sup-plan-002,AWS RDS Monthly,Recurring monthly managed database hosting,180000,PHP,1,month,cost-sched-001,true,BILLING_KIND_RECURRING,AMOUNT_BASIS_PER_CYCLE
+cost-plan-003,sup-plan-001,AWS Usage-Based Compute,Metered AWS Lambda and S3 storage charges based on actual usage,,PHP,,,cost-sched-001,true,BILLING_KIND_USAGE_BASED,AMOUNT_BASIS_DERIVED_FROM_LINES
+cost-plan-004,sup-plan-003,WeWork Monthly Membership,Fixed monthly coworking desk membership,120000,PHP,1,month,cost-sched-002,true,BILLING_KIND_RECURRING,AMOUNT_BASIS_PER_CYCLE
+cost-plan-005,sup-plan-003,WeWork Annual Contract,Annual fixed-term coworking contract billed upfront,1200000,PHP,12,month,cost-sched-002,true,BILLING_KIND_CONTRACT,AMOUNT_BASIS_TOTAL_PACKAGE
+cost-plan-006,sup-plan-004,Office Supplies Quarterly,Quarterly office supply replenishment order,80000,PHP,3,month,cost-sched-003,true,BILLING_KIND_RECURRING,AMOUNT_BASIS_PER_CYCLE
+cost-plan-007,sup-plan-005,IT Support Ad Hoc,Ad hoc IT support call-out fees billed per incident,75000,PHP,,,cost-sched-001,true,BILLING_KIND_AD_HOC,AMOUNT_BASIS_PER_OCCURRENCE
+cost-plan-008,sup-plan-005,IT Managed Services Package,Fixed-term 12-month managed IT services engagement,3600000,PHP,12,month,cost-sched-001,true,BILLING_KIND_CONTRACT,AMOUNT_BASIS_PER_CYCLE

@@ -1,0 +1,4 @@
+workspace_id,id,name,description,supplier_id,active
+default-workspace,sp-svc-001,TechForce Monthly IT Support,Monthly IT support and POS maintenance plan,sup-004,true
+default-workspace,sp-svc-002,TechForce POS License,Annual POS software license and updates,sup-004,true
+default-workspace,sp-svc-003,L'Oreal Standing Order,Recurring hair product replenishment plan,sup-001,true

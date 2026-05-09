@@ -1,0 +1,6 @@
+id,cost_plan_id,supplier_product_plan_id,billing_amount,billing_currency,billing_treatment,active
+spcp-retail-001,cp-retail-001,spp-retail-001,120000,PHP,BILLING_TREATMENT_RECURRING,true
+spcp-retail-002,cp-retail-001,spp-retail-002,80000,PHP,BILLING_TREATMENT_RECURRING,true
+spcp-retail-003,cp-retail-002,spp-retail-001,2000000,PHP,BILLING_TREATMENT_ONE_TIME_INITIAL,true
+spcp-retail-004,cp-retail-003,spp-retail-003,80000,PHP,BILLING_TREATMENT_RECURRING,true
+spcp-retail-005,cp-retail-004,spp-retail-004,,PHP,BILLING_TREATMENT_USAGE_BASED,true

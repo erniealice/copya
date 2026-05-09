@@ -1,0 +1,3 @@
+workspace_id,id,name,description,date_start,date_end,active
+default-workspace,cs-svc-001,TechForce IT FY26,TechForce IT Solutions pricing window for FY2026,2026-01-01,2026-12-31,true
+default-workspace,cs-svc-002,Product Suppliers FY26,L'Oreal and consumables pricing for FY2026,2026-01-01,2026-12-31,true
