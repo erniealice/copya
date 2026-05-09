@@ -36,12 +36,21 @@ var InsertOrder = []string{
 	"expenditure_category",
 	"revenue_category",
 	"location_area",
+	// Tax lookup tables with no FKs — must precede tax_registration_kind,
+	// tax_class, and product (which FK to tax_treatment + tax_class).
+	"tax_authority",
+	"tax_treatment",
 
 	// Level 1: depend on user or base tables
 	"admin",
 	"delegate",
 	"staff",
 	"workspace",
+	// Tax classification tables that FK to tax_authority — must precede
+	// product (product.withholding_class_id FKs to tax_class, and
+	// product.tax_treatment_id FKs to tax_treatment which is Level 0 above).
+	"tax_registration_kind",
+	"tax_class",
 	// job_template must be inserted before plan because plan.job_template_id
 	// is a FK reference to job_template(id) (auto-spawn-jobs-from-subscription).
 	"job_template",
@@ -66,6 +75,12 @@ var InsertOrder = []string{
 	"product_variant",
 	"product_attribute",
 	"inventory_item",
+	// Tax rate + registration: FK to workspace (Level 1), tax_authority,
+	// tax_registration_kind, and client (polymorphic party_id — no DB FK).
+	// tax_rate must precede tax_registration for correctness; both go at
+	// Level 2 after client.
+	"tax_rate",
+	"tax_registration",
 
 	// Level 3: depend on level 2
 	"workspace_user_role",

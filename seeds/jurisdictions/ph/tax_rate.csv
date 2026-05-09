@@ -1,0 +1,10 @@
+id,workspace_id,jurisdiction,authority_code,regulator_code,kind,treatment_code,direction,rate_basis_points,effective_from,status,version_label,active
+tax-ph-vat-12,,PH-NATIONAL,BIR,VT010,VAT_STANDARD,STANDARD,1,1200,2018-01-01,2,TRAIN-2018,true
+tax-ph-vat-zero,,PH-NATIONAL,BIR,VT020,VAT_STANDARD,ZERO_RATED,1,0,2018-01-01,2,TRAIN-2018,true
+tax-ph-vat-exempt,,PH-NATIONAL,BIR,VT030,VAT_STANDARD,EXEMPT,1,0,2018-01-01,2,TRAIN-2018,true
+tax-ph-wht-prof-ind,,PH-NATIONAL,BIR,WC010,WHT_PROFESSIONAL_INDIVIDUAL,,2,500,2018-01-01,2,RR11-2018,true
+tax-ph-wht-prof-corp,,PH-NATIONAL,BIR,WC011,WHT_PROFESSIONAL_CORPORATE,,2,1000,2018-01-01,2,RR11-2018,true
+tax-ph-wht-rental,,PH-NATIONAL,BIR,WC080,WHT_RENTAL,,2,500,2018-01-01,2,RR11-2018,true
+tax-ph-wht-goods-twa,,PH-NATIONAL,BIR,WC100,WHT_GOODS_TWA,,2,100,2018-01-01,2,RR11-2018,true
+tax-ph-wht-services-twa,,PH-NATIONAL,BIR,WC120,WHT_SERVICES_TWA,,2,200,2018-01-01,2,RR11-2018,true
+tax-ph-wht-non-resident,,PH-NATIONAL,BIR,WC158,WHT_NON_RESIDENT,,2,1500,2018-01-01,2,RR11-2018,true

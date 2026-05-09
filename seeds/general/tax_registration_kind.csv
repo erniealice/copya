@@ -1,0 +1,5 @@
+id,code,name,tax_authority_id,jurisdiction,party_role,compute_path,default_rate_kind,applicable_party_types,active
+tax-reg-kind-ph-vat,PH_VAT_REGISTERED,VAT Registered (PH),tax-authority-bir,PH-NATIONAL,1,1,VAT_STANDARD,"{CLIENT,WORKSPACE,SUPPLIER}",true
+tax-reg-kind-ph-pct,PH_PERCENTAGE_TAX,Non-VAT Percentage Tax (PH),tax-authority-bir,PH-NATIONAL,1,3,,{WORKSPACE},true
+tax-reg-kind-ph-twa,PH_TWA,Top Withholding Agent (PH),tax-authority-bir,PH-NATIONAL,2,2,,"{CLIENT,WORKSPACE}",true
+tax-reg-kind-ph-exempt,PH_EXEMPT_ENTITY,Tax-Exempt Entity (PH),tax-authority-bir,PH-NATIONAL,1,4,,"{CLIENT,WORKSPACE}",true

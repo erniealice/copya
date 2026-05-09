@@ -1,0 +1,7 @@
+id,code,name,direction,tax_authority_id,regulator_code,default_rate_kind,requires_counterparty_role,jurisdiction,active
+tax-class-prof-individual,PROFESSIONAL_INDIVIDUAL,Professional fees (individual),1,tax-authority-bir,WC010,WHT_PROFESSIONAL_INDIVIDUAL,1,PH-NATIONAL,true
+tax-class-prof-corporate,PROFESSIONAL_CORPORATE,Professional fees (corporate),1,tax-authority-bir,WC011,WHT_PROFESSIONAL_CORPORATE,1,PH-NATIONAL,true
+tax-class-rental,RENTAL,Rental of real property,1,tax-authority-bir,WC080,WHT_RENTAL,,PH-NATIONAL,true
+tax-class-goods-twa,GOODS_TWA,Goods (TWA payee),1,tax-authority-bir,WC100,WHT_GOODS_TWA,1,PH-NATIONAL,true
+tax-class-services-twa,SERVICES_TWA,Services (TWA payee),1,tax-authority-bir,WC120,WHT_SERVICES_TWA,1,PH-NATIONAL,true
+tax-class-non-resident,NON_RESIDENT,Non-resident,1,tax-authority-bir,WC158,WHT_NON_RESIDENT,,PH-NATIONAL,true

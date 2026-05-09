@@ -1,0 +1,3 @@
+id,party_type,party_id,tax_authority_id,tax_registration_kind_id,compute_path_snapshot,party_role_snapshot,registration_number,status,effective_from,workspace_id,active
+tax-reg-ws-vat,2,default-workspace,tax-authority-bir,tax-reg-kind-ph-vat,1,1,123-456-789-VAT,2,2018-01-01,default-workspace,true
+tax-reg-cli-twa,1,client-003,tax-authority-bir,tax-reg-kind-ph-twa,2,2,987-654-321-000,2,2024-01-01,default-workspace,true

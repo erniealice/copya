@@ -1,11 +1,11 @@
-workspace_id,id,user_id,internal_id,first_name,last_name,name,active
-default-workspace,client-001,user-c001,CLT-001,Maria,Santos,,true
-default-workspace,client-002,user-c002,CLT-002,Juan,dela Cruz,,true
-default-workspace,client-003,user-c003,CLT-003,Ana,Reyes,Reyes & Associates,true
-default-workspace,client-004,user-c004,CLT-004,Carlos,Mendoza,,true
-default-workspace,client-005,user-c005,CLT-005,Isabella,Garcia,,true
-default-workspace,client-006,user-c006,CLT-006,Miguel,Torres,,true
-default-workspace,client-007,user-c007,CLT-007,Sofia,Lim,,true
-default-workspace,client-008,user-c008,CLT-008,Diego,Villanueva,,true
-default-workspace,client-009,user-c009,CLT-009,Patricia,Tan,,true
-default-workspace,client-010,user-c010,CLT-010,Roberto,Cruz,,true
+workspace_id,id,user_id,internal_id,first_name,last_name,name,active,tin,country_code
+default-workspace,client-001,user-c001,CLT-001,Maria,Santos,,true,111-111-111-000,PH
+default-workspace,client-002,user-c002,CLT-002,Juan,dela Cruz,,true,222-222-222-000,PH
+default-workspace,client-003,user-c003,CLT-003,Ana,Reyes,Reyes & Associates,true,987-654-321-000,PH
+default-workspace,client-004,user-c004,CLT-004,Carlos,Mendoza,,true,444-444-444-000,PH
+default-workspace,client-005,user-c005,CLT-005,Isabella,Garcia,,true,555-555-555-000,PH
+default-workspace,client-006,user-c006,CLT-006,Miguel,Torres,,true,666-666-666-000,PH
+default-workspace,client-007,user-c007,CLT-007,Sofia,Lim,,true,777-777-777-000,PH
+default-workspace,client-008,user-c008,CLT-008,Diego,Villanueva,,true,888-888-888-000,PH
+default-workspace,client-009,user-c009,CLT-009,Patricia,Tan,,true,999-999-999-000,PH
+default-workspace,client-010,user-c010,CLT-010,Roberto,Cruz,,true,101-010-101-000,PH

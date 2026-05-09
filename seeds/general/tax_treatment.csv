@@ -1,0 +1,6 @@
+id,code,name,description,active
+tax-treatment-standard,STANDARD,Standard taxable,Normal taxable supply,true
+tax-treatment-reduced,REDUCED,Reduced rate,Reduced-rate supply (v2-prepared),true
+tax-treatment-zero-rated,ZERO_RATED,Zero-rated,Zero-rated supply (e.g. exports),true
+tax-treatment-exempt,EXEMPT,Exempt,Exempt from output tax,true
+tax-treatment-out-of-scope,OUT_OF_SCOPE,Out of scope,Outside the scope of the tax system,true
