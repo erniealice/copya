@@ -763,3 +763,27 @@ perm-supplier_subscription-create,default-workspace,superadmin-001,superadmin-00
 perm-supplier_subscription-read,default-workspace,superadmin-001,superadmin-001,Supplier Subscription: Read,supplier_subscription:read,PERMISSION_TYPE_ALLOW,true
 perm-supplier_subscription-update,default-workspace,superadmin-001,superadmin-001,Supplier Subscription: Update,supplier_subscription:update,PERMISSION_TYPE_ALLOW,true
 perm-supplier_subscription-delete,default-workspace,superadmin-001,superadmin-001,Supplier Subscription: Delete,supplier_subscription:delete,PERMISSION_TYPE_ALLOW,true
+perm-tax_authority-list,default-workspace,superadmin-001,superadmin-001,Tax Authority: List,tax_authority:list,PERMISSION_TYPE_ALLOW,true
+perm-tax_authority-read,default-workspace,superadmin-001,superadmin-001,Tax Authority: Read,tax_authority:read,PERMISSION_TYPE_ALLOW,true
+perm-tax_registration_kind-list,default-workspace,superadmin-001,superadmin-001,Tax Registration Kind: List,tax_registration_kind:list,PERMISSION_TYPE_ALLOW,true
+perm-tax_registration_kind-read,default-workspace,superadmin-001,superadmin-001,Tax Registration Kind: Read,tax_registration_kind:read,PERMISSION_TYPE_ALLOW,true
+perm-tax_treatment-list,default-workspace,superadmin-001,superadmin-001,Tax Treatment: List,tax_treatment:list,PERMISSION_TYPE_ALLOW,true
+perm-tax_treatment-read,default-workspace,superadmin-001,superadmin-001,Tax Treatment: Read,tax_treatment:read,PERMISSION_TYPE_ALLOW,true
+perm-tax_class-list,default-workspace,superadmin-001,superadmin-001,Tax Class: List,tax_class:list,PERMISSION_TYPE_ALLOW,true
+perm-tax_class-read,default-workspace,superadmin-001,superadmin-001,Tax Class: Read,tax_class:read,PERMISSION_TYPE_ALLOW,true
+perm-tax_rate-list,default-workspace,superadmin-001,superadmin-001,Tax Rate: List,tax_rate:list,PERMISSION_TYPE_ALLOW,true
+perm-tax_rate-read,default-workspace,superadmin-001,superadmin-001,Tax Rate: Read,tax_rate:read,PERMISSION_TYPE_ALLOW,true
+perm-tax_registration-list,default-workspace,superadmin-001,superadmin-001,Tax Registration: List,tax_registration:list,PERMISSION_TYPE_ALLOW,true
+perm-tax_registration-read,default-workspace,superadmin-001,superadmin-001,Tax Registration: Read,tax_registration:read,PERMISSION_TYPE_ALLOW,true
+perm-tax_registration-create,default-workspace,superadmin-001,superadmin-001,Tax Registration: Create,tax_registration:create,PERMISSION_TYPE_ALLOW,true
+perm-tax_registration-update,default-workspace,superadmin-001,superadmin-001,Tax Registration: Update,tax_registration:update,PERMISSION_TYPE_ALLOW,true
+perm-tax_registration-delete,default-workspace,superadmin-001,superadmin-001,Tax Registration: Delete,tax_registration:delete,PERMISSION_TYPE_ALLOW,true
+perm-revenue_tax_line-list,default-workspace,superadmin-001,superadmin-001,Revenue Tax Line: List,revenue_tax_line:list,PERMISSION_TYPE_ALLOW,true
+perm-revenue_tax_line-read,default-workspace,superadmin-001,superadmin-001,Revenue Tax Line: Read,revenue_tax_line:read,PERMISSION_TYPE_ALLOW,true
+perm-withholding_certificate-list,default-workspace,superadmin-001,superadmin-001,Withholding Certificate: List,withholding_certificate:list,PERMISSION_TYPE_ALLOW,true
+perm-withholding_certificate-read,default-workspace,superadmin-001,superadmin-001,Withholding Certificate: Read,withholding_certificate:read,PERMISSION_TYPE_ALLOW,true
+perm-withholding_certificate-create,default-workspace,superadmin-001,superadmin-001,Withholding Certificate: Create,withholding_certificate:create,PERMISSION_TYPE_ALLOW,true
+perm-withholding_certificate-update,default-workspace,superadmin-001,superadmin-001,Withholding Certificate: Update,withholding_certificate:update,PERMISSION_TYPE_ALLOW,true
+perm-withholding_certificate-delete,default-workspace,superadmin-001,superadmin-001,Withholding Certificate: Delete,withholding_certificate:delete,PERMISSION_TYPE_ALLOW,true
+perm-forex_rate-list,default-workspace,superadmin-001,superadmin-001,Forex Rate: List,forex_rate:list,PERMISSION_TYPE_ALLOW,true
+perm-forex_rate-read,default-workspace,superadmin-001,superadmin-001,Forex Rate: Read,forex_rate:read,PERMISSION_TYPE_ALLOW,true
