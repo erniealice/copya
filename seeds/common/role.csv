@@ -5,3 +5,8 @@ role-operations-staff,default-workspace,Operations Staff,Service operations and 
 role-accounting-staff,default-workspace,Accounting Staff,Financial reporting and read-only access,#16a34a,true
 role-bookkeeper,default-workspace,Bookkeeper,Day-to-day bookkeeping: draft JEs petty cash prepayments,#0891b2,true
 role-accountant,default-workspace,Accountant,Full accounting authority: post guided JEs close periods manage CoA,#059669,true
+role-viewer,default-workspace,Viewer,Read-only access: list and read permissions on every entity (no create/update/delete),#6b7280,true
+role-client-portal,default-workspace,Client Portal,Portal access for Client principals: read own profile + invoices + payments + documents + send message,#0369a1,true
+role-supplier-portal,default-workspace,Supplier Portal,Portal access for Supplier principals: read own profile + contracts + invoices + expenditures + upload invoice + send message,#0d9488,true
+role-client-delegate,default-workspace,Client Delegate,Portal access for Client Delegate principals: view acting-as client data + send message + switch client,#7c3aed,true
+role-supplier-delegate,default-workspace,Supplier Delegate,Portal access for Supplier Delegate principals: view acting-as supplier data + upload invoice + send message + switch supplier,#b45309,true

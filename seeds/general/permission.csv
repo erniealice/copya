@@ -787,3 +787,121 @@ perm-withholding_certificate-update,default-workspace,superadmin-001,superadmin-
 perm-withholding_certificate-delete,default-workspace,superadmin-001,superadmin-001,Withholding Certificate: Delete,withholding_certificate:delete,PERMISSION_TYPE_ALLOW,true
 perm-forex_rate-list,default-workspace,superadmin-001,superadmin-001,Forex Rate: List,forex_rate:list,PERMISSION_TYPE_ALLOW,true
 perm-forex_rate-read,default-workspace,superadmin-001,superadmin-001,Forex Rate: Read,forex_rate:read,PERMISSION_TYPE_ALLOW,true
+perm-event_tag-create,default-workspace,superadmin-001,superadmin-001,Event Tag: Create,event_tag:create,PERMISSION_TYPE_ALLOW,true
+perm-event_tag-read,default-workspace,superadmin-001,superadmin-001,Event Tag: Read,event_tag:read,PERMISSION_TYPE_ALLOW,true
+perm-event_tag-update,default-workspace,superadmin-001,superadmin-001,Event Tag: Update,event_tag:update,PERMISSION_TYPE_ALLOW,true
+perm-event_tag-delete,default-workspace,superadmin-001,superadmin-001,Event Tag: Delete,event_tag:delete,PERMISSION_TYPE_ALLOW,true
+perm-event_tag-list,default-workspace,superadmin-001,superadmin-001,Event Tag: List,event_tag:list,PERMISSION_TYPE_ALLOW,true
+perm-activity_expense-create,default-workspace,superadmin-001,superadmin-001,Activity Expense: Create,activity_expense:create,PERMISSION_TYPE_ALLOW,true
+perm-activity_expense-read,default-workspace,superadmin-001,superadmin-001,Activity Expense: Read,activity_expense:read,PERMISSION_TYPE_ALLOW,true
+perm-activity_expense-update,default-workspace,superadmin-001,superadmin-001,Activity Expense: Update,activity_expense:update,PERMISSION_TYPE_ALLOW,true
+perm-activity_expense-delete,default-workspace,superadmin-001,superadmin-001,Activity Expense: Delete,activity_expense:delete,PERMISSION_TYPE_ALLOW,true
+perm-activity_expense-list,default-workspace,superadmin-001,superadmin-001,Activity Expense: List,activity_expense:list,PERMISSION_TYPE_ALLOW,true
+perm-activity_labor-create,default-workspace,superadmin-001,superadmin-001,Activity Labor: Create,activity_labor:create,PERMISSION_TYPE_ALLOW,true
+perm-activity_labor-read,default-workspace,superadmin-001,superadmin-001,Activity Labor: Read,activity_labor:read,PERMISSION_TYPE_ALLOW,true
+perm-activity_labor-update,default-workspace,superadmin-001,superadmin-001,Activity Labor: Update,activity_labor:update,PERMISSION_TYPE_ALLOW,true
+perm-activity_labor-delete,default-workspace,superadmin-001,superadmin-001,Activity Labor: Delete,activity_labor:delete,PERMISSION_TYPE_ALLOW,true
+perm-activity_labor-list,default-workspace,superadmin-001,superadmin-001,Activity Labor: List,activity_labor:list,PERMISSION_TYPE_ALLOW,true
+perm-activity_material-create,default-workspace,superadmin-001,superadmin-001,Activity Material: Create,activity_material:create,PERMISSION_TYPE_ALLOW,true
+perm-activity_material-read,default-workspace,superadmin-001,superadmin-001,Activity Material: Read,activity_material:read,PERMISSION_TYPE_ALLOW,true
+perm-activity_material-update,default-workspace,superadmin-001,superadmin-001,Activity Material: Update,activity_material:update,PERMISSION_TYPE_ALLOW,true
+perm-activity_material-delete,default-workspace,superadmin-001,superadmin-001,Activity Material: Delete,activity_material:delete,PERMISSION_TYPE_ALLOW,true
+perm-activity_material-list,default-workspace,superadmin-001,superadmin-001,Activity Material: List,activity_material:list,PERMISSION_TYPE_ALLOW,true
+perm-job_template_phase-create,default-workspace,superadmin-001,superadmin-001,Job Template Phase: Create,job_template_phase:create,PERMISSION_TYPE_ALLOW,true
+perm-job_template_phase-read,default-workspace,superadmin-001,superadmin-001,Job Template Phase: Read,job_template_phase:read,PERMISSION_TYPE_ALLOW,true
+perm-job_template_phase-update,default-workspace,superadmin-001,superadmin-001,Job Template Phase: Update,job_template_phase:update,PERMISSION_TYPE_ALLOW,true
+perm-job_template_phase-delete,default-workspace,superadmin-001,superadmin-001,Job Template Phase: Delete,job_template_phase:delete,PERMISSION_TYPE_ALLOW,true
+perm-job_template_phase-list,default-workspace,superadmin-001,superadmin-001,Job Template Phase: List,job_template_phase:list,PERMISSION_TYPE_ALLOW,true
+perm-job_template_task-create,default-workspace,superadmin-001,superadmin-001,Job Template Task: Create,job_template_task:create,PERMISSION_TYPE_ALLOW,true
+perm-job_template_task-read,default-workspace,superadmin-001,superadmin-001,Job Template Task: Read,job_template_task:read,PERMISSION_TYPE_ALLOW,true
+perm-job_template_task-update,default-workspace,superadmin-001,superadmin-001,Job Template Task: Update,job_template_task:update,PERMISSION_TYPE_ALLOW,true
+perm-job_template_task-delete,default-workspace,superadmin-001,superadmin-001,Job Template Task: Delete,job_template_task:delete,PERMISSION_TYPE_ALLOW,true
+perm-job_template_task-list,default-workspace,superadmin-001,superadmin-001,Job Template Task: List,job_template_task:list,PERMISSION_TYPE_ALLOW,true
+perm-job_activity-approve,default-workspace,superadmin-001,superadmin-001,Job Activity: Approve,job_activity:approve,PERMISSION_TYPE_ALLOW,true
+perm-job_activity-post,default-workspace,superadmin-001,superadmin-001,Job Activity: Post,job_activity:post,PERMISSION_TYPE_ALLOW,true
+perm-job_activity-reject,default-workspace,superadmin-001,superadmin-001,Job Activity: Reject,job_activity:reject,PERMISSION_TYPE_ALLOW,true
+perm-job_activity-reverse,default-workspace,superadmin-001,superadmin-001,Job Activity: Reverse,job_activity:reverse,PERMISSION_TYPE_ALLOW,true
+perm-job_activity-submit,default-workspace,superadmin-001,superadmin-001,Job Activity: Submit,job_activity:submit,PERMISSION_TYPE_ALLOW,true
+perm-job_activity-manage,default-workspace,superadmin-001,superadmin-001,Job Activity: Manage,job_activity:manage,PERMISSION_TYPE_ALLOW,true
+perm-tax_registration-supersede,default-workspace,superadmin-001,superadmin-001,Tax Registration: Supersede,tax_registration:supersede,PERMISSION_TYPE_ALLOW,true
+perm-tax_registration-revoke,default-workspace,superadmin-001,superadmin-001,Tax Registration: Revoke,tax_registration:revoke,PERMISSION_TYPE_ALLOW,true
+perm-disbursement-create,default-workspace,superadmin-001,superadmin-001,Disbursement: Create,disbursement:create,PERMISSION_TYPE_ALLOW,true
+perm-disbursement-read,default-workspace,superadmin-001,superadmin-001,Disbursement: Read,disbursement:read,PERMISSION_TYPE_ALLOW,true
+perm-disbursement-update,default-workspace,superadmin-001,superadmin-001,Disbursement: Update,disbursement:update,PERMISSION_TYPE_ALLOW,true
+perm-disbursement-delete,default-workspace,superadmin-001,superadmin-001,Disbursement: Delete,disbursement:delete,PERMISSION_TYPE_ALLOW,true
+perm-disbursement-list,default-workspace,superadmin-001,superadmin-001,Disbursement: List,disbursement:list,PERMISSION_TYPE_ALLOW,true
+perm-purchase_order-create,default-workspace,superadmin-001,superadmin-001,Purchase Order: Create,purchase_order:create,PERMISSION_TYPE_ALLOW,true
+perm-purchase_order-read,default-workspace,superadmin-001,superadmin-001,Purchase Order: Read,purchase_order:read,PERMISSION_TYPE_ALLOW,true
+perm-purchase_order-update,default-workspace,superadmin-001,superadmin-001,Purchase Order: Update,purchase_order:update,PERMISSION_TYPE_ALLOW,true
+perm-purchase_order-delete,default-workspace,superadmin-001,superadmin-001,Purchase Order: Delete,purchase_order:delete,PERMISSION_TYPE_ALLOW,true
+perm-purchase_order-list,default-workspace,superadmin-001,superadmin-001,Purchase Order: List,purchase_order:list,PERMISSION_TYPE_ALLOW,true
+perm-product_line-create,default-workspace,superadmin-001,superadmin-001,Product Line: Create,product_line:create,PERMISSION_TYPE_ALLOW,true
+perm-product_line-read,default-workspace,superadmin-001,superadmin-001,Product Line: Read,product_line:read,PERMISSION_TYPE_ALLOW,true
+perm-product_line-update,default-workspace,superadmin-001,superadmin-001,Product Line: Update,product_line:update,PERMISSION_TYPE_ALLOW,true
+perm-product_line-delete,default-workspace,superadmin-001,superadmin-001,Product Line: Delete,product_line:delete,PERMISSION_TYPE_ALLOW,true
+perm-product_line-list,default-workspace,superadmin-001,superadmin-001,Product Line: List,product_line:list,PERMISSION_TYPE_ALLOW,true
+perm-procurement_request-read,default-workspace,superadmin-001,superadmin-001,Procurement Request: Read,procurement_request:read,PERMISSION_TYPE_ALLOW,true
+perm-supplier_contract-read,default-workspace,superadmin-001,superadmin-001,Supplier Contract: Read,supplier_contract:read,PERMISSION_TYPE_ALLOW,true
+perm-supplier_contract_price_schedule-read,default-workspace,superadmin-001,superadmin-001,Supplier Contract Price Schedule: Read,supplier_contract_price_schedule:read,PERMISSION_TYPE_ALLOW,true
+perm-supplier_contract_line-read,default-workspace,superadmin-001,superadmin-001,Supplier Contract Line: Read,supplier_contract_line:read,PERMISSION_TYPE_ALLOW,true
+perm-supplier_contract_price_schedule_line-create,default-workspace,superadmin-001,superadmin-001,Supplier Contract Price Schedule Line: Create,supplier_contract_price_schedule_line:create,PERMISSION_TYPE_ALLOW,true
+perm-supplier_contract_price_schedule_line-read,default-workspace,superadmin-001,superadmin-001,Supplier Contract Price Schedule Line: Read,supplier_contract_price_schedule_line:read,PERMISSION_TYPE_ALLOW,true
+perm-supplier_contract_price_schedule_line-update,default-workspace,superadmin-001,superadmin-001,Supplier Contract Price Schedule Line: Update,supplier_contract_price_schedule_line:update,PERMISSION_TYPE_ALLOW,true
+perm-supplier_contract_price_schedule_line-delete,default-workspace,superadmin-001,superadmin-001,Supplier Contract Price Schedule Line: Delete,supplier_contract_price_schedule_line:delete,PERMISSION_TYPE_ALLOW,true
+perm-accrued_expense-update,default-workspace,superadmin-001,superadmin-001,Accrued Expense: Update,accrued_expense:update,PERMISSION_TYPE_ALLOW,true
+perm-accrued_expense-delete,default-workspace,superadmin-001,superadmin-001,Accrued Expense: Delete,accrued_expense:delete,PERMISSION_TYPE_ALLOW,true
+perm-accrued_expense_settlement-create,default-workspace,superadmin-001,superadmin-001,Accrued Expense Settlement: Create,accrued_expense_settlement:create,PERMISSION_TYPE_ALLOW,true
+perm-accrued_expense_settlement-read,default-workspace,superadmin-001,superadmin-001,Accrued Expense Settlement: Read,accrued_expense_settlement:read,PERMISSION_TYPE_ALLOW,true
+perm-accrued_expense_settlement-update,default-workspace,superadmin-001,superadmin-001,Accrued Expense Settlement: Update,accrued_expense_settlement:update,PERMISSION_TYPE_ALLOW,true
+perm-accrued_expense_settlement-delete,default-workspace,superadmin-001,superadmin-001,Accrued Expense Settlement: Delete,accrued_expense_settlement:delete,PERMISSION_TYPE_ALLOW,true
+perm-accrued_expense_settlement-list,default-workspace,superadmin-001,superadmin-001,Accrued Expense Settlement: List,accrued_expense_settlement:list,PERMISSION_TYPE_ALLOW,true
+perm-expense_recognition-update,default-workspace,superadmin-001,superadmin-001,Expense Recognition: Update,expense_recognition:update,PERMISSION_TYPE_ALLOW,true
+perm-expense_recognition-delete,default-workspace,superadmin-001,superadmin-001,Expense Recognition: Delete,expense_recognition:delete,PERMISSION_TYPE_ALLOW,true
+perm-expense_recognition_line-create,default-workspace,superadmin-001,superadmin-001,Expense Recognition Line: Create,expense_recognition_line:create,PERMISSION_TYPE_ALLOW,true
+perm-expense_recognition_line-read,default-workspace,superadmin-001,superadmin-001,Expense Recognition Line: Read,expense_recognition_line:read,PERMISSION_TYPE_ALLOW,true
+perm-expense_recognition_line-update,default-workspace,superadmin-001,superadmin-001,Expense Recognition Line: Update,expense_recognition_line:update,PERMISSION_TYPE_ALLOW,true
+perm-expense_recognition_line-delete,default-workspace,superadmin-001,superadmin-001,Expense Recognition Line: Delete,expense_recognition_line:delete,PERMISSION_TYPE_ALLOW,true
+perm-expense_recognition_line-list,default-workspace,superadmin-001,superadmin-001,Expense Recognition Line: List,expense_recognition_line:list,PERMISSION_TYPE_ALLOW,true
+perm-procurement_request_line-read,default-workspace,superadmin-001,superadmin-001,Procurement Request Line: Read,procurement_request_line:read,PERMISSION_TYPE_ALLOW,true
+perm-location_area-create,default-workspace,superadmin-001,superadmin-001,Location Area: Create,location_area:create,PERMISSION_TYPE_ALLOW,true
+perm-location_area-read,default-workspace,superadmin-001,superadmin-001,Location Area: Read,location_area:read,PERMISSION_TYPE_ALLOW,true
+perm-location_area-update,default-workspace,superadmin-001,superadmin-001,Location Area: Update,location_area:update,PERMISSION_TYPE_ALLOW,true
+perm-location_area-delete,default-workspace,superadmin-001,superadmin-001,Location Area: Delete,location_area:delete,PERMISSION_TYPE_ALLOW,true
+perm-location_area-list,default-workspace,superadmin-001,superadmin-001,Location Area: List,location_area:list,PERMISSION_TYPE_ALLOW,true
+perm-job_task-create,default-workspace,superadmin-001,superadmin-001,Job Task: Create,job_task:create,PERMISSION_TYPE_ALLOW,true
+perm-job_task-read,default-workspace,superadmin-001,superadmin-001,Job Task: Read,job_task:read,PERMISSION_TYPE_ALLOW,true
+perm-job_task-update,default-workspace,superadmin-001,superadmin-001,Job Task: Update,job_task:update,PERMISSION_TYPE_ALLOW,true
+perm-job_task-delete,default-workspace,superadmin-001,superadmin-001,Job Task: Delete,job_task:delete,PERMISSION_TYPE_ALLOW,true
+perm-job_task-list,default-workspace,superadmin-001,superadmin-001,Job Task: List,job_task:list,PERMISSION_TYPE_ALLOW,true
+perm-self-client-read-own,default-workspace,superadmin-001,superadmin-001,Self: Read Own Client Profile,self:client:read_own,PERMISSION_TYPE_ALLOW,true
+perm-self-client-update-own,default-workspace,superadmin-001,superadmin-001,Self: Update Own Client Info,self:client:update_own,PERMISSION_TYPE_ALLOW,true
+perm-self-revenue-list-own,default-workspace,superadmin-001,superadmin-001,Self: List Own Invoices,self:revenue:list_own,PERMISSION_TYPE_ALLOW,true
+perm-self-revenue-read-own,default-workspace,superadmin-001,superadmin-001,Self: Read Own Invoice,self:revenue:read_own,PERMISSION_TYPE_ALLOW,true
+perm-self-collection-list-own,default-workspace,superadmin-001,superadmin-001,Self: List Own Payments,self:collection:list_own,PERMISSION_TYPE_ALLOW,true
+perm-self-document-list-own,default-workspace,superadmin-001,superadmin-001,Self: List Own Documents,self:document:list_own,PERMISSION_TYPE_ALLOW,true
+perm-self-communication-send,default-workspace,superadmin-001,superadmin-001,Self: Send Communication to Operator,self:communication:send,PERMISSION_TYPE_ALLOW,true
+perm-self-supplier-read-own,default-workspace,superadmin-001,superadmin-001,Self: Read Own Supplier Profile,self:supplier:read_own,PERMISSION_TYPE_ALLOW,true
+perm-self-supplier-update-own,default-workspace,superadmin-001,superadmin-001,Self: Update Own Supplier Info,self:supplier:update_own,PERMISSION_TYPE_ALLOW,true
+perm-self-supplier-contract-list-own,default-workspace,superadmin-001,superadmin-001,Self: List Own Supplier Contracts,self:supplier_contract:list_own,PERMISSION_TYPE_ALLOW,true
+perm-self-supplier-invoice-list-own,default-workspace,superadmin-001,superadmin-001,Self: List Own Supplier Invoices,self:supplier_invoice:list_own,PERMISSION_TYPE_ALLOW,true
+perm-self-supplier-invoice-upload,default-workspace,superadmin-001,superadmin-001,Self: Upload Supplier Invoice,self:supplier_invoice:upload,PERMISSION_TYPE_ALLOW,true
+perm-self-expenditure-list-own,default-workspace,superadmin-001,superadmin-001,Self: List Own Expenditures,self:expenditure:list_own,PERMISSION_TYPE_ALLOW,true
+perm-self-delegate-switch-client,default-workspace,superadmin-001,superadmin-001,Self: Switch Acting-As Client,self:delegate:switch_client,PERMISSION_TYPE_ALLOW,true
+perm-self-delegate-switch-supplier,default-workspace,superadmin-001,superadmin-001,Self: Switch Acting-As Supplier,self:delegate:switch_supplier,PERMISSION_TYPE_ALLOW,true
+perm-fund-list,default-workspace,superadmin-001,superadmin-001,Fund: List,fund:list,PERMISSION_TYPE_ALLOW,true
+perm-fund-read,default-workspace,superadmin-001,superadmin-001,Fund: Read,fund:read,PERMISSION_TYPE_ALLOW,true
+perm-fund-create,default-workspace,superadmin-001,superadmin-001,Fund: Create,fund:create,PERMISSION_TYPE_ALLOW,true
+perm-fund-update,default-workspace,superadmin-001,superadmin-001,Fund: Update,fund:update,PERMISSION_TYPE_ALLOW,true
+perm-fund-delete,default-workspace,superadmin-001,superadmin-001,Fund: Delete,fund:delete,PERMISSION_TYPE_ALLOW,true
+perm-fund-allocation-list,default-workspace,superadmin-001,superadmin-001,Fund Allocation: List,fund_allocation:list,PERMISSION_TYPE_ALLOW,true
+perm-fund-allocation-read,default-workspace,superadmin-001,superadmin-001,Fund Allocation: Read,fund_allocation:read,PERMISSION_TYPE_ALLOW,true
+perm-fund-allocation-create,default-workspace,superadmin-001,superadmin-001,Fund Allocation: Create,fund_allocation:create,PERMISSION_TYPE_ALLOW,true
+perm-fund-allocation-update,default-workspace,superadmin-001,superadmin-001,Fund Allocation: Update,fund_allocation:update,PERMISSION_TYPE_ALLOW,true
+perm-fund-allocation-delete,default-workspace,superadmin-001,superadmin-001,Fund Allocation: Delete,fund_allocation:delete,PERMISSION_TYPE_ALLOW,true
+perm-fund-transaction-list,default-workspace,superadmin-001,superadmin-001,Fund Transaction: List,fund_transaction:list,PERMISSION_TYPE_ALLOW,true
+perm-fund-transaction-read,default-workspace,superadmin-001,superadmin-001,Fund Transaction: Read,fund_transaction:read,PERMISSION_TYPE_ALLOW,true
+perm-fund-transaction-create-draw,default-workspace,superadmin-001,superadmin-001,Fund Transaction: Create Draw,fund_transaction:create_draw,PERMISSION_TYPE_ALLOW,true
+perm-fund-transaction-create-settlement,default-workspace,superadmin-001,superadmin-001,Fund Transaction: Create Settlement,fund_transaction:create_settlement,PERMISSION_TYPE_ALLOW,true
+perm-fund-transaction-create-cash-in,default-workspace,superadmin-001,superadmin-001,Fund Transaction: Create Cash In,fund_transaction:create_cash_in,PERMISSION_TYPE_ALLOW,true
+perm-fund-transaction-create-cash-out,default-workspace,superadmin-001,superadmin-001,Fund Transaction: Create Cash Out,fund_transaction:create_cash_out,PERMISSION_TYPE_ALLOW,true
+perm-fund-transaction-void,default-workspace,superadmin-001,superadmin-001,Fund Transaction: Void,fund_transaction:void,PERMISSION_TYPE_ALLOW,true
