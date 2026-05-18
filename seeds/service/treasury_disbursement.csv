@@ -1,5 +1,7 @@
-id,name,amount,status,expenditure_id,disbursement_type,currency,reference_number,payment_date,approved_by,active
-td-001,Payment - Salon Products,4500000,completed,exp-001,purchase,PHP,DISB-2026-001,2026-02-05,user-admin,true
-td-002,Payment - Cleaning Supplies,850000,completed,exp-003,purchase,PHP,DISB-2026-002,2026-02-18,user-admin,true
-td-003,Payment - Electricity Feb,1850000,completed,exp-004,expense,PHP,DISB-2026-003,2026-02-20,user-admin,true
-td-004,Payment - Internet Feb,350000,completed,exp-005,expense,PHP,DISB-2026-004,2026-02-15,user-admin,true
+id,name,amount,status,expenditure_id,disbursement_type,currency,reference_number,payment_date,approved_by,active,advance_kind,advance_status,advance_start_date,advance_end_date,advance_period_count,advance_period_unit,advance_total_amount,advance_remaining_amount,advance_recognized_amount,advance_balance_account_id,advance_target_account_id,advance_proration_policy,supplier_id
+td-001,Payment - Salon Products,4500000,completed,exp-001,purchase,PHP,DISB-2026-001,2026-02-05,user-admin,true,,,,,,,,,,,,,
+td-002,Payment - Cleaning Supplies,850000,completed,exp-003,purchase,PHP,DISB-2026-002,2026-02-18,user-admin,true,,,,,,,,,,,,,
+td-003,Payment - Electricity Feb,1850000,completed,exp-004,expense,PHP,DISB-2026-003,2026-02-20,user-admin,true,,,,,,,,,,,,,
+td-004,Payment - Internet Feb,350000,completed,exp-005,expense,PHP,DISB-2026-004,2026-02-15,user-admin,true,,,,,,,,,,,,,
+td-adv-insurance-2026,Annual Equipment Service Plan Prepay - 2026,12000000,completed,,advance,PHP,BT-ADV-INS-2026,2026-01-02,user-admin,true,2,1,2026-01-01,2026-12-31,12,month,12000000,7000000,5000000,acct-1300,acct-6400,2,sup-002
+td-adv-rent-2026,Salon Lease Prepay H1-2026,60000000,completed,,advance,PHP,BT-ADV-RENT-2026,2026-01-02,user-admin,true,2,1,2026-01-01,2026-06-30,6,month,60000000,10000000,50000000,acct-1300,acct-6100,2,sup-005

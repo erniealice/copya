@@ -1,5 +1,7 @@
-id,name,amount,status,expenditure_id,disbursement_type,currency,reference_number,payment_date,approved_by,active
-td-001,Payment - Office Rent March,8000000,completed,exp-001,expense,PHP,DISB-PRO-2026-001,2026-03-01,user-admin,true
-td-002,Payment - Electricity Feb,1200000,completed,exp-002,expense,PHP,DISB-PRO-2026-002,2026-02-20,user-admin,true
-td-003,Payment - LexisNexis Subscription,2400000,completed,exp-005,purchase,PHP,DISB-PRO-2026-003,2026-03-01,user-admin,true
-td-004,Payment - Professional Indemnity Insurance,6000000,completed,exp-006,expense,PHP,DISB-PRO-2026-004,2026-01-15,user-admin,true
+id,name,amount,status,expenditure_id,disbursement_type,currency,reference_number,payment_date,approved_by,active,advance_kind,advance_status,advance_start_date,advance_end_date,advance_period_count,advance_period_unit,advance_total_amount,advance_remaining_amount,advance_recognized_amount,advance_balance_account_id,advance_target_account_id,advance_proration_policy,supplier_id
+td-001,Payment - Office Rent March,8000000,completed,exp-001,expense,PHP,DISB-PRO-2026-001,2026-03-01,user-admin,true,,,,,,,,,,,,,
+td-002,Payment - Electricity Feb,1200000,completed,exp-002,expense,PHP,DISB-PRO-2026-002,2026-02-20,user-admin,true,,,,,,,,,,,,,
+td-003,Payment - LexisNexis Subscription,2400000,completed,exp-005,purchase,PHP,DISB-PRO-2026-003,2026-03-01,user-admin,true,,,,,,,,,,,,,
+td-004,Payment - Professional Indemnity Insurance,6000000,completed,exp-006,expense,PHP,DISB-PRO-2026-004,2026-01-15,user-admin,true,,,,,,,,,,,,,
+td-adv-insurance-2026,Annual Office Insurance Prepay - 2026,12000000,completed,,advance,PHP,BT-ADV-INS-2026,2026-01-02,user-admin,true,2,1,2026-01-01,2026-12-31,12,month,12000000,7000000,5000000,acct-1300,acct-6400,2,sup-006
+td-adv-rent-2026,Office Lease Prepay H1-2026,60000000,completed,,advance,PHP,BT-ADV-RENT-2026,2026-01-02,user-admin,true,2,1,2026-01-01,2026-06-30,6,month,60000000,10000000,50000000,acct-1300,acct-6100,2,sup-001

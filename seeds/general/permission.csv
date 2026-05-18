@@ -905,3 +905,23 @@ perm-fund-transaction-create-settlement,default-workspace,superadmin-001,superad
 perm-fund-transaction-create-cash-in,default-workspace,superadmin-001,superadmin-001,Fund Transaction: Create Cash In,fund_transaction:create_cash_in,PERMISSION_TYPE_ALLOW,true
 perm-fund-transaction-create-cash-out,default-workspace,superadmin-001,superadmin-001,Fund Transaction: Create Cash Out,fund_transaction:create_cash_out,PERMISSION_TYPE_ALLOW,true
 perm-fund-transaction-void,default-workspace,superadmin-001,superadmin-001,Fund Transaction: Void,fund_transaction:void,PERMISSION_TYPE_ALLOW,true
+perm-expense_recognition_run-list,default-workspace,superadmin-001,superadmin-001,Expense Recognition Run: List,expense_recognition_run:list,PERMISSION_TYPE_ALLOW,true
+perm-expense_recognition_run-create,default-workspace,superadmin-001,superadmin-001,Expense Recognition Run: Create,expense_recognition_run:create,PERMISSION_TYPE_ALLOW,true
+perm-expense_recognition_run-read,default-workspace,superadmin-001,superadmin-001,Expense Recognition Run: Read,expense_recognition_run:read,PERMISSION_TYPE_ALLOW,true
+perm-expense_recognition_run-update,default-workspace,superadmin-001,superadmin-001,Expense Recognition Run: Update,expense_recognition_run:update,PERMISSION_TYPE_ALLOW,true
+perm-expense_recognition_run-delete,default-workspace,superadmin-001,superadmin-001,Expense Recognition Run: Delete,expense_recognition_run:delete,PERMISSION_TYPE_ALLOW,true
+perm-treasury_collection-list,default-workspace,superadmin-001,superadmin-001,Treasury Collection: List,treasury_collection:list,PERMISSION_TYPE_ALLOW,true
+perm-treasury_collection-create,default-workspace,superadmin-001,superadmin-001,Treasury Collection: Create,treasury_collection:create,PERMISSION_TYPE_ALLOW,true
+perm-treasury_collection-read,default-workspace,superadmin-001,superadmin-001,Treasury Collection: Read,treasury_collection:read,PERMISSION_TYPE_ALLOW,true
+perm-treasury_collection-update,default-workspace,superadmin-001,superadmin-001,Treasury Collection: Update,treasury_collection:update,PERMISSION_TYPE_ALLOW,true
+perm-treasury_collection-delete,default-workspace,superadmin-001,superadmin-001,Treasury Collection: Delete,treasury_collection:delete,PERMISSION_TYPE_ALLOW,true
+perm-treasury_disbursement-list,default-workspace,superadmin-001,superadmin-001,Treasury Disbursement: List,treasury_disbursement:list,PERMISSION_TYPE_ALLOW,true
+perm-treasury_disbursement-create,default-workspace,superadmin-001,superadmin-001,Treasury Disbursement: Create,treasury_disbursement:create,PERMISSION_TYPE_ALLOW,true
+perm-treasury_disbursement-read,default-workspace,superadmin-001,superadmin-001,Treasury Disbursement: Read,treasury_disbursement:read,PERMISSION_TYPE_ALLOW,true
+perm-treasury_disbursement-update,default-workspace,superadmin-001,superadmin-001,Treasury Disbursement: Update,treasury_disbursement:update,PERMISSION_TYPE_ALLOW,true
+perm-treasury_disbursement-delete,default-workspace,superadmin-001,superadmin-001,Treasury Disbursement: Delete,treasury_disbursement:delete,PERMISSION_TYPE_ALLOW,true
+perm-supplier_billing_event-list,default-workspace,superadmin-001,superadmin-001,Supplier Billing Event: List,supplier_billing_event:list,PERMISSION_TYPE_ALLOW,true
+perm-supplier_billing_event-create,default-workspace,superadmin-001,superadmin-001,Supplier Billing Event: Create,supplier_billing_event:create,PERMISSION_TYPE_ALLOW,true
+perm-supplier_billing_event-read,default-workspace,superadmin-001,superadmin-001,Supplier Billing Event: Read,supplier_billing_event:read,PERMISSION_TYPE_ALLOW,true
+perm-supplier_billing_event-update,default-workspace,superadmin-001,superadmin-001,Supplier Billing Event: Update,supplier_billing_event:update,PERMISSION_TYPE_ALLOW,true
+perm-supplier_billing_event-delete,default-workspace,superadmin-001,superadmin-001,Supplier Billing Event: Delete,supplier_billing_event:delete,PERMISSION_TYPE_ALLOW,true
