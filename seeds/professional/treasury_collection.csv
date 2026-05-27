@@ -7,4 +7,4 @@ tc-005,Collection - PRO-2026-006,1200000,completed,rev-006,cash,PHP,,2026-03-08,
 tc-006,Collection - PRO-2026-007,600000,completed,rev-007,bank_transfer,PHP,BT-PRO-20260301,2026-03-01,Ana Reyes,staff,invoice,true,,,,,,,,,,,,,
 tc-007,Collection - PRO-2026-005 Deposit,450000,completed,rev-005,bank_transfer,PHP,BT-PRO-20260310,2026-03-10,System Admin,admin,deposit,true,,,,,,,,,,,,,
 tc-adv-saas-2026,Annual SaaS Prepay - 2026,2400000,completed,,bank_transfer,PHP,BT-ADV-SAAS-2026,2026-04-01,Ana Reyes,staff,advance,true,2,1,2026-04-01,2027-03-31,12,month,2400000,2400000,0,acct-2200,acct-4000,2,client-003
-tc-adv-retainer-001,Big-Corp Retainer,500000,completed,,bank_transfer,PHP,,2026-04-15,Ana Reyes,staff,advance,true,5,1,,,,,500000,500000,0,acct-2200,,,client-007
+tc-adv-retainer-001,Big-Corp Retainer,500000,completed,,bank_transfer,PHP,,2026-04-15,Ana Reyes,staff,advance,true,5,1,,,,,500000,500000,0,acct-2200,acct-4000,,client-007
