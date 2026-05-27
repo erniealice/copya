@@ -1273,3 +1273,8 @@ rp-role-admin-perm-disbursement_method-update,role-admin,perm-disbursement_metho
 rp-role-admin-perm-disbursement_method-delete,role-admin,perm-disbursement_method-delete,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-treasury_collection_dashboard-view,role-admin,perm-treasury_collection_dashboard-view,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-treasury_disbursement_dashboard-view,role-admin,perm-treasury_disbursement_dashboard-view,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-collection_method_eligibility_rule-list,role-admin,perm-collection_method_eligibility_rule-list,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-collection_method_eligibility_rule-create,role-admin,perm-collection_method_eligibility_rule-create,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-collection_method_eligibility_rule-read,role-admin,perm-collection_method_eligibility_rule-read,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-collection_method_eligibility_rule-update,role-admin,perm-collection_method_eligibility_rule-update,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-collection_method_eligibility_rule-delete,role-admin,perm-collection_method_eligibility_rule-delete,PERMISSION_TYPE_ALLOW,true

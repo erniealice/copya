@@ -930,3 +930,8 @@ perm-disbursement_method-update,default-workspace,superadmin-001,superadmin-001,
 perm-disbursement_method-delete,default-workspace,superadmin-001,superadmin-001,Disbursement Method: Delete,disbursement_method:delete,PERMISSION_TYPE_ALLOW,true,"{1,2}"
 perm-treasury_collection_dashboard-view,default-workspace,superadmin-001,superadmin-001,Treasury Collection Dashboard: View,treasury_collection_dashboard:view,PERMISSION_TYPE_ALLOW,true,"{1,2}"
 perm-treasury_disbursement_dashboard-view,default-workspace,superadmin-001,superadmin-001,Treasury Disbursement Dashboard: View,treasury_disbursement_dashboard:view,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-collection_method_eligibility_rule-list,default-workspace,superadmin-001,superadmin-001,Collection Method Eligibility Rule: List,collection_method_eligibility_rule:list,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-collection_method_eligibility_rule-create,default-workspace,superadmin-001,superadmin-001,Collection Method Eligibility Rule: Create,collection_method_eligibility_rule:create,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-collection_method_eligibility_rule-read,default-workspace,superadmin-001,superadmin-001,Collection Method Eligibility Rule: Read,collection_method_eligibility_rule:read,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-collection_method_eligibility_rule-update,default-workspace,superadmin-001,superadmin-001,Collection Method Eligibility Rule: Update,collection_method_eligibility_rule:update,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-collection_method_eligibility_rule-delete,default-workspace,superadmin-001,superadmin-001,Collection Method Eligibility Rule: Delete,collection_method_eligibility_rule:delete,PERMISSION_TYPE_ALLOW,true,"{1,2}"
