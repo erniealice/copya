@@ -918,3 +918,15 @@ perm-supplier_invoice-create,default-workspace,superadmin-001,superadmin-001,Sup
 perm-delegate-switch_client,default-workspace,superadmin-001,superadmin-001,Delegate: Switch Acting-As Client,delegate:switch_client,PERMISSION_TYPE_ALLOW,true,{4}
 perm-delegate-switch_supplier,default-workspace,superadmin-001,superadmin-001,Delegate: Switch Acting-As Supplier,delegate:switch_supplier,PERMISSION_TYPE_ALLOW,true,{6}
 perm-document-list,default-workspace,superadmin-001,superadmin-001,Document: List,document:list,PERMISSION_TYPE_ALLOW,true,"{1,2,3,4,5,6}"
+perm-collection_method-list,default-workspace,superadmin-001,superadmin-001,Collection Method: List,collection_method:list,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-collection_method-create,default-workspace,superadmin-001,superadmin-001,Collection Method: Create,collection_method:create,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-collection_method-read,default-workspace,superadmin-001,superadmin-001,Collection Method: Read,collection_method:read,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-collection_method-update,default-workspace,superadmin-001,superadmin-001,Collection Method: Update,collection_method:update,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-collection_method-delete,default-workspace,superadmin-001,superadmin-001,Collection Method: Delete,collection_method:delete,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-disbursement_method-list,default-workspace,superadmin-001,superadmin-001,Disbursement Method: List,disbursement_method:list,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-disbursement_method-create,default-workspace,superadmin-001,superadmin-001,Disbursement Method: Create,disbursement_method:create,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-disbursement_method-read,default-workspace,superadmin-001,superadmin-001,Disbursement Method: Read,disbursement_method:read,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-disbursement_method-update,default-workspace,superadmin-001,superadmin-001,Disbursement Method: Update,disbursement_method:update,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-disbursement_method-delete,default-workspace,superadmin-001,superadmin-001,Disbursement Method: Delete,disbursement_method:delete,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-treasury_collection_dashboard-view,default-workspace,superadmin-001,superadmin-001,Treasury Collection Dashboard: View,treasury_collection_dashboard:view,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-treasury_disbursement_dashboard-view,default-workspace,superadmin-001,superadmin-001,Treasury Disbursement Dashboard: View,treasury_disbursement_dashboard:view,PERMISSION_TYPE_ALLOW,true,"{1,2}"

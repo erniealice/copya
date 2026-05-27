@@ -1261,3 +1261,15 @@ rp-role-admin-perm-fund-transaction-create-settlement,role-admin,perm-fund-trans
 rp-role-admin-perm-fund-transaction-create-cash-in,role-admin,perm-fund-transaction-create-cash-in,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-fund-transaction-create-cash-out,role-admin,perm-fund-transaction-create-cash-out,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-fund-transaction-void,role-admin,perm-fund-transaction-void,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-collection_method-list,role-admin,perm-collection_method-list,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-collection_method-create,role-admin,perm-collection_method-create,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-collection_method-read,role-admin,perm-collection_method-read,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-collection_method-update,role-admin,perm-collection_method-update,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-collection_method-delete,role-admin,perm-collection_method-delete,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-disbursement_method-list,role-admin,perm-disbursement_method-list,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-disbursement_method-create,role-admin,perm-disbursement_method-create,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-disbursement_method-read,role-admin,perm-disbursement_method-read,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-disbursement_method-update,role-admin,perm-disbursement_method-update,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-disbursement_method-delete,role-admin,perm-disbursement_method-delete,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-treasury_collection_dashboard-view,role-admin,perm-treasury_collection_dashboard-view,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-treasury_disbursement_dashboard-view,role-admin,perm-treasury_disbursement_dashboard-view,PERMISSION_TYPE_ALLOW,true
