@@ -1278,3 +1278,8 @@ rp-role-admin-perm-collection_method_eligibility_rule-create,role-admin,perm-col
 rp-role-admin-perm-collection_method_eligibility_rule-read,role-admin,perm-collection_method_eligibility_rule-read,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-collection_method_eligibility_rule-update,role-admin,perm-collection_method_eligibility_rule-update,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-collection_method_eligibility_rule-delete,role-admin,perm-collection_method_eligibility_rule-delete,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-collection_method_grant-list,role-admin,perm-collection_method_grant-list,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-collection_method_grant-create,role-admin,perm-collection_method_grant-create,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-collection_method_grant-read,role-admin,perm-collection_method_grant-read,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-collection_method_grant-revoke,role-admin,perm-collection_method_grant-revoke,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-collection_method_grant-bulk_grant,role-admin,perm-collection_method_grant-bulk_grant,PERMISSION_TYPE_ALLOW,true

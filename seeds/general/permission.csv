@@ -935,3 +935,8 @@ perm-collection_method_eligibility_rule-create,default-workspace,superadmin-001,
 perm-collection_method_eligibility_rule-read,default-workspace,superadmin-001,superadmin-001,Collection Method Eligibility Rule: Read,collection_method_eligibility_rule:read,PERMISSION_TYPE_ALLOW,true,"{1,2}"
 perm-collection_method_eligibility_rule-update,default-workspace,superadmin-001,superadmin-001,Collection Method Eligibility Rule: Update,collection_method_eligibility_rule:update,PERMISSION_TYPE_ALLOW,true,"{1,2}"
 perm-collection_method_eligibility_rule-delete,default-workspace,superadmin-001,superadmin-001,Collection Method Eligibility Rule: Delete,collection_method_eligibility_rule:delete,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-collection_method_grant-list,default-workspace,superadmin-001,superadmin-001,Collection Method Grant: List,collection_method_grant:list,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-collection_method_grant-create,default-workspace,superadmin-001,superadmin-001,Collection Method Grant: Create,collection_method_grant:create,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-collection_method_grant-read,default-workspace,superadmin-001,superadmin-001,Collection Method Grant: Read,collection_method_grant:read,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-collection_method_grant-revoke,default-workspace,superadmin-001,superadmin-001,Collection Method Grant: Revoke,collection_method_grant:revoke,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-collection_method_grant-bulk_grant,default-workspace,superadmin-001,superadmin-001,Collection Method Grant: Bulk Grant,collection_method_grant:bulk_grant,PERMISSION_TYPE_ALLOW,true,"{1,2}"
