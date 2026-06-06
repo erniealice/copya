@@ -185,4 +185,12 @@ var InsertOrder = []string{
 	"leave_request",
 	"supplier_dependent",
 	"supplier_lifecycle_event",
+
+	// Level 8: communication domain (Plan-4 2026-06-03)
+	// FK order: conversation before all three children; conversation_post before
+	// conversation_read_receipt (receipt.last_read_post_id FKs to conversation_post).
+	"conversation",              // FKs: workspace, client, user (assigned_to, created_by)
+	"conversation_post",         // FKs: conversation, workspace, client, user (sender)
+	"conversation_read_receipt", // FKs: conversation, user, conversation_post (last_read)
+	"conversation_participant",  // FKs: conversation, workspace, user [v2 seam — no seeds in v1]
 }

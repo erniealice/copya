@@ -918,3 +918,10 @@ perm-supplier_invoice-create,default-workspace,superadmin-001,superadmin-001,Sup
 perm-delegate-switch_client,default-workspace,superadmin-001,superadmin-001,Delegate: Switch Acting-As Client,delegate:switch_client,PERMISSION_TYPE_ALLOW,true,{4}
 perm-delegate-switch_supplier,default-workspace,superadmin-001,superadmin-001,Delegate: Switch Acting-As Supplier,delegate:switch_supplier,PERMISSION_TYPE_ALLOW,true,{6}
 perm-document-list,default-workspace,superadmin-001,superadmin-001,Document: List,document:list,PERMISSION_TYPE_ALLOW,true,"{1,2,3,4,5,6}"
+perm-conversation-create,default-workspace,superadmin-001,superadmin-001,Conversation: Create,conversation:create,PERMISSION_TYPE_ALLOW,true,"{1,2,3,4}"
+perm-conversation-read,default-workspace,superadmin-001,superadmin-001,Conversation: Read,conversation:read,PERMISSION_TYPE_ALLOW,true,"{1,2,3,4}"
+perm-conversation-list,default-workspace,superadmin-001,superadmin-001,Conversation: List,conversation:list,PERMISSION_TYPE_ALLOW,true,"{1,2,3,4}"
+perm-conversation-update,default-workspace,superadmin-001,superadmin-001,Conversation: Update,conversation:update,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-conversation-delete,default-workspace,superadmin-001,superadmin-001,Conversation: Delete,conversation:delete,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-conversation_post-create,default-workspace,superadmin-001,superadmin-001,Conversation Post: Create,conversation_post:create,PERMISSION_TYPE_ALLOW,true,"{1,2,3,4}"
+perm-conversation_post-read,default-workspace,superadmin-001,superadmin-001,Conversation Post: Read,conversation_post:read,PERMISSION_TYPE_ALLOW,true,"{1,2,3,4}"
