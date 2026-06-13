@@ -70,6 +70,9 @@ var InsertOrder = []string{
 	"role",
 	"permission",
 	"client",
+	// work_request_type: catalog FKs to workspace only; must precede
+	// work_request (work_request.work_request_type_id FK).
+	"work_request_type",
 	"supplier_category",
 	"supplier",
 	"product_variant",
@@ -170,6 +173,10 @@ var InsertOrder = []string{
 	"job_phase",
 	"job_task",
 	"job_activity",
+	// work_request: FKs to work_request_type (Level 2), client, user,
+	// workspace_user, and optionally to subscription, subscription_seat,
+	// workflow, and job. Placed after job (Level 5) to satisfy all FKs.
+	"work_request",
 
 	// Level 6: fulfillment
 	"fulfillment",

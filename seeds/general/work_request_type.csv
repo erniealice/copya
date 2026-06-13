@@ -1,0 +1,7 @@
+id,workspace_id,code,label_key,description_key,category,requires_resource,default_sla_hours,sort_order,icon_key,status,active
+e2e-work-request-type-salary-increase,default-workspace,salary_increase,workRequestType.salaryIncrease.label,workRequestType.salaryIncrease.description,1,true,48,1,icon-currency-up,1,true
+e2e-work-request-type-bonus-allowance,default-workspace,bonus_allowance,workRequestType.bonusAllowance.label,workRequestType.bonusAllowance.description,1,true,24,2,icon-gift,1,true
+e2e-work-request-type-hours-role-change,default-workspace,hours_role_change,workRequestType.hoursRoleChange.label,workRequestType.hoursRoleChange.description,1,true,72,3,icon-clock-edit,1,true
+e2e-work-request-type-new-headcount,default-workspace,new_headcount,workRequestType.newHeadcount.label,workRequestType.newHeadcount.description,2,false,72,4,icon-user-plus,1,true
+e2e-work-request-type-new-project,default-workspace,new_project,workRequestType.newProject.label,workRequestType.newProject.description,2,false,48,5,icon-folder-plus,1,true
+e2e-work-request-type-offboarding,default-workspace,offboarding,workRequestType.offboarding.label,workRequestType.offboarding.description,1,true,24,6,icon-user-minus,1,true
