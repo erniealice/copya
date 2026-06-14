@@ -1,0 +1,6 @@
+id,evaluation_id,workspace_id,outcome_criteria_id,criteria_label,criteria_weight,criteria_type,numeric_value,sequence_order,active
+evr-001-quality,eval-001,default-workspace,oc-eval-quality,Quality of Work,1.5,CRITERIA_TYPE_NUMERIC_SCORE,4,1,true
+evr-001-reliability,eval-001,default-workspace,oc-eval-reliability,Reliability,1.5,CRITERIA_TYPE_NUMERIC_SCORE,5,2,true
+evr-001-initiative,eval-001,default-workspace,oc-eval-initiative,Initiative,1.0,CRITERIA_TYPE_NUMERIC_SCORE,4,3,true
+evr-001-communication,eval-001,default-workspace,oc-eval-communication,Communication,1.0,CRITERIA_TYPE_NUMERIC_SCORE,4,4,true
+evr-001-professionalism,eval-001,default-workspace,oc-eval-professionalism,Professionalism,1.0,CRITERIA_TYPE_NUMERIC_SCORE,4,5,true

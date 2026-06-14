@@ -1,0 +1,6 @@
+id,evaluation_template_id,workspace_id,outcome_criteria_id,sequence_order,active
+evti-001-quality,evtpl-perf-review-v1,default-workspace,oc-eval-quality,1,true
+evti-001-reliability,evtpl-perf-review-v1,default-workspace,oc-eval-reliability,2,true
+evti-001-initiative,evtpl-perf-review-v1,default-workspace,oc-eval-initiative,3,true
+evti-001-communication,evtpl-perf-review-v1,default-workspace,oc-eval-communication,4,true
+evti-001-professionalism,evtpl-perf-review-v1,default-workspace,oc-eval-professionalism,5,true

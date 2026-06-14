@@ -200,4 +200,24 @@ var InsertOrder = []string{
 	"conversation_post",         // FKs: conversation, workspace, client, user (sender)
 	"conversation_read_receipt", // FKs: conversation, user, conversation_post (last_read)
 	"conversation_participant",  // FKs: conversation, workspace, user [v2 seam — no seeds in v1]
+
+	// Level 9: evaluation domain (20260604-performance-evaluation)
+	// outcome_criteria has no entity-domain FKs (workspace_id is optional) — seeds after
+	// workspace but logically belongs before templates that reference it.
+	"outcome_criteria",           // FKs: workspace (opt), outcome_criteria self (supersedes/overrides)
+	// Templates must precede evaluations (evaluation.evaluation_template_id FK).
+	"evaluation_template",        // FKs: workspace, evaluation_template self (copied_from)
+	"evaluation_template_item",   // FKs: evaluation_template, workspace, outcome_criteria
+	// Cycles must precede evaluations that stamp evaluation_cycle_id.
+	"evaluation_cycle",           // FKs: workspace, subscription
+	// Evaluation header: FKs to workspace, client, subscription, subscription_seat,
+	// evaluation_template, workspace_user (evaluator/signoff arcs), staff (subject),
+	// evaluation_cycle (nullable).
+	"evaluation",                 // FKs: workspace, client, subscription (opt), subscription_seat (opt),
+	                              //      evaluation_template (opt), workspace_user (opt), staff (opt),
+	                              //      evaluation_cycle (opt)
+	// Response: FKs to evaluation + workspace + outcome_criteria.
+	"evaluation_response",        // FKs: evaluation, workspace, outcome_criteria
+	// Cycle members: FKs to evaluation_cycle + workspace + client + staff.
+	"evaluation_cycle_member",    // FKs: evaluation_cycle, workspace, client, staff
 }

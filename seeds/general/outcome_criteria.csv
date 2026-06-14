@@ -1,0 +1,6 @@
+id,criteria_group_id,version,version_status,scope,name,description,criteria_type,min_score,max_score,weight,required,active,created_by
+oc-eval-quality,ocg-eval-quality,1,VERSION_STATUS_PUBLISHED,CRITERIA_SCOPE_EVALUATION,Quality of Work,Accuracy and thoroughness of work delivered,CRITERIA_TYPE_NUMERIC_SCORE,1,5,1.5,true,true,superadmin-001
+oc-eval-reliability,ocg-eval-reliability,1,VERSION_STATUS_PUBLISHED,CRITERIA_SCOPE_EVALUATION,Reliability,Consistency in meeting deadlines and commitments,CRITERIA_TYPE_NUMERIC_SCORE,1,5,1.5,true,true,superadmin-001
+oc-eval-initiative,ocg-eval-initiative,1,VERSION_STATUS_PUBLISHED,CRITERIA_SCOPE_EVALUATION,Initiative,Proactively identifies and addresses issues without prompting,CRITERIA_TYPE_NUMERIC_SCORE,1,5,1.0,true,true,superadmin-001
+oc-eval-communication,ocg-eval-communication,1,VERSION_STATUS_PUBLISHED,CRITERIA_SCOPE_EVALUATION,Communication,Clarity and effectiveness of written and verbal communication,CRITERIA_TYPE_NUMERIC_SCORE,1,5,1.0,true,true,superadmin-001
+oc-eval-professionalism,ocg-eval-professionalism,1,VERSION_STATUS_PUBLISHED,CRITERIA_SCOPE_EVALUATION,Professionalism,Conduct adherence and professional demeanor at all times,CRITERIA_TYPE_NUMERIC_SCORE,1,5,1.0,true,true,superadmin-001

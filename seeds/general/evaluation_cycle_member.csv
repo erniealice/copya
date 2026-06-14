@@ -1,0 +1,3 @@
+id,workspace_id,evaluation_cycle_id,client_id,subject_staff_id,is_probation,active
+evcm-001,default-workspace,evcy-h1-2026,client-001,staff-001,false,true
+evcm-002,default-workspace,evcy-h1-2026,client-001,staff-002,false,true

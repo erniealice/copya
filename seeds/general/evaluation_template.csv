@@ -1,0 +1,3 @@
+id,workspace_id,name,description,evaluation_type,relationship_type,version,status,visibility_type,active
+evtpl-perf-review-v1,default-workspace,Standard Performance Review,Quarterly performance evaluation for outsourced associates,EVALUATION_TYPE_PERFORMANCE_REVIEW,RELATIONSHIP_TYPE_CLIENT_TO_ASSOCIATE,1,EVALUATION_TEMPLATE_STATUS_ACTIVE,VISIBILITY_TYPE_VISIBLE_TO_SUBJECT,true
+evtpl-perf-review-draft,default-workspace,CSAT Review Template,Customer satisfaction evaluation template (draft),EVALUATION_TYPE_CSAT,RELATIONSHIP_TYPE_CLIENT_TO_ASSOCIATE,1,EVALUATION_TEMPLATE_STATUS_DRAFT,VISIBILITY_TYPE_VISIBLE_TO_SUBJECT,true

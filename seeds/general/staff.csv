@@ -1,4 +1,4 @@
-id,user_id,active
-staff-001,user-staff-01,true
-staff-002,user-staff-02,true
-staff-003,user-staff-03,true
+id,workspace_id,user_id,status,employment_type,seniority,employment_start,active
+staff-001,default-workspace,user-staff-01,available,EMPLOYMENT_TYPE_EMPLOYED,Mid-Level,2024-01-15,true
+staff-002,default-workspace,user-staff-02,assigned,EMPLOYMENT_TYPE_CONTRACTOR,Senior,2023-06-01,true
+staff-003,default-workspace,user-staff-03,bench,EMPLOYMENT_TYPE_EMPLOYED,Junior,2025-03-10,true
