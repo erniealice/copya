@@ -79,6 +79,10 @@ rp-role-admin-perm-user-read,role-admin,perm-user-read,PERMISSION_TYPE_ALLOW,tru
 rp-role-admin-perm-user-update,role-admin,perm-user-update,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-user-delete,role-admin,perm-user-delete,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-user-list,role-admin,perm-user-list,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-user-disable,role-admin,perm-user-disable,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-user-enable,role-admin,perm-user-enable,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-user-reset-password,role-admin,perm-user-reset-password,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-session-revoke,role-admin,perm-session-revoke,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-workspace-create,role-admin,perm-workspace-create,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-workspace-read,role-admin,perm-workspace-read,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-workspace-update,role-admin,perm-workspace-update,PERMISSION_TYPE_ALLOW,true
