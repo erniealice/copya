@@ -1,0 +1,4 @@
+id,workspace_id,name,code,sort_order,active,status
+job-category-academic,default-workspace,Academic,academic,10,true,active
+job-category-subject-deportment,default-workspace,Subject Deportment,subject_deportment,20,true,active
+job-category-homeroom-deportment,default-workspace,Homeroom Deportment,homeroom_deportment,30,true,active
