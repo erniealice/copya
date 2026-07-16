@@ -493,6 +493,11 @@ rp-role-admin-perm-job-read,role-admin,perm-job-read,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-job-update,role-admin,perm-job-update,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-job-delete,role-admin,perm-job-delete,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-job-list,role-admin,perm-job-list,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-job_category-create,role-admin,perm-job_category-create,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-job_category-read,role-admin,perm-job_category-read,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-job_category-update,role-admin,perm-job_category-update,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-job_category-delete,role-admin,perm-job_category-delete,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-job_category-list,role-admin,perm-job_category-list,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-job_template-create,role-admin,perm-job_template-create,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-job_template-read,role-admin,perm-job_template-read,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-job_template-update,role-admin,perm-job_template-update,PERMISSION_TYPE_ALLOW,true
