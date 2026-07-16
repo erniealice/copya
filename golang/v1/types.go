@@ -51,6 +51,9 @@ var InsertOrder = []string{
 	// product.tax_treatment_id FKs to tax_treatment which is Level 0 above).
 	"tax_registration_kind",
 	"tax_class",
+	// job_category FKs to workspace only; must precede job_template
+	// (job_template.job_category_id FK) and job (Level 5, job.job_category_id FK).
+	"job_category",
 	// job_template must be inserted before plan because plan.job_template_id
 	// is a FK reference to job_template(id) (auto-spawn-jobs-from-subscription).
 	"job_template",
