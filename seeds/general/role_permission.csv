@@ -1590,3 +1590,10 @@ rp-role-admin-perm-price_schedule_workspace_user-delete,role-admin,perm-price_sc
 rp-role-ops-perm-price_schedule_workspace_user-delete,role-operations-staff,perm-price_schedule_workspace_user-delete,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-price_schedule_workspace_user-list,role-admin,perm-price_schedule_workspace_user-list,PERMISSION_TYPE_ALLOW,true
 rp-role-ops-perm-price_schedule_workspace_user-list,role-operations-staff,perm-price_schedule_workspace_user-list,PERMISSION_TYPE_ALLOW,true
+rp-role-operations-staff-perm-job_phase-submit,role-operations-staff,perm-job_phase-submit,PERMISSION_TYPE_ALLOW,true
+rp-role-people-manager-perm-job_phase-verify,role-people-manager,perm-job_phase-verify,PERMISSION_TYPE_ALLOW,true
+rp-role-people-manager-perm-job_phase-return,role-people-manager,perm-job_phase-return,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-job_phase-submit,role-admin,perm-job_phase-submit,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-job_phase-verify,role-admin,perm-job_phase-verify,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-job_phase-return,role-admin,perm-job_phase-return,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-job_phase-publish,role-admin,perm-job_phase-publish,PERMISSION_TYPE_ALLOW,true
