@@ -560,6 +560,7 @@ perm-job_outcome_summary-delete,default-workspace,superadmin-001,superadmin-001,
 perm-job_outcome_summary-list,default-workspace,superadmin-001,superadmin-001,Job Outcome Summary: List,job_outcome_summary:list,PERMISSION_TYPE_ALLOW,true,"{1,2}"
 perm-document_template-create,default-workspace,superadmin-001,superadmin-001,Document Template: Create,document_template:create,PERMISSION_TYPE_ALLOW,true,"{1,2}"
 perm-document_template-list,default-workspace,superadmin-001,superadmin-001,Document Template: List,document_template:list,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-document_template-delete,default-workspace,superadmin-001,superadmin-001,Document Template: Delete,document_template:delete,PERMISSION_TYPE_ALLOW,true,"{1,2}"
 perm-job_outcome_summary_document_template-create,default-workspace,superadmin-001,superadmin-001,Job Outcome Summary Document Template: Create,job_outcome_summary_document_template:create,PERMISSION_TYPE_ALLOW,true,"{1,2}"
 perm-job_outcome_summary_document_template-list,default-workspace,superadmin-001,superadmin-001,Job Outcome Summary Document Template: List,job_outcome_summary_document_template:list,PERMISSION_TYPE_ALLOW,true,"{1,2}"
 perm-job_outcome_summary_document_template-update,default-workspace,superadmin-001,superadmin-001,Job Outcome Summary Document Template: Update,job_outcome_summary_document_template:update,PERMISSION_TYPE_ALLOW,true,"{1,2}"
