@@ -1091,3 +1091,8 @@ perm-price_schedule_workspace_user-read,default-workspace,superadmin-001,superad
 perm-price_schedule_workspace_user-update,default-workspace,superadmin-001,superadmin-001,Price Schedule Workspace User: Update,price_schedule_workspace_user:update,PERMISSION_TYPE_ALLOW,true,"{1,2}"
 perm-price_schedule_workspace_user-delete,default-workspace,superadmin-001,superadmin-001,Price Schedule Workspace User: Delete,price_schedule_workspace_user:delete,PERMISSION_TYPE_ALLOW,true,"{1,2}"
 perm-price_schedule_workspace_user-list,default-workspace,superadmin-001,superadmin-001,Price Schedule Workspace User: List,price_schedule_workspace_user:list,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-job_template_relation-create,default-workspace,superadmin-001,superadmin-001,Job Template Relation: Create,job_template_relation:create,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-job_template_relation-read,default-workspace,superadmin-001,superadmin-001,Job Template Relation: Read,job_template_relation:read,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-job_template_relation-update,default-workspace,superadmin-001,superadmin-001,Job Template Relation: Update,job_template_relation:update,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-job_template_relation-delete,default-workspace,superadmin-001,superadmin-001,Job Template Relation: Delete,job_template_relation:delete,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-job_template_relation-list,default-workspace,superadmin-001,superadmin-001,Job Template Relation: List,job_template_relation:list,PERMISSION_TYPE_ALLOW,true,"{1,2}"

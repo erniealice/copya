@@ -1601,3 +1601,8 @@ rp-role-admin-perm-job_phase-submit,role-admin,perm-job_phase-submit,PERMISSION_
 rp-role-admin-perm-job_phase-verify,role-admin,perm-job_phase-verify,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-job_phase-return,role-admin,perm-job_phase-return,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-job_phase-publish,role-admin,perm-job_phase-publish,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-job_template_relation-create,role-admin,perm-job_template_relation-create,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-job_template_relation-read,role-admin,perm-job_template_relation-read,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-job_template_relation-update,role-admin,perm-job_template_relation-update,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-job_template_relation-delete,role-admin,perm-job_template_relation-delete,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-job_template_relation-list,role-admin,perm-job_template_relation-list,PERMISSION_TYPE_ALLOW,true
