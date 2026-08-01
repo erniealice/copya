@@ -1606,3 +1606,6 @@ rp-role-admin-perm-job_template_relation-read,role-admin,perm-job_template_relat
 rp-role-admin-perm-job_template_relation-update,role-admin,perm-job_template_relation-update,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-job_template_relation-delete,role-admin,perm-job_template_relation-delete,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-job_template_relation-list,role-admin,perm-job_template_relation-list,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-outcome_completion-read,role-admin,perm-outcome_completion-read,PERMISSION_TYPE_ALLOW,true
+rp-role-viewer-perm-outcome_completion-read,role-viewer,perm-outcome_completion-read,PERMISSION_TYPE_ALLOW,true
+rp-role-operations-staff-perm-outcome_completion-read,role-operations-staff,perm-outcome_completion-read,PERMISSION_TYPE_ALLOW,true
