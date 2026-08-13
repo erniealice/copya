@@ -553,6 +553,7 @@ rp-role-admin-perm-job_outcome_summary-read,role-admin,perm-job_outcome_summary-
 rp-role-admin-perm-job_outcome_summary-update,role-admin,perm-job_outcome_summary-update,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-job_outcome_summary-delete,role-admin,perm-job_outcome_summary-delete,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-job_outcome_summary-list,role-admin,perm-job_outcome_summary-list,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-subscription_group_outcome_export-read,role-admin,perm-subscription_group_outcome_export-read,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-document_template-create,role-admin,perm-document_template-create,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-document_template-list,role-admin,perm-document_template-list,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-document_template-delete,role-admin,perm-document_template-delete,PERMISSION_TYPE_ALLOW,true
@@ -564,6 +565,10 @@ rp-role-admin-perm-job_template_document_template-create,role-admin,perm-job_tem
 rp-role-admin-perm-job_template_document_template-list,role-admin,perm-job_template_document_template-list,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-job_template_document_template-update,role-admin,perm-job_template_document_template-update,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-job_template_document_template-delete,role-admin,perm-job_template_document_template-delete,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-subscription_group_document_template-create,role-admin,perm-subscription_group_document_template-create,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-subscription_group_document_template-list,role-admin,perm-subscription_group_document_template-list,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-subscription_group_document_template-update,role-admin,perm-subscription_group_document_template-update,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-subscription_group_document_template-delete,role-admin,perm-subscription_group_document_template-delete,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-account-create,role-admin,perm-account-create,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-account-read,role-admin,perm-account-read,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-account-update,role-admin,perm-account-update,PERMISSION_TYPE_ALLOW,true
@@ -1123,6 +1128,7 @@ rp-role-viewer-perm-phase_outcome_summary-read,role-viewer,perm-phase_outcome_su
 rp-role-viewer-perm-phase_outcome_summary-list,role-viewer,perm-phase_outcome_summary-list,PERMISSION_TYPE_ALLOW,true
 rp-role-viewer-perm-job_outcome_summary-read,role-viewer,perm-job_outcome_summary-read,PERMISSION_TYPE_ALLOW,true
 rp-role-viewer-perm-job_outcome_summary-list,role-viewer,perm-job_outcome_summary-list,PERMISSION_TYPE_ALLOW,true
+rp-role-viewer-perm-subscription_group_outcome_export-read,role-viewer,perm-subscription_group_outcome_export-read,PERMISSION_TYPE_ALLOW,true
 rp-role-viewer-perm-account-read,role-viewer,perm-account-read,PERMISSION_TYPE_ALLOW,true
 rp-role-viewer-perm-account-list,role-viewer,perm-account-list,PERMISSION_TYPE_ALLOW,true
 rp-role-viewer-perm-journal-read,role-viewer,perm-journal-read,PERMISSION_TYPE_ALLOW,true
