@@ -1102,3 +1102,8 @@ perm-job_template_relation-update,default-workspace,superadmin-001,superadmin-00
 perm-job_template_relation-delete,default-workspace,superadmin-001,superadmin-001,Job Template Relation: Delete,job_template_relation:delete,PERMISSION_TYPE_ALLOW,true,"{1,2}"
 perm-job_template_relation-list,default-workspace,superadmin-001,superadmin-001,Job Template Relation: List,job_template_relation:list,PERMISSION_TYPE_ALLOW,true,"{1,2}"
 perm-outcome_completion-read,default-workspace,superadmin-001,superadmin-001,Outcome Completion: Read,outcome_completion:read,PERMISSION_TYPE_ALLOW,true,"{1,2,7}"
+perm-plan_job_template-create,default-workspace,superadmin-001,superadmin-001,Plan Job Template: Create,plan_job_template:create,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-plan_job_template-read,default-workspace,superadmin-001,superadmin-001,Plan Job Template: Read,plan_job_template:read,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-plan_job_template-update,default-workspace,superadmin-001,superadmin-001,Plan Job Template: Update,plan_job_template:update,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-plan_job_template-delete,default-workspace,superadmin-001,superadmin-001,Plan Job Template: Delete,plan_job_template:delete,PERMISSION_TYPE_ALLOW,true,"{1,2}"
+perm-plan_job_template-list,default-workspace,superadmin-001,superadmin-001,Plan Job Template: List,plan_job_template:list,PERMISSION_TYPE_ALLOW,true,"{1,2}"
