@@ -1,0 +1,3 @@
+workspace_id,id,name,description,active,job_template_id,visits_per_cycle
+default-workspace,plan-equipment-short-term,Short-Term Equipment Lease,Short-term equipment lease program with preventive maintenance,true,jt-equipment-preventive-maintenance,1
+default-workspace,plan-equipment-fixed-term,Fixed-Term Equipment Lease,Fixed-term equipment lease program with preventive maintenance,true,jt-equipment-preventive-maintenance,1

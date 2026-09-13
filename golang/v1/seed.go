@@ -12,7 +12,8 @@ import (
 // Seed loads CSV seed data for the given business type and inserts it into the
 // database in dependency order. Uses ON CONFLICT DO NOTHING so it is idempotent.
 //
-// businessType must match a seeds/ sub-directory: common, general, service, professional.
+// businessType must match a seeds/ sub-directory, for example service,
+// professional, leasing, or equipment_leasing.
 // dialect controls quoting and INSERT syntax.
 //
 // If COPYA_COMPLIANCE_REGION env var is set (e.g., "PH"), jurisdiction-specific

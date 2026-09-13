@@ -1,0 +1,3 @@
+workspace_id,id,name,description,active,job_template_id,visits_per_cycle
+default-workspace,plan-residential-lease,Residential Lease,Residential space lease offering with recurring property maintenance,true,jt-property-routine-maintenance,1
+default-workspace,plan-commercial-lease,Commercial Lease,Commercial space lease offering with recurring property maintenance,true,jt-property-routine-maintenance,1

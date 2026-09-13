@@ -14,7 +14,7 @@ import (
 )
 
 func main() {
-	businessType := flag.String("business-type", "service", "Business type (e.g. service, retail, professional)")
+	businessType := flag.String("business-type", "service", "Business type (e.g. service, retail, professional, leasing, equipment_leasing)")
 	dialect := flag.String("dialect", "postgres", "SQL dialect: postgres or mysql")
 	table := flag.String("table", "", "Specific table to output (omit for all)")
 	format := flag.String("format", "sql", "Output format: sql, csv, or list")

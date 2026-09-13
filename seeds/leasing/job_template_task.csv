@@ -1,0 +1,14 @@
+id,job_template_phase_id,name,step_order,estimated_duration_minutes,active
+jtt-property-routine-confirm-access,jtp-property-routine-triage,Confirm tenant access and affected space,1,15,true
+jtt-property-routine-inspect,jtp-property-routine-complete,Inspect reported issue and building services,1,45,true
+jtt-property-routine-resolve,jtp-property-routine-complete,Complete work and record tenant-facing notes,2,60,true
+jtt-property-emergency-assess,jtp-property-emergency-safe,Assess hazard and affected occupants,1,15,true
+jtt-property-emergency-isolate,jtp-property-emergency-safe,Isolate hazard and make the space safe,2,30,true
+jtt-property-emergency-repair,jtp-property-emergency-close,Complete emergency repair,1,120,true
+jtt-property-emergency-document,jtp-property-emergency-close,Document repair and required follow-up,2,20,true
+jtt-property-move-in-condition,jtp-property-move-in-document,Record baseline space condition,1,60,true
+jtt-property-move-in-meters,jtp-property-move-in-document,Record keys access devices and available meter readings,2,30,true
+jtt-property-move-in-signoff,jtp-property-move-in-handover,Complete tenant handover and sign-off,1,30,true
+jtt-property-move-out-condition,jtp-property-move-out-assess,Record end-of-lease space condition,1,60,true
+jtt-property-move-out-damage,jtp-property-move-out-assess,Separate wear from tenant-chargeable damage,2,45,true
+jtt-property-move-out-close,jtp-property-move-out-close,Record closeout actions and deposit follow-up,1,30,true

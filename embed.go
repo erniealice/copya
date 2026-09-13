@@ -7,5 +7,7 @@ import "embed"
 //go:embed seeds/service/*.csv
 //go:embed seeds/professional/*.csv
 //go:embed seeds/education/*.csv
+//go:embed seeds/leasing/*.csv
+//go:embed seeds/equipment_leasing/*.csv
 //go:embed seeds/jurisdictions/ph/*.csv
 var SeedsFS embed.FS

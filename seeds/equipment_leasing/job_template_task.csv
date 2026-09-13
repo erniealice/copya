@@ -1,0 +1,12 @@
+id,job_template_phase_id,name,step_order,estimated_duration_minutes,active
+jtt-equipment-deploy-baseline,jtp-equipment-deploy-prepare,Record baseline equipment condition,1,45,true
+jtt-equipment-deploy-meters,jtp-equipment-deploy-prepare,Record serial and available meter readings,2,20,true
+jtt-equipment-deploy-handover,jtp-equipment-deploy-handover,Complete lessee handover and sign-off,1,30,true
+jtt-equipment-pm-inspect,jtp-equipment-pm-inspect,Inspect safety wear fluids and meter state,1,60,true
+jtt-equipment-pm-service,jtp-equipment-pm-inspect,Complete scheduled preventive maintenance,2,90,true
+jtt-equipment-pm-test,jtp-equipment-pm-close,Test equipment and record service report,1,30,true
+jtt-equipment-repair-diagnose,jtp-equipment-repair-triage,Diagnose fault and required parts,1,45,true
+jtt-equipment-repair-complete,jtp-equipment-repair-complete,Complete repair and operational test,1,120,true
+jtt-equipment-return-condition,jtp-equipment-return-inspect,Record return condition and meter state,1,60,true
+jtt-equipment-return-damage,jtp-equipment-return-inspect,Separate wear from lessee-chargeable damage,2,45,true
+jtt-equipment-return-close,jtp-equipment-return-close,Record chargeback and deposit follow-up,1,30,true

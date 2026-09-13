@@ -1,0 +1,9 @@
+id,job_template_id,name,phase_order,active,triggers_billing,billing_percent_bps
+jtp-equipment-deploy-prepare,jt-equipment-deployment,Prepare and Inspect,1,true,false,
+jtp-equipment-deploy-handover,jt-equipment-deployment,Deploy and Handover,2,true,false,
+jtp-equipment-pm-inspect,jt-equipment-preventive-maintenance,Inspect and Service,1,true,false,
+jtp-equipment-pm-close,jt-equipment-preventive-maintenance,Test and Close,2,true,false,
+jtp-equipment-repair-triage,jt-equipment-repair,Triage and Parts,1,true,false,
+jtp-equipment-repair-complete,jt-equipment-repair,Repair and Test,2,true,false,
+jtp-equipment-return-inspect,jt-equipment-return-inspection,Return Inspection,1,true,false,
+jtp-equipment-return-close,jt-equipment-return-inspection,Chargeback and Closeout,2,true,false,

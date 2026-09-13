@@ -1,0 +1,9 @@
+id,job_template_id,name,phase_order,active,triggers_billing,billing_percent_bps
+jtp-property-routine-triage,jt-property-routine-maintenance,Triage and Access,1,true,false,
+jtp-property-routine-complete,jt-property-routine-maintenance,Inspect and Complete,2,true,false,
+jtp-property-emergency-safe,jt-property-emergency-repair,Triage and Make Safe,1,true,false,
+jtp-property-emergency-close,jt-property-emergency-repair,Repair and Close,2,true,false,
+jtp-property-move-in-document,jt-property-move-in-inspection,Inspect and Document,1,true,false,
+jtp-property-move-in-handover,jt-property-move-in-inspection,Tenant Handover,2,true,false,
+jtp-property-move-out-assess,jt-property-move-out-inspection,Inspect and Assess,1,true,false,
+jtp-property-move-out-close,jt-property-move-out-inspection,Lease Closeout,2,true,false,

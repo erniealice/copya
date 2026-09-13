@@ -1,0 +1,5 @@
+id,workspace_id,name,description,default_fulfillment_type,default_cost_flow_type,default_billing_rule_type,active
+jt-equipment-deployment,default-workspace,Equipment Deployment,Prepare inspect and hand over leased equipment,SERVICE,DIRECT_EXPENSE,NON_BILLABLE,true
+jt-equipment-preventive-maintenance,default-workspace,Equipment Preventive Maintenance,Recurring inspection and preventive maintenance for leased fleet assets,SERVICE,DIRECT_EXPENSE,NON_BILLABLE,true
+jt-equipment-repair,default-workspace,Equipment Repair,Triage repair test and return leased equipment to service,SERVICE,DIRECT_EXPENSE,NON_BILLABLE,true
+jt-equipment-return-inspection,default-workspace,Equipment Return Inspection,End-of-term return condition inspection and closeout,SERVICE,DIRECT_EXPENSE,NON_BILLABLE,true

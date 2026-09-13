@@ -70,3 +70,18 @@ func TestReleaseCompatibilityIsExplicit(t *testing.T) {
 		t.Fatal("role permission IDs must be deterministic")
 	}
 }
+
+func TestEquipmentLeasingBusinessTypeBuildsAPlan(t *testing.T) {
+	raw := strings.Replace(validManifest, `"business_type": "leasing"`, `"business_type": "equipment_leasing"`, 1)
+	manifest, err := Parse([]byte(raw))
+	if err != nil {
+		t.Fatal(err)
+	}
+	plan, err := BuildPlan(manifest, Digest([]byte(raw)))
+	if err != nil {
+		t.Fatal(err)
+	}
+	if plan.BusinessType != "equipment_leasing" || plan.PermissionRows < 1 {
+		t.Fatalf("unexpected equipment-leasing plan: %+v", plan)
+	}
+}

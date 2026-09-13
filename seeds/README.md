@@ -13,6 +13,8 @@ seeds/
   professional/    ← professional overrides (legal/consulting-specific data)
   service/         ← service overrides (salon/spa/clinic-specific data)
   retail/          ← retail overrides (POS-specific data)
+  leasing/         ← commercial/residential space-leasing defaults
+  equipment_leasing/ ← serialized fleet/equipment-leasing defaults
 ```
 
 Later tiers replace earlier tiers for the **same table name**. A table present in
