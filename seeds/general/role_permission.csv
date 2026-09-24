@@ -1607,6 +1607,10 @@ rp-role-admin-perm-job_phase-submit,role-admin,perm-job_phase-submit,PERMISSION_
 rp-role-admin-perm-job_phase-verify,role-admin,perm-job_phase-verify,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-job_phase-return,role-admin,perm-job_phase-return,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-job_phase-publish,role-admin,perm-job_phase-publish,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-job_phase-verify_own,role-admin,perm-job_phase-verify_own,PERMISSION_TYPE_ALLOW,true
+rp-role-admin-perm-approval_scope-workspace,role-admin,perm-approval_scope-workspace,PERMISSION_TYPE_ALLOW,true
+rp-role-people-manager-perm-job_phase-submit,role-people-manager,perm-job_phase-submit,PERMISSION_TYPE_ALLOW,true
+rp-role-people-manager-perm-job_phase-verify_own,role-people-manager,perm-job_phase-verify_own,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-job_template_relation-create,role-admin,perm-job_template_relation-create,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-job_template_relation-read,role-admin,perm-job_template_relation-read,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-job_template_relation-update,role-admin,perm-job_template_relation-update,PERMISSION_TYPE_ALLOW,true
