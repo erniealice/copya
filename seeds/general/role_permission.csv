@@ -1624,3 +1624,7 @@ rp-role-admin-perm-plan_job_template-read,role-admin,perm-plan_job_template-read
 rp-role-admin-perm-plan_job_template-update,role-admin,perm-plan_job_template-update,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-plan_job_template-delete,role-admin,perm-plan_job_template-delete,PERMISSION_TYPE_ALLOW,true
 rp-role-admin-perm-plan_job_template-list,role-admin,perm-plan_job_template-list,PERMISSION_TYPE_ALLOW,true
+rp-role-review-editor-perm-task_outcome-update_in_review_scope,role-review-editor,perm-task_outcome-update_in_review_scope,PERMISSION_TYPE_ALLOW,true
+rp-role-review-editor-perm-task_outcome-update,role-review-editor,perm-task_outcome-update,PERMISSION_TYPE_ALLOW,true
+rp-role-review-editor-perm-task_outcome-read,role-review-editor,perm-task_outcome-read,PERMISSION_TYPE_ALLOW,true
+rp-role-review-editor-perm-task_outcome-list,role-review-editor,perm-task_outcome-list,PERMISSION_TYPE_ALLOW,true
