@@ -122,7 +122,9 @@ func Apply(ctx context.Context, db *sql.DB, targetKey, requiredRelease, password
 		{`INSERT INTO public.workspace (id, name, description, private, active, timezone, slug) VALUES ($1,$2,$3,false,true,$4,$5)`, []any{manifest.Workspace.ID, manifest.Workspace.Name, manifest.Workspace.Description, manifest.Workspace.Timezone, manifest.Workspace.Slug}},
 		{`INSERT INTO public.admin (id, user_id, active) VALUES ($1,$2,true)`, []any{manifest.AdminID, manifest.User.ID}},
 		{`INSERT INTO public.workspace_user (id, workspace_id, user_id, active, member_status) VALUES ($1,$2,$3,true,'active')`, []any{manifest.WorkspaceUserID, manifest.Workspace.ID, manifest.User.ID}},
-		{`INSERT INTO public.role (id, workspace_id, name, description, color, active, applicable_principal_types) VALUES ($1,$2,$3,$4,$5,true,'{1,2}'::integer[])`, []any{manifest.Role.ID, manifest.Workspace.ID, manifest.Role.Name, manifest.Role.Description, manifest.Role.Color}},
+		// role.applicable_principal_types is deprecated (not read by RBAC) and is no longer written;
+		// role.login_principal_types stays NULL, so the role loads on every login.
+		{`INSERT INTO public.role (id, workspace_id, name, description, color, active) VALUES ($1,$2,$3,$4,$5,true)`, []any{manifest.Role.ID, manifest.Workspace.ID, manifest.Role.Name, manifest.Role.Description, manifest.Role.Color}},
 		{`INSERT INTO public.workspace_user_role (id, workspace_user_id, role_id, active) VALUES ($1,$2,$3,true)`, []any{manifest.WorkspaceUserRoleID, manifest.WorkspaceUserID, manifest.Role.ID}},
 	}
 	for _, statement := range statements {
