@@ -1125,3 +1125,4 @@ perm-rating_description_set_product_plan-list,default-workspace,superadmin-001,s
 perm-task_outcome-update_in_review_scope,default-workspace,superadmin-001,superadmin-001,Task Outcome: Update In Review Scope,task_outcome:update_in_review_scope,PERMISSION_TYPE_ALLOW,true,"{7}"
 perm-task_outcome-create_in_review_scope,default-workspace,superadmin-001,superadmin-001,Task Outcome: Create In Review Scope,task_outcome:create_in_review_scope,PERMISSION_TYPE_ALLOW,true,"{7}"
 perm-task_outcome-delete_in_review_scope,default-workspace,superadmin-001,superadmin-001,Task Outcome: Delete In Review Scope,task_outcome:delete_in_review_scope,PERMISSION_TYPE_ALLOW,true,"{7}"
+perm-task_outcome-update_in_class_scope,default-workspace,superadmin-001,superadmin-001,Task Outcome: Update In Class Scope,task_outcome:update_in_class_scope,PERMISSION_TYPE_ALLOW,true,"{7}"
