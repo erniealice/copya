@@ -1628,3 +1628,7 @@ rp-role-review-editor-perm-task_outcome-update_in_review_scope,role-review-edito
 rp-role-review-editor-perm-task_outcome-update,role-review-editor,perm-task_outcome-update,PERMISSION_TYPE_ALLOW,true
 rp-role-review-editor-perm-task_outcome-read,role-review-editor,perm-task_outcome-read,PERMISSION_TYPE_ALLOW,true
 rp-role-review-editor-perm-task_outcome-list,role-review-editor,perm-task_outcome-list,PERMISSION_TYPE_ALLOW,true
+rp-role-review-editor-perm-task_outcome-create_in_review_scope,role-review-editor,perm-task_outcome-create_in_review_scope,PERMISSION_TYPE_ALLOW,true
+rp-role-review-editor-perm-task_outcome-delete_in_review_scope,role-review-editor,perm-task_outcome-delete_in_review_scope,PERMISSION_TYPE_ALLOW,true
+rp-role-review-editor-perm-task_outcome-create,role-review-editor,perm-task_outcome-create,PERMISSION_TYPE_ALLOW,true
+rp-role-review-editor-perm-task_outcome-delete,role-review-editor,perm-task_outcome-delete,PERMISSION_TYPE_ALLOW,true

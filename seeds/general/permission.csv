@@ -1123,3 +1123,5 @@ perm-rating_description_set_product_plan-update,default-workspace,superadmin-001
 perm-rating_description_set_product_plan-delete,default-workspace,superadmin-001,superadmin-001,Rating Description Link: Delete,rating_description_set_product_plan:delete,PERMISSION_TYPE_ALLOW,true,"{1,2}"
 perm-rating_description_set_product_plan-list,default-workspace,superadmin-001,superadmin-001,Rating Description Link: List,rating_description_set_product_plan:list,PERMISSION_TYPE_ALLOW,true,"{1,2}"
 perm-task_outcome-update_in_review_scope,default-workspace,superadmin-001,superadmin-001,Task Outcome: Update In Review Scope,task_outcome:update_in_review_scope,PERMISSION_TYPE_ALLOW,true,"{7}"
+perm-task_outcome-create_in_review_scope,default-workspace,superadmin-001,superadmin-001,Task Outcome: Create In Review Scope,task_outcome:create_in_review_scope,PERMISSION_TYPE_ALLOW,true,"{7}"
+perm-task_outcome-delete_in_review_scope,default-workspace,superadmin-001,superadmin-001,Task Outcome: Delete In Review Scope,task_outcome:delete_in_review_scope,PERMISSION_TYPE_ALLOW,true,"{7}"

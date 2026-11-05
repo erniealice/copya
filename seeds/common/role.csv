@@ -10,4 +10,4 @@ role-client-portal,default-workspace,Client Portal,Portal access for Client prin
 role-supplier-portal,default-workspace,Supplier Portal,Portal access for Supplier principals: read own profile + contracts + invoices + expenditures + upload invoice + send message,#0d9488,true
 role-client-delegate,default-workspace,Client Delegate,Portal access for Client Delegate principals: view acting-as client data + send message + switch client,#7c3aed,true
 role-supplier-delegate,default-workspace,Supplier Delegate,Portal access for Supplier Delegate principals: view acting-as supplier data + upload invoice + send message + switch supplier,#b45309,true
-role-review-editor,default-workspace,Review Editor,May change outcomes recorded by others on sheets they review while open,#0d9488,true
+role-review-editor,default-workspace,Review Editor,"May change, fill and clear grades on open sheets in review scope; the class teacher stays the recorder",#0d9488,true
